@@ -1,0 +1,34 @@
+<div class="iq-testimonial testimonial-standard with-seprator">
+    <div class="iq-testimonial-content">
+        {{#compare isTeastimonialicon '==' 'true'}}
+        <div class="testimonial-icon text-end">
+            <img src="{{path}}assets/images/{{quote-image}}" alt="quote" class="img-fluid" loading="lazy">
+        </div>
+        {{/compare}}
+        <p class="text-body fw-normal fst-italic">
+            {{{testimonial-content}}}
+        </p>
+    </div>
+    {{#compare isRatting '==' 'true'}}
+    <div class="ratting-block">
+        {{> components/widgets/filter-rating }}
+    </div>
+    {{/compare}}
+    <div class="iq-testimonial-member d-flex align-items-center gap-3 border-top">
+        {{#compare isAuthorimagehide '==' 'true'}}
+        <div class="avtar-name">
+            <h5 class="iq-lead text-capitalize m-0">{{{testimonial-user}}}</h5>
+            <span class="iq-post-meta text-secondary text-uppercase">{{{testimonial-meta}}}</span>
+        </div>
+        {{else}}
+        <div class="iq-testimonial-avtar">
+            <img src="{{path}}assets/images/{{testimonial-image}}" alt="user" class="img-fluid rounded-circle"
+                loading="lazy">
+        </div>
+        <div class="avtar-name">
+            <h5 class="iq-lead text-capitalize m-0">{{{testimonial-user}}}</h5>
+            <span class="iq-post-meta text-secondary text-capitalize">{{{testimonial-meta}}}</span>
+        </div>
+        {{/compare}}
+    </div>
+</div>

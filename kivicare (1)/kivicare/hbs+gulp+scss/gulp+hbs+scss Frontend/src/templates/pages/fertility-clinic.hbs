@@ -1,0 +1,420 @@
+{{#extend 'layouts/default' title="fertility-clinic" isHeader="true" logo-dynamic="true" logo-image="logo-pink.png" isFooter-fertility-clinic="true" ismegamenu="true" isSweetalert="true"
+active="fertility-clinic" path="./" isSwiperSlider="true" page_colors='[{"var":"--bs-primary","value":"#d45ba1" },{"var":"--bs-primary-bg-subtle","value":"#f7eaf1"},{"var":"--bs-primary-rgb","value":"212, 91, 161"},{"var":"--bs-secondary","value":"#171c26"},{"var":"--bs-secondary-bg-subtle","value":"#e7e8e9"},{"var":"--bs-secondary-rgb","value":"23, 28, 38"},{"var":"--bs-primary-shade-20","value":"#c01478"}]'}}
+{{#content "content"}}
+{{!-- Banner --}}
+<div class="frtility-clinic-banner">
+   <div class="container-fluid p-0">
+      <div class="section-top">
+         <h1 class="iq-title text-white fw-light">Dreaming of Parenthood?</h1>
+      </div>
+   </div>
+   <div class="container-fluid px-xxl-0 px-md-5">
+      <div class="row align-items-xxl-end banner-margin-top">
+         <div class="col-xxl-9 col-sm-6">
+            <div class="row">
+               <div class="col-xxl-6 pe-xxl-5">
+                  <div class="pe-xxl-5">
+                     <img src="{{path}}assets/images/fertility-clinic/banner-1.webp" alt="banner-img"
+                     class="img-fluid w-100 pe-xxl-5">
+                  </div>
+               </div>
+               <div class="col-xxl-4 align-self-end py-5 px-3">
+                  {{> components/widgets/title sub-title="WELCOME TO" right-text="KiviCare IVF"
+                  left-text="Clinic" title-description="We are among the largest service providers in fertility
+                  treatment. KiviCare aims to make parenthood spell immeasurable amount of LOVE."}}
+                  <div class="button-primary">
+                     {{>components/widgets/button button-text="appointment" button-url="appointment.html"}}
+                  </div>
+               </div>
+               <div class="col-xxl-2"></div>
+            </div>
+         </div>
+         <div class="col-xxl-3 col-sm-6 d-sm-block d-none">
+            <div class="px-xxl-5">
+               <img src="{{path}}assets/images/fertility-clinic/banner-2.webp" alt=""
+                  class="img-fluid w-100 ">
+               <img src="{{path}}assets/images/fertility-clinic/banner-3.webp" alt=""
+                  class="img-fluid w-100 pt-5">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Specialities --}}
+<div class="section-padding-top">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Specialization" }}
+         {{> components/widgets/title sub-title="specialities" right-text="Specialized Programs" }}
+      </div>
+      <div class="row px-3">
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-border icon-image="fertility-clinic/icon-1.svg"
+            iconbox-title="Test Tube Baby" iconbox-desc=" KiviCare offers the best IUI treatment and is best
+            hospital for infertility treatments." btn-url="service1.html"}}
+         </div>
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-border icon-image="fertility-clinic/icon-2.svg"
+            iconbox-title="Infertility Treatment" iconbox-desc="KiviCare offers the best Embryo treatment and is
+            best hospital for infertility treatments." btn-url="service1.html"}}
+         </div>
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-border icon-image="fertility-clinic/icon-3.svg"
+            iconbox-title="Fertility Preservation" iconbox-desc="KiviCare offers the best Embryo treatment and
+            is best hospital for infertility treatments." btn-url="service1.html"}}
+         </div>
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-border icon-image="fertility-clinic/icon-4.svg"
+            iconbox-title="Surrogacy Treatment" iconbox-desc="KiviCare offers hope with its Oocyte fertility
+            service to those who want to postpone motherhood." btn-url="service1.html"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Parenthood clinic --}}
+<div class="section-padding-top">
+   <div class="container-fluid position-relative ps-lg-0 px-3">
+      <div class="row">
+         <div class="col-lg-6 ps-lg-0 position-relative">
+            <div class="about-banner">
+               <div class="pe-xl-5 me-xl-5">
+                  <img src="{{path}}assets/images/fertility-clinic/about.webp" alt=""
+                     class="img-fluid w-100 pe-xl-5 me-xl-5">
+               </div>
+               <div class="banner-detail-slider position-absolute bg-primary p-4 text-center box-shadow d-none d-xl-block">
+                  <div class="overflow-hidden">
+                     <div class="swiper swiper-general" id="titlebox-slider" data-slide="1"
+                        data-laptop="1" data-tab="1" data-mobile="1" data-mobile-sm="1" data-autoplay="true"
+                        data-loop="true" data-navigation="true" data-pagination="true">
+                        <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                           <li class="swiper-slide">
+                              {{> components/widgets/titleboxslider
+                              slider-title-main="10 Years" slider-decs="Trust & Compassion"}}
+                           </li>
+                           <li class="swiper-slide">
+                              {{> components/widgets/titleboxslider
+                              slider-title-main="700 Patients" slider-decs=" Trust & Compassion"}}
+                           </li>
+                           <li class="swiper-slide">
+                              {{> components/widgets/titleboxslider
+                              slider-title-main="23 Years" slider-decs="Trust & Compassion"}}
+                           </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-6 ps-lg-5 mt-lg-0 mt-5 position-relative">
+            {{> components/widgets/scrolling-text scroll-title="about us" }}
+            {{> components/widgets/title sub-title="about kiviCare" right-text="Welcome to The
+            Most Advanced and" left-text="Trusted Parenthood Clinic" title-description="KiviCare offers the
+            best scientifically proven ways by enhancing and celebrating your parenthood journey."}}
+            <div class="row ">
+               <div class="col-sm-6">
+                  <ul class="iq-list-with-icon p-0">
+                     <li class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Treats minor
+                        illnesses</span>
+                     </li>
+                     <li class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Answers health
+                        questions</span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-sm-6 ">
+                  <ul class="iq-list-with-icon p-0">
+                     <li class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Conducts health
+                        checkups</span>
+                     </li>
+                     <li class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Specialty
+                        physicians</span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-sm-6 mt-5">
+                  <div class="button-primary">
+                     {{> components/widgets/button button-text="Read More" button-url="about-us.html"}}
+                  </div>
+               </div>
+               <div class="col-sm-6 mt-5">
+                  <img src="{{path}}assets/images/general/signature.png" alt="" class="img-fluid ">
+               </div>
+               <div class="col-12">
+                  <h4 class="iq-title iq-heading-title pt-5 my-3">
+                     <span class="right-text text-capitalize">Fertility Center</span>
+                  </h4>
+                  <ul class="iq-list-with-icon p-0 mb-0">
+                     <li class="d-flex align-items-center gap-2 mb-3">
+                        <i aria-hidden="true" class="fas fa-address-card text-primary"></i><span>1234 North
+                        Avenue Luke Lane,
+                        South Bend, IN 360001</span>
+                     </li>
+                     <li class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-map-marker-alt text-primary"></i><span>View Location</span>
+                     </li>
+                     <li class="d-flex align-items-center gap-2 mb-0 mb-md-3">
+                        <i class="fas fa-phone-alt text-primary"></i><span>+0123456789</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Services --}}
+<div class="section-padding-top scrolling-top">
+   <div class="container">
+      <div class="card">
+         <div class="card-body p-0">
+            <div class="row align-items-center m-0">
+               <div class="col-lg-5 fertility-service">
+                  {{> components/widgets/title sub-title="KIVICARE SERVICES"
+                  right-text="Fertility Services &" left-text ="Treatments." title-description ="We at KiviCare
+                  IVF offer world-class solutions in fertility treatments with the help of advanced tools and
+                  the experience of pioneer gynecologists team"}}
+                  <div class="mt-5">
+                     <div class="button-primary">
+                        {{> components/widgets/button button-text="Read More" button-url="service1.html"}}
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-7 padding-80 border-start">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="no-img-bg pe-lg-5 fertility-clinic">
+                           {{> components/widgets/iconbox-transprent isBorder="true"
+                           icon-image="fertility-clinic/service-1.webp" iconbox-title="Fertility Counseling"
+                           iconbox-desc="To make this journey smooth, all KiviCare centres have qualified and dedicated counsellors on board." }}
+                        </div>
+                        <div class="no-img-bg pe-lg-5 mt-0 mt-md-5 fertility-clinic">
+                           {{> components/widgets/iconbox-transprent isBorder="true"
+                           icon-image="fertility-clinic/service-2.webp" iconbox-title="Embryoscope"
+                           iconbox-desc="To make this journey smooth, all KiviCare centres have qualified and dedicated counsellors on board." }}
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="no-img-bg pe-lg-5 fertility-clinic">
+                           {{> components/widgets/iconbox-transprent isBorder="true"
+                           icon-image="fertility-clinic/service-3.webp" iconbox-title="IUI Treatment"
+                           iconbox-desc="To make this journey smooth, all KiviCare centres have qualified and dedicated counsellors on board." }}
+                        </div>
+                        <div class="no-img-bg pe-lg-5 mt-0 mt-md-5 fertility-clinic">
+                           {{> components/widgets/iconbox-transprent
+                           icon-image="fertility-clinic/service-4.webp" iconbox-title="Sperm Retrieval"
+                           iconbox-desc="To make this journey smooth, all KiviCare centres have qualified and dedicated counsellors on board." }}
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Counter --}}
+<div class="bg-primary margin-negative-400 counter-white">
+   <div class="container">
+      <div class="row py-5">
+         <div class="col-lg-3">
+            {{> components/widgets/counter-with-icon counter-icon='<i aria-hidden="true"
+               class="flaticon flaticon-flaticon flaticon-government text-primary"></i>'
+            counter-value="75+" counter-text="SPECIALIZED DR."}}
+         </div>
+         <div class="col-lg-3">
+            {{> components/widgets/counter-with-icon counter-icon='<i aria-hidden="true"
+               class="flaticon flaticon-flaticon flaticon-care text-primary"></i>'
+            counter-value="10+" counter-text="AWARD WON"}}
+         </div>
+         <div class="col-lg-3">
+            {{> components/widgets/counter-with-icon counter-icon='<i aria-hidden="true"
+               class="flaticon flaticon-flaticon flaticon-rating text-primary"></i>'
+            counter-value="150+" counter-text="APPOINTMENTS"}}
+         </div>
+         <div class="col-lg-3">
+            {{> components/widgets/counter-with-icon counter-icon='<i aria-hidden="true"
+               class="flaticon flaticon-flaticon flaticon-debit-card text-primary"></i>'
+            counter-value="250+" counter-text="YOUNG VISITORS"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Our Team --}}
+<div class="team-section section-padding">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Our Doctors" }}
+         {{> components/widgets/title sub-title="Doctors" right-text="Our Outstanding"
+         left-text="Doctors"}}
+      </div>
+      <div class="overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2" data-mobile="1"
+         data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true" data-pagination="true">
+         <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-1.webp"
+               team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-2.webp"
+               team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-3.webp"
+               team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-4.webp"
+               team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-5.webp"
+               team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+{{!-- Testimonial --}}
+<div class="bg-primary-subtle section-padding testimonial-section">
+   <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Testimonails" }}
+      <div class="row section-padding-bottom">
+         <div class="col-md-6">
+            {{> components/widgets/title sub-title="KiviCare Testimonial" right-text="What our
+            patients say" left-text="About Our Treatment" }}
+         </div>
+         <div class="col-md-6 mt-5 mt-md-0 position-relative">
+            <div class="overflow-hidden swiper swiper-general" data-slide="1" data-laptop="1" data-tab="1"
+               data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="false" data-navigation="true"
+               data-pagination="true">
+               <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-1.webp" testimonial-user="Moric Horgon"
+                     testimonial-meta="Patient" testimonial-content="“You can’t go wrong here. I receive the best
+                     care and attention. The nursing staff and doctors are amazing and take their time with you.
+                     I felt better walking out here every time.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-2.webp" testimonial-user="Julia Roberts"
+                     testimonial-meta="Healthcare" testimonial-content="“Still very professional but a much more
+                     relaxed atmosphere. This makes for a more comfortable experience which is helpful in dealing
+                     with medical issues.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-3.webp" testimonial-user="Jack leo"
+                     testimonial-meta="COO company" testimonial-content="“It has been very effective, in my
+                     opinion. It has made everyone more relaxed in a very comfortable atmosphere. We have always felt like family here, even more so now.”"}}
+                  </li>
+               </ul>
+               <div class="arrow-joint">
+                  <div class="swiper-button swiper-button-next"></div>
+                  <div class="swiper-button swiper-button-prev"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Contact Us --}}
+<div class="contact-form-wrapper">
+   <div class="container">
+      <div class="padding-70 position-relative rtl-image-flip"
+         style="background-image: url({{path}}assets/images/fertility-clinic/contact-form-bg.webp); background-size:cover">
+         <div class="row px-3 rtl-image-flip-container">
+            <div class="p-0 col-lg-6">
+               {{> components/widgets/title sub-title="GET IN TOUCH" right-text="Contact"
+               left-text="us" }}
+               <form>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <div class="custom-form-field">
+                           <input type="text" name="your-name" placeholder="Your Name" class="form-control mb-5 bg-secondary-subtle"
+                              required>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="custom-form-field">
+                           <input type="text" name="your-subject" placeholder="Last Name" class="form-control mb-5 bg-secondary-subtle"
+                              required>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="custom-form-field">
+                           <input type="tel" name="tel-478" minlength="10" maxlength="140"
+                              placeholder="Phone Number" class="form-control mb-5 bg-secondary-subtle" required>
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <div class="custom-form-field">
+                           <input type="email" name="your-email" placeholder="Your Email" class="form-control mb-5 bg-secondary-subtle"
+                              required>
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <div class="custom-form-field">
+                           <textarea name="your-message" placeholder="Your Message" class="form-control mb-5 bg-secondary-subtle"
+                              required></textarea>
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <div class="iq-btn-container">
+                           <button class="iq-button text-capitalize border-0" type="submit">
+                              <span class="iq-btn-text-holder position-relative">send message</span>
+                              <span class="iq-btn-icon-holder">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8" fill="none">
+                                    <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor"></path>
+                                 </svg>
+                              </span>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class="p-0 col-lg-6"> </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Blog --}}
+<div class="section-padding">
+   <div class="container position-relative">
+      <div class="text-center">
+         {{> components/widgets/scrolling-text scroll-title="latest blog" }}
+         {{> components/widgets/title sub-title="blog" right-text="Our Latest News &"
+         left-text="Advices" }}
+      </div>
+      <div class="row">
+         <div class="col-lg-6 blog-height">
+            {{> components/widgets/blog-standard blog-image="./blog/blog-1.webp"
+            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="OPD cover gaining popularity among Indian consumers"}}
+         </div>
+         <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="blog mb-5">
+               {{> components/widgets/blog-column blog-image="./blog/blog-2.webp"
+               blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+            </div>
+            <div class="blog">
+               {{> components/widgets/blog-column blog-image="./blog/blog-3.webp"
+               blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="the most common problems?"}}
+            </div>
+         </div>
+      </div>
+      <div class="text-center mt-5">
+         {{> components/widgets/button button-url="blog-lists.html" button-text="View More" }}
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

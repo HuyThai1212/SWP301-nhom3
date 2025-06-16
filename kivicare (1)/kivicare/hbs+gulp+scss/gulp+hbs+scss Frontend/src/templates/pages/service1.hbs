@@ -1,0 +1,49 @@
+{{#extend 'layouts/default' title="Service" isHeader="true" isBreadcrumb="true" isFooter="true" active="service1" path="./" isSwiperSlider="true" isCircleProgress="true" }}
+{{#content "content"}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/general/doctor.svg"
+            fancybox-title="Qualified Doctors" fancybox-desc="A person who holds a degree recognised by the Medical
+            Council is registered. " btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5  text-center">
+            {{> components/widgets/fancybox fancybox-image="/general/treatment.svg"
+            fancybox-title="Trusted Treatment" fancybox-desc="KiviCare has many types of treatment to relieve
+            symptoms for all types illness." btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/general/service.svg"
+            fancybox-title="24/7 Services" fancybox-desc="KiviCare is at your service 24×7 aiming to provide the
+            best services of medical" btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/service/heart-rate.svg"
+            fancybox-title="Health CheckUp" fancybox-desc="A usual full-body health check-up is made up of blood and urine tests lungs function tests." btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/service/x-ray.svg"
+            fancybox-title="X-Ray" fancybox-desc="An X-ray is an imaginaring test that produces pictures of the organs, tissues of the body." btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/service/chemotherapy.svg"
+            fancybox-title="Blood Bank" fancybox-desc="Blood banking is the process that takes place in the lab to make sure that donated blood." btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/service/flask.svg"
+            fancybox-title="Laboratory" fancybox-desc="Clinical lab services are tests on specimens from the body that are used to treat patients." btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/service/stethoscope.svg"
+            fancybox-title="Outdoor Checkup" fancybox-desc="Clinics / Hospitals of Outdoor Checkup Services, Emergency Care Service." btn-url="service-detail.html"}}
+         </div>
+         <div class="col mt-5 text-center">
+            {{> components/widgets/fancybox fancybox-image="/service/ambulance.svg"
+            fancybox-title="Ambulance" fancybox-desc="Emergency ambulance services have dedicated staff to handle medical conditions at any time anywhere." btn-url="service-detail.html"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

@@ -1,0 +1,93 @@
+{{#extend 'layouts/default' title="Doctor Grid Three Column"  isHeader="true" isBreadcrumb="true" isFooter="true"  active="tab-three-column" path="./"}}
+{{#content "content"}}
+<div class="section-padding">
+   <div class="container">
+      <nav class="tab-bottom-bordered border-0 mb-5">
+         <div class="mb-0 nav nav-tabs justify-content-center" id="nav-tab1" role="tablist">
+            <button class="nav-link active" id="doc-all-tab" data-bs-toggle="tab" data-bs-target="#doc-all" type="button" role="tab" aria-controls="doc-all" aria-selected="true">All</button>
+            <button class="nav-link" id="cardiologist-tab" data-bs-toggle="tab" data-bs-target="#cardiologist" type="button" role="tab" aria-controls="cardiologist" aria-selected="false">Cardiologist</button>
+            <button class="nav-link" id="fertility-consultant-tab" data-bs-toggle="tab" data-bs-target="#fertility-consultant" type="button" role="tab" aria-controls="fertility-consultant" aria-selected="false">Fertility Consultant</button>
+            <button class="nav-link" id="generalsurgeon-tab" data-bs-toggle="tab" data-bs-target="#generalsurgeon" type="button" role="tab" aria-controls="generalsurgeon" aria-selected="false">General Surgeon</button>
+            <button class="nav-link" id="gynecologist-tab" data-bs-toggle="tab" data-bs-target="#gynecologist" type="button" role="tab" aria-controls="gynecologist" aria-selected="false">Gynecologist</button>
+         </div>
+      </nav>
+      <div class="tab-content iq-tab-fade-up" id="nav-tabContent">
+         <div class="tab-pane fade show active" id="doc-all" role="tabpanel" aria-labelledby="doc-all-tab">
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-1.webp" team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-2.webp" team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-3.webp" team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-4.webp" team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-5.webp" team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-5.webp" team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+               </div>
+            </div>
+         </div>
+         <div class="tab-pane fade" id="cardiologist" role="tabpanel">
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-1.webp" team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-2.webp" team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-3.webp" team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+               </div>
+            </div>
+         </div>
+         <div class="tab-pane fade" id="fertility-consultant" role="tabpanel" aria-labelledby="fertility-consultant-tab">
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-1.webp" team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-2.webp" team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-5.webp" team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-4.webp" team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+               </div>
+            </div>
+         </div>
+         <div class="tab-pane fade" id="generalsurgeon" role="tabpanel" aria-labelledby="generalsurgeon-tab">
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-4.webp" team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-5.webp" team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-1.webp" team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+               </div>
+            </div>
+         </div>
+         <div class="tab-pane fade" id="gynecologist" role="tabpanel" aria-labelledby="gynecologist-tab">
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-1.webp" team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+               </div>
+               <div class="col mb-5">
+                  {{> components/widgets/team-overdetail team-image="/team/team-2.webp" team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

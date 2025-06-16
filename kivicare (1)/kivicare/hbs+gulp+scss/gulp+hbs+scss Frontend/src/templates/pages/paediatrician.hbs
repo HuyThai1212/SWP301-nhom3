@@ -1,0 +1,515 @@
+{{#extend 'layouts/default' title="Paediatrician" isHeader-psychiatrist="true" logo-dynamic="true" logo-image="logo-neviblue.png" ismegamenu="true" isFooter-paediatrician="true"
+active="paediatrician" path="./" isSwiperSlider="true"
+page_colors='[{"var":"--bs-primary","value":"#da8566"},{"var":"--bs-primary-bg-subtle","value":"#f7efeb"},{"var":"--bs-primary-rgb","value":"218, 133,102"},{"var":"--bs-primary-shade-20","value":"#93504f"},{"var":"--bs-secondary","value":"#111a31"},{"var":"--bs-secondary-bg-subtle","value":"#e3e4e6"},{"var":"--bs-secondary-rgb","value":"17,26, 49"}]'
+}}
+{{#content "content"}}
+
+{{!-- banner --}}
+<div class="section-padding position-relative overflow-hidden px-0">
+  <div class="container-fluid position-relative paediatrician-banner">
+    <div class="row align-items-center">
+      <div class="col-lg-7"></div>
+      <div class="col-lg-5">
+        <div class="margin-bottom-165">
+          <div class="no-sub-title big-font mb-5 pb-0 pb-lg-3">
+            {{> components/widgets/title right-text="A Whole New Way To Treat" left-text ="Your Child"
+            title-description ="Over a long period of work we have provided 1000’s of clients a better life and helped
+            to overcome mental illness"}}
+          </div>
+          <div class="button-primary">
+            {{> components/widgets/button button-text="Explore More" button-url="about-us.html"}}
+          </div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <div class="d-flex align-items-center gap-2">
+            <div>
+              <span>call to ask any question</span>
+              <h5 class="mt-1 fw-500">+144 01234 56897</h5>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="51" viewBox="0 0 50 51" fill="none">
+              <rect y="0.5" width="50" height="50" rx="25" fill="#DA8566" fill-opacity="0.5"></rect>
+              <rect x="5" y="6" width="40" height="40" rx="20" fill="#DA8566" fill-opacity="0.7"></rect>
+              <rect x="10" y="11" width="30" height="30" rx="15" fill="#DA8566"></rect>
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.6882 26.3148C27.3475 28.9734 27.9508 25.8976 29.6441 27.5897C31.2765 29.2217 32.2147 29.5486 30.1465 31.6163C29.8874 31.8245 28.2414 34.3293 22.4567 28.5463C16.6713 22.7625 19.1747 21.1148 19.383 20.8558C21.4562 18.7824 21.7776 19.7261 23.41 21.3581C25.1032 23.0508 22.0288 23.6561 24.6882 26.3148Z"
+                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banner-image position-absolute top-0 h-100">
+    <img src="{{path}}assets/images/paediatrician/banner.webp" alt="banner" class="img-fluid w-100 h-100 rtl-image-flip"
+      style="object-fit: cover;">
+    <div class="background-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+  </div>
+</div>
+
+{{!-- service --}}
+<div class="section-padding">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        {{> components/widgets/title sub-title="SPECIAL CARE" right-text="Additional Benefits" left-text="From
+        KiviCare"}}
+      </div>
+      <div class="col-md-6">
+        <p class="mb-0">
+          Children undergo rapid physical and mental changes as they grow. We understand this fact & assess a
+          child’s health status based on the normal ranges for their age.
+        </p>
+      </div>
+    </div>
+    <div class="row mt-5 mt-lg-0 mt-md-0">
+      <div class="col-lg-3 col-md-6">
+        {{> components/widgets/iconbox-background-hover isIcon="true"
+        icon-class="flaticon-award"
+        iconbox-title="Qualified Doctors" iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+        btn-url="service1.html"}}
+      </div>
+      <div class="col-lg-3 col-md-6">
+        {{> components/widgets/iconbox-background-hover isIcon="true"
+        icon-class="flaticon-inspection"
+        iconbox-title="Work Improvements" iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+        btn-url="service1.html"}}
+      </div>
+      <div class="col-lg-3 col-md-6">
+        {{> components/widgets/iconbox-background-hover isIcon="true"
+        icon-class="flaticon-insurance"
+        iconbox-title="Restore Confidence" iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+        btn-url="service1.html"}}
+      </div>
+      <div class="col-lg-3 col-md-6">
+        {{> components/widgets/iconbox-background-hover isIcon="true"
+        icon-class="flaticon-ip"
+        iconbox-title="Hygienic Clinic" iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+        btn-url="service1.html"}}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- about-us --}}
+<div class="iq-about-us bg-primary-subtle text-body">
+  <div class="container-fluid p-0">
+    <div class="row">
+      <div class="col-lg-3"
+        style="background: url('{{path}}assets/images/paediatrician/about-us.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
+        {{> components/widgets/video-popup
+        video-link-url="https://www.youtube.com/watch?v=VeDdpy4CdeM"}}
+      </div>
+      <div class="col-lg-9 ">
+        <div class="section-padding spacing-ls-rs">
+          <div class="position-relative">
+            {{> components/widgets/scrolling-text scroll-title="About us"}}
+          </div>
+          {{> components/widgets/title sub-title="ABOUT OUR CLINIC"
+          right-text="We're A Chain Of a " left-text ="Child Specialist"}}
+          <h5 class="iq-title iq-heading-title mb-2 text-primary fw-500">Care For Child That Goes Beyond The Next Level
+          </h5>
+          <p class="iq-title-desc mb-5">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks
+            as necessary, making this the first true generator on the Internet.</p>
+          <div class="row ">
+            <div class="col-xl-6">
+              <ul class="iq-list-with-icon pb-lg-4 pb-0 mb-5 ps-0">
+                <li class="d-flex align-items-center gap-2 mb-3 text-secondary">
+                  <svg class="icon-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895" stroke="currentColor" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  <span class="text-body">Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                </li>
+                <li class="d-flex align-items-center gap-2 mb-3 text-secondary">
+                  <svg class="icon-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895" stroke="currentColor" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  <span class="text-body">Pellentesque nec neque eu lorem efficitur posuere ac eu</span>
+                </li>
+                <li class="d-flex align-items-center gap-2 mb-3 text-secondary">
+                  <svg class="icon-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                      stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895" stroke="currentColor" stroke-width="1.5"
+                      stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                  <span class="text-body">Duis finibus lectus eget tortor ultrices, et aliquet nisi</span>
+                </li>
+              </ul>
+              {{> components/widgets/button button-text="get appointment" button-url="appointment.html"}}
+            </div>
+            <div class="col-xl-3">
+            </div>
+            <div class=" col-xl-3 pe-xl-5">
+              <div class="overflow-hidden">
+                <div class="position-relative title-box-slider bg-secondary p-4 d-none d-xl-block swiper swiper-general"
+                  id="titlebox-slider" data-slide="1" data-laptop="1" data-tab="1" data-mobile="1" data-mobile-sm="1"
+                  data-autoplay="true" data-loop="true" data-navigation="true" data-pagination="true">
+                  <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                    <li class="swiper-slide">
+                      {{> components/widgets/titleboxslider
+                      slider-title-main="300 +" slider-decs="Happy customers 
+                      served"}}
+                    </li>
+                    <li class="swiper-slide">
+                      {{> components/widgets/titleboxslider
+                      slider-title-main="40 +" slider-decs="Years of top 
+                      experience in eye"}}
+                    </li>
+                    <li class="swiper-slide">
+                      {{> components/widgets/titleboxslider
+                      slider-title-main="25 +" slider-decs="Talented inhouse 
+                      Doctors"}}
+                    </li>
+                  </ul>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- our service --}}
+<div class="section-padding">
+  <div class="container">
+    <div class="text-center position-relative">
+      {{> components/widgets/scrolling-text scroll-title="OUR SERVICES" }}
+      {{> components/widgets/title sub-title="Our Services" right-text="The World’s Best Child
+      Care"left-text="Treatment"}}
+    </div>
+    <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 gy-5">
+      <div class="col">
+        {{> components/widgets/service-box service-title="Relationship Issues"
+        service-description="It is a long established fact that reader will be distracted by the readable content of
+        page"
+        service-image="service/relationship-issue.webp" service-icon="service/relatioship-issue.svg"
+        btn-url="service-detail.html"}}
+      </div>
+      <div class="col">
+        {{> components/widgets/service-box service-title="Bipolar Disorder"
+        service-description="It is a long established fact that reader will be distracted by the readable content of
+        page"
+        service-image="service/bipolor-disorder.webp" service-icon="service/bipolor-disorder.svg"
+        btn-url="service-detail.html"}}
+      </div>
+      <div class="col">
+        {{> components/widgets/service-box service-title="Depression"
+        service-description="It is a long established fact that reader will be distracted by the readable content of
+        page"
+        service-image="service/Depression.webp" service-icon="service/depression.svg" btn-url="service-detail.html"}}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- choose us --}}
+<div class="paediatricin-service position-relative">
+  <img src="{{path}}assets/images/paediatrician/service-bg.webp" alt="service-bg"
+    class="service-bg img-fluid position-absolute">
+  <div class="bg-secondary text-white section-padding">
+    <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="choose us"}}
+      <div class="row">
+        <div class="col-lg-8 col-xxl-6 zindex">
+          {{> components/widgets/title sub-title="WHy choose us" right-text="Reasons Why You Should " left-text="Choose
+          Us" title-description ="There are many variations of passages of Lorem Ipsum available, but the majority have
+          suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly
+          believable."}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="service-top">
+    <div class="container px-md-5">
+      <div class="row">
+        <div class="col-xl-1"></div>
+        <div class="col-xl-10">
+          <div class="card box-shadow mb-0">
+            <div class="card-body p-0">
+              <div class="row m-0">
+                <div class="col-lg-4 col-md-6 p-md-5 border-end">
+                  <div class="no-img-bg py-md-4">
+                    {{> components/widgets/iconbox-transprent icon-image="ent-clinic/Mediclaim-Facilities-1.webp"
+                    iconbox-title="Mediclaim Facilities"
+                    iconbox-desc="A policy provides coverage againstmedical expenses that one might
+                    incur.Individuals who have a cashless claim" btn-url="service1.html" }}
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-md-5 border-end">
+                  <div class="no-img-bg py-md-4">
+                    {{> components/widgets/iconbox-transprent icon-image="ent-clinic/Stichless-surgery-1.webp"
+                    iconbox-title="Stitch-Less Surgery"
+                    iconbox-desc="A policy provides coverage againstmedical expenses that one might
+                    incur.Individuals who have a cashless claim" btn-url="service1.html" }}
+                  </div>
+                </div>
+                <div class="col-lg-4 p-md-5">
+                  <div class="no-img-bg py-md-4">
+                    {{> components/widgets/iconbox-transprent icon-image="ent-clinic/Awards-1.webp"
+                    iconbox-title="Awards"
+                    iconbox-desc="A policy provides coverage againstmedical expenses that one might
+                    incur.Individuals who have a cashless claim" btn-url="service1.html" }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-1"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- team --}}
+<div class="team-section section-padding">
+  <div class="container">
+    <div class="text-center position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Our Doctors" }}
+      {{> components/widgets/title sub-title="Doctors" right-text="Our Outstanding"
+      left-text="Doctors"}}
+    </div>
+    <div class="position-relative overflow-hidden  swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2"
+      data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true"
+      data-pagination="true">
+      <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-1.webp"
+          team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-2.webp"
+          team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-3.webp"
+          team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-4.webp"
+          team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-5.webp"
+          team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{{!-- video popup --}}
+<div class="video-popup">
+  <div class="container-fluid p-0">
+    <div class="position-relative padding-200"
+      style="background-image: url({{path}}assets/images/paediatrician/video-bg.webp); background-size:cover">
+      <div class="section-padding">
+        <div class="position-absolute h-100 w-100 opacity-25 bg-primary top-0 start-0"></div>
+        {{> components/widgets/video-popup video-link-url="https://www.youtube.com/watch?v=VeDdpy4CdeM" }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- faq --}}
+<div class="section-padding">
+  <div class="container">
+    <div class="position-relative">
+      {{> components/widgets/scrolling-text scroll-title="faq" }}
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        {{> components/widgets/title sub-title="FAQ" right-text="Ask Us Anything,We Are Here To"
+        left-text="Help"}}
+        <div class="accordion" id="main-faq">
+          {{> components/widgets/faq show="true" uniqid="01" inid="01" faq-title="Can I trust my tap water? " faq-desc="
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going
+          to use a passage of Lorem Ipsum, you need to be sure there isn’t anything. " }}
+          {{> components/widgets/faq uniqid="02" inid="02" faq-title="Is my microwave giving me cancer? "
+          faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+          alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+          {{> components/widgets/faq uniqid="03" inid="03" faq-title="How long am I contagious when I have the flu or a
+          cold?" faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority have
+          suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly
+          believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+          {{> components/widgets/faq uniqid="04" inid="04" faq-title="How to book an appointment?" faq-desc=" There are
+          many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+          by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a
+          passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+          {{> components/widgets/faq uniqid="05" inid="05" faq-title="What is heart surgery?" faq-desc=" There are many
+          variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+          injected humour, or randomised words which don’t look even slightly believable. If you are going to use a
+          passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="{{path}}assets/images/paediatrician/faq.jpg" alt="faq" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- testimonial --}}
+<div class="mx-xxl-5 px-xxl-5">
+  <div class="px-xxl-5">
+    <div class="section-padding px-xxl-0 bg-primary-subtle">
+      <div class="container">
+        <div class="position-relative text-center">
+          {{> components/widgets/scrolling-text scroll-title="Testimonial"}}
+        </div>
+        <div class="text-center">
+          {{> components/widgets/title sub-title ="Testimonials"
+          right-text="What Our" left-text ="Client's Say"}}
+        </div>
+        <div class="position-relative testimonial-section">
+          <div class="position-absolute top-0 start-0 h-100 px-3 bg-primary d-lg-block d-none">
+            <div class="px-5 mx-5"></div>
+          </div>
+          <div class="py-lg-5 ps-lg-5 ms-lg-5">
+            <div class="position-relative overflow-hidden swiper swiper-general" data-slide="1" data-laptop="1"
+              data-tab="1" data-mobile="1" data-mobile-sm="1" data-autoplay="false" data-loop="false"
+              data-navigation="true" data-pagination="true">
+              <ul class="py-lg-5 m-0 swiper-wrapper list-inline">
+                <li class="swiper-slide">
+                  {{> components/widgets/testimonial-author
+                  isRatting="true"
+                  testimonial-image="/testimonial/user-1.webp" testimonial-user="Moric Horgon"
+                  testimonial-meta="Patient" testimonial-content="“It has been very effective,
+                  in my opinion. It has made everyone more relaxed in a very comfortable
+                  atmosphere, staff and patients included. We have always felt like family
+                  here, even more so now.”" rating="5" }}
+                </li>
+                <li class="swiper-slide">
+                  {{> components/widgets/testimonial-author
+                  isRatting="true"
+                  testimonial-image="/testimonial/user-2.webp" testimonial-user="Julia Roberts"
+                  testimonial-meta="Healthcare" testimonial-content="“It has been very
+                  effective, in my opinion. It has made everyone more relaxed in a very
+                  comfortable atmosphere, staff and patients included. We have always felt
+                  like family here, even more so now.”" rating="3" }}
+                </li>
+                <li class="swiper-slide">
+                  {{> components/widgets/testimonial-author
+                  isRatting="true"
+                  testimonial-image="/testimonial/user-3.webp" testimonial-user="Jack leo"
+                  testimonial-meta="COO company" testimonial-content="“It has been very
+                  effective, in my opinion. It has made everyone more relaxed in a very
+                  comfortable atmosphere, staff and patients included. We have always felt
+                  like family here, even more so now.”" rating="4" }}
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="arrow-joint">
+                <div class="swiper-button swiper-button-next rounded-2"></div>
+                <div class="swiper-button swiper-button-prev rounded-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- blog --}}
+<div class="blog section-padding ">
+  <div class="container">
+    <div class="text-center">
+      <div class="position-relative">
+        {{> components/widgets/scrolling-text scroll-title="latest blog"}}
+      </div>
+      {{> components/widgets/title sub-title="blog" right-text=" Read Our Latest "
+      left-text ="News And Advices "}}
+    </div>
+    <div class="position-relative overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2"
+      data-mobile="1" data-mobile-sm="1" data-autoplay="false" data-loop="true" data-navigation="true"
+      data-pagination="true">
+      <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-1.webp"
+          blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="OPD cover gaining popularity among Indian consumers"}}
+
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-2.webp"
+          blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-3.webp"
+          blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-4.webp"
+          blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="A Revolutionary Change in Paediatric Healthcare"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-5.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Could Eyedrops Replace Reading Glasses?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-6.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="A World With Only Optimized Experiences Is Just Boring"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-7.webp"
+          blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Some questions about nutrition?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-8.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="What are the 7 parts of the eye?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-9.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Is it okay to cleanse your body by fasting from time to time?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-10.webp"
+          blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Are Short Workouts Worth It?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-top-metadata blog-image="blog/blog-11.webp"
+          blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+          blog-title="Will I need more medical tests?"}}
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+{{!-- schedule --}}
+<div class="bg-secondary footer-top-padding text-center px-3">
+  <h3 class="text-white fw-normal mb-2">Ready to Schedule an appointment ? Contactus online or on call us <span
+      class="text-primary d-block">(316) 555-0116</span></h3>
+  <span class="text-white">we offer amazing services options to fit you</span>
+  <div class="button-primary mt-0 mt-lg-3 pt-5">
+    {{> components/widgets/button button-text="Contact us" button-url="contactus.html"}}
+  </div>
+</div>
+
+{{/content}}
+{{/extend}}

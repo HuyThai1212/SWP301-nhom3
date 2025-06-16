@@ -1,0 +1,289 @@
+<header>
+   <div class="top-header bg-soft-light d-none d-md-block">
+      <div class="container-fluid">
+         <div class="row align-items-center">
+            <div class="col-lg-6 col-md-7">
+               <ul
+                  class="top-header-left list-inline d-flex align-items-center gap-3 m-0">
+                  <li class="text-body">
+                     <a class="text-body d-flex align-items-center"
+                        href="tel:480-555-0103">
+                        <svg class="icon-18 text-dark me-1" width="32"
+                           viewBox="0 0 24 24" fill="none"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M11.5317 12.4724C15.5208 16.4604 16.4258 11.8467 18.9656 14.3848C21.4143 16.8328 22.8216 17.3232 19.7192 20.4247C19.3306 20.737 16.8616 24.4943 8.1846 15.8197C-0.493478 7.144 3.26158 4.67244 3.57397 4.28395C6.68387 1.17385 7.16586 2.58938 9.61449 5.03733C12.1544 7.5765 7.54266 8.48441 11.5317 12.4724Z"
+                              stroke="currentColor" stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"></path>
+                        </svg>
+                        <span>+ (480) 555-0103</span>
+                     </a>
+                  </li>
+                  <li class="text-body d-flex align-items-center">
+                     <svg class="icon-18 text-dark me-1" width="32"
+                        viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z"
+                           stroke="currentColor" stroke-width="1.5"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z"
+                           stroke="currentColor" stroke-width="1.5"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"></path>
+                     </svg>
+                     <span>1234 North Avenue Luke Lane</span>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-lg-6 col-md-5 text-md-end">
+               <ul
+                  class="iq-social list-inline d-flex align-items-center justify-content-end gap-3 m-0">
+                  <li class="label text-body fw-500">Follow us :</li>
+                  <li>
+                     <a href="https://facebook.com/">
+                        <svg class="base-circle animated" width="38" height="38"
+                           viewBox="0 0 50 50">
+                           <circle class="c1" cx="25" cy="25" r="23"
+                              stroke="#6e7990" stroke-width="1"
+                              fill="none"></circle>
+                        </svg>
+                        <i class="fab fa-facebook-f"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://x.com/">
+                        <svg class="base-circle animated" width="38" height="38"
+                           viewBox="0 0 50 50">
+                           <circle class="c1" cx="25" cy="25" r="23"
+                              stroke="#6e7990" stroke-width="1"
+                              fill="none"></circle>
+                        </svg>
+                        <i class="fab fa-twitter"></i>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.google.com/">
+                        <svg class="base-circle animated" width="38" height="38"
+                           viewBox="0 0 50 50">
+                           <circle class="c1" cx="25" cy="25" r="23"
+                              stroke="#6e7990" stroke-width="1"
+                              fill="none"></circle>
+                        </svg>
+                        <i class="fab fa-google"></i>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <nav
+      class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0">
+      <div class="container-fluid navbar-inner">
+         <div
+            class="d-flex align-items-center justify-content-between w-100 landing-header">
+            <div class="d-flex gap-3 gap-xl-0 align-items-center">
+               <div>
+                  <button data-trigger="navbar_main"
+                     class="d-xl-none btn btn-primary rounded-pill p-1 pt-0 toggle-rounded-btn"
+                     type="button">
+                     <svg width="20px" class="icon-20" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                           d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                     </svg>
+                  </button>
+               </div>
+               <!--Logo -->
+               {{> components/widgets/logo}}
+               {{#compare ismegamenu '==' 'true'}}
+               {{>components/partials/header/mega-menu }}
+               {{else}}
+               {{>components/partials/header/horizontal-nav}}
+               {{/compare}}
+            </div>
+            <div class="right-panel">
+               <button class="navbar-toggler" type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-btn">
+                     <span class="navbar-toggler-icon"></span>
+                  </span>
+               </button>
+               <div class="collapse navbar-collapse"
+                  id="navbarSupportedContent">
+                  <ul
+                     class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
+                     <li class="nav-item dropdown iq-responsive-menu">
+                        <a href="#" class="nav-link" id="search-drop"
+                           data-bs-toggle="dropdown">
+                           <div class="btn-icon btn-sm rounded-pill btn-action">
+                              <span class="btn-inner">
+                                 <svg class="icon-20" width="20"
+                                    viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="11.7669" cy="11.7666"
+                                       r="8.98856" stroke="currentColor"
+                                       stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round">
+                                    </circle>
+                                    <path d="M18.0186 18.4851L21.5426 22"
+                                       stroke="currentColor"
+                                       stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round">
+                                    </path>
+                                 </svg>
+                              </span>
+                           </div>
+                        </a>
+                        <ul
+                           class="dropdown-menu dropdown-menu-end p-0 dropdown-search"
+                           style="width: 20rem;">
+                           <li class="p-0">
+                              <div class="form-group input-group mb-0">
+                                 <input type="text"
+                                    class="form-control border-0"
+                                    placeholder="Search...">
+                                 <span class="input-group-text border-0">
+                                    <svg class="icon-20" width="20" height="20"
+                                       viewBox="0 0 24 24"
+                                       fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <circle cx="11.7669" cy="11.7666"
+                                          r="8.98856" stroke="currentColor"
+                                          stroke-width="1.5"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"></circle>
+                                       <path d="M18.0186 18.4851L21.5426 22"
+                                          stroke="currentColor"
+                                          stroke-width="1.5"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"></path>
+                                    </svg>
+                                 </span>
+                              </div>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="cart-drop"
+                           data-bs-toggle="dropdown">
+                           <div
+                              class="btn-icon btn-sm rounded-pill btn-action position-relative">
+                              <span class="btn-inner">
+                                 <svg class="cart-icons"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="18"
+                                    height="17" viewBox="0 0 18 17" fill="none">
+                                    <path fill-rule="evenodd"
+                                       clip-rule="evenodd"
+                                       d="M4.27385 4.95616L4.77635 10.9328C4.81302 11.3928 5.18885 11.7378 5.64802 11.7378H5.65135H14.7439H14.7455C15.1797 11.7378 15.5505 11.4145 15.6122 10.9853L16.4039 5.51949C16.4222 5.38949 16.3897 5.25949 16.3105 5.15449C16.2322 5.04866 16.1172 4.98033 15.9872 4.96199C15.813 4.96866 8.58552 4.95866 4.27385 4.95616ZM5.64631 12.9878C4.54881 12.9878 3.61964 12.1311 3.53047 11.0353L2.76714 1.95695L1.51131 1.74028C1.17048 1.68028 0.942975 1.35778 1.00131 1.01695C1.06131 0.676117 1.39047 0.45445 1.72381 0.507784L3.45714 0.807784C3.73631 0.85695 3.94881 1.08862 3.97297 1.37195L4.16881 3.70612C16.0655 3.71112 16.1038 3.71695 16.1613 3.72362C16.6255 3.79112 17.0338 4.03362 17.3121 4.40695C17.5905 4.77945 17.7071 5.23862 17.6405 5.69862L16.8496 11.1636C16.7005 12.2036 15.7971 12.9878 14.7471 12.9878H14.743H5.65297H5.64631Z"
+                                       fill="currentColor"></path>
+                                    <path fill-rule="evenodd"
+                                       clip-rule="evenodd"
+                                       d="M13.4077 8.03638H11.0977C10.7518 8.03638 10.4727 7.75638 10.4727 7.41138C10.4727 7.06638 10.7518 6.78638 11.0977 6.78638H13.4077C13.7527 6.78638 14.0327 7.06638 14.0327 7.41138C14.0327 7.75638 13.7527 8.03638 13.4077 8.03638Z"
+                                       fill="currentColor"></path>
+                                    <path fill-rule="evenodd"
+                                       clip-rule="evenodd"
+                                       d="M5.28815 15.2516C5.53898 15.2516 5.74148 15.4541 5.74148 15.7049C5.74148 15.9558 5.53898 16.1591 5.28815 16.1591C5.03648 16.1591 4.83398 15.9558 4.83398 15.7049C4.83398 15.4541 5.03648 15.2516 5.28815 15.2516Z"
+                                       fill="currentColor"></path>
+                                    <path fill-rule="evenodd"
+                                       clip-rule="evenodd"
+                                       d="M5.28732 16.784C4.69232 16.784 4.20898 16.2998 4.20898 15.7048C4.20898 15.1098 4.69232 14.6265 5.28732 14.6265C5.88232 14.6265 6.36648 15.1098 6.36648 15.7048C6.36648 16.2998 5.88232 16.784 5.28732 16.784"
+                                       fill="currentColor"></path>
+                                    <path fill-rule="evenodd"
+                                       clip-rule="evenodd"
+                                       d="M14.6877 16.784C14.0927 16.784 13.6094 16.2998 13.6094 15.7048C13.6094 15.1098 14.0927 14.6265 14.6877 14.6265C15.2835 14.6265 15.7677 15.1098 15.7677 15.7048C15.7677 16.2998 15.2835 16.784 14.6877 16.784"
+                                       fill="currentColor"></path>
+                                 </svg>
+                              </span>
+                              <span class=" badge-notification">4</span>
+                           </div>
+                        </a>
+                        {{!-- cart dropdown --}}
+                        {{> components/widgets/cart-dropdown}}
+                     </li>
+                     <li class="nav-item dropdown" id="itemdropdown1">
+                        <a class="nav-link d-flex align-items-center" href="#"
+                           id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                           <div class="btn-icon btn-sm rounded-pill">
+                              <span class="btn-inner">
+                                 <svg class="user-icons"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="21" viewBox="0 0 20 21" fill="none">
+                                    <mask style="mask-type:alpha"
+                                       maskUnits="userSpaceOnUse" x="3" y="12"
+                                       width="14" height="7">
+                                       <path fill-rule="evenodd"
+                                          clip-rule="evenodd"
+                                          d="M3.33203 12.3041H16.5319V18.4491H3.33203V12.3041Z"
+                                          fill="white"></path>
+                                    </mask>
+                                    <g>
+                                       <path fill-rule="evenodd"
+                                          clip-rule="evenodd"
+                                          d="M9.93286 13.5541C6.38203 13.5541 4.58203 14.1641 4.58203 15.3682C4.58203 16.5832 6.38203 17.1991 9.93286 17.1991C13.4829 17.1991 15.282 16.5891 15.282 15.3849C15.282 14.1699 13.4829 13.5541 9.93286 13.5541ZM9.93286 18.4491C8.30036 18.4491 3.33203 18.4491 3.33203 15.3682C3.33203 12.6216 7.09953 12.3041 9.93286 12.3041C11.5654 12.3041 16.532 12.3041 16.532 15.3849C16.532 18.1316 12.7654 18.4491 9.93286 18.4491Z"
+                                          fill="currentColor"></path>
+                                    </g>
+                                    <mask style="mask-type:alpha"
+                                       maskUnits="userSpaceOnUse" x="5" y="1"
+                                       width="10" height="10">
+                                       <path fill-rule="evenodd"
+                                          clip-rule="evenodd"
+                                          d="M5.50781 1.89075H14.3578V10.7396H5.50781V1.89075Z"
+                                          fill="white"></path>
+                                    </mask>
+                                    <g>
+                                       <path fill-rule="evenodd"
+                                          clip-rule="evenodd"
+                                          d="M9.93367 3.08038C8.14951 3.08038 6.69784 4.53121 6.69784 6.31538C6.69201 8.09371 8.13284 9.54371 9.9095 9.55038L9.93367 10.1454V9.55038C11.717 9.55038 13.1678 8.09871 13.1678 6.31538C13.1678 4.53121 11.717 3.08038 9.93367 3.08038ZM9.93367 10.7395H9.90701C7.47201 10.732 5.49951 8.74622 5.50784 6.31288C5.50784 3.87538 7.49284 1.89038 9.93367 1.89038C12.3737 1.89038 14.3578 3.87538 14.3578 6.31538C14.3578 8.75538 12.3737 10.7395 9.93367 10.7395Z"
+                                          fill="currentColor"></path>
+                                    </g>
+                                 </svg>
+                              </span>
+                           </div>
+                        </a>
+                        <ul
+                           class="dropdown-menu dropdown-menu-end dropdown-user"
+                           aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item border-bottom"
+                                 href="{{path}}login.html">Sign in</a></li>
+                           <li><a class="dropdown-item"
+                                 href="{{path}}registration.html">Sign
+                                 up</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        {{> components/widgets/button button-text="Appointment"
+                        button-url="appointment.html" }}
+                     </li>
+                     <li class="ms-3">
+                        <div class="cursor-pointer" data-bs-toggle="offcanvas"
+                           data-bs-target="#right-panel-toggle"
+                           aria-controls="right-panel-toggle">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="28"
+                              height="22" viewBox="0 0 28 22"
+                              fill="none">
+                              <path d="M0 0H24V2H0V0Z" fill="#171C26" />
+                              <path d="M4 10H28V12H4V10Z" fill="#171C26" />
+                              <path d="M0 20H24V22H0V20Z" fill="#171C26" />
+                           </svg>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </nav>
+</header>
+{{!-- Sidebar --}}
+{{> components/widgets/sidebar}}

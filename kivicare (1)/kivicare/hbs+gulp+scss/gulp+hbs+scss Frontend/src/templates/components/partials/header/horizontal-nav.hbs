@@ -1,0 +1,478 @@
+<!-- Horizontal Menu Start -->
+<nav id="navbar_main" class="mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav py-xl-0">
+   <div class="container-fluid p-lg-0">
+      <div class="offcanvas-header px-0">
+         <div class="navbar-brand ms-3">
+            {{> components/widgets/logo}}
+         </div>
+         <button class="btn-close float-end px-3"></button>
+      </div>
+      <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
+         <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#homePages" role="button" aria-expanded="false" aria-controls="homePages">
+               <span class="item-name">Home</span>
+               <span class="menu-icon">
+                  <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M4 0.5C4.27614 0.5 4.5 0.723858 4.5 1V4H7.5C7.77614 4 8 4.22386 8 4.5C8 4.77614 7.77614 5 7.5 5H4.5V8C4.5 8.27614 4.27614 8.5 4 8.5C3.72386 8.5 3.5 8.27614 3.5 8V5H0.5C0.223858 5 0 4.77614 0 4.5C0 4.22386 0.223858 4 0.5 4H3.5V1C3.5 0.723858 3.72386 0.5 4 0.5Z" fill="currentColor"/>
+                  </svg>
+               </span>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled" id="homePages">
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'index'}}active{{/compare}}" href="{{path}}index.html">
+                  general doctor
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'dentist'}}active{{/compare}}" href="{{path}}dentist.html">
+                  dentist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'eye-care'}}active{{/compare}}" href="{{path}}eye-care.html">
+                  eye care
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'skin-specialist'}}active{{/compare}}" href="{{path}}skin-specialist.html">
+                  skin specialist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'fertility-clinic'}}active{{/compare}}" href="{{path}}fertility-clinic.html">
+                  Fertility Clinic
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'ent-clinic'}}active{{/compare}}" href="{{path}}ent-clinic.html">
+                  ENT Clinic
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'product-home'}}active{{/compare}}" href="{{path}}product-home.html">
+                  Product Home
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'psychiatrist'}}active{{/compare}}" href="{{path}}psychiatrist.html">
+                  Psychiatrist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'paediatrician'}}active{{/compare}}" href="{{path}}paediatrician.html">
+                  Paediatrician
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'cardiac'}}active{{/compare}}" href="{{path}}cardiac.html">
+                  Cardiac
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'orthopedics'}}active{{/compare}}" href="{{path}}orthopedics.html">
+                  Orthopedics
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'laboratory'}}active{{/compare}}" href="{{path}}laboratory.html">
+                  Laboratory
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#allPages" role="button" aria-expanded="false" aria-controls="allPages">
+               <span class="item-name">Pages</span>
+               <span class="menu-icon">
+                  <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M4 0.5C4.27614 0.5 4.5 0.723858 4.5 1V4H7.5C7.77614 4 8 4.22386 8 4.5C8 4.77614 7.77614 5 7.5 5H4.5V8C4.5 8.27614 4.27614 8.5 4 8.5C3.72386 8.5 3.5 8.27614 3.5 8V5H0.5C0.223858 5 0 4.77614 0 4.5C0 4.22386 0.223858 4 0.5 4H3.5V1C3.5 0.723858 3.72386 0.5 4 0.5Z" fill="currentColor"/>
+                  </svg>
+               </span>
+            </a>
+            <ul  class="sub-nav collapse  list-unstyled" id="allPages">
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#docPages" role="button" aria-expanded="false" aria-controls="docPages">
+                     <span class="item-name">Doctors</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="docPages">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'tab-two-column'}}active{{/compare}}" href="{{path}}tab-two-column.html">
+                        tab two column
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'tab-three-column'}}active{{/compare}}" href="{{path}}tab-three-column.html">
+                        tab three column
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'doctor-details'}}active{{/compare}}" href="{{path}}doctor-details.html">
+                        doctor details
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'about-us'}}active{{/compare}}" href="{{path}}about-us.html">
+                  about-us
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#pageServices" role="button" aria-expanded="false" aria-controls="pageServices">
+                     <span class="item-name">Service</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="pageServices">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'service1'}}active{{/compare}}" href="{{path}}service1.html">
+                        service 1
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'service2'}}active{{/compare}}" href="{{path}}service2.html">
+                        service 2
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'client'}}active{{/compare}}" href="{{path}}client.html">
+                  client
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#pricingPlan" role="button" aria-expanded="false" aria-controls="pricingPlan">
+                     <span class="item-name">Pricing Plan</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="pricingPlan">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'pricing-plan-one'}}active{{/compare}}" href="{{path}}pricing-plan-one.html">
+                        Pricing plan 1
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'pricing-plan-two'}}active{{/compare}}" href="{{path}}pricing-plan-two.html">
+                        Pricing plan 2
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'faq'}}active{{/compare}}" href="{{path}}faq.html">
+                  faq
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' '404'}}active{{/compare}}" href="{{path}}404.html">
+                  404
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'contactus'}}active{{/compare}}" href="{{path}}contactus.html">
+                  contact us
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'comingsoon'}}active{{/compare}}" href="{{path}}comingsoon.html">
+                  coming soon
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#specializationPages" role="button" aria-expanded="false" aria-controls="specializationPages">
+               <span class="item-name">Specialization</span>
+               <span class="menu-icon">
+                  <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M4 0.5C4.27614 0.5 4.5 0.723858 4.5 1V4H7.5C7.77614 4 8 4.22386 8 4.5C8 4.77614 7.77614 5 7.5 5H4.5V8C4.5 8.27614 4.27614 8.5 4 8.5C3.72386 8.5 3.5 8.27614 3.5 8V5H0.5C0.223858 5 0 4.77614 0 4.5C0 4.22386 0.223858 4 0.5 4H3.5V1C3.5 0.723858 3.72386 0.5 4 0.5Z" fill="currentColor"/>
+                  </svg>
+               </span>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled" id="specializationPages">
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'oncologist'}}active{{/compare}}" href="{{path}}oncologist.html">
+                  oncologist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'neurologist'}}active{{/compare}}" href="{{path}}neurologist.html">
+                  neurologist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'ent-specialist'}}active{{/compare}}" href="{{path}}ent-specialist.html">
+                  ent specialist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'cardiologist'}}active{{/compare}}" href="{{path}}cardiologist.html">
+                  cardiologist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'audiologist'}}active{{/compare}}" href="{{path}}audiologist.html">
+                  audiologist
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'psychiatrists'}}active{{/compare}}" href="{{path}}psychiatrists.html">
+                  psychiatrists
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#blogPages" role="button" aria-expanded="false" aria-controls="blogPages">
+               <span class="item-name">Blog</span>
+               <span class="menu-icon">
+                  <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M4 0.5C4.27614 0.5 4.5 0.723858 4.5 1V4H7.5C7.77614 4 8 4.22386 8 4.5C8 4.77614 7.77614 5 7.5 5H4.5V8C4.5 8.27614 4.27614 8.5 4 8.5C3.72386 8.5 3.5 8.27614 3.5 8V5H0.5C0.223858 5 0 4.77614 0 4.5C0 4.22386 0.223858 4 0.5 4H3.5V1C3.5 0.723858 3.72386 0.5 4 0.5Z" fill="currentColor"/>
+                  </svg>
+               </span>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled" id="blogPages">
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'blog-lists'}}active{{/compare}}" href="{{path}}blog-lists.html">
+                  Blog Listing
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'blog-masonry'}}active{{/compare}}" href="{{path}}blog-masonry.html">
+                  blog masonry
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#blogGrid" role="button" aria-expanded="false" aria-controls="blogGrid">
+                     <span class="item-name">Blog Grid</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="blogGrid">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'two-column-blog'}}active{{/compare}}" href="{{path}}two-column-blog.html">
+                        two column blog
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'three-column-blog'}}active{{/compare}}" href="{{path}}three-column-blog.html">
+                        three column blog
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'three-column-full-width-blog'}}active{{/compare}}" href="{{path}}three-column-full-width-blog.html">
+                        three column full width blog
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'four-column-blog'}}active{{/compare}}" href="{{path}}four-column-blog.html">
+                        four column blog
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#blogSidebar" role="button" aria-expanded="false" aria-controls="blogSidebar">
+                     <span class="item-name">Blog Sidebar</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="blogSidebar">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'left-sidebar-grid-1'}}active{{/compare}}" href="{{path}}left-sidebar-grid-1.html">
+                        left sidebar grid-1
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'left-sidebar-grid-2'}}active{{/compare}}" href="{{path}}left-sidebar-grid-2.html">
+                        left sidebar grid-2
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'right-sidebar-grid-1'}}active{{/compare}}" href="{{path}}right-sidebar-grid-1.html">
+                        Right sidebar grid-1
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'right-sidebar-grid-2'}}active{{/compare}}" href="{{path}}right-sidebar-grid-2.html">
+                        Right sidebar grid-2
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#blogSingle" role="button" aria-expanded="false" aria-controls="docPages">
+                     <span class="item-name">Blog Single</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="blogSingle">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'blog-standard'}}active{{/compare}}" href="{{path}}blog-standard.html">
+                        blog standard
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'blog-video'}}active{{/compare}}" href="{{path}}blog-video.html">
+                        blog video
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'blog-gallary'}}active{{/compare}}" href="{{path}}blog-gallary.html">
+                        blog gallary
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'blog-audio'}}active{{/compare}}" href="{{path}}blog-audio.html">
+                        blog audio
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'blog-link'}}active{{/compare}}" href="{{path}}blog-link.html">
+                        blog link
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'blog-quote'}}active{{/compare}}" href="{{path}}blog-quote.html">
+                        blog quote
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#shopPage" role="button" aria-expanded="false" aria-controls="shopPage">
+               <span class="item-name">Shop</span>
+               <span class="menu-icon">
+                  <svg width="10" height="10" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M4 0.5C4.27614 0.5 4.5 0.723858 4.5 1V4H7.5C7.77614 4 8 4.22386 8 4.5C8 4.77614 7.77614 5 7.5 5H4.5V8C4.5 8.27614 4.27614 8.5 4 8.5C3.72386 8.5 3.5 8.27614 3.5 8V5H0.5C0.223858 5 0 4.77614 0 4.5C0 4.22386 0.223858 4 0.5 4H3.5V1C3.5 0.723858 3.72386 0.5 4 0.5Z" fill="currentColor"/>
+                  </svg>
+               </span>
+            </a>
+            <ul class="sub-nav collapse  list-unstyled" id="shopPage">
+               <li class="nav-item">
+                  <a class="nav-link {{#compare active '==' 'shop'}}active{{/compare}}" href="{{path}}shop.html">
+                  Shop
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#productSidebar" role="button" aria-expanded="false" aria-controls="productSidebar">
+                     <span class="item-name">Product Sidebar</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="productSidebar">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'shop-left-sidebar'}}active{{/compare}}" href="{{path}}shop-left-sidebar.html">
+                        shop left sidebar
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'shop-right-sidebar'}}active{{/compare}}" href="{{path}}shop-right-sidebar.html">
+                        shop right sidebar
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'shop-no-sidebar'}}active{{/compare}}" href="{{path}}shop-no-sidebar.html">
+                        shop no sidebar
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#sPages" role="button" aria-expanded="false" aria-controls="sPages">
+                     <span class="item-name">Shop Pages</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="sPages">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'cart'}}active{{/compare}}" href="{{path}}cart.html">
+                        cart
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'checkout'}}active{{/compare}}" href="{{path}}checkout.html">
+                        checkout
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'wishlist'}}active{{/compare}}" href="{{path}}wishlist.html">
+                        wishlist
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'my-account'}}active{{/compare}}" href="{{path}}my-account.html">
+                        my account
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'track-order'}}active{{/compare}}" href="{{path}}track-order.html">
+                        track order
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" href="#proType" role="button" aria-expanded="false" aria-controls="proType">
+                     <span class="item-name">Product Type</span>
+                     <span class="menu-icon">
+                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                     </span>
+                  </a>
+                  <ul class="sub-nav collapse  list-unstyled" id="proType">
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'product-standard'}}active{{/compare}}" href="{{path}}product-standard.html">
+                        product standard
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'product-new'}}active{{/compare}}" href="{{path}}product-new.html">
+                        product new
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link {{#compare active '==' 'product-sale'}}active{{/compare}}" href="{{path}}product-sale.html">
+                        product sale
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+      </ul>
+   </div>
+   <!-- container-fluid.// -->
+</nav>
+<!-- Sidebar Menu End -->

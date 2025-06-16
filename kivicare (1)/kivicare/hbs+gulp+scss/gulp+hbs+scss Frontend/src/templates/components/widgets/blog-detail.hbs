@@ -1,0 +1,299 @@
+<div class="section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-8">
+            <div class="iq-blog blog-detail position-relative border">
+               {{#compare isImg '==' 'true'}}
+               <a href="blog-details.html"
+                  class="blog-image d-block overflow-hidden">
+                  <img src="{{path}}assets/images/{{blog-image}}"
+                     alt="blog-image"
+                     class="img-fluid w-100" loading="lazy">
+               </a>
+               {{/compare}}
+               {{#compare isVideo '==' 'true'}}
+               <div>
+                  <iframe class="elementor-video" allowfullscreen
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                     title="Iqonic Design - User Reviews | Very Professional Work | Iqonic Design"
+                     width="500"
+                     height="400"
+                     src="https://www.youtube.com/embed/VeDdpy4CdeM?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwordpress.iqonic.design&amp;widgetid=1"
+                     id="widget2"></iframe>
+               </div>
+               {{/compare}}
+               {{#compare isAudio '==' 'true'}}
+               <div>
+                  <iframe
+                     src="https://w.soundcloud.com/player/?visual=false&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F417751212&amp;show_artwork=true&amp;maxheight=750&amp;maxwidth=720&amp;auto_play=false&amp;buying=true&amp;liking=true&amp;download=true&amp;sharing=true&amp;show_comments=true&amp;show_playcount=true&amp;show_user=true&amp;color"
+                     width="500"></iframe>
+               </div>
+               {{/compare}}
+               {{#compare isGallery '==' 'true'}}
+               <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
+                  <div class="col p-0">
+                     <a data-fslightbox="sidebar-gallery"
+                        href="{{path}}assets/images/gallery/blog-1.jpg">
+                        <img src="{{path}}assets/images/gallery/blog-1.jpg"
+                           class="p-2 pt-lg-0 pt-md-0 img-fluid w-100"
+                           alt="profile-image" loading="lazy">
+                     </a>
+                  </div>
+                  <div class="col p-0">
+                     <a data-fslightbox="sidebar-gallery"
+                        href="{{path}}assets/images/gallery/blog-2.jpg">
+                        <img src="{{path}}assets/images/gallery/blog-2.jpg"
+                           class="p-2 pt-lg-0 pt-md-0 img-fluid w-100"
+                           alt="profile-image" loading="lazy">
+                     </a>
+                  </div>
+                  <div class="col p-0">
+                     <a data-fslightbox="sidebar-gallery"
+                        href="{{path}}assets/images/gallery/blog-3.jpg">
+                        <img src="{{path}}assets/images/gallery/blog-3.jpg"
+                           class="p-2  pt-lg-0 pt-md-2 img-fluid w-100"
+                           alt="profile-image" loading="lazy">
+                     </a>
+                  </div>
+                  <div class="col p-0">
+                     <a data-fslightbox="sidebar-gallery"
+                        href="{{path}}assets/images/gallery/blog-4.jpg">
+                        <img src="{{path}}assets/images/gallery/blog-4.jpg"
+                           class="p-2 img-fluid w-100"
+                           alt="profile-image" loading="lazy">
+                     </a>
+                  </div>
+                  <div class="col p-0">
+                     <a data-fslightbox="sidebar-gallery"
+                        href="{{path}}assets/images/gallery/blog-5.jpg">
+                        <img src="{{path}}assets/images/gallery/blog-5.jpg"
+                           class="p-2 img-fluid w-100"
+                           alt="profile-image" loading="lazy">
+                     </a>
+                  </div>
+                  <div class="col p-0">
+                     <a data-fslightbox="sidebar-gallery"
+                        href="{{path}}assets/images/gallery/blog-6.jpg">
+                        <img src="{{path}}assets/images/gallery/blog-6.jpg"
+                           class="p-2 img-fluid w-100"
+                           alt="profile-image" loading="lazy">
+                     </a>
+                  </div>
+               </div>
+               {{/compare}}
+               {{#compare isLink '==' 'true'}}
+               <div class="px-3 pt-4 bg-white">
+                  <a href="https://iqonic.design/"><i
+                        class="fas fa-link text-primary"></i></a>
+               </div>
+               {{/compare}}
+               <div class="iq-post-details bg-white p-4">
+                  <div class="iq-blog-meta">
+                     <ul class="list-inline">
+                        <li
+                           class="position-relative list-inline-item text-uppercase">
+                           <a href="{{path}}blog-author.html">
+                              <i class="far fa-user me-2 text-primary"
+                                 aria-hidden="true"></i>
+                              <span>{{blog-author}}</span>
+                           </a>
+                        </li>
+                        <li
+                           class="position-relative list-inline-item text-uppercase">
+                           <a href="{{path}}blog-date.html">
+                              <i class="far fa-calendar-alt me-2 text-primary"
+                                 aria-hidden="true"></i>
+                              <span>{{blog-publish-date}}</span>
+                           </a>
+                        </li>
+                        <li
+                           class="position-relative list-inline-item text-uppercase">
+                           <span class="iq-blog-cat">
+                              <a href="{{path}}blog-category.html">
+                                 {{blog-category}}
+                              </a>
+                           </span>
+                        </li>
+                     </ul>
+                  </div>
+                  <p class="pb-3">Dolor sit amet, consectetur adipisicing elit,
+                     sed do eiusmod
+                     temporincididunt ut labore et
+                     dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud
+                     exercitation ullamco laboris nisi
+                     utaliquip ex ea commodo consequat.Duis aute irure dolor in
+                     reprehenderit in voluptate velit
+                     esse cillum dolore eu fugiatnulla pariatur. Excepteur
+                     sintoccaecat cupidatat non proident,
+                     sunt in culpa qui officia deserunt.
+                  </p>
+                  <div
+                     class="blogquote position-relative bg-primary-subtle fst-italic">
+                     <p class="text-body">
+                        Ut enim ad minim veniam, quis nostrud exercitationSed
+                        vehicula odio sed velit volutpat
+                        aliquet. Sed dignissim enim et venenatis
+                     </p>
+                     <h6
+                        class="text-primary fw-bolder fst-italic text-uppercase">–
+                        Simon Sais</h6>
+                     <i aria-hidden="true"
+                        class="fas fa-quote-right quote-icon position-absolute"></i>
+                  </div>
+                  <h4 class="mt-4">1. Good Nutrition Improves Well-Being</h4>
+                  <p class="mt-3">
+                     Eating a poor diet reduces physical and mental health
+                     because eating healthy allows
+                     people to be more active. Two-thirds of people who eat
+                     fresh fruit and vegetables daily
+                     report no mental health issues, as reported by the Mental
+                     Health Foundation. Compare
+                     this to those who do have some level of mental health
+                     problems and have generally
+                     reported eating less healthy foods and more unhealthy
+                     foods. Feelings of well-being can
+                     be protected by ensuring that our diet is full of essential
+                     fats, complex carbohydrates,
+                     vitamins and minerals.
+                  </p>
+                  <h4 class="mt-4">2. It’s Expensive To Be Unhealthy</h4>
+                  <p class="mt-3">
+                     Eating a poor diet reduces physical and mental health
+                     because eating healthy allows people
+                     to be more active. Two-thirds of people who eat fresh fruit
+                     and vegetables daily report no
+                     mental health issues, as reported by the Mental Health
+                     Foundation. Compare this to those who
+                     do have some level of mental health problems and have
+                     generally reported eating less healthy
+                     foods and more unhealthy foods. Feelings of well-being can
+                     be protected by ensuring that our
+                     diet is full of essential fats, complex carbohydrates,
+                     vitamins and minerals.
+                  </p>
+                  <div class="row my-5">
+                     <div class="col-md-6">
+                        <img src="{{path}}assets/images/blog/blogdetai-1.webp"
+                           alt="banner"
+                           class="img-fluid" style="transform:none">
+                     </div>
+                     <div class="col-md-6 mt-5 mt-lg-0 mt-md-0">
+                        <img src="{{path}}assets/images/blog/blogdetai-2.webp"
+                           alt="banner"
+                           class="img-fluid" style="transform:none">
+                     </div>
+                  </div>
+                  <h4 class="mt-4">3. Helps You Manage A Healthy Weight</h4>
+                  <p class="mt-3">
+                     Eating a poor diet reduces physical and mental health
+                     because eating healthy allows people
+                     to be more active. Two-thirds of people who eat fresh fruit
+                     and vegetables daily report no
+                     mental health issues, as reported by the Mental Health
+                     Foundation. Compare this to those who
+                     do have some level of mental health problems and have
+                     generally reported eating less healthy
+                     foods and more unhealthy foods. Feelings of well-being can
+                     be protected by ensuring that our
+                     diet is full of essential fats, complex carbohydrates,
+                     vitamins and minerals.
+                  </p>
+                  <h4 class="mt-4">4. Maintains Your Immune System</h4>
+                  <p class="mt-3">
+                     Eating a poor diet reduces physical and mental health
+                     because eating healthy allows people
+                     to be more active. Two-thirds of people who eat fresh fruit
+                     and vegetables daily report no
+                     mental health issues, as reported by the Mental Health
+                     Foundation. Compare this to those who
+                     do have some level of mental health problems and have
+                     generally reported eating less healthy
+                     foods and more unhealthy foods. Feelings of well-being can
+                     be protected by ensuring that our
+                     diet is full of essential fats, complex carbohydrates,
+                     vitamins and minerals.
+                  </p>
+                  {{#compare isTag '==' 'true'}}
+                  <ul class="blogtag list-inline mt-5 mb-0">
+                     <li class="label d-inline me-2">Tags:</li>
+                     <li class="d-inline">
+                        <a href="#" class="position-relative">{{blog-tag}}</a>
+                     </li>
+                  </ul>
+                  {{/compare}}
+               </div>
+            </div>
+            <div class="blog-comment mt-5">
+               <h4 class="mb-5">1 Comment</h4>
+               <div
+                  class="comment-wrap d-flex p-5 border position-relative flex-row flex-column flex-lg-row flex-md-row gap-4">
+                  <div>
+                     <img src="{{path}}assets/images/blog/avatar.webp"
+                        alt="author"
+                        class="img-fluid">
+                  </div>
+                  <div class="comments-info">
+                     <h5>Admin</h5>
+                     <p class="my-2">Mind Blowing</p>
+                     <div class="list-inline-item">
+                        <i aria-hidden="true"
+                           class="far fa-calendar-alt me-1 text-primary small"></i>
+                        <a href=" " class="text-uppercase small">March 24,
+                           2022</a>
+                     </div>
+                     <div class="button-secondary">
+                        {{> components/widgets/button button-url="#"
+                        button-text="Reply"}}
+                     </div>
+                  </div>
+               </div>
+               <h4 class="my-5">Leave A Reply</h4>
+               <p>Your email address will not be published. Required fields are
+                  marked *</p>
+               <form method="post" class="mt-5">
+                  <div class="custom-form-field">
+                     <textarea id="comment" name="comment" placeholder="Comment"
+                        required="required"
+                        class="form-control"></textarea>
+                  </div>
+                  <div class="row my-5">
+                     <div class="col-lg-4 col-md-6 my-5 my-lg-0">
+                        <div class="custom-form-field">
+                           <input id="author" name="author" aria-required="true"
+                              required="required"
+                              placeholder="Name*" class="form-control">
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 my-5 my-lg-0">
+                        <div class="custom-form-field">
+                           <input id="email" name="email" required="required"
+                              placeholder="Email*"
+                              class="form-control">
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 my-5 my-lg-0">
+                        <div class="custom-form-field">
+                           <input id="url" name="url" placeholder="Website"
+                              class="form-control">
+                        </div>
+                     </div>
+                  </div>
+                  <label class="mb-5 custom-form-field">
+                     <input type="checkbox" required="required"> <span
+                        class="checkmark"></span><span>Save my
+                        name, email, and website in this browser for the next
+                        time I comment.</span>
+                  </label>
+                  <div class="button-secondary mb-3">
+                     {{> components/widgets/button button-url="#"
+                     button-text="Post Comment"}}
+                  </div>
+               </form>
+            </div>
+         </div>
+         <div class="col-xl-4 mt-5 mt-xl-0">
+            {{> components/widgets/blog-sidebar}}
+         </div>
+      </div>
+   </div>
+</div>

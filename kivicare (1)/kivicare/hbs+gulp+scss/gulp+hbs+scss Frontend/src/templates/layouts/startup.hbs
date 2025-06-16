@@ -1,0 +1,35 @@
+{{!-- layouts/layout.hbs --}}
+<!doctype html>
+<html lang="en" dir="ltr" class="landing-pages">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>{{ appName }} | Medical Clinic & Patient Management Html Templatee</title>
+      <!-- Config Options -->
+      <meta name="setting_options" content='{{ landingOptions }}'>
+      {{> components/partials/head }}
+  </head>
+  <body class="{{bodyClass}} body-bg landing-pages">
+    <!-- loader Start -->
+    <div id="loading">
+      {{> partials/loader }}
+    </div>
+    <!-- loader END -->
+    <main class="main-content">
+      <div class="position-relative">
+        <!--Nav Start-->
+            {{> components/partials/header/header  }}
+        <!--Nav End-->
+      </div>
+        {{#block "content"}}
+        {{/block}}
+
+    </main>
+    <!-- Wrapper End-->
+    {{> components/partials/footer/footer}}
+
+    {{> components/partials/scripts  }}
+    {{#block "scripts"}}
+    {{/block}}
+  </body>
+</html>

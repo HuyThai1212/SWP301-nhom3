@@ -1,0 +1,48 @@
+{{#extend layout title="Category" active="category" path="./" isTour="true" isBanner="false" isHeader="true"}}
+{{#content "content"}}
+
+{{> pages/widget/top-nav}}
+<div class="card">
+    <div class="card-header">
+        <h4>All Department</h4>
+        <span>More Than 04+ New Department</span>
+    </div>
+    <div class="card-body pt-0">
+        <div class="row row-cols-xl-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/1.webp" Category="Skin and beauty" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/2.webp" Category="Psychiatrist" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/3.webp" Category="Cardiac" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/4.webp" Category="Pediatrician" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/5.webp" Category="Orthopedics" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/6.webp" Category="Dentist" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/7.webp" Category="General Checkup" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/8.webp" Category="Eye Care" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info isDrCategory="true" DrProfile="doctor/9.webp" Category="Fertility" AppointmentStatus="Total 300+ Appointments Completed" DoctorList="03 Doctors"}}
+            </div>
+            
+        </div>
+    </div>
+    <div class="card-footer pt-0">
+    {{> pages/widget/pagination}}
+    </div>
+</div>
+
+{{/content}}
+{{/extend}}

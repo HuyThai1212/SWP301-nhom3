@@ -1,0 +1,16 @@
+#dashboard-line-chart {
+    height: 300px;
+}
+#grossVolume {
+    min-height: 150px !important;
+}
+.apexcharts-legend-text{
+    color: var(--bs-heading-color) !important;
+}
+.apexcharts-datalabel-value{
+    fill: var(--bs-body-color);
+}
+
+#monthly-progress-donut-chart .apexcharts-legend-marker {
+    margin-right: 5px !important;
+}

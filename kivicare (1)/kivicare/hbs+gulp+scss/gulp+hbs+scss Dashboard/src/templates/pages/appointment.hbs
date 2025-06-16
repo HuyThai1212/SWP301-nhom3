@@ -1,0 +1,756 @@
+{{#extend layout title="Appointments" active="appointments" path="./" isSelect2="true" isTour="true" isFlatpickr="true"
+isBanner="false" isHeader="true" isSweetalert="true"}}
+{{#content "content"}}
+
+{{> pages/widget/top-nav}}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="row align-items-center gy-3">
+                    <div class="col-md-4 col-lg-6 text-md-start">
+                        <h4>Appointments</h4>
+                        <p class="mb-0">6 appointment today</p>
+                    </div>
+                    <div class="col-md-8 col-lg-6 text-md-end">
+                        <div>
+                            <!-- Nav tabs -->
+                            <ul id="appointment-table-tab"
+                                class="nav nav-tabs d-inline-flex align-items-center gap-3 flex-wrap mb-0 px-0" role="tablist">
+                                <li>
+                                    <a class="btn btn-primary " data-bs-toggle="offcanvas"
+                                        href="#offcanvasAppointmentAdd" aria-controls="offcanvasAppointmentAdd">
+                                        <span class="btn-inner">
+                                            <span class="text d-inline-block align-middle">Add Appointment</span>
+                                            <span class="icon d-inline-block align-middle ms-1 ps-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                                    <path
+                                                        d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link btn active" type="button" data-bs-toggle="tab"
+                                        data-bs-target="#upcoming" role="tab"
+                                        aria-selected="true">Upcoming</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link btn" type="button" data-bs-toggle="tab"
+                                        data-bs-target="#request" role="tab"
+                                        aria-selected="false">Request</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <!-- Nav tabs content -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="upcoming" role="tabpanel">
+                        <div class="table-responsive">
+                            <table class="table border-end border-start align-middle rounded">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Names</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Date And Time</th>
+                                        <th scope="col">Reason</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr data-item="list">
+                                        <th scope="row">1</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/10.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Courtney Henry</h5>
+                                            </div>
+                                        </td>
+                                        <td>courntney@gmail.com</td>
+                                        <td>24 May at 10:00 AM</td>
+                                        <td>Acne Treatment</td>
+                                        <td>New Patient</td>
+                                        <td>
+                                            <a class="d-inline-block pe-2" data-bs-toggle="offcanvas"
+                                                href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr data-item="list">
+                                        <th scope="row">2</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/11.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Jerome Bell</h5>
+                                            </div>
+                                        </td>
+                                        <td>jerome@gmail.com</td>
+                                        <td>28 may at 12:00 PM</td>
+                                        <td>Tooth Cleaning</td>
+                                        <td>New Patient</td>
+                                        <td>
+                                            <a data-bs-toggle="offcanvas" href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit" class="d-inline-block pe-2">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr data-item="list">
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/12.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Darrell Steward</h5>
+                                            </div>
+                                        </td>
+                                        <td>darrell@gmail.com</td>
+                                        <td>30 May at 04:00 PM</td>
+                                        <td>Skin Whitening</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <a data-bs-toggle="offcanvas" href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit" class="d-inline-block pe-2">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr data-item="list">
+                                        <th scope="row">4</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/13.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Esther Howard</h5>
+                                            </div>
+                                        </td>
+                                        <td>esther@gmail.com</td>
+                                        <td>06 June at 10:00 AM</td>
+                                        <td>Eye Checkup</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <a data-bs-toggle="offcanvas" href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit" class="d-inline-block pe-2">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr data-item="list">
+                                        <th scope="row">5</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/14.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Floyd Miles</h5>
+                                            </div>
+                                        </td>
+                                        <td>floyd@gmail.com</td>
+                                        <td>06 June at 11:00 AM</td>
+                                        <td>Regular</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <a data-bs-toggle="offcanvas" href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit" class="d-inline-block pe-2">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr data-item="list">
+                                        <th scope="row">6</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/15.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Guy Hawkins</h5>
+                                            </div>
+                                        </td>
+                                        <td>guy@gmail.com</td>
+                                        <td>08 June at 10:30 AM</td>
+                                        <td>Fever</td>
+                                        <td>New Patient</td>
+                                        <td>
+                                            <a data-bs-toggle="offcanvas" href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit" class="d-inline-block pe-2">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr data-item="list">
+                                        <th scope="row">7</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/16.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h5 class="mb-0">Amine Steward</h5>
+                                            </div>
+                                        </td>
+                                        <td>amine@gmail.com</td>
+                                        <td>13 June at 01:00 PM</td>
+                                        <td>Malaria</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <a data-bs-toggle="offcanvas" href="#offcanvasAppointmentEdit" role="button"
+                                                aria-controls="offcanvasAppointmentEdit" class="d-inline-block pe-2">
+                                                <span class="text-success">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.31055 14.3321H14.75" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M8.58501 1.84609C9.16674 1.15084 10.2125 1.04889 10.9222 1.6188C10.9614 1.64972 12.2221 2.62909 12.2221 2.62909C13.0017 3.10039 13.244 4.10233 12.762 4.86694C12.7365 4.90789 5.60896 13.8234 5.60896 13.8234C5.37183 14.1192 5.01187 14.2938 4.62718 14.298L1.89765 14.3323L1.28265 11.7292C1.1965 11.3632 1.28265 10.9788 1.51978 10.683L8.58501 1.84609Z"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7.26562 3.50073L11.3548 6.64108" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <a href="#" class="d-inline-block ps-2 delete-btn">
+                                                <span class="text-danger">
+                                                    <svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M12.4938 6.10107C12.4938 6.10107 12.0866 11.1523 11.8503 13.2801C11.7378 14.2963 11.1101 14.8918 10.0818 14.9106C8.12509 14.9458 6.16609 14.9481 4.21009 14.9068C3.22084 14.8866 2.60359 14.2836 2.49334 13.2853C2.25559 11.1388 1.85059 6.10107 1.85059 6.10107"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.5312 3.67969H0.812744" stroke="currentColor"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11.0804 3.67974C10.4917 3.67974 9.98468 3.26349 9.86918 2.68674L9.68693 1.77474C9.57443 1.35399 9.19343 1.06299 8.75918 1.06299H5.58443C5.15018 1.06299 4.76918 1.35399 4.65668 1.77474L4.47443 2.68674C4.35893 3.26349 3.85193 3.67974 3.26318 3.67974"
+                                                            stroke="currentColor" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="request" role="tabpanel">
+                        <div class="table-responsive">
+                            <table class="table border-end border-start align-middle rounded">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Names</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Date And Time</th>
+                                        <th scope="col">Reason</th>
+                                        <th scope="col">Type</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/10.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Courtney Henry</h6>
+                                            </div>
+                                        </td>
+                                        <td>courntney@gmail.com</td>
+                                        <td>24 May at 10:00 AM</td>
+                                        <td>Acne Treatment</td>
+                                        <td>New Patient</td>
+                                        <td>
+                                            <button type="button" class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept</button>
+                                            <button type="button" class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/11.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Jerome Bell</h6>
+                                            </div>
+                                        </td>
+                                        <td>jerome@gmail.com</td>
+                                        <td>28 may at 12:00 PM</td>
+                                        <td>Tooth Cleaning</td>
+                                        <td>New Patient</td>
+                                        <td>
+                                            <button type="button"
+                                                class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept </button>
+                                                <button type="button"
+                                                    class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/12.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Darrell Steward</h6>
+                                            </div>
+                                        </td>
+                                        <td>darrell@gmail.com</td>
+                                        <td>30 May at 04:00 PM</td>
+                                        <td>Skin Whitening</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <button type="button"
+                                                class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept</button>
+                                                <button type="button"
+                                                    class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/13.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Esther Howard</h6>
+                                            </div>
+                                        </td>
+                                        <td>esther@gmail.com</td>
+                                        <td>06 June at 10:00 AM</td>
+                                        <td>Eye Checkup</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <button type="button"
+                                                class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept</button>
+                                                <button type="button"
+                                                    class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/14.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Floyd Miles</h6>
+                                            </div>
+                                        </td>
+                                        <td>floyd@gmail.com</td>
+                                        <td>06 June at 11:00 AM</td>
+                                        <td>Regular</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <button type="button"
+                                                class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept</button>
+                                                <button type="button"
+                                                    class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/15.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Guy Hawkins</h6>
+                                            </div>
+                                        </td>
+                                        <td>guy@gmail.com</td>
+                                        <td>08 June at 10:30 AM</td>
+                                        <td>Fever</td>
+                                        <td>New Patient</td>
+                                        <td>
+                                            <button type="button"
+                                                class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept</button>
+                                                <button type="button"
+                                                    class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <img src="{{path}}assets/images/table/16.png"
+                                                    class="img-fluid flex-shrink-0 icon-40 object-fit-cover" alt="icon">
+                                                <h6 class="mb-0">Amine Steward</h6>
+                                            </div>
+                                        </td>
+                                        <td>amine@gmail.com</td>
+                                        <td>13 June at 01:00 PM</td>
+                                        <td>Malaria</td>
+                                        <td>Old Patient</td>
+                                        <td>
+                                            <button type="button"
+                                                class="badge rounded-0 bg-success-subtle fw-500 px-3 py-2 border-0 me-2">Accept</button>
+                                                <button type="button"
+                                                    class="badge rounded-0 bg-danger-subtle fw-500 px-3 py-2 border-0">Cancel</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col-sm-6">
+                        <span>Showing 01 to 07 of 20 entries</span>
+                    </div>
+                    <div class="col-sm-6 text-sm-end mt-sm-0 mt-3">
+                        <div class="d-inline-flex align-items-center gap-3 flex-wrap card-navigation">
+                            <a href="#" class="text-body link-primary">
+                                <svg class="icon-20" width="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.5 19L8.5 12L15.5 5" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <span class="align-middle">Previous</span>
+                            </a>
+                            <a href="#" class="text-body link-primary">
+                                <span class="align-middle">Next</span>
+                                <svg class="icon-20" width="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.5 5L15.5 12L8.5 19" stroke="currentColor" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Edit Appointment --}}
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAppointmentEdit"
+    aria-labelledby="offcanvasAppointmentEditLabel">
+    <div class="offcanvas-header border-bottom">
+        <h3 class="offcanvas-title" id="offcanvasAppointmentEditLabel">Edit Appointments</h3>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="form-group col-md-12">
+            <label class="form-label" for="Name">Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="Name" value="Courtney Henry">
+        </div>
+        <div class="form-group">
+            <div class="d-flex justify-content-between align-items-center">
+                <label class="form-label" for="profile_image">Profile Image</label>
+            </div>
+            <input type="file" class="form-control" id="profile_image"
+                accept=".jpeg, .jpg, .png, .gif">
+        </div>
+        <div class="form-group col-md-12">
+            <label class="form-label" for="email">Email <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="email" value="courntney@gmail.com">
+        </div>
+        <div class="form-group col-md-12">
+            <label class="form-label" for="datetime">Date And Time <span class="text-danger">*</span></label>
+            <input type="text" id="datetime" class="form-control date_flatpicker flatpickr-input active" value="2023-07-02" readonly="readonly">
+        </div>
+        <div class="form-group col-md-12">
+            <label class="form-label" for="reason">Reason <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="reason" value="Acne Treatment">
+        </div>
+        <div class="form-group">
+            <label class="form-label">Type <span class="text-danger">*</span></label>
+            <select class="form-control select2-basic-single">
+                <option>Select</option>
+                <option selected="selected">New Patient</option>
+                <option>Old Patient</option>
+            </select>
+        </div>
+    </div>
+    <div class="offcanvas-footer border-top">
+        <div class="d-grid d-md-flex gap-3 p-3">
+            <button type="submit" class="btn btn-primary"> 
+                <span class="btn-inner">
+                <span class="text d-inline-block align-middle">Update</span>
+                <span class="icon d-inline-block align-middle ms-1 ps-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor" />
+                    </svg>
+                </span>
+                </span>
+            </button>
+            <button class="btn btn-secondary" type="button" data-bs-dismiss="offcanvas">
+                <span class="btn-inner">
+                <span class="text d-inline-block align-middle">Close</span>
+                <span class="icon d-inline-block align-middle ms-1 ps-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor" />
+                    </svg>
+                </span>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+{{!-- Add New Appointment --}}
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAppointmentAdd"
+    aria-labelledby="offcanvasAppointmentAddLabel">
+    <div class="offcanvas-header border-bottom">
+        <h3 class="offcanvas-title" id="offcanvasAppointmentAddLabel">Add Appointments</h3>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="form-group col-md-12">
+            <label class="form-label" for="addName">Name <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="addName">
+        </div>
+        <div class="form-group">
+            <div class="d-flex justify-content-between align-items-center">
+                <label class="form-label" for="add_profile_image">Profile Image</label>
+            </div>
+            <input type="file" class="form-control" id="add_profile_image" accept=".jpeg, .jpg, .png, .gif">
+        </div>
+        <div class="form-group col-md-12">
+            <label class="form-label" for="add_email">Email <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="add_email">
+        </div>
+        <div class="form-group col-md-12">
+            <label class="form-label" for="add_datetime">Date And Time <span class="text-danger">*</span></label>
+            <input type="text" id="add_datetime" class="form-control date_flatpicker flatpickr-input active" readonly="readonly">
+        </div>
+        <div class="form-group col-md-12">
+            <label class="form-label" for="add_reason">Reason <span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="add_reason">
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="add_type_id">Type <span class="text-danger">*</span></label>
+            <select class="form-control select2-basic-single" id="add_type_id">
+                <option>Select</option>
+                <option>New Patient</option>
+                <option>Old Patient</option>
+            </select>
+        </div>
+    </div>
+    <div class="offcanvas-footer border-top">
+        <div class="d-grid d-md-flex gap-3 p-3">
+            <button type="submit" class="btn btn-primary"> 
+                <span class="btn-inner">
+                <span class="text d-inline-block align-middle">Save</span>
+                <span class="icon d-inline-block align-middle ms-1 ps-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor" />
+                    </svg>
+                </span>
+                </span>
+            </button>
+            <button class="btn btn-secondary" type="button" data-bs-dismiss="offcanvas">
+                <span class="btn-inner">
+                <span class="text d-inline-block align-middle">Close</span>
+                <span class="icon d-inline-block align-middle ms-1 ps-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor" />
+                    </svg>
+                </span>
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+{{/content}}
+{{/extend}}

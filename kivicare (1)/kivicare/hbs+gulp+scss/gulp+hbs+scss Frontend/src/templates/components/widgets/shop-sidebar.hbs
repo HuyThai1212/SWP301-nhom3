@@ -1,0 +1,119 @@
+<div class="widget bg-primary-subtle p-3 p-md-4 mb-5">
+   <form>
+      <div class="custom-form-field shop-search position-relative">
+         <input type="search" name="search" placeholder="Search Products..." class="form-control rm-cancel-btn mb-5 bg-white border"
+            required>
+         <button type="submit" class="position-absolute  end-0 top-0 text-body p-0 border-0 bg-transparent cursor-pointer">
+            <svg class="icon-20" width="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <circle cx="11.7669" cy="11.7666" r="8.98856" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round"></circle>
+               <path d="M18.0186 18.4851L21.5426 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+            </svg>
+         </button>
+      </div>
+   </form>
+   <h4 class="product-title mb-4">Product Categories</h4>
+   <ul class="p-0 mb-5 list-unstyled">
+      <li class="shop-cat-item border-0 pb-0">
+         <a href="" class="position-relative text-uppercase letter-spacing-2">Disease</a>
+         <span class="archiveCount fw-500 ms-1">(2)</span>
+      </li>
+      <li class="shop-cat-item border-0 pb-0">
+         <a href="" class="position-relative text-uppercase letter-spacing-2">eye care</a>
+         <span class="archiveCount fw-500 ms-1">(1)</span>
+      </li>
+      <li class="shop-cat-item border-0 pb-0">
+         <a href="" class="position-relative text-uppercase letter-spacing-2">Health Care</a>
+         <span class="archiveCount fw-500 ms-1">(4)</span>
+      </li>
+      <li class="shop-cat-item border-0 pb-0">
+         <a href="" class="position-relative text-uppercase letter-spacing-2">Medical Equipment</a>
+         <span class="archiveCount fw-500 ms-1">(17)</span>
+      </li>
+      <li class="shop-cat-item border-0 pb-0">
+         <a href="" class="position-relative text-uppercase letter-spacing-2">Physical</a>
+         <span class="archiveCount fw-500 ms-1">(5)</span>
+      </li>
+   </ul>
+   <h4 class="product-title mb-4">Price Filter</h4>
+   <div class="collapse show mb-5" id="iq-product-filter-01">
+      <div class="form-group mt-3 product-range">
+         <div class="range-slider" id="product-price-range"></div>
+      </div>
+      <small class="text-body">Price:</small>
+      <small class="text-body" id="lower-value">$2</small>
+      <small class="text-body">-</small>
+      <small class="text-body" id="upper-value">$123</small>
+   </div>
+   <h4 class="product-title mb-4">Product Size</h4>
+   <ul class="productsize p-0 mb-0 list-unstyled d-flex align-items-center gap-2">
+      <li class="d-inline border mb-0"><a href="">S</a></li>
+      <li class="d-inline border mb-0"><a href="">M</a></li>
+      <li class="d-inline border mb-0"><a href="">L</a></li>
+   </ul>
+</div>
+<div class="product-list-widget p-3 p-md-4 bg-primary-subtle mb-5">
+   <h4 class="product-title mb-4">Top Rated Products</h4>
+   <ul class="p-0 m-0">
+      <li class="d-flex align-items-center gap-3 border-0 mb-4">
+         <div class="img-holder">
+            <img src="{{path}}assets/images/shop/product-9.webp" alt="" class="img-fluid ">
+         </div>
+         <div class="post-blog">
+            <a class="new-link" href="product-standard.html">
+               <h6 class="post-title fw-500 mb-0 text-capitalize">Asthma Inhaler</h6>
+            </a>
+            {{> components/widgets/filter-rating rating="5"}}
+            <span class="fw-bolder price text-body">$45.00</span>
+         </div>
+      </li>
+      <li class="d-flex align-items-center gap-3 border-0 mb-4">
+         <div class="img-holder">
+            <img src="{{path}}assets/images/shop/product-12.webp" alt="" class="img-fluid ">
+         </div>
+         <div class="post-blog">
+            <a class="new-link" href="product-standard.html">
+               <h6 class="post-title fw-500 mb-0 text-capitalize">Dental equipment</h6>
+            </a>
+            {{> components/widgets/filter-rating rating="5"}}
+            <span class="fw-bolder price text-body">$22.00</span>
+         </div>
+      </li>
+      <li class="d-flex align-items-center gap-3 border-0">
+         <div class="img-holder">
+            <img src="{{path}}assets/images/shop/product-10.webp" alt="" class="img-fluid ">
+         </div>
+         <div class="post-blog">
+            <a class="new-link" href="product-standard.html">
+               <h6 class="post-title fw-500 mb-0 text-capitalize">covid-19 dose</h6>
+            </a>
+            {{> components/widgets/filter-rating rating="4"}}
+            <span class="fw-bolder price text-body">$22.00 – $45.00</span>
+         </div>
+      </li>
+   </ul>
+</div>
+<div class="widget widget_tags p-3 p-md-4 bg-primary-subtle">
+   <h4 class="product-title mb-4">Tags</h4>
+   <ul class="p-0 m-0 list-unstyled">
+      <li class="cat-item mb-0 pb-0 border-0 d-inline">
+         <a href="" class="position-relative">Hospital</a>
+      </li>
+      <li class="cat-item mb-0 pb-0 border-0 d-inline">
+         <a href="" class="position-relative">laboratory</a>
+      </li>
+      <li class="cat-item mb-0 pb-0 border-0 d-inline">
+         <a href="" class="position-relative">Medicine</a>
+      </li>
+      <li class="cat-item mb-0 pb-0 border-0 d-inline">
+         <a href="" class="position-relative">nutrition</a>
+      </li>
+      <li class="cat-item mb-0 pb-0 border-0 d-inline">
+         <a href="" class="position-relative">Startup</a>
+      </li>
+      <li class="cat-item mb-0 pb-0 border-0 d-inline">
+         <a href="" class="position-relative">Treatment</a>
+      </li>
+   </ul>
+</div>

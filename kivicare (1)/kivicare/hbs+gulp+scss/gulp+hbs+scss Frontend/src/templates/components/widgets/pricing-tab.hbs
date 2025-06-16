@@ -1,0 +1,73 @@
+{{#compare isActive '==' 'true'}}
+<div class="iq-price-box iq-price-box-tab bg-primary-subtle text-body box-shadow rounded-4">
+   <div class="iq-inner-box">
+      <div class="iq-price-header bg-dark text-white">
+         <div class="text-center">
+            <h4 class="text-secondary">{{pricing-title}}</h4>
+            <p class="mb-0">{{price-description}}</p>
+         </div>
+      </div>
+      <div class="iq-price-body text-center">
+         <p class="mt-0">{{pricing-subtitle}}</p>
+         <h2 class="mb-0">{{price-value}}</h2>
+         <ul class="list-inline border-top mt-5 pt-5">
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-1}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-2}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-3}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-4}}}
+            </li>
+         </ul>
+      </div>
+      <div class="iq-price-footer text-center button-primary">
+         {{> components/widgets/button button-url="pricing-plan-two.html" button-text="read more"}}
+      </div>
+   </div>
+</div>
+{{else}}
+<div class="iq-price-box iq-price-box-tab bg-white text-body box-shadow rounded-4">
+   <div class="iq-inner-box">
+      <div class="iq-price-header bg-primary-subtle text-body">
+         <div class="text-center">
+            <h4>{{pricing-title}}</h4>
+            <p class="mb-0">{{price-description}}</p>
+         </div>
+      </div>
+      <div class="iq-price-body text-center">
+         <p class="mt-0">{{pricing-subtitle}}</p>
+         <h2 class="mb-0">{{price-value}}</h2>
+         <ul class="list-inline border-top mt-5 pt-5">
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-1}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-2}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-3}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-4}}}
+            </li>
+         </ul>
+      </div>
+      <div class="iq-price-footer text-center">
+         {{> components/widgets/button button-url="pricing-plan-two.html" button-text="read more"}}
+      </div>
+   </div>
+</div>
+{{/compare}}

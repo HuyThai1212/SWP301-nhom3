@@ -1,0 +1,607 @@
+{{#extend 'layouts/default' title="laboratory" ismegamenu="true" isHeader-laboratory="true" isFooter-laboratory="true"
+active="laboratory" logo-dynamic="true" logo-image="logo-blue.png"
+path="./" isSwiperSlider="true" isSelect2="true" isFlatpickr="true"
+page_colors='[{"var":"--bs-primary","value":"#86bbd8"},{"var":"--bs-primary-bg-subtle","value":"#eef4f6"},{"var":"--bs-primary-rgb","value":"134,187,216"},{"var":"--bs-primary-shade-10","value":"#eef4f7"},{"var":"--bs-primary-shade-20","value":"#528fb0"},{"var":"--bs-secondary","value":"#336699"},{"var":"--bs-secondary-rgb","value":"15,102,153"}]'}}
+{{#content "content"}}
+
+{{!-- Banner --}}
+<div class="bg-primary-subtle position-relative laboratory-banner">
+    <div class="py-5 bg-secondary position-absolute end-0 top-0 w-50 d-lg-block d-none">
+        <div class="py-5">
+            <div class="py-4"></div>
+        </div>
+    </div>
+    <div class="position-absolute end-0 top-0 h-100 d-lg-block d-none">
+        <div class="px-5 bg-secondary h-50">
+            <div class="px-5">
+                <div class="px-4"></div>
+            </div>
+        </div>
+        <div class="position-absolute start-50 top-50 mt-5 translate-middle-x d-xxl-block d-none">
+            <ul class="list-inline m-0">
+                <li class="mb-4">
+                    <a href="https://www.facebook.com/" class="d-inline-block text-center text-body" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="https://x.com/" class="d-inline-block text-center text-body" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="https://in.pinterest.com/" class="d-inline-block text-center text-body" target="_blank">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" class="d-inline-block text-center text-body" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-xxl-6 col-lg-6">
+                <div class="pt-5 pb-lg-5 pb-0 mb-lg-0 mb-md-n5">
+                    <div class="row">
+                        <div class="col-xxl-9">
+                            <div class="no-sub-title big-font">
+                                {{> components/widgets/title right-text="Uncovering Power Of Research For"
+                                left-text ="New Creativity" title-description ="State of the art Laboratory Services,
+                                Accurate Results Guaranteed. Trust our laboratory for all your Testing Needs."}}
+                            </div>
+                            <div class="pt-xl-5">
+                                {{> components/widgets/button button-text="Research More"
+                                button-url="about-us.html"}}
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 d-xxl-block d-none"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-6 col-lg-6">
+                <div class="section-padding px-0">
+                    <div class="row">
+                        <div class="col-lg-1 d-lg-block d-none"></div>
+                        <div class="col-lg-11 ps-md-5">
+                            <div class="position-relative">
+                                <div class="text-center mt-xl-n5 mt-xl-3">
+                                    <img src="{{path}}assets/images/laboratory/laboratory-banner.webp"
+                                        alt="banner-image" class="img-fluid position-relative">
+                                </div>
+                                <div class="py-4 px-5 bg-primary position-absolute top-50 start-0 d-md-block d-none">
+                                    {{> components/widgets/counter-standard counter-value="30+" counter-title="Research
+                                    Center"}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- About Us --}}
+<div class="section-padding pb-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 position-relative pe-lg-5">
+                <img src="{{path}}assets/images/laboratory/lab-about-us-1.webp" class="img-fluid mb-sm-5 w-100"
+                    alt="laboratory-about-us-1">
+                <img src="{{path}}assets/images/laboratory/lab-about-us-2.webp"
+                    class="img-fluid position-absolute bottom-0 end-0 d-sm-block d-none" alt="laboratory-about-us-2">
+            </div>
+            <div class="col-lg-7 ps-xl-5 mt-lg-0 mt-5">
+                <div class="ps-xl-5">
+                    {{> components/widgets/title sub-title="About Us"
+                    right-text="Journey Of Discover The Uncovering" left-text ="True Identity"
+                    title-description="Laboratory is a company that provides software solutions and digital services to
+                    businesses, with a focus on innovation and customer satisfaction."}}
+                    <div class="iq-list mt-5">
+                        <ul class="iq-list-with-icon list-inline mb-0">
+                            <li class="d-flex align-items-center gap-2 mb-3">
+                                <span class="text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23"
+                                        fill="none">
+                                        <path
+                                            d="M3.43751 11.2499C3.4373 9.92234 3.78659 8.61809 4.45025 7.46828C5.11392 6.31847 6.06857 5.36362 7.21825 4.69974C8.36793 4.03585 9.67212 3.68631 10.9997 3.68626C12.3273 3.68621 13.6315 4.03564 14.7813 4.69944C14.9391 4.78917 15.126 4.81283 15.3012 4.76527C15.4764 4.7177 15.6257 4.60276 15.7165 4.44554C15.8072 4.28832 15.8321 4.10157 15.7857 3.92606C15.7393 3.75054 15.6254 3.60051 15.4688 3.50869C13.7649 2.52499 11.7842 2.13097 9.83358 2.38773C7.883 2.6445 6.07166 3.5377 4.68045 4.92882C3.28924 6.31994 2.39592 8.13123 2.13903 10.0818C1.88214 12.0323 2.27603 14.0132 3.25962 15.717C4.24321 17.4209 5.76154 18.7527 7.57912 19.5057C9.3967 20.2587 11.412 20.391 13.3124 19.882C15.2128 19.373 16.8921 18.2511 18.09 16.6904C19.2878 15.1297 19.9373 13.2173 19.9375 11.2499C19.9375 11.0676 19.8651 10.8927 19.7361 10.7638C19.6072 10.6349 19.4324 10.5624 19.25 10.5624C19.0677 10.5624 18.8928 10.6349 18.7639 10.7638C18.6349 10.8927 18.5625 11.0676 18.5625 11.2499C18.5625 13.2556 17.7658 15.1792 16.3475 16.5974C14.9293 18.0157 13.0057 18.8124 11 18.8124C8.99431 18.8124 7.07076 18.0157 5.65252 16.5974C4.23427 15.1792 3.43751 13.2556 3.43751 11.2499Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M21.1116 4.86164C21.1756 4.79772 21.2263 4.72184 21.2609 4.63832C21.2955 4.5548 21.3133 4.46529 21.3133 4.37489C21.3133 4.28449 21.2955 4.19498 21.2609 4.11146C21.2263 4.02795 21.1756 3.95206 21.1116 3.88814C21.0477 3.82422 20.9718 3.77352 20.8883 3.73892C20.8048 3.70433 20.7153 3.68652 20.6249 3.68652C20.5345 3.68652 20.445 3.70433 20.3615 3.73892C20.2779 3.77352 20.2021 3.82422 20.1381 3.88814L10.9999 13.0278L7.36164 9.38814C7.29772 9.32422 7.22184 9.27352 7.13832 9.23892C7.0548 9.20433 6.96529 9.18652 6.87489 9.18652C6.78449 9.18652 6.69498 9.20433 6.61146 9.23892C6.52795 9.27352 6.45206 9.32422 6.38814 9.38814C6.32422 9.45206 6.27352 9.52795 6.23892 9.61146C6.20433 9.69498 6.18652 9.78449 6.18652 9.87489C6.18652 9.96529 6.20433 10.0548 6.23892 10.1383C6.27352 10.2218 6.32422 10.2977 6.38814 10.3616L10.5131 14.4866C10.577 14.5507 10.6529 14.6015 10.7364 14.6361C10.8199 14.6708 10.9095 14.6886 10.9999 14.6886C11.0903 14.6886 11.1799 14.6708 11.2634 14.6361C11.3469 14.6015 11.4228 14.5507 11.4866 14.4866L21.1116 4.86164Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                <span class="text-capitalize text-body">Contrary to popular belief Lorem Ipsum is not
+                                    simply random text</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-2 mb-3">
+                                <span class="text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23"
+                                        fill="none">
+                                        <path
+                                            d="M3.43751 11.2499C3.4373 9.92234 3.78659 8.61809 4.45025 7.46828C5.11392 6.31847 6.06857 5.36362 7.21825 4.69974C8.36793 4.03585 9.67212 3.68631 10.9997 3.68626C12.3273 3.68621 13.6315 4.03564 14.7813 4.69944C14.9391 4.78917 15.126 4.81283 15.3012 4.76527C15.4764 4.7177 15.6257 4.60276 15.7165 4.44554C15.8072 4.28832 15.8321 4.10157 15.7857 3.92606C15.7393 3.75054 15.6254 3.60051 15.4688 3.50869C13.7649 2.52499 11.7842 2.13097 9.83358 2.38773C7.883 2.6445 6.07166 3.5377 4.68045 4.92882C3.28924 6.31994 2.39592 8.13123 2.13903 10.0818C1.88214 12.0323 2.27603 14.0132 3.25962 15.717C4.24321 17.4209 5.76154 18.7527 7.57912 19.5057C9.3967 20.2587 11.412 20.391 13.3124 19.882C15.2128 19.373 16.8921 18.2511 18.09 16.6904C19.2878 15.1297 19.9373 13.2173 19.9375 11.2499C19.9375 11.0676 19.8651 10.8927 19.7361 10.7638C19.6072 10.6349 19.4324 10.5624 19.25 10.5624C19.0677 10.5624 18.8928 10.6349 18.7639 10.7638C18.6349 10.8927 18.5625 11.0676 18.5625 11.2499C18.5625 13.2556 17.7658 15.1792 16.3475 16.5974C14.9293 18.0157 13.0057 18.8124 11 18.8124C8.99431 18.8124 7.07076 18.0157 5.65252 16.5974C4.23427 15.1792 3.43751 13.2556 3.43751 11.2499Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M21.1116 4.86164C21.1756 4.79772 21.2263 4.72184 21.2609 4.63832C21.2955 4.5548 21.3133 4.46529 21.3133 4.37489C21.3133 4.28449 21.2955 4.19498 21.2609 4.11146C21.2263 4.02795 21.1756 3.95206 21.1116 3.88814C21.0477 3.82422 20.9718 3.77352 20.8883 3.73892C20.8048 3.70433 20.7153 3.68652 20.6249 3.68652C20.5345 3.68652 20.445 3.70433 20.3615 3.73892C20.2779 3.77352 20.2021 3.82422 20.1381 3.88814L10.9999 13.0278L7.36164 9.38814C7.29772 9.32422 7.22184 9.27352 7.13832 9.23892C7.0548 9.20433 6.96529 9.18652 6.87489 9.18652C6.78449 9.18652 6.69498 9.20433 6.61146 9.23892C6.52795 9.27352 6.45206 9.32422 6.38814 9.38814C6.32422 9.45206 6.27352 9.52795 6.23892 9.61146C6.20433 9.69498 6.18652 9.78449 6.18652 9.87489C6.18652 9.96529 6.20433 10.0548 6.23892 10.1383C6.27352 10.2218 6.32422 10.2977 6.38814 10.3616L10.5131 14.4866C10.577 14.5507 10.6529 14.6015 10.7364 14.6361C10.8199 14.6708 10.9095 14.6886 10.9999 14.6886C11.0903 14.6886 11.1799 14.6708 11.2634 14.6361C11.3469 14.6015 11.4228 14.5507 11.4866 14.4866L21.1116 4.86164Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                <span class="text-capitalize text-body">simply dummy text of the printing and
+                                    typesetting industry</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-2">
+                                <span class="text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23"
+                                        fill="none">
+                                        <path
+                                            d="M3.43751 11.2499C3.4373 9.92234 3.78659 8.61809 4.45025 7.46828C5.11392 6.31847 6.06857 5.36362 7.21825 4.69974C8.36793 4.03585 9.67212 3.68631 10.9997 3.68626C12.3273 3.68621 13.6315 4.03564 14.7813 4.69944C14.9391 4.78917 15.126 4.81283 15.3012 4.76527C15.4764 4.7177 15.6257 4.60276 15.7165 4.44554C15.8072 4.28832 15.8321 4.10157 15.7857 3.92606C15.7393 3.75054 15.6254 3.60051 15.4688 3.50869C13.7649 2.52499 11.7842 2.13097 9.83358 2.38773C7.883 2.6445 6.07166 3.5377 4.68045 4.92882C3.28924 6.31994 2.39592 8.13123 2.13903 10.0818C1.88214 12.0323 2.27603 14.0132 3.25962 15.717C4.24321 17.4209 5.76154 18.7527 7.57912 19.5057C9.3967 20.2587 11.412 20.391 13.3124 19.882C15.2128 19.373 16.8921 18.2511 18.09 16.6904C19.2878 15.1297 19.9373 13.2173 19.9375 11.2499C19.9375 11.0676 19.8651 10.8927 19.7361 10.7638C19.6072 10.6349 19.4324 10.5624 19.25 10.5624C19.0677 10.5624 18.8928 10.6349 18.7639 10.7638C18.6349 10.8927 18.5625 11.0676 18.5625 11.2499C18.5625 13.2556 17.7658 15.1792 16.3475 16.5974C14.9293 18.0157 13.0057 18.8124 11 18.8124C8.99431 18.8124 7.07076 18.0157 5.65252 16.5974C4.23427 15.1792 3.43751 13.2556 3.43751 11.2499Z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M21.1116 4.86164C21.1756 4.79772 21.2263 4.72184 21.2609 4.63832C21.2955 4.5548 21.3133 4.46529 21.3133 4.37489C21.3133 4.28449 21.2955 4.19498 21.2609 4.11146C21.2263 4.02795 21.1756 3.95206 21.1116 3.88814C21.0477 3.82422 20.9718 3.77352 20.8883 3.73892C20.8048 3.70433 20.7153 3.68652 20.6249 3.68652C20.5345 3.68652 20.445 3.70433 20.3615 3.73892C20.2779 3.77352 20.2021 3.82422 20.1381 3.88814L10.9999 13.0278L7.36164 9.38814C7.29772 9.32422 7.22184 9.27352 7.13832 9.23892C7.0548 9.20433 6.96529 9.18652 6.87489 9.18652C6.78449 9.18652 6.69498 9.20433 6.61146 9.23892C6.52795 9.27352 6.45206 9.32422 6.38814 9.38814C6.32422 9.45206 6.27352 9.52795 6.23892 9.61146C6.20433 9.69498 6.18652 9.78449 6.18652 9.87489C6.18652 9.96529 6.20433 10.0548 6.23892 10.1383C6.27352 10.2218 6.32422 10.2977 6.38814 10.3616L10.5131 14.4866C10.577 14.5507 10.6529 14.6015 10.7364 14.6361C10.8199 14.6708 10.9095 14.6886 10.9999 14.6886C11.0903 14.6886 11.1799 14.6708 11.2634 14.6361C11.3469 14.6015 11.4228 14.5507 11.4866 14.4866L21.1116 4.86164Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                                <span class="text-capitalize text-body">majority have suffered alteration in injected
+                                    randomized words</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="border-top mt-5 pt-5">
+                        <div class="row">
+                            <div class="col-sm-5 align-self-center">
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="flex-shrink-0">
+                                        <img src="{{path}}assets/images/laboratory/lab-user.webp" alt="user"
+                                            class="img-fluid">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">Mr. Mark Williams</h6>
+                                        <p class="m-0">CEO & Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 text-center d-sm-block d-none">
+                                <div class="vr h-100"></div>
+                            </div>
+                            <div class="col-sm-5 align-self-center mt-sm-0 mt-4">
+                                <img src="{{path}}assets/images/laboratory/lab-signature.webp" alt="signature"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Service --}}
+<div class="section-padding">
+    <div class="container">
+        <div class="text-center">
+            {{> components/widgets/title sub-title="Kivicare Services" right-text="Path Of Advanced"
+            left-text="Testing"}}
+        </div>
+        <div class="position-relative swiper iq-service-slider overflow-hidden">
+            <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                <li class="swiper-slide">
+                    {{> components/widgets/service-slider-side-content service-image="/service/coronary-heart.webp" service-title="Coronary Heart"
+                    service-desc="there are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form"
+                    btn-url="service-detail.html"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/service-slider-side-content service-image="/service/relationship-issue.webp" service-title="Relationship Issue"
+                    service-desc="there are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form"
+                    btn-url="service-detail.html"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/service-slider-side-content service-image="/service/bipolor-disorder.webp" service-title="Bipolor Disorder"
+                    service-desc="there are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form"
+                    btn-url="service-detail.html"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/service-slider-side-content service-image="/service/Depression.webp" service-title="Depression"
+                    service-desc="there are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form"
+                    btn-url="service-detail.html"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/service-slider-side-content service-image="/service/Couple-therapy.webp" service-title="Couple Therapy"
+                    service-desc="there are many variations of Lorem Ipsum available, but the majority have suffered alteration in some form"
+                    btn-url="service-detail.html"}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{!-- What We do --}}
+<div class="section-padding bg-secondary">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="iq-title-box">
+                    <span class="iq-subtitle text-uppercase text-white">What We Do</span>
+                    <h2 class="iq-title iq-heading-title text-white">
+                        <span class="right-text text-capitalize fw-500">Changing The Way Of Your Testing</span>
+                        <span class="left-text text-capitalize fw-light">And Research</span>
+                    </h2>
+                    <p class="iq-title-desc text-white mt-3 mb-0">
+                        Kivicare is a healthcare platform that provides virtual medical consultations and manages health
+                        records. Testing ensures seamless user experience and data security.
+                    </p>
+                </div>
+                <div class="iq-list mt-5">
+                    <ul class="iq-list-with-icon list-inline mb-0">
+                        <li class="d-flex align-items-center gap-2 mb-4">
+                            <span class="counter-numbers text-white flex-shrink-0">1</span>
+                            <span class="text-capitalize text-white">Always Accurate To Our Research And Testing In
+                                Laboratory.</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-4">
+                            <span class="counter-numbers text-white flex-shrink-0">2</span>
+                            <span class="text-capitalize text-white">Evaluating Consistency And Reliability Of
+                                Laboratory Results.</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <span class="counter-numbers text-white flex-shrink-0">3</span>
+                            <span class="text-capitalize text-white">Precision To Testing And Focus On Medical
+                                Checkup.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-lg-5 mt-5 button-primary">
+                    <div class="iq-btn-container">
+                        <a class="iq-button text-capitalize bg-transparent border border-primary"
+                            href="./about-us.html">
+                            <span class="iq-btn-text-holder position-relative">Read More</span>
+                            <span class="iq-btn-icon-holder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8"
+                                    fill="none">
+                                    <path
+                                        d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5">
+                <img src="{{path}}assets/images/laboratory/lab-what-we-do.webp" alt="what-we-do"
+                    class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- solutions --}}
+<div class="section-padding pb-0">
+    <div class="container">
+        {{> components/widgets/title sub-title="Lab Solutions" right-text="Our Laboratory"
+        left-text="Solutions"}}
+        <nav class="tab-bottom-bordered tab-border-botton-style-2 border-0 mb-5">
+            <div class="mb-0 nav nav-tabs justify-content-lg-between justify-content-center gap-3" id="nav-tab1"
+                role="tablist">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#lab-tab-1" type="button"
+                    role="tab" aria-controls="doc-all" aria-selected="true">Experiment Research &
+                    Testing</button>
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#lab-tab-2" type="button"
+                    role="tab" aria-controls="cardiologist" aria-selected="false">Advanced Sample
+                    Preparation</button>
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#lab-tab-3" type="button"
+                    role="tab" aria-controls="lab-tab-3" aria-selected="false">Consistency Quality
+                    Control</button>
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#lab-tab-4" type="button"
+                    role="tab" aria-controls="lab-tab-4" aria-selected="false">Results Interpretation</button>
+            </div>
+        </nav>
+        <div class="tab-content iq-tab-fade-up pt-lg-5 pt-3" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="lab-tab-1" role="tabpanel">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="{{path}}assets/images/laboratory/lab-tab-1.webp" alt="lab-tab-1"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div class="no-sub-title">
+                            <div class="iq-title-box">
+                                <h3 class="iq-title iq-heading-title">
+                                    <span class="right-text text-capitalize fw-500">Exploring Efficacy Of
+                                        Research</span>
+                                    <span class="left-text text-capitalize fw-light">Through
+                                        Experimentation</span>
+                                </h3>
+                                <p class="iq-title-desc text-body mt-3 mb-0">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                    roots in a piece of classical Latin literature from 45 BC, making it over
+                                    2000 years old.
+                                </p>
+                            </div>
+                            {{> components/widgets/button-link button-text="Read More"
+                            button-url="about-us.html"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lab-tab-2" role="tabpanel">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="{{path}}assets/images/laboratory/lab-tab-2.webp" alt="lab-tab-1"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div class="no-sub-title">
+                            <div class="iq-title-box">
+                                <h3 class="iq-title iq-heading-title">
+                                    <span class="right-text text-capitalize fw-500">Decoding Data Interpreting
+                                        Results</span>
+                                    <span class="left-text text-capitalize fw-light">With Precision</span>
+                                </h3>
+                                <p class="iq-title-desc text-body mt-3 mb-0">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                    roots in a piece of classical Latin literature from 45 BC, making it over
+                                    2000 years old.
+                                </p>
+                            </div>
+                            {{> components/widgets/button-link button-text="Read More"
+                            button-url="about-us.html"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lab-tab-3" role="tabpanel">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="{{path}}assets/images/laboratory/lab-tab-3.webp" alt="lab-tab-1"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div class="no-sub-title">
+                            <div class="iq-title-box">
+                                <h3 class="iq-title iq-heading-title">
+                                    <span class="right-text text-capitalize fw-500">Cutting Edge Techniques
+                                        For</span>
+                                    <span class="left-text text-capitalize fw-light">Sample Preparation</span>
+                                </h3>
+                                <p class="iq-title-desc text-body mt-3 mb-0">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                    roots in a piece of classical Latin literature from 45 BC, making it over
+                                    2000 years old.
+                                </p>
+                            </div>
+                            {{> components/widgets/button-link button-text="Read More"
+                            button-url="about-us.html"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lab-tab-4" role="tabpanel">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="{{path}}assets/images/laboratory/lab-tab-4.webp" alt="lab-tab-1"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div class="no-sub-title">
+                            <div class="iq-title-box">
+                                <h3 class="iq-title iq-heading-title">
+                                    <span class="right-text text-capitalize fw-500">Ensuring Consistent
+                                        Quality</span>
+                                    <span class="left-text text-capitalize fw-light">Control Standards</span>
+                                </h3>
+                                <p class="iq-title-desc text-body mt-3 mb-0">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                    roots in a piece of classical Latin literature from 45 BC, making it over
+                                    2000 years old.
+                                </p>
+                            </div>
+                            {{> components/widgets/button-link button-text="Read More"
+                            button-url="about-us.html"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Testimonail --}}
+<div class="section-padding-top px-0 position-relative mb-md-0 mb-5">
+    <div class="container-fluid">
+        <div class="section-padding px-0" style="background-color: var(--bs-primary-shade-10);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="testimonial-standard-with-seprator-wrapper position-relative overflow-hidden swiper swiper-general"
+                            data-slide="1" data-laptop="1" data-tab="1" data-mobile="1" data-mobile-sm="1"
+                            data-autoplay="true" data-loop="true" data-navigation="true" data-pagination="true">
+                            <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+                                <li class="swiper-slide">
+                                    {{> components/widgets/testimonial-standard-with-seprator isTeastimonialicon="true"
+                                    isRatting="true" quote-image="testimonial/quote-lab.svg" rating="4"
+                                    testimonial-image="/testimonial/user-1.webp" testimonial-user="Moric Horgon"
+                                    testimonial-meta="Patient" testimonial-content="“You can’t go wrong here. I receive
+                                    the best
+                                    care and attention. The nursing staff and doctors are amazing and take their time
+                                    with you.
+                                    I felt better walking out here every time.”"}}
+                                </li>
+                                <li class="swiper-slide">
+                                    {{> components/widgets/testimonial-standard-with-seprator isTeastimonialicon="true"
+                                    isRatting="true" quote-image="testimonial/quote-lab.svg" rating="3"
+                                    testimonial-image="/testimonial/user-2.webp" testimonial-user="Julia Roberts"
+                                    testimonial-meta="Healthcare" testimonial-content="“Still very professional but a
+                                    much more
+                                    relaxed atmosphere. This makes for a more comfortable experience which is helpful in
+                                    dealing
+                                    with medical issues.”"}}
+                                </li>
+                                <li class="swiper-slide">
+                                    {{> components/widgets/testimonial-standard-with-seprator isTeastimonialicon="true"
+                                    isRatting="true" quote-image="testimonial/quote-lab.svg" rating="5"
+                                    testimonial-image="/testimonial/user-3.webp" testimonial-user="Jack leo"
+                                    testimonial-meta="COO company" testimonial-content="“It has been very effective, in
+                                    my
+                                    opinion. It has made everyone more relaxed in a very comfortable atmosphere. We have
+                                    always felt like family here, even more so now.”"}}
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 d-none d-xl-block"></div>
+                    <div class="col-xl-5 col-lg-6 mt-lg-0 mt-5">
+                        {{> components/widgets/title sub-title="Book Appointment" right-text="Book Your" left-text="Lab
+                        Test"}}
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="custom-form-field mb-5">
+                                        <input type="number" name="your-name" placeholder="Phone Number *"
+                                            class="form-control bg-white" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="custom-form-field mb-5">
+                                        <input type="email" name="your-email" placeholder="Your Email *"
+                                            class="form-control bg-white" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="custom-form-field mb-5">
+                                        <select class="select2-basic-single js-states" aria-label="Select Department *"
+                                            required="required">
+                                            <option value="" selected>Select Department *</option>
+                                            <option value="1">India</option>
+                                            <option value="2">United Kingdom</option>
+                                            <option value="3">United States</option>
+                                            <option value="4">Australia</option>
+                                            <option value="5">North Corea</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="custom-form-field mb-5">
+                                        <select class="select2-basic-single js-states" aria-label="Select Doctor *"
+                                            required="required">
+                                            <option value="" selected>Select Doctor *</option>
+                                            <option value="1">Gunner Peha</option>
+                                            <option value="2">Lewis Scobee</option>
+                                            <option value="3">Damian Melcher</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="custom-form-field mb-5">
+                                        <input type="text"
+                                            class="form-control bg-white date_flatpicker flatpickr-input active"
+                                            placeholder="Select Date *" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="custom-form-field mb-5">
+                                        <input type="text" name="start_time"
+                                            class="form-control bg-white time_flatpicker flatpickr-input active"
+                                            placeholder="Select Time *" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="iq-btn-container">
+                                        <button class="iq-button text-capitalize border-0" type="submit">
+                                            <span class="iq-btn-text-holder position-relative">Book Now </span>
+                                            <span class="iq-btn-icon-holder">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                                                    viewBox="0 0 8 8" fill="none">
+                                                    <path
+                                                        d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-primary margin-negative-400">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="pt-md-5 pt-4 text-center">
+                    <h5 class="mt-md-5 mt-4 mb-3 text-secondary">Or Just Give Us A Call</h5>
+                    <h2><a href="tel:+08002466721" class="text-white d-inline-block pb-4 mb-5 border-bottom">+ 0800 24
+                            66 721</a></h2>
+                    <h6 class="mb-md-5 mb-4"><i>24/7, 365 Days A Year Always Open For You</i></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Blog --}}
+<div class="section-padding">
+    <div class="container">
+        <div class="text-center position-relative">
+            {{> components/widgets/title sub-title="blog" right-text="Stay Updated With Our"
+            left-text="Latest Articles"}}
+        </div>
+        <div class="position-relative overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2"
+            data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true"
+            data-pagination="true">
+            <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-1.webp"
+                    blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="OPD cover gaining popularity among Indian consumers"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-2.webp"
+                    blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-3.webp"
+                    blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-4.webp"
+                    blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="A Revolutionary Change in Paediatric Healthcare"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-5.webp"
+                    blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="Could Eyedrops Replace Reading Glasses?"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-6.webp"
+                    blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="A World With Only Optimized Experiences Is Just Boring"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-7.webp"
+                    blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="Some questions about nutrition?"}}
+                </li>
+                <li class="swiper-slide">
+                    {{> components/widgets/blog-overdetail-style-2 blog-image="blog/blog-8.webp"
+                    blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="What are the 7 parts of the eye?"}}
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+{{/content}}
+{{/extend}}

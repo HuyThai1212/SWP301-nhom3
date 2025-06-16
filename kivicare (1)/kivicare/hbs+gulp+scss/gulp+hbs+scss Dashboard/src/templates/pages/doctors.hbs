@@ -1,0 +1,143 @@
+{{#extend layout title="Doctors" active="doctors" path="./" isSelect2="true" isTour="true" isFlatpickr="true"
+isBanner="false" isHeader="true"}}
+{{#content "content"}}
+
+{{> pages/widget/top-nav}}
+<div class="card">
+    <div class="card-header d-flex align-items-center justify-content-between flex-wrap gap-3">
+        <div>
+            <h4>All Doctors</h4>
+            <span>More Than 25+ New Doctors</span>
+        </div>
+        <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAddDoctor" aria-controls="offcanvasAddDoctor">
+            <span class="btn-inner">
+                <span class="text d-inline-block align-middle">Add New</span>
+                <span class="icon d-inline-block align-middle ms-1 ps-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                        <path
+                            d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                            fill="currentColor" />
+                    </svg>
+                </span>
+            </span>
+         </button>
+    </div>
+    <div class="card-body pt-0">
+        <div class="row row-cols-xl-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/1.webp" DoctorName="Dr.Amine Louis" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/2.webp" DoctorName="Dr. Emily Thompson" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/3.webp" DoctorName="Dr. Ethan Rodriguez" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/4.webp" DoctorName="Dr. Alexandra Johnson" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/5.webp" DoctorName="Dr. Christopher Martinez" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/6.webp" DoctorName="Dr. Samantha Taylor" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/7.webp" DoctorName="Dr. Benjamin Davis" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/8.webp" DoctorName="Dr. Olivia Wilson" DoctorCategory="Skin Specialist" PatientList="120 patients served" WorkingTime=" Monday - Friday"}}
+            </div>
+            <div class="col">
+                {{> pages/widget/doctor-info DrProfile="doctor/9.webp" DoctorName="Dr. Matthew Anderson" DoctorCategory="Skin Specialist" PatientList="120 patients served"}}
+            </div>
+        </div>
+    </div>
+    <div class="card-footer pt-0">
+    {{> pages/widget/pagination}}
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAddDoctor" aria-labelledby="offcanvasAddDoctorLabel">
+  <div class="offcanvas-header border-bottom">
+    <h3 class="offcanvas-title" id="offcanvasAddDoctorLabel">Add Doctor</h3>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="form-group col-md-12">
+        <label class="form-label" for="Name">Name <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="Name" placeholder="">
+        <span class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <div class="d-flex justify-content-between align-items-center">
+            <label class="form-label" for="profile_image">Profile Image</label>
+        </div>
+        <input type="file" class="form-control" id="profile_image" accept=".jpeg, .jpg, .png, .gif">
+        <span class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="form-label" for="category_id">Category <span class="text-danger">*</span></label>
+        <select class="form-control select2-basic-single" id="category_id">
+            <option>Select</option>
+            <option>Skin Specialist</option>
+            <option>Pediatrician</option>
+            <option>General Checkup</option>
+            <option>Psychiatrist</option>
+            <option>Orthopedics</option>
+            <option>Eye Care</option>
+            <option>Cardiac</option>
+            <option>Dentist</option>
+            <option>Fertility</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label class="form-label" for="availability_id">Availability <span class="text-danger">*</span></label>
+        <select class="form-control select2-basic-single" id="availability_id">
+            <option>Select</option>
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Fryday</option>
+            <option>Satuarday</option>
+            <option>Sunday</option>
+            <option>Monday - Friday</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <div class="d-flex justify-content-between align-items-center">
+            <label class="form-label" for="patients-served">Patients Served</label>
+        </div>
+        <input type="text" class="form-control" id="patients-served" placeholder="">
+        <span class="text-danger"></span>
+    </div>
+  </div>
+  <div class="offcanvas-footer border-top">
+        <div class="d-grid d-md-flex gap-3 p-3">
+            <button type="reset" class="btn btn-primary d-block">  
+                <span class="btn-inner">
+                    <span class="text d-inline-block align-middle">Save</span>
+                    <span class="icon d-inline-block align-middle ms-1 ps-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                            <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor" />
+                        </svg>
+                    </span>
+                </span>
+            </button>
+            <button class="btn btn-secondary d-block" type="button" data-bs-dismiss="offcanvas"> 
+                <span class="btn-inner">
+                    <span class="text d-inline-block align-middle">Close</span>
+                    <span class="icon d-inline-block align-middle ms-1 ps-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                            <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor" />
+                        </svg>
+                    </span>
+                </span>
+            </button>
+        </div>
+  </div>
+</div>
+
+{{/content}}
+{{/extend}}

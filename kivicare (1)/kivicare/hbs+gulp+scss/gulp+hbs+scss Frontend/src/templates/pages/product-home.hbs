@@ -1,0 +1,429 @@
+{{#extend 'layouts/default' title="product-home" isHeader-product-home="true" isFooter-product="true"
+active="product-home"
+path="./" isSwiperSlider="true" isSweetalert="true" isCountDown="true" ismegamenu="true"}}
+{{#content "scripts"}}
+<script src="{{path}}assets/js/plugins/countdown.js"></script>
+{{/content}}
+{{#content "content"}}
+{{!-- Banner --}}
+<div class="product-home-banner section-padding bg-primary-subtle position-relative px-0 rtl-image-flip"
+    style="background-image: url('{{path}}assets/images/product-home/product-home-banner.png'); background-repeat: no-repeat; background-position: top right;">
+    <div class="container-fluid h-100 rtl-image-flip-container">
+        <div class="row align-items-center h-100">
+            <div class="col-lg-5">
+                <div class="no-sub-title big-font">
+                    {{> components/widgets/title right-text=" Our Prices Make Your Heart"
+                    left-text ="Healthy Too"
+                    title-description ="Nulla et aliquam arcu. Sed porttitor pellentesque ultricies. Vestibulum
+                    ullamcorper erat eu mi lacinia, id elementum nunc blandit. Morbi sed enim porttitor, porta urna
+                    eget, commodo nibh"}}
+                </div>
+                <div class="pt-xl-5">
+                    <div class="button-primary">
+                        {{> components/widgets/button button-text="Shop Home"
+                        button-url="shop.html"}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 d-lg-block d-none"></div>
+        </div>
+    </div>
+</div>
+{{!-- Product Grid --}}
+<div class="section-padding pb-xl-5 pb-md-2 pb-4">
+    <div class="pb-xl-5">
+        <div class="pb-xl-5">
+            <div class="container-fluid">
+                <div class="position-relative text-center">
+                    {{> components/widgets/scrolling-text scroll-title="Latest Products"}}
+                </div>
+                <div class="text-center">
+                    {{> components/widgets/title sub-title ="Product" right-text="All Our Latest"
+                    left-text ="Products"}}
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
+                    <div class="col">
+                        {{> components/widgets/product-card IsNew="true"
+                        product-image="/shop/product-1.webp" product-category="Home Equipment"
+                        product-title="Electric Toothbrush" price-value="$123" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsSale="true"
+                        product-image="/shop/product-2.webp" product-category="Medical Equipment"
+                        product-title="Medical Box" price-value="$92" rating="4"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card
+                        product-image="/shop/product-3.webp" product-category="Health Care,Physical"
+                        product-title="Hand Sanitizer Bottle" price-value="$90" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsNew="true"
+                        product-image="/shop/product-4.webp" product-category="Medical Equipment"
+                        product-title="Wheel Chair" price-value="$89" rating="3"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsSale="true"
+                        product-image="/shop/product-5.webp" product-category="Medical Equipment"
+                        product-title="Stethoscope" price-value="$72" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card
+                        product-image="/shop/product-6.webp" product-category="Physical" product-title="Farma
+                        Medicine" price-value="$69" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsSale="true"
+                        product-image="/shop/product-7.webp" product-category="Medical Equipment"
+                        product-title="Handgloves" price-value="$55" rating="2"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card
+                        product-image="/shop/product-8.webp" product-category="Medical Equipment"
+                        product-title="Headache Medicine" price-value="$46" rating="0"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsNew="true"
+                        product-image="/shop/product-9.webp" product-category="Health Care" product-title="Asthma
+                        Inhaler" price-value="$45" rating="4"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsSale="true"
+                        product-image="/shop/product-10.webp" product-category="Medical Equipment"
+                        product-title="Orange Carrot" price-value="$41" rating="5"}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Product Banner --}}
+<div class="section-padding rtl-image-flip"
+    style="background-image: url('{{path}}assets/images/product-home/Deal-of-the-day-1.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <div class="container rtl-image-flip-container">
+        <div class="row">
+            <div class="col-md-5">
+                {{> components/widgets/title sub-title ="Product" right-text="Deal of" left-text
+                ="the Week" title-description="At vero eos et accusamus et iusto odio dignissimos ducimus qui"}}
+                {{> components/widgets/count-down time-duration="30-05-2025"}}
+                <div class="button-primary mt-xl-5">
+                    {{> components/widgets/button button-text="Shop Home" button-url="shop.html"}}
+                </div>
+            </div>
+            <div class="col-md-5 d-md-block d-none"></div>
+        </div>
+    </div>
+</div>
+{{!-- Banner --}}
+<div class="mt-5">
+    <div class="container-fluid">
+        <div class="row gy-4">
+            <div class="col-lg-6">
+                <div class="p-5 rtl-image-flip"
+                    style="background-image: url('{{path}}assets/images/product-home/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                    <div class="p-lg-5 rtl-image-flip-container">
+                        {{> components/widgets/title sub-title ="UPTO 50% OFF" right-text="Super
+                        Offer" title-description="amazing deals are here . Grab the offer"}}
+                        <div class="button-primary pt-md-5">
+                            {{> components/widgets/button button-text="Order Now"
+                            button-url="shop.html"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5 rtl-image-flip"
+                    style="background-image: url('{{path}}assets/images/product-home/banner2.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                    <div class="p-lg-5 rtl-image-flip-container">
+                        {{> components/widgets/title sub-title ="Now & Never" right-text="Upto 70%
+                        Off" title-description="amazing deals are here . Grab the offer"}}
+                        <div class="pt-md-5">
+                            {{> components/widgets/button button-text="Order Now"
+                            button-url="shop.html"}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Best Products --}}
+<div class="section-padding pb-xl-5 pb-md-2 pb-4">
+    <div class="pb-xl-5">
+        <div class="pb-xl-5">
+            <div class="container-fluid">
+                <div class="position-relative text-center">
+                    {{> components/widgets/scrolling-text scroll-title="Latest Products"}}
+                </div>
+                <div class="text-center">
+                    {{> components/widgets/title sub-title ="Product" right-text="Best selling"
+                    left-text ="Products"}}
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 mb-n5">
+                    <div class="col">
+                        {{> components/widgets/product-card IsSale="true"
+                        product-image="/shop/product-10.webp" product-category="Medical Equipment"
+                        product-title="Orange Carrot" price-value="$41" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsNew="true"
+                        product-image="/shop/product-4.webp" product-category="Medical Equipment"
+                        product-title="Wheel Chair" price-value="$89" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsNew="true"
+                        product-image="/shop/product-9.webp" product-category="Health Care" product-title="Asthma
+                        Inhaler" price-value="$45" rating="4"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card
+                        product-image="/shop/product-3.webp" product-category="Health Care,Physical"
+                        product-title="Hand Sanitizer Bottle" price-value="$90" rating="5"}}
+                    </div>
+                    <div class="col">
+                        {{> components/widgets/product-card IsNew="true"
+                        product-image="/shop/product-1.webp" product-category="Home Equipment"
+                        product-title="Electric Toothbrush" price-value="$123" rating="5"}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Video Popup --}}
+<div class="video-popup">
+    <div class="container-fluid">
+        <div class="position-relative padding-200"
+            style="background-image: url({{path}}assets/images/product-home/product-home-popup.jpg); background-size:cover">
+            <div class="section-padding">
+                <div class="position-absolute h-100 w-100 bg-light opacity-25 top-0 start-0"></div>
+                {{> components/widgets/video-popup isShapeCircle="true"
+                video-link-url="https://www.youtube.com/watch?v=VeDdpy4CdeM" }}
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Blog --}}
+<div class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="position-relative text-center">
+                    {{> components/widgets/scrolling-text scroll-title="Latest Blog"}}
+                </div>
+                <div class="text-center">
+                    {{> components/widgets/title sub-title ="Blogs" right-text="Read Our Latest"
+                    left-text ="News And Advices"}}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="position-relative overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3"
+                    data-tab="2" data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true"
+                    data-navigation="true" data-pagination="true">
+                    <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-1.webp"
+                            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="OPD cover gaining popularity among Indian consumers" blog-description="It may
+                            give you a moment of relief, but you're also spreading dirt and bacteria into your eyes when
+                            you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-2.webp"
+                            blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Why Is Dry Eye So Difficult to Treat?" blog-description="It may give you a
+                            moment of relief, but you're also spreading dirt and bacteria into your eyes when you rub
+                            them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-3.webp"
+                            blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria"
+                            blog-description="It may give you a moment of relief, but you're also spreading dirt and
+                            bacteria into your eyes when you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-4.webp"
+                            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="A Revolutionary Change in Paediatric Healthcare" blog-description="It may give
+                            you a moment of relief, but you're also spreading dirt and bacteria into your eyes when you
+                            rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-5.webp"
+                            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Could Eyedrops Replace Reading Glasses?" blog-description="It may give you a
+                            moment of relief, but you're also spreading dirt and bacteria into your eyes when you rub
+                            them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-6.webp"
+                            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="A World With Only Optimized Experiences Is Just Boring" blog-description="It may
+                            give you a moment of relief, but you're also spreading dirt and bacteria into your eyes when
+                            you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-7.webp"
+                            blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Some questions about nutrition?" blog-description="It may give you a moment of
+                            relief, but you're also spreading dirt and bacteria into your eyes when you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-8.webp"
+                            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="What are the 7 parts of the eye?" blog-description="It may give you a moment of
+                            relief, but you're also spreading dirt and bacteria into your eyes when you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-9.webp"
+                            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Is it okay to cleanse your body by fasting from time to time?"
+                            blog-description="It may give you a moment of relief, but you're also spreading dirt and
+                            bacteria into your eyes when you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-10.webp"
+                            blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Are Short Workouts Worth It?" blog-description="It may give you a moment of
+                            relief, but you're also spreading dirt and bacteria into your eyes when you rub them."}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/blog-image-hover isDesc="true"
+                            blog-image="blog/blog-11.webp"
+                            blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                            blog-title="Will I need more medical tests?" blog-description="It may give you a moment of
+                            relief, but you're also spreading dirt and bacteria into your eyes when you rub them."}}
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Testimonial --}}
+<div class="mx-xxl-5 px-xxl-5">
+    <div class="px-xxl-5">
+        <div class="section-padding px-xxl-0 bg-primary-subtle">
+            <div class="container">
+                <div class="position-relative text-center">
+                    {{> components/widgets/scrolling-text scroll-title="Testimonial"}}
+                </div>
+                <div class="text-center">
+                    {{> components/widgets/title sub-title ="Testimonials"
+                    right-text="What Our" left-text ="Client's Say"}}
+                </div>
+                <div class="position-relative testimonial-section">
+                    <div class="position-absolute top-0 start-0 h-100 px-3 bg-primary d-lg-block d-none">
+                        <div class="px-5 mx-5"></div>
+                    </div>
+                    <div class="py-lg-5 ps-lg-5 ms-lg-5">
+                        <div class="position-relative overflow-hidden swiper swiper-general testimonial-author-container" data-slide="1"
+                            data-laptop="1" data-tab="1" data-mobile="1" data-mobile-sm="1"
+                            data-autoplay="false" data-loop="false" data-navigation="true"
+                            data-pagination="true">
+                            <ul class="py-lg-5 m-0 swiper-wrapper list-inline">
+                                <li class="swiper-slide">
+                                    {{> components/widgets/testimonial-author
+                                    isRatting="true"
+                                    testimonial-image="testimonial/user-1.webp" testimonial-user="Moric Horgon"
+                                    testimonial-meta="Patient" testimonial-content="“It has been very effective,
+                                    in my opinion. It has made everyone more relaxed in a very comfortable
+                                    atmosphere, staff and patients included. We have always felt like family
+                                    here, even more so now.”" rating="5" }}
+                                </li>
+                                <li class="swiper-slide">
+                                    {{> components/widgets/testimonial-author
+                                    isRatting="true"
+                                    testimonial-image="testimonial/user-2.webp" testimonial-user="Julia Roberts"
+                                    testimonial-meta="Healthcare" testimonial-content="“It has been very
+                                    effective, in my opinion. It has made everyone more relaxed in a very
+                                    comfortable atmosphere, staff and patients included. We have always felt
+                                    like family here, even more so now.”" rating="3" }}
+                                </li>
+                                <li class="swiper-slide">
+                                    {{> components/widgets/testimonial-author
+                                    isRatting="true"
+                                    testimonial-image="testimonial/user-3.webp" testimonial-user="Jack leo"
+                                    testimonial-meta="COO company" testimonial-content="“It has been very
+                                    effective, in my opinion. It has made everyone more relaxed in a very
+                                    comfortable atmosphere, staff and patients included. We have always felt
+                                    like family here, even more so now.”" rating="4" }}
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                            <div class="arrow-joint">
+                                <div class="swiper-button swiper-button-next rounded-2"></div>
+                                <div class="swiper-button swiper-button-prev rounded-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Icon Box --}}
+<div class="section-padding px-0">
+    <div class="container-fluid">
+        <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6">
+                {{> components/widgets/iconbox-column iconbox-image="product-home/Traced.png"
+                iconbox-title="Free Shipping Worldwide" iconbox-desc="For all order over $200"}}
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                {{> components/widgets/iconbox-column iconbox-image="product-home/back.png"
+                iconbox-title="Easy Return Avaliable" iconbox-desc="Return product within 31 days"}}
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                {{> components/widgets/iconbox-column iconbox-image="product-home/doller.png"
+                iconbox-title="Secure Payment" iconbox-desc="Payment is 100% secure"}}
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                {{> components/widgets/iconbox-column iconbox-image="product-home/Traced.png"
+                iconbox-title="Customer Support" iconbox-desc="24 hours support avaliable"}}
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Banner --}}
+<div>
+    <div class="container">
+        <div class="section-padding px-5 rtl-image-flip"
+            style="background-image: url('{{path}}assets/images/product-home/banner-bg.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+            <div class="px-lg-5 rtl-image-flip-container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="iq-title-box mb-0">
+                            <h2 class="iq-title iq-heading-title">
+                                <span class="right-text text-capitalize fw-500">Shop &amp; Shipment</span>
+                                <span class="left-text text-capitalize fw-light">Across
+                                    The Worldwide</span>
+                            </h2>
+                            <p class="iq-title-desc text-body mt-3 mb-0">
+                                Enjoy 15% off on your first purchase
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-lg-none d-none"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/content}}
+{{/extend}}

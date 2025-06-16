@@ -1,0 +1,28 @@
+{{#compare isDrCategory '==' 'true'}}
+<div class="bg-light-subtle p-4 d-flex justify-content-between mb-5 flex-column flex-md-row gap-2 align-items-md-center rounded">
+    <div class="d-flex align-items-start align-items-md-center gap-3 flex-column flex-md-row">
+        <img class="img-fluid avatar avatar-80" src="{{path}}assets/images/{{DrProfile}}" alt="Dr-profile"
+            loading="lazy" />
+        <div>
+            <h5 class="mb-1 text-capitalize">{{Category}}</h5>
+            <span class="text-body">{{AppointmentStatus}}</span>
+        </div>
+    </div>
+    <span class="text-primary fw-500 text-capitalize">{{DoctorList}}</span>
+</div>
+
+{{else}}
+<div class="bg-light-subtle p-4 d-flex justify-content-between mb-5 flex-column flex-md-row gap-1 rounded">
+    <div class="d-flex align-items-start align-items-md-center gap-3 flex-column flex-md-row">
+        <img class="img-fluid avatar avatar-80" src="{{path}}assets/images/{{DrProfile}}" alt="Dr-profile"
+            loading="lazy" />
+        <div>
+            <h5 class="mb-1">{{DoctorName}}</h5>
+            <span class="text-body">{{DoctorCategory}}</span>
+            <h6 class="mb-0 pt-1"><span class="text-body fw-normal">Availability:</span> {{WorkingTime}}</h6>
+        </div>
+    </div>
+    <span class="text-primary fw-500 text-capitalize">{{PatientList}}</span>
+</div>
+{{/compare}}
+

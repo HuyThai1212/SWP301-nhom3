@@ -1,0 +1,20 @@
+<aside class="sidebar sidebar-base {{ sidebarVariants }}" id="first-tour" data-toggle="main-sidebar" data-sidebar="responsive">
+    <div class="sidebar-header d-flex align-items-center justify-content-start position-relative">
+        <a href="{{path}}index.html" class="navbar-brand">
+            {{> components/widgets/logo }}
+        </a>
+        <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
+            <i class="icon">               
+                <svg class="icon-20 icon-arrow" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 19L8.5 12L15.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>                            
+            </i>
+        </div>
+    </div>
+    <div class="sidebar-body pt-0 data-scrollbar">
+        <div class="sidebar-list">
+            {{> components/partials/vertical-nav }}
+        </div>
+    </div>
+    <div class="sidebar-footer"></div>
+</aside>

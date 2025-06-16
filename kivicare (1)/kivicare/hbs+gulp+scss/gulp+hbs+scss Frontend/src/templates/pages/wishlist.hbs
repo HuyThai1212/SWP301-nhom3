@@ -1,0 +1,144 @@
+{{#extend 'layouts/default' isSweetalert="true" title="Wishlist" isHeader="true" isBreadcrumb="true" isFooter="true" active="wishlist" path="./" }}
+{{#content "content"}}
+<div class="wishlist-page section-padding">
+   <div class="container">
+      <h3 class="mb-5">Your Wishlist</h3>
+      <div class="table-responsive">
+         <table class="table cart-table">
+            <thead class="border-bottom">
+               <tr>
+                  <th scope="col" class="fw-bold fs-5 text-primary"></th>
+                  <th scope="col" class="fw-bold fs-5 text-primary px-3">Product Name</th>
+                  <th scope="col" class="fw-bold fs-5 text-primary px-3">Unit Price</th>
+                  <th scope="col" class="fw-bold fs-5 text-primary px-3">Stock Status</th>
+                  <th scope="col" class="fw-bold fs-5 text-primary"></th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr data-item="list">
+                  <td>
+                     <button
+                        class="btn btn-icon btn-danger btn-sm delete-btn bg-transparent text-primary border-0">
+                     <span class="btn-inner fs-5">
+                     <i class="far fa-trash-alt"></i>
+                     </span>
+                     </button>
+                  </td>
+                  <td>
+                     <div class="product-thumbnail">
+                        <a class="mb-2 me-3" href="">
+                        <img class="avatar-80"
+                           src="{{path}}assets/images/shop/product-2.webp" alt="">
+                        </a>
+                        <span class="mt-2 text-primary">Medical Box</span>
+                     </div>
+                  </td>
+                  <td>
+                     <span class="fs-5 fw-500">$92.00</span>
+                  </td>
+                  <td>
+                     <span class="text-success">In Stock</span>
+                  </td>
+                  <td>
+                     <a href="checkout.html">
+                     <i class="fas fa-shopping-cart"></i>
+                     </a>
+                  </td>
+               </tr>
+               <tr data-item="list">
+                  <td>
+                     <button
+                        class="btn btn-icon btn-danger btn-sm delete-btn bg-transparent text-primary border-0">
+                     <span class="btn-inner fs-5">
+                     <i class="far fa-trash-alt"></i>
+                     </span>
+                     </button>
+                  </td>
+                  <td>
+                     <div class="product-thumbnail">
+                        <a class="mb-2 me-3" href="">
+                        <img class="avatar-80"
+                           src="{{path}}assets/images/shop/product-5.webp" alt="">
+                        </a>
+                        <span class="mt-2 text-primary">Stethoscope</span>
+                     </div>
+                  </td>
+                  <td>
+                     <span class="fs-5 fw-500">$72.00</span>
+                  </td>
+                  <td>
+                     <span class="text-success">In Stock</span>
+                  </td>
+                  <td>
+                     <a href="checkout.html">
+                     <i class="fas fa-shopping-cart"></i>
+                     </a>
+                  </td>
+               </tr>
+               <tr data-item="list">
+                  <td>
+                     <button
+                        class="btn btn-icon btn-danger btn-sm delete-btn bg-transparent text-primary border-0">
+                     <span class="btn-inner fs-5">
+                     <i class="far fa-trash-alt"></i>
+                     </span>
+                     </button>
+                  </td>
+                  <td>
+                     <div class="product-thumbnail">
+                        <a class="mb-2 me-3" href="">
+                        <img class="avatar-80"
+                           src="{{path}}assets/images/shop/product-9.webp" alt="">
+                        </a>
+                        <span class="mt-2 text-primary">Asthma Inhaler</span>
+                     </div>
+                  </td>
+                  <td>
+                     <span class="fs-5 fw-500">$45.00</span>
+                  </td>
+                  <td>
+                     <span class="text-danger">Out of Stock</span>
+                  </td>
+                  <td>
+                     <a href="checkout.html">
+                     <i class="fas fa-shopping-cart"></i>
+                     </a>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div class="product-social-share mt-5">
+         <h5 class="mb-3">Share:</h5>
+         <ul class="list-inline m-0 p-0 d-flex flex-wrap align-items-center gap-2">
+            <li class="flex-shrink-0">
+               <a href="https://www.facebook.com/" class="d-inline-block border-radius rounded-circle bg-primary text-white text-center" target="_blank">
+               <i class="fab fa-facebook-f"></i>
+               </a>
+            </li>
+            <li class="flex-shrink-0">
+               <a href="https://x.com/" class="d-inline-block border-radius rounded-circle bg-info text-white text-center" target="_blank">
+               <i class="fab fa-twitter"></i>
+               </a>
+            </li>
+            <li class="flex-shrink-0">
+               <a href="https://in.pinterest.com/" class="d-inline-block border-radius rounded-circle bg-danger text-white text-center" target="_blank">
+               <i class="fab fa-pinterest-p"></i>
+               </a>
+            </li>
+            <li class="flex-shrink-0">
+               <a href="https://iqonic.design/" class="d-inline-block border-radius rounded-circle bg-warning text-white text-center" target="_blank">
+               <i class="far fa-envelope"></i>
+               </a>
+            </li>
+            <li class="flex-shrink-0">
+               <a href="https://www.whatsapp.com/" class="d-inline-block border-radius rounded-circle bg-success text-white text-center" target="_blank">
+               <i class="fab fa-whatsapp"></i>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

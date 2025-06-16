@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Hospital",
+    "\\Hospital\\bin",
+    "\\Hospital\\bin\\Debug",
+    "\\Hospital\\Controllers",
+    "\\Hospital\\Data",
+    "\\Hospital\\obj",
+    "\\Hospital\\obj\\Debug",
+    "\\Hospital\\obj\\Debug\\net8.0",
+    "\\Hospital\\Properties"
+  ],
+  "SelectedNode": "\\Hospital\\Dockerfile",
+  "PreviewInSolutionExplorer": false
+}

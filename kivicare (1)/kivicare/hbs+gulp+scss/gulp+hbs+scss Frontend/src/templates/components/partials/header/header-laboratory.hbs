@@ -1,0 +1,67 @@
+<header class="header-center-home">
+    <div class="top-header bg-dark d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <span class="text-white font-size-14">Let’s begin the journey, click the button below to get started! </span>
+                </div>
+                <div class="col-md-6 text-end">
+                    <span class="fw-500 font-size-14 text-white">Mon – Fri: 09:00AM – 5:00PM<span class="ps-4">  + 0800 24 66 721</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0">
+        <div class="container-fluid navbar-inner">
+            <div class="d-flex align-items-center justify-content-between w-100 landing-header">
+                <div class="d-flex gap-3 gap-xl-0 align-items-center">
+                    <div>
+                        <button data-trigger="navbar_main"
+                            class="d-xl-none btn btn-primary rounded-pill p-1 pt-0 toggle-rounded-btn" type="button">
+                            <svg width="20px" class="icon-20" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    {{> components/widgets/logo}}
+                </div>
+                {{#compare ismegamenu '==' 'true'}}
+                {{> components/partials/header/mega-menu}}
+                {{else}}
+                {{> components/partials/header/horizontal-nav }}
+                {{/compare}}
+                <div class="right-panel">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-btn">
+                            <span class="navbar-toggler-icon"></span>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
+                            <li>
+                                {{> components/widgets/button button-text="Appointment"
+                                button-url="appointment.html"}}
+                            </li>
+                            <li class="ms-3">
+                                <div class="cursor-pointer" data-bs-toggle="offcanvas"
+                                    data-bs-target="#right-panel-toggle" aria-controls="right-panel-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="22" viewBox="0 0 28 22"
+                                        fill="none">
+                                        <path d="M0 0H24V2H0V0Z" fill="#171C26" />
+                                        <path d="M4 10H28V12H4V10Z" fill="#171C26" />
+                                        <path d="M0 20H24V22H0V20Z" fill="#171C26" />
+                                    </svg>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+{{!-- Sidebar --}}
+{{> components/widgets/sidebar}}

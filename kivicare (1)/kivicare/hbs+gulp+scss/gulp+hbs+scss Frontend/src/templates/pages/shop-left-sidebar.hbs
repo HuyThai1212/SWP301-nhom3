@@ -1,0 +1,106 @@
+{{#extend 'layouts/default' title="Shop Left Sidebar" isHeader="true" isFooter="true" active="shop-left-sidebar" path="./" isBreadcrumb="true" isNoUISlider="true" isSweetalert="true" isSelect2="true"}}
+{{#content "content"}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row flex-xl-row flex-column-reverse">
+         <div class="col-xl-3 mt-xl-0 mt-5">
+            {{> components/widgets/shop-sidebar}}
+         </div>
+         <div class="col-xl-9">
+            <div class="top-panel mb-5">
+               <div class="row align-items-center mt-5 mt-lg-0">
+                  <div class="col-md-6 col-lg-9 text-center text-sm-start">
+                     <p class="m-0">Showing 1–12 of 20 results</p>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mt-3 mt-sm-0">
+                     <div class="product-filter">
+                        <select class="select2-basic-single js-states">
+                           <option>Default Sorting </option>
+                           <option>Sort by popularity</option>
+                           <option>Sort by average rating</option>
+                           <option>Sort by latest</option>
+                           <option>Sort by price: low to high</option>
+                           <option>Sort by price: high to low</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+               <div class="col">
+                  {{> components/widgets/product-card IsNew="true"
+                  product-image="/shop/product-1.webp" product-category="Home Equipment" product-title="Electric
+                  Toothbrush" price-value="$123" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsSale="true"
+                  product-image="/shop/product-2.webp" product-category="Medical Equipment" product-title="Medical
+                  Box" price-value="$92" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card product-image="/shop/product-3.webp"
+                  product-category="Health Care,Physical" product-title="Hand Sanitizer Bottle" price-value="$90"
+                  rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsNew="true"
+                  product-image="/shop/product-4.webp" product-category="Medical Equipment" product-title="Wheel
+                  Chair" price-value="$89" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsSale="true"
+                  product-image="/shop/product-5.webp" product-category="Medical Equipment"
+                  product-title="Stethoscope" price-value="$72" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card product-image="/shop/product-6.webp"
+                  product-category="Physical" product-title="Farma Medicine" price-value="$69" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsSale="true"
+                  product-image="/shop/product-7.webp" product-category="Medical Equipment"
+                  product-title="Handgloves" price-value="$55" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card product-image="/shop/product-8.webp"
+                  product-category="Medical Equipment" product-title="Headache Medicine" price-value="$46"
+                  rating="0"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsNew="true"
+                  product-image="/shop/product-9.webp" product-category="Health Care" product-title="Asthma
+                  Inhaler" price-value="$45" rating="4"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsSale="true"
+                  product-image="/shop/product-10.webp" product-category="Medical Equipment" product-title="Orange
+                  Carrot" price-value="$41" rating="5"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card product-image="/shop/product-11.webp"
+                  product-category="Medical Equipment" product-title="Glucose Meter Set" price-value="$25"
+                  rating="4"}}
+               </div>
+               <div class="col">
+                  {{> components/widgets/product-card IsSale="true"
+                  product-image="/shop/product-12.webp" product-category="Medical Equipment" product-title="Dental
+                  Equipmente" price-value="$22" rating="3"}}
+               </div>
+            </div>
+             <nav aria-label="...">
+               <ul class="pagination justify-content-center gap-3">
+                     <li class="page-item active" aria-current="page">
+                     <span class="page-link">1</span>
+                     </li>
+                     <li class="page-item"><a class="page-link" href="#">2</a></li>
+                     <li class="page-item"><a class="page-link" href="#">3</a></li>
+               </ul>
+            </nav>
+           
+         </div>
+      </div>
+   </div>
+</div>
+{{> components/widgets/quick-view}}
+{{/content}}
+{{/extend}}

@@ -1,0 +1,176 @@
+{{#extend 'layouts/default' title="Oncologist" isHeader="true" isBreadcrumb="true" isFooter="true"
+active="oncologist" path="./"}}
+{{#content "content"}}
+<div class="section-padding service-details">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="bg-primary-subtle p-3 p-md-4">
+               <div class="service-menu">
+                  <ul class="list-inline m-0">
+                     <li class="mb-3">
+                        {{> components/widgets/service-menu IsActive="true"
+                        service-url="oncologist.html" service-title="Oncologist"}}
+                     </li>
+                     <li class="mb-3">
+                        {{> components/widgets/service-menu service-url="neurologist.html"
+                        service-title="Neurologist"}}
+                     </li>
+                     <li class="mb-3">
+                        {{> components/widgets/service-menu
+                        service-url="ent-specialist.html" service-title="ENT Specialist"}}
+                     </li>
+                     <li class="mb-3">
+                        {{> components/widgets/service-menu
+                        service-url="cardiologist.html" service-title="Cardiologist"}}
+                     </li>
+                     <li class="mb-3">
+                        {{> components/widgets/service-menu service-url="audiologist.html"
+                        service-title="Audiologist"}}
+                     </li>
+                     <li class="mb-3">
+                        {{> components/widgets/service-menu
+                        service-url="psychiatrists.html" service-title="Psychiatrists"}}
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            {{> components/widgets/service-sidebar }}
+         </div>
+         <div class="col-lg-8 mt-lg-0 mt-5">
+            <div class="about-service">
+               <div class="position-relative">
+                  <img src="{{path}}assets/images/service/oncologist.webp" class="img-fluid" alt="image">
+                  {{> components/widgets/video-popup video-link-url="https://www.youtube.com/watch?v=VeDdpy4CdeM"
+                  }}
+               </div>
+               <div class="iq-title-box mt-5 mb-0">
+                  <span class="iq-subtitle text-uppercase">DEPARTMENT</span>
+                  <h3 class="iq-title iq-heading-title mb-2">
+                     <span class="right-text text-capitalize fw-500">Oncologist</span>
+                     <span class="left-text text-capitalize fw-light">Treatments</span>
+                  </h3>
+                  <p class="iq-title-desc text-body">
+                     A cardiologist is a doctor that deals with the cardiovascular system. This means he or
+                     she
+                     treats any abnormality in our blood vessels and heart. This can include heart disease or
+                     condition which requires diagnosis and treatment.
+                  </p>
+               </div>
+               <div class="row mt-5 align-items-center">
+                  <div class="col-md-6">
+                     <ul class="list-inline m-0">
+                        <li class="mb-2">
+                           <div class="d-flex align-items-center gap-2">
+                              <span class="text-primary"><i class="fas fa-check"></i></span>
+                              <span>Treats minor illnesses</span>
+                           </div>
+                        </li>
+                        <li class="mb-2">
+                           <div class="d-flex align-items-center gap-2">
+                              <span class="text-primary"><i class="fas fa-check"></i></span>
+                              <span>Answers health questions</span>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="d-flex align-items-center gap-2">
+                              <span class="text-primary"><i class="fas fa-check"></i></span>
+                              <span>Conducts health checkups</span>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 mt-md-0 mt-2">
+                     <ul class="list-inline m-0">
+                        <li class="mb-2">
+                           <div class="d-flex align-items-center gap-2">
+                              <span class="text-primary"><i class="fas fa-check"></i></span>
+                              <span>Specialty physicians</span>
+                           </div>
+                        </li>
+                        <li class="mb-2">
+                           <div class="d-flex align-items-center gap-2">
+                              <span class="text-primary"><i class="fas fa-check"></i></span>
+                              <span>Performs routine health tests</span>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="d-flex align-items-center gap-2">
+                              <span class="text-primary"><i class="fas fa-check"></i></span>
+                              <span>List Items</span>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="pt-5">
+                  <div class="row mt-5 align-items-center">
+                     <div class="col-md-5">
+                        {{> components/widgets/counter counter-value="1000+"
+                        counter-title="Operations Done" counter-text="Lorem Ipsum is simply dummy text of the
+                        printing and typesetting."}}
+                     </div>
+                     <div class="col-md-7 mt-md-0 mt-5">
+                        <div>
+                           {{> components/widgets/progressbar
+                           progress-title="Immunotherapy"
+                           progress-value="91"}}
+                        </div>
+                        <div class="mt-5">
+                           {{> components/widgets/progressbar progress-title="Hormone therapy" progress-value="84"}}
+                        </div>
+                        <div class="mt-5">
+                           {{> components/widgets/progressbar progress-title="Targeted drug therapy" progress-value="75"}}
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="mt-5 pt-md-3 pb-5 border-bottom">
+                  <div class="iq-title-box mt-5 mb-0">
+                     <span class="iq-subtitle text-uppercase">TIPS & INFO</span>
+                     <h4 class="iq-title iq-heading-title mb-2">
+                        <span class="right-text text-capitalize fw-500">KiviCare Tips For Healthy</span>
+                        <span class="left-text text-capitalize fw-light">Children And
+                        Families</span>     
+                     </h4>
+                     <p class="iq-title-desc text-body">
+                        Raising a family isn’t always easy. You are busy, and so are your children. There is a
+                        lot to do in little time. But the stakes are high. Today, many kids are overweight or
+                        obese. A healthy, active lifestyle can help maintain weight. It also can prevent health
+                        issues, such as diabetes, heart disease, asthma, and high blood pressure.
+                     </p>
+                  </div>
+               </div>
+               <div class="mt-5 pt-3">
+                  <div class="accordion" id="main-faq">
+                     {{> components/widgets/faq show="true" uniqid="01" inid="01"
+                     faq-title="Can I trust my tap water? " faq-desc=" There are many variations of passages of
+                     Lorem
+                     Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+                     or
+                     randomised words which don’t look even slightly believable. If you are going to use a
+                     passage of
+                     Lorem Ipsum, you need to be sure there isn’t anything. " }}
+                     {{> components/widgets/faq uniqid="02" inid="02" faq-title="Is my
+                     microwave giving me cancer? " faq-desc="There are many variations of passages of Lorem Ipsum
+                     available, but the majority have suffered alteration in some form, by injected humour, or
+                     randomised words which don’t look even slightly believable. If you are going to use a
+                     passage of
+                     Lorem Ipsum, you need to be sure there isn’t anything." }}
+                     {{> components/widgets/faq uniqid="03" inid="03" faq-title="How long
+                     am I
+                     contagious when I have the flu or a cold?" faq-desc="There are many variations of passages
+                     of
+                     Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                     humour, or randomised words which don’t look even slightly believable. If you are going to
+                     use a
+                     passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

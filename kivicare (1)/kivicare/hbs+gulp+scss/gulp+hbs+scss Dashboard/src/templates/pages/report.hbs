@@ -1,0 +1,165 @@
+{{#extend layout title="Report" active="report" path="./" isSelect2="true" isTour="true" isFlatpickr="true"
+isBanner="false" isHeader="true"}}
+{{#content "content"}}
+
+{{> pages/widget/top-nav}}
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header d-flex align-items-center justify-content-between flex-wrap gap-3">
+                <h3 class="mb-0">Patient Overview</h3>
+                <div class="dropdown text-end">
+                    <button class="dropdown btn btn-light-subtle border text-body py-2 px-3" id="dropdownMenuPatient"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="fw-500">Week</span>
+                        <svg width="8" class="ms-1 transform-up" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6.70711 7.20711C6.31658 7.59763 5.68342 7.59763 5.29289 7.20711L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-soft-primary sub-dropdown transform-week-dropdown"
+                        aria-labelledby="dropdownMenuPatient">
+                        <li><a class="dropdown-item active" href="#">Monday - Wednesday</a></li>
+                        <li><a class="dropdown-item" href="#">Wednesday - Friday</a></li>
+                        <li><a class="dropdown-item" href="#">Friday - Sunday</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body py-0">
+                <div id="patient-overview-line-chart" class="patient-overview-line-chart"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header d-flex align-items-center justify-content-between flex-wrap gap-3">
+                <h3 class="mb-0">Payment History</h3>
+                <div class="dropdown text-end">
+                    <button class="dropdown btn btn-light-subtle border text-body py-2 px-3" id="dropdownMenuPayment"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="fw-500">Movie</span>
+                        <svg width="8" class="ms-1 transform-up" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6.70711 7.20711C6.31658 7.59763 5.68342 7.59763 5.29289 7.20711L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-soft-primary sub-dropdown"
+                        aria-labelledby="dropdownMenuPayment">
+                        <li><a class="dropdown-item active" href="#">Monthly Payment</a></li>
+                        <li><a class="dropdown-item" href="#">By Movie Genre</a></li>
+                        <li><a class="dropdown-item" href="#">By Theater</a></li>
+                        <li><a class="dropdown-item" href="#">By Movie Release Date</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body py-0">
+                <div id="payment-history"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="mb-0">Monthly Progress</h3>
+            </div>
+            <div class="card-body py-0">
+                <div id="monthly-progress-donut-chart"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header d-flex align-items-center justify-content-between flex-wrap gap-3 mb-3">
+                <div>
+                    <h3 class="mb-0">Staff Member</h3>
+                </div>
+                <div class="dropdown text-end">
+                    <button class="dropdown btn btn-light-subtle border text-body py-2 px-3" id="dropdownMenuButton2"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="fw-500">Month</span>
+                        <svg width="8" class="ms-1 transform-up" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6 5.08579L10.2929 0.792893C10.6834 0.402369 11.3166 0.402369 11.7071 0.792893C12.0976 1.18342 12.0976 1.81658 11.7071 2.20711L6.70711 7.20711C6.31658 7.59763 5.68342 7.59763 5.29289 7.20711L0.292893 2.20711C-0.0976311 1.81658 -0.0976311 1.18342 0.292893 0.792893C0.683418 0.402369 1.31658 0.402369 1.70711 0.792893L6 5.08579Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-soft-primary sub-dropdown"
+                        aria-labelledby="dropdownMenuButton2">
+                        <li><a class="dropdown-item active" href="#">January</a></li>
+                        <li><a class="dropdown-item" href="#">February</a></li>
+                        <li><a class="dropdown-item" href="#">March</a></li>
+                        <li><a class="dropdown-item" href="#">April</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-0 card-body">
+                <div class="table-responsive">
+                    <table class="table mb-0">
+                        <thead class="bg-primary-subtle">
+                            <tr class="text-dark">
+                                <th class="border-bottom">No.</th>
+                                <th class="border-bottom">Names</th>
+                                <th class="border-bottom">Email</th>
+                                <th class="border-bottom">Join Date</th>
+                                <th class="border-bottom">Designation</th>
+                                <th class="border-bottom">Working Days</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img class="img-fluid" src="{{path}}assets/images/dashboard/apex-henry.png"
+                                            alt="Courtney Henry" loading="lazy" />
+                                        <h5 class="mb-0">Apex Henry</h5>
+                                    </div>
+                                </td>
+                                <td>apex@gmail.com</td>
+                                <td>22 Mar, 2023</td>
+                                <td>Compounder</td>
+                                <td>24 Days Work Out Of 30</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img class="img-fluid"
+                                            src="{{path}}assets/images/dashboard/leena-steward.png"
+                                            alt="leena-steward" loading="lazy" />
+                                        <h5 class="mb-0">Leena Steward</h5>
+                                    </div>
+                                </td>
+                                <td>leena@gmail.com</td>
+                                <td>16 June, 2023</td>
+                                <td>Supervisor</td>
+                                <td>20 Days Work Out Of 30</td>
+                            </tr>
+                            <tr class="border-0">
+                                <td class="border-0">3</td>
+                                <td class="border-0">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img class="img-fluid" src="{{path}}assets/images/dashboard/saline-bell.png"
+                                            alt="saline bell" loading="lazy" />
+                                        <h5 class="mb-0">Saline Bell</h5>
+                                    </div>
+                                </td>
+                                <td class="border-0">saline@gmail.com</td>
+                                <td class="border-0">18 May, 2023</td>
+                                <td class="border-0">Receptionist</td>
+                                <td class="border-0">26 Days Work Out Of 30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/content}}
+{{/extend}}

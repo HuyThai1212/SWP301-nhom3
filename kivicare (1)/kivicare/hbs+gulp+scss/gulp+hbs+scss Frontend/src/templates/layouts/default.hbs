@@ -1,0 +1,110 @@
+{{!-- layouts/layout.hbs --}}
+<!doctype html>
+<html lang="en" data-bs-theme="light" dir="ltr" class="landing-pages">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>{{ appName }} | Medical Clinic & Patient Management Html Template</title>
+      <!-- Config Options -->
+      <meta name="setting_options" content='{{ landingOptions }}'>
+      {{> components/partials/head }}
+      <meta name="page_colors" content='{{ page_colors }}'>
+  </head>
+  <body class="{{bodyClass}} body-bg landing-pages">
+    <span class="screen-darken"></span>
+    <!-- loader Start -->
+    <div id="loading">
+      {{> components/partials/loader }}
+    </div>
+    <!-- loader END -->
+    <main class="main-content">
+      <div class="position-relative">
+        <!--Nav Start-->
+        {{#compare isHeader '==' 'true'}}
+          {{> components/partials/header/header}}
+        {{/compare}}
+        {{#compare isHeader-dentist '==' 'true'}}
+          {{> components/partials/header/header-dentist}}
+        {{/compare}}
+        {{#compare isHeader-eyecare '==' 'true'}}
+          {{> components/partials/header/header-eyecare}}
+        {{/compare}}
+        {{#compare isHeader-laboratory '==' 'true'}}
+          {{> components/partials/header/header-laboratory}}
+        {{/compare}}
+        {{#compare isHeader-product-home '==' 'true'}}
+          {{> components/partials/header/header-product-home}}
+        {{/compare}}
+        {{#compare isHeader-psychiatrist '==' 'true'}}
+          {{> components/partials/header/header-psychiatrist}}
+        {{/compare}}
+        {{#compare isHeader-skin-specialist '==' 'true'}}
+          {{> components/partials/header/header-skin-specialist}}
+        {{/compare}}
+        <!--bread-crumb-->
+        {{#compare isBreadcrumb '==' 'true'}}
+          {{> components/partials/bread-crumb}}
+        {{/compare}}
+        <!--bread-crumb-->
+        
+      </div>
+        {{#block "content"}}
+        {{/block}}
+
+    </main>
+    <!-- Wrapper End -->
+    <!-- Footer start -->
+        {{#compare isFooter '==' 'true'}}
+          {{> components/partials/footer/footer}}
+        {{/compare}}
+        {{#compare isFooter-dentist '==' 'true'}}
+            {{> components/partials/footer/footer-dentist}}
+        {{/compare}}
+        {{#compare isFooter-eyecare '==' 'true'}}
+            {{> components/partials/footer/footer-eyecare}}
+        {{/compare}}
+        {{#compare isFooter-skin-specialist '==' 'true'}}
+            {{> components/partials/footer/footer-skin-specialist}}
+        {{/compare}}
+        {{#compare isFooter-fertility-clinic '==' 'true'}}
+            {{> components/partials/footer/footer-fertility-clinic}}
+        {{/compare}}
+        {{#compare isFooter-ent-clinic '==' 'true'}}
+            {{> components/partials/footer/footer-ent-clinic}}
+        {{/compare}}
+        {{#compare isFooter-product '==' 'true'}}
+            {{> components/partials/footer/footer-product}}
+        {{/compare}}
+        {{#compare isFooter-psychiatrist '==' 'true'}}
+            {{> components/partials/footer/footer-psychiatrist}}
+        {{/compare}}
+        {{#compare isFooter-paediatrician '==' 'true'}}
+            {{> components/partials/footer/footer-paediatrician}}
+        {{/compare}}
+        {{#compare isFooter-cardiac '==' 'true'}}
+            {{> components/partials/footer/footer-cardiac}}
+        {{/compare}}
+        {{#compare isFooter-orthopedics '==' 'true'}}
+            {{> components/partials/footer/footer-orthopedics}}
+        {{/compare}}
+         {{#compare isFooter-laboratory '==' 'true'}}
+            {{> components/partials/footer/footer-laboratory}}
+        {{/compare}}
+        {{#compare isFooterOne '==' 'true'}}
+          {{> components/partials/footer/footer-one  }}
+        {{/compare}}
+    <!-- footer end -->
+
+    <!-- setting -->
+    {{> components/partials/setting }}
+    <!-- setting -->
+
+    <!-- Back To Top -->
+      {{> components/partials/back-to-top}}
+    <!-- Back To Top -->
+    
+    {{> components/partials/scripts }}
+    {{#block "scripts"}}
+    {{/block}}
+  </body>
+</html>

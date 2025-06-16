@@ -1,0 +1,47 @@
+{{#extend 'layouts/default' title="Blog Masonry" isHeader="true" isBreadcrumb="true" isFooter="true" active="blog-masonry" path="./" }}
+{{#content "content"}}
+
+<div class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 blog-height">
+                {{> components/widgets/blog-standard blog-image="./blog/blog-1.webp"
+                blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                blog-title="OPD cover gaining popularity among Indian consumers"}}
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="blog mb-5">
+                    {{> components/widgets/blog-column blog-image="./blog/blog-2.webp"
+                    blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+                </div>
+                <div class="blog">
+                    {{> components/widgets/blog-column blog-image="./blog/blog-3.webp"
+                    blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="the most common problems?"}}
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="blog mb-5">
+                    {{> components/widgets/blog-column blog-image="./blog/blog-5.webp"
+                    blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="Could Eyedrops Replace Reading Glasses?"}}
+                </div>
+                <div class="blog">
+                    {{> components/widgets/blog-column blog-image="./blog/blog-6.webp"
+                    blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                    blog-title="A World With Only Optimized Experiences Is Just Boring"}}
+                </div>
+            </div>
+            <div class="col-lg-6 blog-height">
+                {{> components/widgets/blog-standard blog-image="./blog/blog-4.webp"
+                blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                blog-title="A Revolutionary Change in Paediatric Healthcare"}}
+            </div>
+        </div>
+    </div>
+</div>
+{{/content}}
+{{/extend}}

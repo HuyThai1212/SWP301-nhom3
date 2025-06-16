@@ -1,0 +1,283 @@
+<div class="section-padding product-detail">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-6">
+            {{#compare isStandard '==' 'true'}}
+            <div class="position-relative">
+               <a data-fslightbox="product" href="{{path}}assets/images/{{product-image}}">
+               <img src="{{path}}assets/images/{{product-image}}" class="img-fluid"
+                  alt="product-image" loading="lazy">
+               </a>
+            </div>
+            {{/compare}}
+            {{#compare isSale '==' 'true'}}
+            <div class="position-relative">
+               <a data-fslightbox="product" href="{{path}}assets/images/{{product-image}}">
+               <img src="{{path}}assets/images/{{product-image}}" class="img-fluid"
+                  alt="product-image" loading="lazy">
+               </a>
+               <span class="iq-on-sale badge bg-primary">Sale</span>
+            </div>
+            {{/compare}}
+            {{#compare isNew '==' 'true'}}
+            <div class="position-relative">
+               <a data-fslightbox="product" href="{{path}}assets/images/{{product-image}}">
+               <img src="{{path}}assets/images/{{product-image}}" class="img-fluid"
+                  alt="product-image" loading="lazy">
+               </a>
+               <span class="iq-on-new badge bg-primary">New</span>
+            </div>
+            {{/compare}}
+         </div>
+         <div class="col-lg-6 mt-lg-0 mt-5">
+            <h3>{{product-title}}</h3>
+            <div class="mt-2">
+               {{> components/widgets/filter-rating rating="5"}}
+            </div>
+            <h4 class="price mt-3 mb-0">{{product-price}}</h4>
+            <p class="mt-4 mb-0">{{product-description}}</p>
+            <div class="add-product-wrapper mt-5 pb-5 mb-5 border-bottom">
+               <ul class="list-inline m-0 p-0 d-flex align-items-center gap-5 flex-wrap">
+                  <li>
+                     <div class="btn-group iq-qty-btn" data-qty="btn" role="group">
+                        <button type="button" class="btn btn-sm btn-outline-light px-0 py-3 iq-quantity-minus text-dark">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3"
+                              fill="none">
+                              <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z"
+                                 fill="currentColor"></path>
+                           </svg>
+                        </button>
+                        <input type="text" class="btn btn-sm btn-outline-light px-0 py-3 input-display w-25"
+                           data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2"
+                           title="Qty">
+                        <button type="button" class="btn btn-sm btn-outline-light px-0 py-3 iq-quantity-plus text-dark">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8"
+                              fill="none">
+                              <path
+                                 d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z"
+                                 fill="currentColor"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </li>
+                  <li class="wish-list">
+                     <a href="#" class="d-inline-block p-3 bg-primary-subtle wishlist-btn">
+                        <span class="btn-inner">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20"
+                              fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                 d="M1.87187 9.59832C0.798865 6.24832 2.05287 2.41932 5.56986 1.28632C7.41986 0.689322 9.46186 1.04132 10.9999 2.19832C12.4549 1.07332 14.5719 0.693322 16.4199 1.28632C19.9369 2.41932 21.1989 6.24832 20.1269 9.59832C18.4569 14.9083 10.9999 18.9983 10.9999 18.9983C10.9999 18.9983 3.59787 14.9703 1.87187 9.59832Z"
+                                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round"></path>
+                              <path d="M15 4.70001C16.07 5.04601 16.826 6.00101 16.917 7.12201"
+                                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round"></path>
+                           </svg>
+                        </span>
+                     </a>
+                  </li>
+                  <li>
+                     {{> components/widgets/button button-url="checkout.html" button-text="Add to Cart" }}
+                  </li>
+               </ul>
+            </div>
+            <div class="product-meta-wrapper">
+               <ul class="list-inline m-0 p-0">
+                  <li class="mb-2">
+                     <span>SKU :</span>
+                     <h6 class="d-inline">{{product-sku}}</h6>
+                  </li>
+                  <li class="mb-2">
+                     <span>Categories :</span>
+                     <h6 class="d-inline">{{product-categories}}</h6>
+                  </li>
+                  <li>
+                     <span>Tag :</span>
+                     <h6 class="d-inline">{{product-tag}}</h6>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="section-padding-top px-0">
+         <div class="product-detail-tabs">
+            <ul class="nav nav-tabs justify-content-center gap-5 mb-5 border-bottom list-inline" id="product-tab"
+               role="tablist">
+               <li class="nav-item" role="presentation">
+                  <a href="javascript:void(0)" class="nav-link active bg-transparent px-0 py-2 letter-spacing-2 fs-5 rounded-0"
+                     data-bs-toggle="tab" data-bs-target="#description" role="tab" aria-selected="true">Description</a>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <a href="javascript:void(0)" class="nav-link bg-transparent px-0 py-2 letter-spacing-2 fs-5 rounded-0"
+                     data-bs-toggle="tab" data-bs-target="#additional-information" role="tab" aria-selected="false">Additional
+                  information</a>
+               </li>
+               <li class="nav-item" role="presentation">
+                  <a href="javascript:void(0)" class="nav-link bg-transparent px-0 py-2 letter-spacing-2 fs-5 rounded-0"
+                     data-bs-toggle="tab" data-bs-target="#reviews" role="tab" aria-selected="false">Reviews</a>
+               </li>
+            </ul>
+            <div class="tab-content pb-5 border-bottom" id="product-tab-content">
+               <div class="tab-pane fade show active" id="description" role="tabpanel">
+                  <p class="m-0">There are many variations of passages of Lorem Ipsum available,
+                     but the majority have suffered alteration in some form, by injected humour,
+                     or randomised words which don't look even slightly believable. If you are
+                     going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                     anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                     generators on the Internet tend to repeat predefined chunks as necessary.
+                  </p>
+               </div>
+               <div class="tab-pane fade" id="additional-information" role="tabpanel">
+                  <div class="table-responsive">
+                     <table class="table table-bordered mb-0">
+                        <tbody>
+                           <tr class="text-body">
+                              <th class="text-dark">Color</th>
+                              <td>Blue, Green, Red</td>
+                           </tr>
+                           <tr class="text-body">
+                              <th class="text-dark">Size</th>
+                              <td>L, M, S</td>
+                           </tr>
+                           <tr class="text-body">
+                              <th class="text-dark">Weight</th>
+                              <td>50gm, 100gm</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+               <div class="tab-pane fade" id="reviews" role="tabpanel">
+                  <h4 class="mb-4">Reviews For {{product-title}}</h4>
+                  <div class="product-review-list">
+                     <ul class="list-inline m-0 p-0">
+                        <li class="pb-5 mb-5 border-bottom">
+                           <div class="d-flex flex-sm-row flex-column align-items-sm-center align-items-start gap-5">
+                              <div class="user-image flex-shrink-0">
+                                 <img src="{{path}}assets/images/general/avatar.png"
+                                    alt="user-image" class="img-fluid">
+                              </div>
+                              <div class="about-user">
+                                 <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <h5 class="mb-0">Jack Stark</h5>
+                                    <span class="text-uppercase letter-spacing-3 small fst-italic">
+                                    <i class="fas fa-minus fa-xs"></i> march 2,
+                                    2022</span>
+                                    <div class="lh-1">
+                                       {{>
+                                       components/widgets/filter-rating
+                                       rating="4"}}
+                                    </div>
+                                 </div>
+                                 <p class="mt-2 mb-0">
+                                    There are many variations of passages of Lorem Ipsum
+                                    available, but the majority have suffered alteration in
+                                    some form.
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="mb-5">
+                           <div class="d-flex flex-sm-row flex-column align-items-sm-center align-items-start gap-5">
+                              <div class="user-image flex-shrink-0">
+                                 <img src="{{path}}assets/images/general/avatar.png"
+                                    alt="user-image" class="img-fluid">
+                              </div>
+                              <div class="about-user">
+                                 <div class="d-flex align-items-center flex-wrap gap-2">
+                                    <h5 class="mb-0">Jhon Deo</h5>
+                                    <span class="text-uppercase letter-spacing-3 small fst-italic">
+                                    <i class="fas fa-minus fa-xs"></i> march 15, 2022</span>
+                                    <div class="lh-1">
+                                       {{>
+                                       components/widgets/filter-rating
+                                       rating="3"}}
+                                    </div>
+                                 </div>
+                                 <p class="mt-2 mb-0">
+                                    It is a long established fact that a reader will be
+                                    distracted by the readable content of a page when
+                                    looking at its layout.
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="mt-5 review-form">
+                     <p>Add a review</p>
+                     <p class="mb-5">Your email address will not be published. Required fields
+                        are marked *
+                     </p>
+                     <p class="mb-2">Your rating *</p>
+                     <form class="needs-validation" novalidate>
+                        <div class="mb-5">
+                           {{> components/widgets/filter-rating
+                           rating="0"}}
+                        </div>
+                        <div class="mb-5">
+                           <label class="form-label">Your review *</label>
+                           <textarea class="form-control rounded-0" required></textarea>
+                        </div>
+                        <div class="mb-5">
+                           <label class="form-label">Name*</label>
+                           <input type="text" class="form-control rounded-0" required>
+                        </div>
+                        <div class="mb-5">
+                           <label class="form-label">Email*</label>
+                           <input type="email" class="form-control rounded-0"  pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" required>
+                        </div>
+                        <div class="mb-5 form-check">
+                           <input type="checkbox" class="form-check-input rounded-0" id="exampleCheck1"
+                              required>
+                           <label class="form-check-label" for="exampleCheck1">Save my name,
+                           email, and website in this browser for the next time I
+                           comment.</label>
+                        </div>
+                        <button name="submit" type="submit"
+                           class="submit iq-button text-capitalize border-0" value="Submit">
+                           <span class="iq-btn-text-holder position-relative">submit</span>
+                           <span class="iq-btn-icon-holder">
+                              <svg width="10" height="11" viewBox="0 0 10 11" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M5 0.5C5.34518 0.5 5.625 0.779822 5.625 1.125V4.875H9.375C9.72018 4.875 10 5.15482 10 5.5C10 5.84518 9.72018 6.125 9.375 6.125H5.625V9.875C5.625 10.2202 5.34518 10.5 5 10.5C4.65482 10.5 4.375 10.2202 4.375 9.875V6.125H0.625C0.279822 6.125 0 5.84518 0 5.5C0 5.15482 0.279822 4.875 0.625 4.875H4.375V1.125C4.375 0.779822 4.65482 0.5 5 0.5Z"
+                                    fill="currentColor"></path>
+                              </svg>
+                           </span>
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="section-padding-top px-0">
+         <div class="mb-5">
+            <h2 class="text-center">Related Products</h2>
+         </div>
+         <div class="row">
+            <div class="col-lg-3 col-sm-6">
+               {{> components/widgets/product-card product-image="/shop/product-3.webp"
+               product-category="Health Care,Physical" product-title="Hand Sanitizer Bottle" price-value="$90"
+               rating="5"}}
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               {{> components/widgets/product-card IsSale="true"
+               product-image="/shop/product-5.webp" product-category="Medical Equipment" product-title="Stethoscope"
+               price-value="$72" rating="5"}}
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               {{> components/widgets/product-card product-image="/shop/product-6.webp"
+               product-category="Physical" product-title="Farma Medicine" price-value="$69" rating="5"}}
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               {{> components/widgets/product-card product-image="/shop/product-8.webp"
+               product-category="Medical Equipment" product-title="Headache Medicine" price-value="$46"
+               rating="0"}}
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{> components/widgets/quick-view}}

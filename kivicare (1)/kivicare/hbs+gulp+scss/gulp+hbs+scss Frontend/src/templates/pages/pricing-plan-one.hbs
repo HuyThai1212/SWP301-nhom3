@@ -1,0 +1,32 @@
+{{#extend 'layouts/default' title="Pricing Plan" isHeader="true" isBreadcrumb="true" isFooter="true" active="pricing-plan-one" path="./" isSwiperSlider="true"}}
+{{#content "content"}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4 col-md-6">
+            {{> components/widgets/pricing-standard pricing-title="Basic Package"
+            price-value="$25" price-year="year" price-image="/skin-specialist/price-icon-1.png"
+            price-description="It is a long established fact that a reader will be distracted by the readable
+            content of a page ." list-1="Professional Calendar View " list-2="Free Google Analytics" list-3="limited
+            Medicines" list-4="limited Exercise" list-5="limited Task and Comments"}}
+         </div>
+         <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            {{> components/widgets/pricing-standard isActive="true"
+            pricing-title="intermediate"
+            price-value="$75" price-year="year" price-image="/skin-specialist/price-icon-2.png"
+            price-description="It is a long established fact that a reader will be distracted by the readable
+            content of a page ." list-1="Professional Calendar View " list-2="Free Google Analytics" list-3="limited
+            Medicines" list-4="limited Exercise" list-5="limited Task and Comments"}}
+         </div>
+         <div class="col-lg-4 mt-5 mt-lg-0">
+            {{> components/widgets/pricing-standard pricing-title="Advanced" price-value="$99"
+            price-year="year" price-image="/skin-specialist/price-icon-3.png" price-description="It is a long
+            established fact that a reader will be distracted by the readable content of a page ."
+            list-1="Professional Calendar View " list-2="Free Google Analytics" list-3="limited Medicines"
+            list-4="limited Exercise" list-5="limited Task and Comments"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

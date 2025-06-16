@@ -1,0 +1,11 @@
+{{#compare IsActive '==' 'true'}}
+<a href="{{product-url}}" class="d-flex align-items-center gap-2 active">
+<i class="{{product-icon}}"></i>
+<span>{{product-title}}</span>
+</a>
+{{else}}
+<a href="{{product-url}}" class="d-flex align-items-center gap-2">
+<i class="{{product-icon}}"></i>
+<span>{{product-title}}</span>
+</a>
+{{/compare}}

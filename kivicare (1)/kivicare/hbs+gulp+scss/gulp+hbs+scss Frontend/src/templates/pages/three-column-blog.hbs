@@ -1,0 +1,89 @@
+{{#extend 'layouts/default' title="Three Column Blog" isHeader="true" isHeader="true" isBreadcrumb="true" isFooter="true" active="three-column-blog" path="./" }}
+{{#content "content"}}
+<div class="blog-list section-padding">
+   <div class="container">
+      <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
+         <div class="col">
+            {{> components/widgets/blog-standard  
+            blog-image="blog/blog-1.webp"
+            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="OPD cover gaining popularity among Indian consumers" blog-description="It may give you a
+            moment of relief, but you’re also spreading dirt and bacteria into your eyes when you rub them"}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-2.webp"
+            blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Why Is Dry Eye So Difficult to Treat?" blog-discription="It may give you a moment of relief,
+            but you’re also spreading dirt and bacteria into your eyes when you rub them."}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-3.webp"
+            blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria" blog-description="Dolor
+            sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magnaaliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo
+            consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiatnulla
+            pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia […]"}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-4.webp"
+            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="A Revolutionary Change in Paediatric Healthcare" blog-description="Dolor sit amet,
+            consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magnaaliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo
+            consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiatnulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
+            […]"}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-5.webp"
+            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Could Eyedrops Replace Reading Glasses?" blog-description="Dolor sit amet,
+            consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magnaaliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo
+            consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiatnulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
+            […]"}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-6.webp"
+            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="A World With Only Optimized Experiences Is Just Boring" blog-description="Dolor sit amet,
+            consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore magnaaliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo
+            consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiatnulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
+            […]"}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-7.webp"
+            blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Some questions about nutrition?" blog-description="They bring to you a host of beautifully
+            created infographics that contain the latest digital marketing."}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-8.webp"
+            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="What are the 7 parts of the eye?" blog-description="It may give you a moment of relief, but
+            you’re also spreading dirt and bacteria into your eyes when you rub them."}}
+         </div>
+         <div class="col">
+            {{> components/widgets/blog-standard  blog-image="blog/blog-9.webp"
+            blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Is it okay to cleanse your body by fasting from time to time?" blog-description="It may give
+            you a moment of relief, but you’re also spreading dirt and bacteria into your eyes when you rub them."}}
+         </div>
+      </div>
+       <nav aria-label="...">
+            <ul class="pagination justify-content-center gap-3">
+               <li class="page-item active" aria-current="page">
+               <span class="page-link">1</span>
+               </li>
+               <li class="page-item"><a class="page-link" href="#">2</a></li>
+               <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+         </nav>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

@@ -1,0 +1,945 @@
+{{#extend 'layouts/default' title="cardiac" isHeader-skin-specialist="true"
+ismegamenu="true" logo-dynamic="true" logo-image="logo-red.png"
+isFooter-cardiac="true" isSweetalert="true"
+active="cardiac"
+path="./" isSwiperSlider="true"
+page_colors='[{"var":"--bs-primary","value":"#e63946"},{"var":"--bs-primary-rgb","value":"230,57,70"},{"var":"--bs-primary-shade-20","value":"#ce2f3b"},{"var":"--bs-secondary","value":"#1d3557"},{"var":"--bs-secondary-rgb","value":"29,53,87"}]'}}
+{{#content "content"}}
+
+{{!-- Banner --}}
+<div class="cardiac-banner position-relative pt-xl-0 pt-5">
+    <div
+        class="bg-primary p-4 position-absolute bottom-0 start-0 shape-deliver-truck d-xl-inline-block d-none">
+        <div class="ms-5">
+            <img src="{{path}}assets/images/cardiac/banner-truck.svg"
+                class="img-fluid" alt="banner-coupen">
+        </div>
+    </div>
+    <div class="container-fluid pe-xl-0">
+        <div class="row gx-0 h-100 position-relative">
+            <div class="col-xl-4 align-self-center">
+                <div class="py-xl-5 pe-xl-5">
+                    <div class="no-sub-title big-font">
+                        {{> components/widgets/title
+                        right-text="Healthy Heart Keeps Dancing To"
+                        left-text ="The Beats" title-description ="Over a long
+                        period of work we have provided 1000’s of
+                        clients a better life and helped to overcome mental
+                        illness"}}
+                    </div>
+                </div>
+                <div
+                    class="position-absolute bottom-0 start-0 ms-5 ps-5 d-xl-block d-none">
+                    <div class="ps-xxl-0 ms-xxl-0 ps-xl-5 ms-xl-5">
+                        <p class="mt-0 mb-2 text-uppercase">emergency call</p>
+                        <h4 class="mb-2 fw-500"><a href="tel:+2708229077">+
+                                (270) 822-9077</a></h4>
+                    </div>
+                </div>
+                <div class="d-xl-none">
+                    <div class="ps-xxl-0 ms-xxl-0 ps-xl-5 ms-xl-5">
+                        <p class="mt-0 mb-2 text-uppercase">emergency call</p>
+                        <h4 class="mb-2 fw-500"><a href="tel:+2708229077">+
+                                (270) 822-9077</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-6 mh-100 mt-xl-0 mt-5">
+                <div class="banner-img h-100">
+                    <img src="{{path}}assets/images/cardiac/cardiac-banner.webp"
+                        class="img-fluid h-100 object-cover"
+                        alt="banner">
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-6 mh-100 mt-xl-0 mt-5">
+                <div
+                    class="pe-3 bg-secondary position-relative overflow-hidden h-100">
+                    <div class="position-absolute top-0 start-0">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-banner-pattern.webp"
+                            class="img-fluid"
+                            alt="banner-pattern">
+                    </div>
+                    <div class="position-absolute bottom-0 end-0">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-banner-pattern.webp"
+                            class="img-fluid banner-pattern-reverse"
+                            alt="banner-pattern">
+                    </div>
+                    <div
+                        class="d-flex flex-column h-100 p-5 m-md-5 justify-content-center position-relative">
+                        <div class="p-xl-5">
+                            <div class="mb-5">
+                                <img
+                                    src="{{path}}assets/images/cardiac/banner-coupen.svg"
+                                    class="img-fluid"
+                                    alt="banner-coupen">
+                            </div>
+                            <span class="text-white fs-5"><span
+                                    class="text-primary">Save $35</span> – Join
+                                By
+                                Wednesday And Get Offer In Medical Kit Worth For
+                                $10</span>
+                            <div class="mt-5 pt-xl-5">
+                                <div class="button-primary">
+                                    {{> components/widgets/button
+                                    button-text="Get Started"
+                                    button-url="about-us.html"}}
+                                </div>
+                            </div>
+                            <span
+                                class="mt-2 d-inline-block text-white fst-italic fw-500 font-size-14">Cancel
+                                Anytime,
+                                Refund Generated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- About us --}}
+<div class="section-padding pb-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 position-relative pe-lg-5">
+                <img src="{{path}}assets/images/cardiac/cardiac-about-us.webp"
+                    class="img-fluid w-100"
+                    alt="cardiac-about-us">
+                <div
+                    class="cardiac-title-slider position-absolute top-50 end-0 me-xl-n5 d-none d-xl-block">
+                    <div class="overflow-hidden">
+                        <div
+                            class="position-relative title-box-slider bg-secondary p-4 swiper swiper-general"
+                            id="titlebox-slider" data-slide="1" data-laptop="1"
+                            data-tab="1" data-mobile="1"
+                            data-mobile-sm="1" data-autoplay="true"
+                            data-loop="true" data-navigation="true"
+                            data-pagination="true">
+                            <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                                <li class="swiper-slide">
+                                    {{> components/widgets/titleboxslider
+                                    slider-title-main="300 +"
+                                    slider-decs="Happy customers  served"}}
+                                </li>
+                                <li class="swiper-slide">
+                                    {{> components/widgets/titleboxslider
+                                    slider-title-main="40 +"
+                                    slider-decs="Years of top experience in eye"}}
+                                </li>
+                                <li class="swiper-slide">
+                                    {{> components/widgets/titleboxslider
+                                    slider-title-main="25 +"
+                                    slider-decs="Talented inhouse Doctors"}}
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 ps-xl-5 mt-lg-0 mt-5">
+                <div class="ps-xl-5">
+                    <div class="position-relative">
+                        {{> components/widgets/scrolling-text
+                        scroll-title="About
+                        us"}}
+                    </div>
+                    {{> components/widgets/title sub-title="About Us"
+                    right-text="Welcome to the" left-text ="Kivicare"
+                    title-description="It is a long established fact
+                    that a reader will be distracted by the readable content of
+                    a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed
+                    to using Content here content here."}}
+                    <div class="row mt-5">
+                        <div class="col-sm-6">
+                            <div class="d-flex flex-sm-row flex-column gap-3">
+                                <div class="icon flex-shrink-0">
+                                    <img
+                                        src="{{path}}assets/images/cardiac/heart.svg"
+                                        class="img-fluid" alt="heart">
+                                </div>
+                                <div class="content">
+                                    <h5 class="mb-2">Heart Transplant</h5>
+                                    <p class="m-0">There are many variations of
+                                        passages of Lorem Ipsum available</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mt-sm-0 mt-4">
+                            <div class="d-flex flex-sm-row flex-column gap-3">
+                                <div class="icon flex-shrink-0">
+                                    <img
+                                        src="{{path}}assets/images/cardiac/heart.svg"
+                                        class="img-fluid" alt="heart">
+                                </div>
+                                <div class="content">
+                                    <h5 class="mb-2">Heart Rhythm Disorders</h5>
+                                    <p class="m-0">There are many variations of
+                                        passages of Lorem Ipsum available</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-top mt-5 pt-5">
+                        <div class="row">
+                            <div class="col-sm-5 align-self-center">
+                                <div
+                                    class="iq-list d-flex justify-content-between flex-column h-100">
+                                    <ul
+                                        class="iq-list-with-icon list-inline mb-0">
+                                        <li
+                                            class="d-flex align-items-center gap-2 mb-3">
+                                            <span class="text-primary">
+                                                <svg width="15" height="14"
+                                                    viewBox="0 0 15 14"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </span>
+                                            <span
+                                                class="text-capitalize text-body">Orthopaedic
+                                                surgeon</span>
+                                        </li>
+                                        <li
+                                            class="d-flex align-items-center gap-2 mb-3">
+                                            <span class="text-primary">
+                                                <svg width="15" height="14"
+                                                    viewBox="0 0 15 14"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </span>
+                                            <span
+                                                class="text-capitalize text-body">Performs
+                                                routine health tests</span>
+                                        </li>
+                                        <li
+                                            class="d-flex align-items-center gap-2">
+                                            <span class="text-primary">
+                                                <svg width="15" height="14"
+                                                    viewBox="0 0 15 14"
+                                                    fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                                                        fill="currentColor" />
+                                                </svg>
+                                            </span>
+                                            <span
+                                                class="text-capitalize text-body">Conducts
+                                                health checkups</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 text-center d-sm-block d-none">
+                                <div class="vr h-100"></div>
+                            </div>
+                            <div
+                                class="col-sm-5 align-self-center text-sm-center mt-sm-0 mt-4">
+                                <img
+                                    src="{{path}}assets/images/general/signature.png"
+                                    alt class="img-fluid">
+                                <p
+                                    class="text-primary text-uppercase letter-spacing-1 mt-3 mb-0">CEO
+                                    & FOUNDER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Services --}}
+<div class="section-padding-top cardiac-service">
+    <div class="container">
+        <div class="card">
+            <div class="card-body p-0">
+                <div class="row align-items-center m-0">
+                    <div class="col-lg-5 fertility-service position-relative">
+                        {{> components/widgets/scrolling-text
+                        scroll-title="Services" }}
+                        {{> components/widgets/title
+                        sub-title="KIVICARE SERVICES"
+                        right-text="Cardiac Services By" left-text ="Kivicare"
+                        title-description ="We at Kivicare offer
+                        world-class solutions in cardiac treatments with the
+                        help of advanced tools and the experience
+                        of pioneer cardiology team"}}
+                        <div class="mt-5">
+                            <div class="button-primary">
+                                {{> components/widgets/button
+                                button-text="Read More"
+                                button-url="service1.html"}}
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-7 padding-80 border-start position-relative">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="no-img-bg pe-lg-5">
+                                    {{> components/widgets/iconbox-transprent
+                                    isBorder="true" isButtonHide="true"
+                                    icon-image="cardiac/diagnosis.svg"
+                                    iconbox-title="Diagnosis"
+                                    iconbox-desc="There are many variations of
+                                    Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form" }}
+                                </div>
+                                <div
+                                    class="no-img-bg pe-lg-5 mt-0 mt-md-5 cardiac-service">
+                                    {{> components/widgets/iconbox-transprent
+                                    isBorder="true" isButtonHide="true"
+                                    icon-image="cardiac/cardiac-rehabilitation.svg"
+                                    iconbox-title="Cardiac Rehabilitation"
+                                    iconbox-desc="There are many variations of
+                                    Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form" }}
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="no-img-bg pe-lg-5">
+                                    {{> components/widgets/iconbox-transprent
+                                    isBorder="true" isButtonHide="true"
+                                    icon-image="cardiac/coronary-heart.svg"
+                                    iconbox-title="Coronary Heart"
+                                    iconbox-desc="There are many variations of
+                                    Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form" }}
+                                </div>
+                                <div class="no-img-bg pe-lg-5 mt-0 mt-md-5">
+                                    {{> components/widgets/iconbox-transprent
+                                    isButtonHide="true"
+                                    icon-image="cardiac/cardiac-surgery.svg"
+                                    iconbox-title="Cardiac Surgery"
+                                    iconbox-desc="There are many variations of
+                                    Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form" }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Counter --}}
+<div class="bg-secondary margin-negative-400 counter-white">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-3">
+                {{> components/widgets/counter-with-icon counter-icon='<i
+                    aria-hidden="true"
+                    class="flaticon flaticon-flaticon flaticon-government text-primary"></i>'
+                counter-value="75+" counter-text="SPECIALIZED DR."}}
+            </div>
+            <div class="col-lg-3">
+                {{> components/widgets/counter-with-icon counter-icon='<i
+                    aria-hidden="true"
+                    class="flaticon flaticon-flaticon flaticon-care text-primary"></i>'
+                counter-value="10+" counter-text="AWARD WON"}}
+            </div>
+            <div class="col-lg-3">
+                {{> components/widgets/counter-with-icon counter-icon='<i
+                    aria-hidden="true"
+                    class="flaticon flaticon-flaticon flaticon-rating text-primary"></i>'
+                counter-value="150+" counter-text="APPOINTMENTS"}}
+            </div>
+            <div class="col-lg-3">
+                {{> components/widgets/counter-with-icon counter-icon='<i
+                    aria-hidden="true"
+                    class="flaticon flaticon-flaticon flaticon-debit-card text-primary"></i>'
+                counter-value="250+" counter-text="YOUNG VISITORS"}}
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Why choose us --}}
+<div class="section-padding">
+    <div class="container position-relative">
+        {{> components/widgets/scrolling-text scroll-title="why choose us"}}
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    {{> components/widgets/title sub-title="WHY CHOOSE US"
+                    right-text="Why People Trust KiviCare" left-text="treatment"
+                    title-description="There are many variations of passages of
+                    Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don’t
+                    look even slightly believable."}}
+                    <ul class="iq-list-with-icon list-inline m-0">
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                            <span class="text-secondary">
+                                <svg width="15" height="14" viewBox="0 0 15 14"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </span>
+                            <p class="m-0">Lorem ipsum dolor sit amet
+                                consectetur adipiscing</p>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                            <span class="text-secondary">
+                                <svg width="15" height="14" viewBox="0 0 15 14"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </span>
+                            <p class="m-0">Pellentesque nec neque eu lorem
+                                efficitur posuere ac eu</p>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <span class="text-secondary">
+                                <svg width="15" height="14" viewBox="0 0 15 14"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </span>
+                            <p class="m-0 ">Duis finibus lectus eget tortor
+                                ultrices, et aliquet nisi</p>
+                        </li>
+                    </ul>
+                    <div class="row mt-5">
+                        <div class="col-sm-6">
+                            {{> components/widgets/counter-with-content
+                            counter-value="140+" counter-title="Total
+                            Appointment Completed"}}
+                        </div>
+                        <div class="col-sm-6 mt-sm-0 mt-3">
+                            {{> components/widgets/counter-with-content
+                            counter-value="20K+" counter-title="Total
+                            Surgery Completed"}}
+                        </div>
+                    </div>
+                    <div class="mt-5 pt-0 pt-lg-5">
+                        {{> components/widgets/button button-text="Read More"
+                        button-url="about-us.html"}}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-5 position-relative">
+                <img src="{{path}}assets/images/cardiac/cardiac-choose-us.webp"
+                    alt="choose-us" class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- gallary --}}
+<div class="section-padding position-relative custom-gallery pt-0">
+    <div class="container-fluid position-relative p-md-0">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="pb-4 gallery-overlay position-relative h-50">
+                    <a data-fslightbox="gallery"
+                        class="h-100 gallery-overlay-box"
+                        href="{{path}}assets/images/cardiac/cardiac-gallery-1.jpg">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-gallery-1.jpg"
+                            class="img-fluid h-100 w-100"
+                            alt="profile-image" loading="lazy">
+                        <div class="view-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="20" viewBox="0 0 20 17"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="mb-md-0 mb-4 gallery-overlay position-relative h-50">
+                    <a data-fslightbox="gallery"
+                        class="h-100 gallery-overlay-box"
+                        href="{{path}}assets/images/cardiac/cardiac-gallery-2.jpg">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-gallery-2.jpg"
+                            class="img-fluid h-100 w-100"
+                            alt="profile-image" loading="lazy">
+                        <div class="view-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="20" viewBox="0 0 20 17"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div
+                    class="mb-md-0 mb-4 gallery-overlay position-relative h-100 py-4 py-md-0">
+                    <a data-fslightbox="gallery"
+                        class="h-100 gallery-overlay-box"
+                        href="{{path}}assets/images/cardiac/cardiac-gallery-3.jpg">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-gallery-3.jpg"
+                            class="img-fluid h-100"
+                            alt="profile-image" loading="lazy">
+                        <div class="view-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="20" viewBox="0 0 20 17"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="pb-4 gallery-overlay position-relative h-50">
+                    <a data-fslightbox="gallery"
+                        class="h-100 gallery-overlay-box"
+                        href="{{path}}assets/images/cardiac/cardiac-gallery-4.jpg">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-gallery-4.jpg"
+                            class="img-fluid h-100 w-100"
+                            alt="profile-image" loading="lazy">
+                        <div class="view-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="20" viewBox="0 0 20 17"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="mb-md-0 mb-4 gallery-overlay position-relative h-50">
+                    <a data-fslightbox="gallery"
+                        class="h-100 gallery-overlay-box"
+                        href="{{path}}assets/images/cardiac/cardiac-gallery-5.jpg">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-gallery-5.jpg"
+                            class="img-fluid h-100 w-100"
+                            alt="profile-image" loading="lazy">
+                        <div class="view-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="20" viewBox="0 0 20 17"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div
+                    class="gallery-overlay position-relative h-100 pt-4 pt-md-0">
+                    <a data-fslightbox="gallery"
+                        class="h-100 gallery-overlay-box"
+                        href="{{path}}assets/images/cardiac/cardiac-gallery-6.jpg">
+                        <img
+                            src="{{path}}assets/images/cardiac/cardiac-gallery-6.jpg"
+                            class="img-fluid h-100"
+                            alt="profile-image" loading="lazy">
+                        <div class="view-image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22"
+                                height="20" viewBox="0 0 20 17"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                    stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Team --}}
+<div class="section-padding pt-0">
+    <div class="container">
+        <div class="text-center position-relative">
+            {{> components/widgets/scrolling-text scroll-title="our doctors" }}
+            {{> components/widgets/title sub-title="DOCTORS"
+            right-text="Our Outstanding" left-text="Doctors"}}
+        </div>
+        <div
+            class="team-content-aside-wrapper overflow-hidden swiper swiper-general position-relative"
+            data-slide="4" data-laptop="3" data-tab="2" data-mobile="1"
+            data-mobile-sm="1" data-autoplay="true" data-loop="true"
+            data-navigation="true" data-pagination="true" data-center="true">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    {{> components/widgets/team-content-aside
+                    team-image="/team/team-1.webp"
+                    team-member-name="Gunner Peha"
+                    team-specialized="Cardiologist"}}
+                </div>
+                <div class="swiper-slide">
+                    {{> components/widgets/team-content-aside
+                    team-image="/team/team-2.webp"
+                    team-member-name="Ayden Leabow"
+                    team-specialized="General Surgeon"}}
+                </div>
+                <div class="swiper-slide">
+                    {{> components/widgets/team-content-aside
+                    team-image="/team/team-3.webp"
+                    team-member-name="Jennifer Dumont"
+                    team-specialized="General Surgeon"}}
+                </div>
+                <div class="swiper-slide">
+                    {{> components/widgets/team-content-aside
+                    team-image="/team/team-4.webp"
+                    team-member-name="Damian Melcher"
+                    team-specialized="Gynecologist"}}
+                </div>
+                <div class="swiper-slide">
+                    {{> components/widgets/team-content-aside
+                    team-image="/team/team-5.webp"
+                    team-member-name="Lewis Scobee"
+                    team-specialized="Cardiologist"}}
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+{{!-- Book --}}
+<div class="mx-3 mx-lg-0 px-md-3">
+    <div class="container bg-primary p-50-100 rounded-3">
+        <div
+            class="d-flex align-items-center justify-content-between flex-column flex-lg-row gap-3 gap-lg-5">
+            <div class="d-flex align-items-center gap-4">
+                <div
+                    class="box-img bg-white text-secondary p-3 rounded-pill d-inline-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32"
+                        height="35" viewBox="0 0 32 35" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.89265 0.161675C7.57155 0.486213 6.31377 1.21529 5.15392 2.32877C2.62586 4.75561 0.87548 8.79231 0.195488 13.7635C-0.0651625 15.6689 -0.0651625 19.3405 0.195488 21.2459C0.94685 26.7392 3.09133 31.2253 6.03471 33.4616C6.67433 33.9476 8.01696 34.6243 8.71669 34.8135C9.4808 35.02 10.9799 35.0639 11.6768 34.9002C13.1559 34.5528 14.5021 33.4865 15.161 32.1406C16.275 29.865 15.7194 27.2823 13.7726 25.6852C12.8636 24.9395 11.7384 24.5508 10.4845 24.549C8.5811 24.5463 6.87413 25.5324 5.89756 27.1986L5.68081 27.5686L5.32898 26.8328C4.63369 25.3789 4.00295 23.139 3.68631 20.9992C3.47721 19.5859 3.47721 15.4235 3.68631 14.0102C4.00303 11.8696 4.63361 9.63051 5.32964 8.17514L5.68213 7.438L5.98595 7.92847C6.995 9.55766 8.59557 10.4574 10.4845 10.4574C11.3798 10.4574 12.0763 10.2982 12.8213 9.92363C14.9627 8.84667 16.1117 6.47656 15.6236 4.14329C15.2219 2.22369 13.611 0.563833 11.7179 0.119001C10.9766 -0.0551494 9.69663 -0.0358267 8.89265 0.161675ZM11.2864 3.68152C12.5933 4.35164 12.4947 6.27988 11.1244 6.85232C10.0229 7.31245 8.7578 6.45798 8.7578 5.25397C8.7578 3.89662 10.0902 3.06805 11.2864 3.68152ZM25.098 5.85149C24.3564 6.09233 23.887 6.73721 23.887 7.51529C23.887 8.10377 24.0068 8.32701 24.8114 9.23764C26.4655 11.1097 27.4425 13.1217 27.8477 15.4902C28.0646 16.7584 28.0253 18.8438 27.7621 20.0285C27.2743 22.2248 26.3287 24.0572 24.7719 25.8235C24.2119 26.459 24.0515 26.6995 23.9747 27.0196C23.7832 27.8178 24.1481 28.5979 24.8843 28.9648C25.3563 29.2001 25.7096 29.2323 26.201 29.085C26.6195 28.9596 27.0293 28.5997 27.8036 27.677C33.0174 21.4652 32.7177 12.4291 27.1025 6.54168C26.4682 5.87649 25.7657 5.63467 25.098 5.85149ZM20.0225 10.8934C19.3802 11.1716 18.9536 11.8083 18.9536 12.4884C18.9536 13.0533 19.1126 13.3941 19.6567 13.9951C21.3929 15.913 21.4459 18.8602 19.7799 20.8348C19.2309 21.4854 19.0394 21.8894 19.0394 22.397C19.0394 23.3603 19.823 24.1639 20.7625 24.1639C21.4613 24.1639 22.1412 23.6519 22.9003 22.5537C24.7211 19.9199 25.0146 16.6487 23.6831 13.8294C23.4867 13.4135 23.1839 12.8593 23.0103 12.5977C22.5516 11.9065 21.7583 11.0887 21.3792 10.9158C20.9806 10.7342 20.4118 10.7247 20.0225 10.8934ZM14.9657 15.9289C14.3446 16.224 14.0188 16.774 14.0219 17.5226C14.0265 18.6123 14.7906 19.2965 15.9123 19.2154C16.472 19.1749 16.8686 18.9428 17.2076 18.4572C17.405 18.1746 17.4324 18.0585 17.4324 17.5047C17.4324 16.9508 17.405 16.8347 17.2076 16.5521C16.8462 16.0344 16.4698 15.8272 15.838 15.798C15.4342 15.7792 15.2101 15.8129 14.9657 15.9289ZM11.1841 28.1827C12.4816 28.7722 12.5566 30.6224 11.3109 31.311C10.4244 31.801 9.27285 31.4051 8.88508 30.477C8.28115 29.0317 9.77384 27.542 11.1841 28.1827Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </div>
+                <h5 class="text-white fw-normal">Need a Doctor for Checkup? Call
+                    for an emergency service. Our services
+                    are <span class="text-white">avaliable for 24 hours</span>
+                </h5>
+            </div>
+            <div class="f-none">
+                {{> components/widgets/button button-text="Book Appointment"
+                button-url="appointment.html"}}
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Contact us --}}
+<div class="section-padding">
+    <div class="container position-relative">
+        {{> components/widgets/scrolling-text scroll-title="contact us"}}
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                {{> components/widgets/title sub-title="contact us"
+                right-text="Get A Glimpse Of A " left-text
+                ="Cardiac Theraphy" title-description ="Sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem
+                accusantium"}}
+                <ul
+                    class="iq-social list-inline d-flex align-items-center mt-5 gap-3 m-0">
+                    <li class="label text-dark fw-500">Follow us :</li>
+                    <li>
+                        <a href="https://facebook.com/">
+                            <svg class="base-circle animated" width="38"
+                                height="38" viewBox="0 0 50 50">
+                                <circle class="c1" cx="25" cy="25" r="23"
+                                    stroke="#6e7990" stroke-width="1"
+                                    fill="none"></circle>
+                            </svg>
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/">
+                            <svg class="base-circle animated" width="38"
+                                height="38" viewBox="0 0 50 50">
+                                <circle class="c1" cx="25" cy="25" r="23"
+                                    stroke="#6e7990" stroke-width="1"
+                                    fill="none"></circle>
+                            </svg>
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/">
+                            <svg class="base-circle animated" width="38"
+                                height="38" viewBox="0 0 50 50">
+                                <circle class="c1" cx="25" cy="25" r="23"
+                                    stroke="#6e7990" stroke-width="1"
+                                    fill="none"></circle>
+                            </svg>
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-8 position-relative">
+                <form>
+                    <div class="row mt-5 mt-lg-0">
+                        <div class="col-lg-6">
+                            <div class="custom-form-field">
+                                <input type="text" name="your-name"
+                                    placeholder="Your Name"
+                                    class="form-control mb-5 bg-white" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-form-field">
+                                <input type="text" name="your-subject"
+                                    placeholder="Last Name"
+                                    class="form-control mb-5 bg-white" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-form-field">
+                                <input type="tel" name="tel-478" minlength="10"
+                                    maxlength="140"
+                                    placeholder="Phone Number"
+                                    class="form-control mb-5 bg-white" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-form-field">
+                                <input type="email" name="your-email"
+                                    placeholder="Your Email"
+                                    class="form-control mb-5 bg-white" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="custom-form-field">
+                                <textarea name="your-message"
+                                    placeholder="Your Message"
+                                    class="form-control mb-5 bg-white"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="iq-btn-container">
+                                <button
+                                    class="iq-button text-capitalize border-0"
+                                    type="submit">
+                                    <span
+                                        class="iq-btn-text-holder position-relative">send
+                                        message</span>
+                                    <span class="iq-btn-icon-holder">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="8" height="8"
+                                            viewBox="0 0 8 8"
+                                            fill="none">
+                                            <path
+                                                d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- Testimonial --}}
+<div class="position-relative section-padding rtl-image-flip"
+    style="background-image: url({{path}}assets/images/cardiac/cardiac-popup.webp); background-size: cover; background-position: right center;">
+    <div class="container-fluid rtl-image-flip-container">
+        <div class="row">
+            <div class="col-md-6 d-md-block d-none"></div>
+            <div class="col-md-6">
+                <div
+                    class="overflow-hidden tesimonial-quote swiper swiper-general"
+                    data-slide="1" data-laptop="1"
+                    data-tab="1" data-mobile="1" data-mobile-sm="1"
+                    data-autoplay="true" data-loop="true"
+                    data-navigation="true" data-pagination="true">
+                    <ul
+                        class="p-0 m-0 mb-2 swiper-wrapper list-inline testimonial-quote">
+                        <li class="swiper-slide">
+                            {{> components/widgets/testimonial-standard
+                            isAuthorimagehide="true"
+                            isTeastimonialicon="true" isRatting="true"
+                            testimonial-image="/testimonial/user-1.webp"
+                            testimonial-user="Moric Horgon"
+                            quote-image="testimonial/quote-2.svg"
+                            testimonial-meta="Patient" testimonial-content="“You
+                            can’t go wrong here. I receive the best
+                            care and attention. The nursing staff and doctors
+                            are amazing and take their time with you.
+                            I felt better walking out here every time.”"
+                            rating="5" }}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/testimonial-standard
+                            isAuthorimagehide="true"
+                            isTeastimonialicon="true" isRatting="true"
+                            testimonial-image="/testimonial/user-2.webp"
+                            testimonial-user="Julia Roberts"
+                            quote-image="testimonial/quote-2.svg"
+                            testimonial-meta="Healthcare"
+                            testimonial-content="“Still very professional but a
+                            much more
+                            relaxed atmosphere. This makes for a more
+                            comfortable experience which is helpful in dealing
+                            with medical issues.”" rating="5"}}
+                        </li>
+                        <li class="swiper-slide">
+                            {{> components/widgets/testimonial-standard
+                            isAuthorimagehide="true"
+                            isTeastimonialicon="true" isRatting="true"
+                            testimonial-image="/testimonial/user-3.webp"
+                            testimonial-user="Jack leo"
+                            quote-image="testimonial/quote-2.svg"
+                            testimonial-meta="COO company"
+                            testimonial-content="“It has been very effective, in
+                            my
+                            opinion. It has made everyone more relaxed in a very
+                            comfortable atmosphere. We have always
+                            felt like family here, even more so now.”"
+                            rating="1"}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- client --}}
+<div class="client-bg ">
+    {{> components/widgets/client}}
+</div>
+{{!-- Blog --}}
+<div class="section-padding">
+    <div class="container position-relative">
+        <div class="text-center">
+            {{> components/widgets/scrolling-text scroll-title="Latest Blog" }}
+            {{> components/widgets/title sub-title="blog" right-text="Our Latest
+            News &
+            " left-text="Advices" }}
+        </div>
+        <div class="row">
+            <div class="col-lg-6 blog-height">
+                {{> components/widgets/blog-standard
+                blog-image="./blog/blog-1.webp"
+                blog-category="Health Care"
+                blog-publish-date="September 23, 2022" blog-author="goldenmace"
+                blog-title="OPD cover gaining popularity among Indian consumers"}}
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="blog mb-5">
+                    {{> components/widgets/blog-column
+                    blog-image="./blog/blog-2.webp"
+                    blog-category="Eye Care"
+                    blog-publish-date="September 23, 2022"
+                    blog-author="goldenmace"
+                    blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+                </div>
+                <div class="blog">
+                    {{> components/widgets/blog-column
+                    blog-image="./blog/blog-3.webp"
+                    blog-category="Eye Care"
+                    blog-publish-date="September 23, 2022"
+                    blog-author="goldenmace"
+                    blog-title="the most common problems?"}}
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <div class="iq-btn-container">
+                <a class="iq-button" href="{{path}}blog-lists.html">
+                    <span class="iq-btn-text-holder position-relative">View
+                        More</span>
+                    <span class="iq-btn-icon-holder">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10"
+                            height="10" viewBox="0 0 8 8" fill="none">
+                            <path
+                                d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{{/content}}
+{{/extend}}

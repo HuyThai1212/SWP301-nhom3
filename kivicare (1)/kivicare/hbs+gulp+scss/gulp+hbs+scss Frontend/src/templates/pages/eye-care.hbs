@@ -1,0 +1,398 @@
+{{#extend 'layouts/default' title="eye-care" isHeader-eyecare="true" logo-dynamic="true" logo-image="logo-green.png" isFooter-eyecare="true" ismegamenu="true" active="eye-care"
+path="./" isSwiperSlider="true" 
+page_colors='[{"var":"--bs-primary","value":"#5ab88a"},{"var":"--bs-primary-bg-subtle","value":"#e9f3ef"},{"var":"--bs-primary-rgb","value":"90, 184, 138"},{"var":"--bs-primary-shade-20","value":"#50a87d"},{"var":"--bs-secondary","value":"#171c26"},{"var":"--bs-secondary-bg-subtle","value":"#d4dedb"},{"var":"--bs-secondary-rgb","value":"23, 28, 38"}]'
+}}
+{{#content "content"}}
+{{!-- banner --}}
+<div class="eyecare-banner  pb-5 eyes-carebg-right">
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-4">
+            <div class="section-padding pe-0 ps-0">
+               <div class="no-sub-title big-font">
+                  {{> components/widgets/title right-text=" Eye Care Services That You" left-text ="Can Trust"
+                  title-description ="It is a long established fact that a reader will be distracted by the readable content of a
+                  page when looking at its layout."}}
+               </div>
+               <div class="button-primary">
+                  {{> components/widgets/button button-text="Get Appoinement" button-url="appointment.html"}}
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-1"></div>
+         <div class="col-lg-7 position-relative eye-care-title">
+            {{> components/widgets/scrolling-text scroll-title="eye"}}
+            <img src="{{path}}assets/images/eye-care/eye-02.webp" alt="img"
+               class="img-fluid position-relative mt-lg-5 pt-5 rtl-image-flip">
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- benefits section --}}
+<div class="section-padding-bottom">
+   <div class="container">
+      <div class="box-card-main benefits-main">
+         <div class="row align-items-center">
+            <div class="col-xl-4 col-lg-5">
+               {{> components/widgets/title sub-title="BENEFITS" right-text="Best Benefits" left-text ="With KiviCare"}}
+            </div>
+            <div class="col-xl-6 col-lg-7 mb-5 mb-lg-0">
+               <p class="mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its </p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="box-transparent no-img-bg pe-lg-5">
+                  {{> components/widgets/iconbox-transprent isBorder="true" icon-image="eye-care/eye-03.webp"
+                  iconbox-title="Qualified Doctors" iconbox-desc=" It is a long established fact that a will be distracted by the readable content of a page
+                  looking at its
+                  layout." btn-url="about-us.html" }}
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="box-transparent no-img-bg pe-lg-5">
+                  {{> components/widgets/iconbox-transprent isBorder="true" icon-image="eye-care/eye-04.webp"
+                  iconbox-title="Work Improvements"
+                  iconbox-desc=" It is a
+                  long established fact that a will be distracted by the readable content of a page
+                  looking at its
+                  layout." btn-url="about-us.html" }}
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="box-transparent no-img-bg pe-lg-5">
+                  {{> components/widgets/iconbox-transprent icon-image="eye-care/eye-05.webp"
+                  iconbox-title="Restoring Confidence"
+                  iconbox-desc=" It is a
+                  long established fact that a will be distracted by the readable content of a page
+                  looking at its
+                  layout." btn-url="about-us.html" }}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- About us --}}
+<div class="iq-about-us bg-primary-subtle text-body">
+   <div class="container-fluid p-0">
+      <div class="row">
+         <div class="col-lg-3"
+            style="background: url('{{path}}assets/images/eye-care/01-bg.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
+            {{> components/widgets/video-popup
+            video-link-url="https://www.youtube.com/watch?v=VeDdpy4CdeM"}}
+         </div>
+         <div class="col-lg-9">
+            <div class="section-padding spacing-ls-rs">
+               <div class="position-relative">
+                  {{> components/widgets/scrolling-text scroll-title="About us"}}
+               </div>
+               {{> components/widgets/title sub-title="ABOUT OUR CLINIC"
+               right-text="We're A Chain Of Eye" left-text ="Care Hospitals"}}
+               <h5 class="iq-title iq-heading-title mb-2">YOUR VISION IS OUR VISION</h5>
+               <p class="iq-title-desc mb-5">It is a long established fact that a reader will be
+                  distracted by the
+                  readable content of a page when looking at its layout. 
+               </p>
+               <div class="row ">
+                  <div class="col-md-6 col-xxl-3 col-xl-4">
+                     <ul class="iq-list-with-icon p-0 ">
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Treats minor
+                           illnesses</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Answers health
+                           questions</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Conducts health
+                           checkups</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 col-xxl-3 col-xl-4">
+                     <ul class="iq-list-with-icon p-0">
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Specialty
+                           physicians</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Performs routine
+                           health
+                           tests</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i><span>Best lasik
+                           treatment</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-xxl-3 d-xxl-block d-none">
+                  </div>
+                  <div class="col-xxl-3 col-xl-4 pe-xxl-5">
+                     <div class="overflow-hidden">
+                        <div class="position-relative title-box-slider bg-primary p-4 d-none d-xl-block swiper swiper-general"
+                           id="titlebox-slider" data-slide="1" data-laptop="1" data-tab="1" data-mobile="1"
+                           data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true"
+                           data-pagination="true">
+                           <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                              <li class="swiper-slide">
+                                 {{> components/widgets/titleboxslider
+                                 slider-title-main="300 +" slider-decs="Happy customers served"}}
+                              </li>
+                              <li class="swiper-slide">
+                                 {{> components/widgets/titleboxslider
+                                 slider-title-main="40 +" slider-decs="Years of top experience in eye"}}
+                              </li>
+                              <li class="swiper-slide">
+                                 {{> components/widgets/titleboxslider
+                                 slider-title-main="25 +" slider-decs="Talented inhouse Doctors"}}
+                              </li>
+                           </ul>
+                           <div class="swiper-pagination"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-12 mt-4">
+                     <div class="button-primary">
+                        {{> components/widgets/button button-text="Get Appointment" button-url="appointment.html"}}
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Team --}}
+<div class="team-section section-padding">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Our Doctors" }}
+         {{> components/widgets/title sub-title="Doctors" right-text="Our
+         outstanding "
+         left-text="doctors"}}
+      </div>
+      <div class="position-relative overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2"
+         data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true"
+         data-pagination="true">
+         <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-1.webp"
+               team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-2.webp"
+               team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-3.webp"
+               team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-4.webp"
+               team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-5.webp"
+               team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+            </li>
+         </ul>
+         <div class="swiper-pagination"></div>
+      </div>
+   </div>
+</div>
+{{!-- service --}}
+<div class="eye-care-service section-padding bg-primary-subtle text-body">
+   <div class="container">
+      <div class="row align-items-center section-padding-bottom ps-0 pe-0 ">
+         <div class="col-lg-6 pe-xl-5">
+            <div class="position-relative">
+               {{> components/widgets/scrolling-text scroll-title="services"}}
+            </div>
+            {{> components/widgets/title sub-title="Services" right-text=" We Provide Friendly And Useful " left-text ="Medical Services." title-description ="The passage
+            experienced a surge in popularity during the 1960s when Letraset used it on their
+            dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with
+            their software.le content of a page when looking at its layout."}}
+            <div class="button-primary">
+               {{> components/widgets/button button-text="Get Appoinement" button-url="appointment.html"}}
+            </div>
+         </div>
+         <div class="col-lg-6 mt-lg-0 mt-5">
+            <div class="row custom-border-right">
+               <div class="col-lg-5 col-md-6 mb-3 box-custom-border">
+                  {{> components/widgets/counter-with-icon counter-icon='<i
+                     aria-hidden="true" class="flaticon flaticon-flaticon flaticon-government text-primary"></i>'
+                  counter-value="75+" counter-text="Specialized DR."}}
+               </div>
+               <div class="col-lg-5 col-md-6 mb-3 box-custom-border">
+                  {{> components/widgets/counter-with-icon counter-icon='<i
+                     aria-hidden="true" class="flaticon flaticon-flaticon flaticon-care text-primary"></i>'
+                  counter-value="10+" counter-text="Award Won"}}
+               </div>
+               <div class="col-lg-5 col-md-6 mb-3 box-custom-border">
+                  {{> components/widgets/counter-with-icon counter-icon='<i
+                     aria-hidden="true" class="flaticon flaticon-flaticon flaticon-rating text-primary"></i>'
+                  counter-value="150+" counter-text="Appointments"}}
+               </div>
+               <div class="col-lg-5 col-md-6 mb-3 box-custom-border">
+                  {{> components/widgets/counter-with-icon counter-icon='<i
+                     aria-hidden="true" class="flaticon flaticon-flaticon flaticon-debit-card text-primary"></i>'
+                  counter-value="250+" counter-text="Young Visitors"}}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- care service --}}
+<div class="care-service section-padding-bottom">
+   <div class="container">
+      <div class="row px-3">
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-background-hover isIcon="true" 
+            icon-class="flaticon-paper-plane "
+            iconbox-title="Eye Q-Lasik" iconbox-desc=" It is a long established fact that a will be
+            distracted " btn-url="service1.html"}}
+         </div>
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-background-hover isIcon="true"
+            icon-class="flaticon-inspection"
+            iconbox-title="Glaucoma" iconbox-desc=" It is a long established fact that a will be
+            distracted" btn-url="service1.html"}}
+         </div>
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-background-hover isIcon="true"
+            icon-class="flaticon-insurance"
+            iconbox-title="Cataract" iconbox-desc=" It is a long established fact that a will be
+            distracted " btn-url="service1.html"}}
+         </div>
+         <div class="col-lg-3 p-0 col-md-6">
+            {{> components/widgets/iconbox-background-hover isIcon="true"
+            icon-class="flaticon-ip"
+            iconbox-title="Cornea" iconbox-desc=" It is a long established fact that a will be
+            distracted " btn-url="service1.html"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- testimonial --}}
+<div class="bg-primary section-padding testimonial-section">
+   <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Testimonails" }}
+      {{> components/widgets/title sub-title="testimonial" right-text="What Our
+      Patients " left-text="Says" }}
+      <div class="row">
+         <div class="col-lg-6 col-md-6">
+            <div class="overflow-hidden position-relative swiper swiper-general" data-slide="1" data-laptop="1"
+               data-tab="1" data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="false"
+               data-navigation="true" data-pagination="true">
+               <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-1.webp" testimonial-user="Moric Horgon"
+                     testimonial-meta="Patient" testimonial-content="“You can’t go wrong here. I
+                     receive the best care and attention. The nursing staff and doctors are amazing
+                     and take their time with you. I felt better walking out here every time.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-2.webp" testimonial-user="Julia Roberts"
+                     testimonial-meta="Healthcare" testimonial-content="“Still very professional but
+                     a much more relaxed atmosphere. This makes for a more comfortable experience
+                     which is helpful in dealing with medical issues.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-3.webp" testimonial-user="Jack leo"
+                     testimonial-meta="COO company" testimonial-content="“It has been very effective,
+                     in my opinion. It has made everyone more relaxed in a very comfortable
+                     atmosphere. We have always felt like family here,
+                     even more so now.”"}}
+                  </li>
+               </ul>
+               <div class="arrow-joint">
+                  <div class="swiper-button swiper-button-next"></div>
+                  <div class="swiper-button swiper-button-prev"></div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-2 d-lg-block d-none"></div>
+         <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="bg-white p-3 p-md-5 counter-box-bottom">
+               <ul class="list-inline m-0">
+                  <li class="mb-5">
+                     {{> components/widgets/counter-with-icon counter-icon="<i
+                        aria-hidden='true' class='flaticon flaticon-flaticon flaticon-care text-primary'></i>"
+                     counter-value="45+" counter-text="Awards Won"}}
+                  </li>
+                  <li class="mb-5">
+                     {{> components/widgets/counter-with-icon counter-icon="<i
+                        aria-hidden='true'
+                        class='flaticon flaticon-flaticon flaticon-manager text-primary'></i>"
+                     counter-value="2050+" counter-text="Satisfied Patient's"}}
+                  </li>
+                  <li class="mb-0">
+                     {{> components/widgets/counter-with-icon counter-icon='<i
+                        aria-hidden="true"
+                        class="flaticon flaticon-flaticon flaticon-insurance text-primary"></i>'
+                     counter-value="15+" counter-text="Health Sections"}}
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- blog --}}
+<div class="eyes-care-blog section-padding ">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="text-center">
+               <div class="position-relative">
+                  {{> components/widgets/scrolling-text scroll-title="latest blog"}}
+               </div>
+               {{> components/widgets/title sub-title="blog" right-text="Read Our Latest"
+               left-text ="News And Advices"}}
+            </div>
+         </div>
+         <div class="col-lg-4">
+            {{> components/widgets/blog-overdetails blog-image="blog/blog-1.webp"
+            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="OPD cover gaining popularity among Indian consumers"}}
+         </div>
+         <div class="col-lg-4">
+            {{> components/widgets/blog-overdetails blog-image="blog/blog-3.webp"
+            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) – Algeria"}}
+         </div>
+         <div class="col-lg-4">
+            {{> components/widgets/blog-overdetails blog-image="blog/blog-4.webp"
+            blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+            blog-title="Main Revolutionary Change in Paediatric Healthcare"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- schedule --}}
+<div class="main-schedule bg-dark py-5">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="py-5 text-center">
+               <h3 class="text-white mb-3">Ready to Schedule an appointment ? Contact us online or on call us
+                  <span class="text-primary d-block">(316) 555-0116</span>
+               </h3>
+               <p class="mb-5 pb-3 text-white">we offer amazing services options to fit you</p>
+               <div class="button-primary">
+                  {{> components/widgets/button button-text="Contact Us" button-url="contactus.html"}}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

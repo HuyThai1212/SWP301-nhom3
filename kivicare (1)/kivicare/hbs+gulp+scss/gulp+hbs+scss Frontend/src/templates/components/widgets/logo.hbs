@@ -1,0 +1,13 @@
+{{#compare logo-dynamic '==' 'true'}}
+<a href="{{path}}index.html" class="navbar-brand m-0">
+   <span class="logo-normal">
+      <img src="{{path}}assets/images/logo/{{logo-image}}" alt="logo" class="img-fluid" loading="lazy">
+   </span>
+</a>
+{{else}}
+<a href="{{path}}index.html" class="navbar-brand m-0">
+   <span class="logo-normal">
+      <img src="{{path}}assets/images/logo/logo.png" alt="logo" class="img-fluid" loading="lazy">
+   </span>
+</a>
+{{/compare}}

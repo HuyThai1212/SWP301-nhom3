@@ -1,0 +1,350 @@
+{{#extend layout title="User Profile" active="user-profile" path="../" isSelect2="true" isFlatpickr="true" isFslightbox="true" isBanner="true"
+isHeader="true"}}
+{{#content "content"}}
+<div class="row">
+   <div class="col-lg-4">
+      <div class="card ">
+         <div class="card-body">
+            <div class="doctor-details-block">
+               <div class="doc-profile-bg bg-primary" style="height:150px;"></div>
+               <div class="doctor-profile text-center">
+                  <img src="{{path}}assets/images/avatars/01.png" alt="profile-img" class="avatar-130 rounded-circle">
+                  <div class="text-center mt-3 pl-3 pr-3">
+                     <h4><b>Bini Jets</b></h4>
+                     <p>Doctor</p>
+                     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repudiandae
+                        eveniet harum.</p>
+                  </div>
+                  <hr>
+                  <ul class="doctoe-sedual d-flex align-items-center justify-content-between p-0 m-0 list-unstyled">
+                     <li class="text-center">
+                        <h1 class="counter">4500</h1>
+                        <span>Operations</span>
+                     </li>
+                     <li class="text-center">
+                        <h1 class="counter">100</h1>
+                        <span>Hospital</span>
+                     </li>
+                     <li class="text-center">
+                        <h1 class="counter">10000</h1>
+                        <span>Patients</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="card ">
+         <div class="card-header d-flex justify-content-between mb-0">
+            <h3 class="mb-0">Personal Information</h3>
+         </div>
+         <div class="card-body">
+            <div class="about-info m-0 p-0">
+               <div class="row">
+                  <div class="col-4 mb-1">First Name:</div>
+                  <div class="col-8 mb-1">Bini</div>
+                  <div class="col-4 mb-1">Last Name:</div>
+                  <div class="col-8 mb-1">Jets</div>
+                  <div class="col-4 mb-1">Age:</div>
+                  <div class="col-8 mb-1">27</div>
+                  <div class="col-4 mb-1">Position:</div>
+                  <div class="col-8 mb-1">Senior doctor</div>
+                  <div class="col-4 mb-1">Email:</div>
+                  <div class="col-8 mb-1"><a href="mailto:biniJets24@demo.com"> biniJets24@demo.com </a></div>
+                  <div class="col-4 mb-1">Phone:</div>
+                  <div class="col-8 mb-1"><a href="tel:001-2351-25612">001 2351 256 12</a></div>
+                  <div class="col-4">Location:</div>
+                  <div class="col-8">USA</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="card ">
+         <div class="card-header d-flex justify-content-between mb-0">
+            <h3 class="mb-0">Photos</h3>
+         </div>
+         <div class="card-body">
+            <div class="row row-cols-xl-3 row-cols-md-2 row-cols-2">
+               <div class="col p-0">
+                  <a data-fslightbox="profile-gallery" href="{{path}}assets/images/gallery/blog1.jpg">
+                     <img src="{{path}}assets/images/gallery/blog1.jpg" class="p-2 img-fluid w-100"
+                        alt="profile-image" loading="lazy">
+                  </a>
+               </div>
+               <div class="col p-0">
+                  <a data-fslightbox="profile-gallery" href="{{path}}assets/images/gallery/blog-2.jpg">
+                     <img src="{{path}}assets/images/gallery/blog-2.jpg" class="p-2 img-fluid w-100"
+                        alt="profile-image" loading="lazy">
+                  </a>
+               </div>
+               <div class="col p-0">
+                  <a data-fslightbox="profile-gallery" href="{{path}}assets/images/gallery/blog-3.jpg">
+                     <img src="{{path}}assets/images/gallery/blog-3.jpg" class="p-2 img-fluid w-100"
+                        alt="profile-image" loading="lazy">
+                  </a>
+               </div>
+               <div class="col p-0">
+                  <a data-fslightbox="profile-gallery" href="{{path}}assets/images/gallery/blog-4.jpg">
+                     <img src="{{path}}assets/images/gallery/blog-4.jpg" class="p-2 img-fluid w-100"
+                        alt="profile-image" loading="lazy">
+                  </a>
+               </div>
+               <div class="col p-0">
+                  <a data-fslightbox="profile-gallery" href="{{path}}assets/images/gallery/blog-5.jpg">
+                     <img src="{{path}}assets/images/gallery/blog-5.jpg" class="p-2 img-fluid w-100"
+                        alt="profile-image" loading="lazy">
+                  </a>
+               </div>
+               <div class="col p-0">
+                  <a data-fslightbox="profile-gallery" href="{{path}}assets/images/gallery/blog-6.jpg">
+                     <img src="{{path}}assets/images/gallery/blog-6.jpg" class="p-2 img-fluid w-100"
+                        alt="profile-image" loading="lazy">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-8">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="card ">
+               <div class="card-header d-flex justify-content-between mb-0">
+                  <h3 class="mb-0">Speciality</h3>
+               </div>
+               <div class="card-body">
+                  <ul class="speciality-list m-0 p-0">
+                     <li class="d-flex mb-4 align-items-center gap-4">
+                        <div class="user-img img-fluid"><a href="#" class="bg-primary-subtle"><i
+                                 class="fas fa-award"></i></a>
+                        </div>
+                        <div class="media-support-info ml-3">
+                           <h6 class="mb-0">Professional</h6>
+                           <p class="mb-0">Certified Skin Treatment</p>
+                        </div>
+                     </li>
+                     <li class="d-flex mb-4 align-items-center gap-4">
+                        <div class="user-img img-fluid"><a href="#" class="bg-secondary-subtle"><i
+                                 class="fas fa-award"></i></a>
+                        </div>
+                        <div class="media-support-info ml-3">
+                           <h6 class="mb-0">Certified</h6>
+                           <p class="mb-0">Cold Laser Operation</p>
+                        </div>
+                     </li>
+                     <li class="d-flex align-items-center gap-4">
+                        <div class="user-img img-fluid"><a href="#" class="bg-success-subtle"><i
+                                 class="fas fa-award"></i></a>
+                        </div>
+                        <div class="media-support-info ml-3">
+                           <h6 class="mb-0">Medication Laser</h6>
+                           <p class="mb-0">Hair Lose Product</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="card ">
+               <div class="card-header d-flex justify-content-between mb-0">
+                  <h3 class="mb-0">Notifications</h3>
+               </div>
+               <div class="card-body">
+                  <ul class="iq-timeline p-0 w-100 list-unstyled">
+                     <li class="position-relative">
+                        <div class="timeline-dots border-primary"></div>
+                        <h6 class="mb-0">Dr. Joy Send you Photo</h6>
+                        <small class="mt-1">23 June 2023</small>
+                     </li>
+                     <li class="position-relative">
+                        <div class="timeline-dots border-secondary"></div>
+                        <h6 class="mb-0">Reminder : Opertion Time!</h6>
+                        <small class="mt-1">15 July 2023</small>
+                     </li>
+                     <li class="position-relative">
+                        <div class="timeline-dots border-success"></div>
+                        <h6 class="mb-0">Patient Call</h6>
+                        <small class="mt-1">14 July 2023</small>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="card ">
+               <div class="card-header d-flex justify-content-between mb-0">
+                  <h3 class="mb-0">Schedule</h3>
+               </div>
+               <div class="card-body">
+                  <ul class="list-inline m-0 p-0">
+                     <li>
+                        <h6 class="float-start mb-1">Ruby saul (Blood Check)</h6>
+                        <small class="float-end mt-1">Today</small>
+                        <div class="d-inline-block w-100">
+                           <p class="badge bg-primary">09:00 AM</p>
+                        </div>
+                     </li>
+                     <li>
+                        <h6 class="float-start mb-1">Anna Mull (Fever)Today</h6>
+                        <small class="float-end mt-1">Today</small>
+                        <div class="d-inline-block w-100">
+                           <p class="badge bg-secondary">09:15 AM</p>
+                        </div>
+                     </li>
+                     <li>
+                        <h6 class="float-start mb-1">Petey Cruiser (X-ray)</h6>
+                        <small class="float-end mt-1">Today</small>
+                        <div class="d-inline-block w-100">
+                           <p class="badge bg-info">10:00 AM</p>
+                        </div>
+                     </li>
+                     <li>
+                        <h6 class="float-start mb-1">Anna Sthesia (Full body Check up)</h6>
+                        <small class="float-end mt-1">Today</small>
+                        <div class="d-inline-block w-100">
+                           <p class="badge bg-success">01:00 AM</p>
+                        </div>
+                     </li>
+                     <li>
+                        <h6 class="float-start mb-1">Paul Molive (Operation)</h6>
+                        <small class="float-end mt-1">Tomorrow</small>
+                        <div class="d-inline-block w-100">
+                           <p class="badge bg-danger mb-0">09:00 AM</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="card ">
+               <div class="card-header d-flex justify-content-between mb-0">
+                  <h3 class="mb-0">Patients Notes</h3>
+               </div>
+               <div class="card-body">
+                  <ul class="list-inline m-0 p-0">
+                     <li class="d-flex align-items-center justify-content-between mb-3">
+                        <div>
+                           <h6 class="mb-0">Treatment Was Good!</h6>
+                           <p class="mb-0">Eye Test</p>
+                        </div>
+                        <div><button class="rounded bg-success-subtle py-2 px-3 fw-500  border-0 me-2">Open</button></div>
+                     </li>
+                     <li class="d-flex align-items-center justify-content-between mb-3">
+                        <div>
+                           <h6 class="mb-0">My Helth Is Better Now</h6>
+                           <p class="mb-0">Fever Test</p>
+                        </div>
+                        <div><button class="rounded bg-success-subtle py-2 px-3 fw-500  border-0 me-2">Open</button></div>
+                     </li>
+                     <li class="d-flex align-items-center justify-content-between mb-3">
+                        <div>
+                           <h6 class="mb-0">No Effacted</h6>
+                           <p class="mb-0">Thyroid Test</p>
+                        </div>
+                        <div><button class="rounded bg-danger-subtle py-2 px-3 fw-500  border-0 me-2">Close</button></div>
+                     </li>
+                     <li class="d-flex align-items-center justify-content-between mb-3">
+                        <div>
+                           <h6 class="mb-0">Operation Successfull</h6>
+                           <p class="mb-0">Orthopaedic</p>
+                        </div>
+                        <div><button class="rounded bg-success-subtle py-2 px-3 fw-500  border-0 me-2">Open</button></div>
+                     </li>
+                     <li class="d-flex align-items-center justify-content-between mb-3">
+                        <div>
+                           <h6 class="mb-0">Mediacal Care Is Just A Click Away</h6>
+                           <p class="mb-0">Join Pain</p>
+                        </div>
+                        <div><button class="rounded bg-danger-subtle py-2 px-3 fw-500  border-0 me-2">Close</button></div>
+                     </li>
+                     <li class="d-flex align-items-center justify-content-between">
+                        <div>
+                           <h6 class="mb-0">Treatment Is Good</h6>
+                           <p class="mb-0">Skin Treatment</p>
+                        </div>
+                        <div><button class="rounded bg-success-subtle py-2 px-3 fw-500  border-0 me-2">Open</button></div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-12">
+            <div class="card ">
+               <div class="card-header d-flex justify-content-between mb-0">
+                  <h3 class="mb-0">Education</h3>
+               </div>
+               <div class="card-body">
+                  <div class="table-responsive">
+                     <table class="table border-end border-start align-middle mb-0 rounded">
+                        <thead class="table-dark">
+                           <tr>
+                              <th scope="col">Year</th>
+                              <th scope="col">Degree</th>
+                              <th scope="col">Institute</th>
+                              <th scope="col">Result</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>2012</td>
+                              <td>MBBS, M.D</td>
+                              <td>University of Wyoming</td>
+                              <td><span class="badge bg-success">Distinction</span></td>
+                           </tr>
+                           <tr>
+                              <td>2016</td>
+                              <td>M.D. of Medicine</td>
+                              <td>Netherland Medical College</td>
+                              <td><span class="badge bg-success">Distinction</span></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-12">
+            <div class="card ">
+               <div class="card-header d-flex justify-content-between mb-0">
+                  <h3 class="mb-0">Experience</h3>
+               </div>
+               <div class="card-body">
+                  <div class="table-responsive">
+                     <table class="table border-end border-start align-middle mb-0 rounded">
+                        <thead class="table-dark">
+                           <tr>
+                              <th scope="col">Year</th>
+                              <th scope="col">Department</th>
+                              <th scope="col">Position</th>
+                              <th scope="col">Hospital</th>
+                              <th scope="col">Result</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>2016 - 2020</td>
+                              <td>MBBS, M.D</td>
+                              <td>Senior Doctor</td>
+                              <td>Midtown Medical Clinic</td>
+                              <td><span class="badge bg-success">Good</span></td>
+                           </tr>
+                           <tr>
+                              <td>2020 - 2022</td>
+                              <td>M.D. of Medicine</td>
+                              <td>Associate Prof.</td>
+                              <td>Netherland Medical College</td>
+                              <td><span class="badge bg-success">Excellence</span></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

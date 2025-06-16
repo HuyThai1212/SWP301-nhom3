@@ -1,0 +1,58 @@
+{{#extend 'layouts/default' title="comingsoon" isHeader="false" isFooter="false"
+active="comingsoon"
+path="./"}}
+{{#content "scripts"}}
+<script src="{{path}}assets/js/plugins/countdown.js"></script>
+{{/content}}
+{{#content "content"}}
+<div class="section-padding vh-100 rtl-image-flip"
+   style="background: url('{{path}}assets/images/pages/about-left.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
+   <div class="container-fluid h-100 rtl-image-flip-container">
+      <div class="d-flex flex-column justify-content-center h-100">
+         {{> components/widgets/title sub-title="STAY TUNED"
+         right-text="Website" left-text="Coming Soon"
+         title-description="We are almost there, if you want to get notifieed when our website goes live subscribe to our newsletter."}}
+         {{> components/widgets/count-down time-duration="30-05-2025"}}
+         <div class="mail-box-width pt-5">
+            {{>components/widgets/mail-box}}
+         </div>
+         <ul class="iq-social list-inline d-flex align-items-center gap-3 mt-4">
+            <li>
+               <a href="https://facebook.com/">
+                  <svg class="base-circle animated" width="38" height="38"
+                     viewBox="0 0 50 50">
+                     <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990"
+                        stroke-width="1"
+                        fill="none"></circle>
+                  </svg>
+                  <i class="fab fa-facebook-f"></i>
+               </a>
+            </li>
+            <li>
+               <a href="https://x.com/">
+                  <svg class="base-circle animated" width="38" height="38"
+                     viewBox="0 0 50 50">
+                     <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990"
+                        stroke-width="1"
+                        fill="none"></circle>
+                  </svg>
+                  <i class="fab fa-twitter"></i>
+               </a>
+            </li>
+            <li>
+               <a href="https://www.google.com/">
+                  <svg class="base-circle animated" width="38" height="38"
+                     viewBox="0 0 50 50">
+                     <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990"
+                        stroke-width="1"
+                        fill="none"></circle>
+                  </svg>
+                  <i class="fab fa-google"></i>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

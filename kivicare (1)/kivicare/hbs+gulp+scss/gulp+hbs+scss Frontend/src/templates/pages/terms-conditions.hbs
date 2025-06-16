@@ -1,0 +1,34 @@
+{{#extend 'layouts/default' title="Terms & Conditions" isHeader="true" isBreadcrumb="true" isFooter="true"
+active="terms-conditions" path="./" isBanner="false" isSwiperSlider="true"}}
+{{#content "content"}}
+<div class="section-padding">
+    <div class="container">
+        <div class="accordion" id="main-faq">
+            {{> components/widgets/faq show="true" uniqid="01" inid="01" faq-title="Lorem Ipsum Dolor Sit"
+            faq-desc=" There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don’t look even
+            slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+            isn’t anything. " }}
+            {{> components/widgets/faq uniqid="02" inid="02" faq-title="Consectetur Adipiscing Elit "
+            faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don’t look even
+            slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+            isn’t anything." }}
+            {{> components/widgets/faq uniqid="03" inid="03" faq-title="Etiam Sit Amet Justo Non?" faq-desc="There are many variations of passages of Lorem Ipsum available, but the
+            majority have suffered alteration in some form, by injected humour, or randomised words which don’t
+            look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
+            there isn’t anything." }}
+            {{> components/widgets/faq uniqid="04" inid="04" faq-title="Velit Accumsan Laoreet?" faq-desc="
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form, by injected humour, or randomised words which don’t look even slightly
+            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t
+            anything." }}
+            {{> components/widgets/faq uniqid="05" inid="05" faq-title="Donec Volutpat Metus In Erat" faq-desc=" There
+            are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            in some form, by injected humour, or randomised words which don’t look even slightly believable. If
+            you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+        </div>
+    </div>
+</div>
+{{/content}}
+{{/extend}}

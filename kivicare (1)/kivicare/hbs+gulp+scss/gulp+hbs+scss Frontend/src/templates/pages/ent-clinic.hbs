@@ -1,0 +1,360 @@
+{{#extend 'layouts/default' title="ent-clinic" isHeader="true" logo-dynamic="true" logo-image="logo-orange.png" isFooter-ent-clinic="true" ismegamenu="true" active="ent-clinic" path="./" isSwiperSlider="true" isSweetalert="true" page_colors='[{"var":"--bs-primary","value":"#304297" },{"var":"--bs-primary-bg-subtle","value":"#e6e8f0"},{"var":"--bs-primary-rgb","value":"48, 66, 151"},{"var":"--bs-secondary","value":"#ff6b3b"},{"var":"--bs-secondary-rgb","value":"255, 107, 59"},{"var":"--bs-primary-shade-20","value":"#0a2d80"}]'}}
+{{#content "content"}}
+{{!-- Banner --}}
+<div class="ent-clinic-banner bg-primary-subtle px-0 position-relative rtl-image-flip" style="background-image: url('{{path}}assets/images/ent-clinic/ent-clinic-banner.webp'); background-position: bottom center; background-repeat: no-repeat;">
+   <div class="container-fluid position-relative rtl-image-flip-container">
+      <div class="position-absolute top-0 start-0 d-lg-block d-none">
+         <img src="{{path}}assets/images/ent-clinic/ent-text.webp" alt="ent-text">
+      </div>
+      <div class="row align-items-center position-relative">
+         <div class="col-lg-7 col-md-6">
+            <div class="big-font hide-sub-title-line">
+               {{> components/widgets/title sub-title="WELCOME TO KIVICARE" right-text="YOUR HEALTH" left-text=" OUR FIRST PRIORITY"}}
+            </div>
+            {{> components/widgets/button button-text="Read More" button-url="about-us.html"}}
+         </div>
+         <div class="col-lg-5 col-md-6 text-right d-flex justify-content-end mt-5 mt-lg-0 mt-md-0">
+            <div class="card banner-info-details rounded-0 mb-0">
+               <div class="card-body p-3 p-md-5">
+                  <div class="mb-5"
+                     style="background: url('{{path}}assets/images/ent-clinic/card-image.webp'); background-size: cover; background-repeat: no-repeat; position: relative; padding:120px 0;">
+                     {{> components/widgets/video-popup
+                     video-link-url="https://www.youtube.com/watch?v=y0dvnkLc1QI"}}
+                  </div>
+                  <h4 class="pb-3">Opening Time</h4>
+                  <ul class="list-inline mb-5">
+                     <li class="pb-3 d-flex align-items-center justify-content-between">
+                        <span class="text-body">Monday - Friday</span>
+                        <span class="text-secondary">6:00 - 7:00 PM</span>
+                     </li>
+                     <li class="pb-3 d-flex align-items-center justify-content-between">
+                        <span class="text-body">Saturday</span>
+                        <span class="text-secondary">9:00 - 8:00 PM </span>
+                     </li>
+                     <li class="d-flex align-items-center justify-content-between">
+                        <span class="text-body">Sunday</span>
+                        <span class="text-secondary">Closed</span>
+                     </li>
+                  </ul>
+                  {{> components/widgets/button button-text="Appointment now" button-url="appointment.html" }}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- About Us --}}
+<div class="section-padding ent-about-section">
+   <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Aboutus" }}
+      <div class="row">
+         <div class="col-lg-5">
+            {{> components/widgets/title sub-title="About Kivicare" right-text="Trusted ENT  Hospital" title-description="It is a long established fact that a reader will be distracted by the readable content."}}
+            <div class="me-lg-5 pe-lg-5">
+               <div class="working-hour bg-primary text-white p-3 p-md-5 text-center mt-5 me-lg-5">
+                  <h3 class="text-white mb-5">Working Hours</h3>
+                  <ul class="list-inline m-0">
+                     <li class="mb-3 pb-3 ">
+                        <div class="font-size-21 mb-3">Monday to Friday</div>
+                        <div class="font-size-16">6:00 - 7:00 pm</div>
+                     </li>
+                     <li class="mb-3 pb-3 ">
+                        <div class="font-size-21 mb-3">Saturday/Sunday</div>
+                        <div class="font-size-16">Closed</div>
+                     </li>
+                     <li class="">
+                        <span class="font-size-24">Emergency 24 Hours </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="iq-list d-flex justify-content-between flex-column h-100">
+               <div class="bottom-part">
+                  <h4 class="mt-0 mt-lg-5">Briar Ford</h4>
+                  <p class="text-primary text-uppercase font-size-14 fw-500 letter-spacing-1">CEO & Founder</p>
+                  <img src="{{path}}assets/images/general/signature.png" alt="" class="img-fluid mb-5">
+               </div>
+               <ul class="iq-list-with-icon p-0">
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                     <span class="text-secondary">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z" fill="currentColor"/>
+                        </svg>
+                     </span>
+                     <span class="text-capitalize text-body">Treats minor illnesses</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                     <span class="text-secondary">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z" fill="currentColor"/>
+                        </svg>
+                     </span>
+                     <span  class="text-capitalize text-body">Answers health questions </span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                     <span class="text-secondary">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z" fill="currentColor"/>
+                        </svg>
+                     </span>
+                     <span  class="text-capitalize text-body">Conducts health checkups </span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                     <span class="text-secondary">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z" fill="currentColor"/>
+                        </svg>
+                     </span>
+                     <span  class="text-capitalize text-body">Performs routine health tests </span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                     <span class="text-secondary">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z" fill="currentColor"/>
+                        </svg>
+                     </span>
+                     <span  class="text-capitalize text-body">Orthopaedic surgeon </span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 mb-3">
+                     <span class="text-secondary">
+                        <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path fill-rule="evenodd" clip-rule="evenodd" d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z" fill="currentColor"/>
+                        </svg>
+                     </span>
+                     <span  class="text-capitalize text-body">Endocrinologist</span>
+                  </li>
+               </ul>
+               {{> components/widgets/button button-text="Get Appointment" button-url="appointment.html" }}
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 text-center text-md-start position-relative">
+            <img src="{{path}}assets/images/ent-clinic/about-right-image.webp" alt="" class="img-fluid d-none d-md-block">
+            <div class="overflow-hidden position-absolute right-0 ent-titleslider">
+               <div class="position-relative title-box-slider bg-secondary p-4 d-none d-xl-block">
+                  <div class="swiper swiper-container swiper-general"
+                  id="titlebox-slider" data-slide="1" data-laptop="1" data-tab="1" data-mobile="1"
+                  data-mobile-sm="1" data-autoplay="true" data-loop="false" data-navigation="true"
+                  data-pagination="true">
+                     <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+                        <li class="swiper-slide">
+                           {{> components/widgets/titleboxslider
+                           slider-title-main="300" slider-decs="Happy customers served"}}
+                        </li>
+                        <li class="swiper-slide">
+                           {{> components/widgets/titleboxslider
+                           slider-title-main="40+" slider-decs="Years of top experience in eye"}}
+                        </li>
+                        <li class="swiper-slide">
+                           {{> components/widgets/titleboxslider
+                           slider-title-main="25+" slider-decs="Talented inhouse Doctors"}}
+                        </li>
+                     </ul>
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </div>           
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Treatments Iconbox --}}
+<div class="section-padding bg-primary-subtle">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Treatments" }}
+         {{> components/widgets/title sub-title="Treatments" right-text="Providing Best  ENT Treatments"}}
+      </div>
+      <div class="row">
+         <div class="col-lg-3 col-md-6">
+            {{> components/widgets/iconbox-standard icon-image="ent-clinic/Ear-Treatment-1.webp" iconbox-title="Ear Treatment"
+            iconbox-desc="Kivicare ENT provides medical evaluation and treatment for a variety of ear conditions." btn-url="service1.html" }}
+         </div>
+         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            {{> components/widgets/iconbox-standard icon-image="ent-clinic/Nose-Treatment-1.webp" iconbox-title="Nose Treatment"
+            iconbox-desc="Kivicare ENT provides medical evaluation and treatment for a variety of ear conditions." btn-url="service1.html" }}
+         </div>
+         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            {{> components/widgets/iconbox-standard icon-image="ent-clinic/Throat-Treatment-1.webp" iconbox-title="Throat Treatment"
+            iconbox-desc="Kivicare ENT provides medical evaluation and treatment for a variety of ear conditions." btn-url="service1.html" }}
+         </div>
+         <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            {{> components/widgets/iconbox-standard icon-image="ent-clinic/Pioneer-Of-Treatment-1.webp" iconbox-title="Pioneer Treatment"
+            iconbox-desc="Kivicare ENT provides medical evaluation and treatment for a variety of ear conditions." btn-url="service1.html" }}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Faq --}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-6">
+            <div class="accordion" id="main-faq">
+               {{> components/widgets/faq show="true" uniqid="01" inid="01" faq-title="Can I trust my tap water? " faq-desc=" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything. " }}
+               {{> components/widgets/faq uniqid="02" inid="02" faq-title="Is my microwave giving me cancer? " faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+               {{> components/widgets/faq uniqid="03" inid="03" faq-title="How long am I contagious when I have the flu or a cold?" faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+               {{> components/widgets/faq uniqid="04" inid="04" faq-title="What is heart surgery?" faq-desc=" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+            </div>
+         </div>
+         <div class="col-lg-6">
+            <img src="{{path}}assets/images/ent-clinic/faq.webp" alt="banner" class="img-fluid w-100">
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Why Choose us --}}
+<div class="ent-clinic-service">
+   <div class="bg-primary-subtle section-padding">
+      <div class="container">
+         <div class="position-relative">
+            {{> components/widgets/scrolling-text scroll-title="Why Choose us"}}
+         </div>
+         <div class="row">
+            <div class="col-lg-8">
+               {{> components/widgets/title sub-title="Services" right-text="Reason Why Choose Us" title-description ="Kivicare is proud to be a leader and trusted provider of ENT services. For over 20 years, we have and continue to provide world class ENT/Otolaryngology services."}}
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="service-top">
+      <div class="container px-md-5">
+         <div class="row">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10">
+               <div class="card box-shadow mb-0 z-1">
+                  <div class="card-body p-0">
+                     <div class="row m-0">
+                        <div class="col-lg-4 col-md-6 p-0 p-md-5 border-end">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent isBorder="true" icon-image="ent-clinic/Mediclaim-Facilities-1.webp" iconbox-title="Qualified Doctors"
+                              iconbox-desc=" It is a long established fact that a will be distracted by the readable content of a page looking at its layout." btn-url="service1.html" }}
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 p-0 p-md-5 border-end">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent isBorder="true" icon-image="ent-clinic/Stichless-surgery-1.webp" iconbox-title="Work Improvements"
+                              iconbox-desc=" It is a long established fact that a will be distracted by the readable content of a page looking at its layout." btn-url="service1.html" }}
+                           </div>
+                        </div>
+                        <div class="col-lg-4 p-0 p-md-5">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent icon-image="ent-clinic/Awards-1.webp" iconbox-title="Restoring Confidence"
+                              iconbox-desc=" It is a long established fact that a will be distracted by the readable content of a page looking at its layout." btn-url="service1.html" }}
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-1"></div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Team --}}
+<div class="team-section section-padding">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Our Doctors" }}
+         {{> components/widgets/title sub-title="Doctors" right-text="Our Outstanding" left-text="doctors"}}
+      </div>
+      <div class="overflow-hidden swiper swiper-general"  data-slide="3" data-laptop="3" data-tab="2" data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true"  data-navigation="true" data-pagination="true">
+         <ul  class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-1.webp" team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-2.webp" team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-3.webp" team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-4.webp" team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-standard team-image="/team/team-5.webp" team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+{{!-- Testimonails --}}
+<div class="bg-primary-subtle section-padding testimonial-section">
+   <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Testimonails" }}
+      {{> components/widgets/title sub-title="testimonial" right-text="What Our Patients " left-text="Says" }}
+      <div class="row">
+         <div class="col-lg-6 col-md-6 position-relative">
+            <div class="overflow-hidden swiper swiper-general"  data-slide="1" data-laptop="1" data-tab="1" data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="false"  data-navigation="true" data-pagination="true">
+               <ul  class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard testimonial-image="/testimonial/user-1.webp" testimonial-user="Moric Horgon" testimonial-meta="Patient" testimonial-content="“You can’t go wrong here. I receive the best care and attention. The nursing staff and doctors are amazing and take their time with you. I felt better walking out here every time.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard testimonial-image="/testimonial/user-2.webp" testimonial-user="Julia Roberts" testimonial-meta="Healthcare" testimonial-content="“Still very professional but a much more relaxed atmosphere. This makes for a more comfortable experience which is helpful in dealing with medical issues.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard testimonial-image="/testimonial/user-3.webp" testimonial-user="Jack leo" testimonial-meta="COO company" testimonial-content="“It has been very effective, in my opinion. It has made everyone more relaxed in a very comfortable atmosphere. We have always felt like family here, even more so now.”"}}
+                  </li>
+               </ul>
+               <div class="arrow-joint">
+                  <div class="swiper-button swiper-button-next"></div>
+                  <div class="swiper-button swiper-button-prev"></div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-2 d-lg-block d-none"></div>
+         <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="bg-secondary text-white p-3 p-md-5 counter-box-bottom">
+               <ul class="list-inline m-0">
+                  <li class="mb-5">
+                     {{> components/widgets/counter-with-icon counter-icon="<i aria-hidden='true' class='flaticon flaticon-flaticon flaticon-manager'></i>" counter-value="<span class='text-white'>2050+</span>" counter-text="Satisfied Patient's"}}
+                  </li>
+                  <li class="mb-5">
+                     {{> components/widgets/counter-with-icon counter-icon="<i aria-hidden='true' class='flaticon flaticon-flaticon flaticon-packaging'></i>" counter-value="<span class='text-white'>15+</span>" counter-text="Health Sections"}}
+                  </li>
+                  <li class="mb-0">
+                     {{> components/widgets/counter-with-icon counter-icon="<i aria-hidden='true' class='flaticon flaticon-flaticon flaticon-care'></i>" counter-value="<span class='text-white'>45+</span>" counter-text="Awards Won"}}
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Blog --}}
+<div class="section-padding ">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="text-center">
+               <div class="position-relative">
+                  {{> components/widgets/scrolling-text scroll-title="latest blog"}}
+               </div>
+               {{> components/widgets/title sub-title="blog" right-text=" Read Our Latest " 
+               left-text ="News And Advices "}}
+            </div>
+         </div>
+         <div class="col-lg-4">
+            {{> components/widgets/blog-overdetails blog-image="blog/blog-1.webp" blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace" blog-title="OPD cover gaining popularity among Indian consumers"}}
+         </div>
+         <div class="col-lg-4">
+            {{> components/widgets/blog-overdetails blog-image="blog/blog-3.webp" blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace" blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) – Algeria"}}
+         </div>
+         <div class="col-lg-4">
+            {{> components/widgets/blog-overdetails blog-image="blog/blog-4.webp" blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace" blog-title="Main Revolutionary Change in Paediatric Healthcare"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- Client --}}
+<div class="section-padding pt-0">
+   <div class="container">
+      {{> components/widgets/client }}
+   </div>
+</div>
+{{/content}}
+{{/extend}}

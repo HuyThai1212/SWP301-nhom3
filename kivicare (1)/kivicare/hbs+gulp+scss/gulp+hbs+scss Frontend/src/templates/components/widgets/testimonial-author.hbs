@@ -1,0 +1,20 @@
+<div class="iq-testimonial testimonial-author">
+    <div class="iq-testimonial-content d-lg-flex">
+        <div class="iq-testimonial-avtar me-lg-5 pe-lg-5 mb-lg-0 mb-5 flex-shrink-0">
+            <img src="{{path}}assets/images/{{testimonial-image}}" alt="user" class="img-fluid"
+                loading="lazy">
+        </div>
+        <div class="iq-testimonial-content-inner">
+            <p class="mt-0 mb-3 fst-italic fw-500 letter-spacing-1 lh-lg text-body fs-5">{{testimonial-content}}</p>
+            {{#compare isRatting '==' 'true'}}
+            <div class="ratting-block">
+                {{>components/widgets/filter-rating }}
+            </div>
+            {{/compare}}
+            <div class="avtar-name mt-5">
+                <h4 class="iq-lead text-capitalize m-0 fw-normal">{{testimonial-user}}</h4>
+                <span class="iq-post-meta text-secondary text-uppercase">{{testimonial-meta}}</span>
+            </div>
+        </div>
+    </div>
+</div>

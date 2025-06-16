@@ -1,0 +1,13 @@
+form {
+  &.mail-box {
+    button {
+      &.btn-submit {
+        right: 0;
+        top: 0;
+        width: 54px;
+        height: 54px;
+        border-radius: 0.25rem;
+      }
+    }
+  }
+}

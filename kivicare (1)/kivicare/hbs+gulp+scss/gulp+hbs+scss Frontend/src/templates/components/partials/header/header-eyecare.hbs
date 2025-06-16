@@ -1,0 +1,99 @@
+<header class="header-eyecare header-center">
+    <div class="top-header bg-primary-subtle d-none d-md-block">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <ul class="iq-social list-inline d-flex align-items-center gap-3 m-0">
+                        <li class="label text-body fw-500">Follow us :</li>
+                         <li>
+                            <a href="https://facebook.com/">
+                                <svg class="base-circle animated" width="38" height="38" viewBox="0 0 50 50">
+                                    <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990" stroke-width="1"
+                                        fill="none"></circle>
+                                </svg>
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/">
+                                <svg class="base-circle animated" width="38" height="38" viewBox="0 0 50 50">
+                                    <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990" stroke-width="1"
+                                        fill="none"></circle>
+                                </svg>
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/">
+                                <svg class="base-circle animated" width="38" height="38" viewBox="0 0 50 50">
+                                    <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990" stroke-width="1"
+                                        fill="none"></circle>
+                                </svg>
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="top-header-left list-inline d-flex align-items-center justify-content-end gap-3 m-0">
+                        <li class="text-body">
+                            <a class="text-body" href="tel:480-555-0103">
+                                <svg class="icon-18 text-primary me-1" width="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11.5317 12.4724C15.5208 16.4604 16.4258 11.8467 18.9656 14.3848C21.4143 16.8328 22.8216 17.3232 19.7192 20.4247C19.3306 20.737 16.8616 24.4943 8.1846 15.8197C-0.493478 7.144 3.26158 4.67244 3.57397 4.28395C6.68387 1.17385 7.16586 2.58938 9.61449 5.03733C12.1544 7.5765 7.54266 8.48441 11.5317 12.4724Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>+ (480) 555-0103
+                            </a>
+                        </li>
+                        <li class="text-body">
+                            <svg class="icon-18 text-primary me-1" width="32" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.5 10.5005C14.5 9.11924 13.3808 8 12.0005 8C10.6192 8 9.5 9.11924 9.5 10.5005C9.5 11.8808 10.6192 13 12.0005 13C13.3808 13 14.5 11.8808 14.5 10.5005Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.9995 21C10.801 21 4.5 15.8984 4.5 10.5633C4.5 6.38664 7.8571 3 11.9995 3C16.1419 3 19.5 6.38664 19.5 10.5633C19.5 15.8984 13.198 21 11.9995 21Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </svg>
+                            1234 North Avenue Luke Lane
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0">
+        <div class="container-fluid navbar-inner">
+            <div class="d-flex align-items-center justify-content-between w-100 landing-header">
+                <div class="d-flex gap-3 gap-xl-0 align-items-center">
+                    <div>
+                        <button data-trigger="navbar_main"
+                            class="d-xl-none btn btn-primary rounded-pill p-1 pt-0 toggle-rounded-btn" type="button">
+                            <svg width="20px" class="icon-20" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    {{> components/widgets/logo}}
+                </div>
+                
+                {{#compare ismegamenu '==' 'true'}}
+                        {{> components/partials/header/mega-menu}}
+                         {{else}}
+                        {{> components/partials/header/horizontal-nav }}
+                {{/compare}}
+                
+                <div class="right-panel">
+                    <div class="button-primary">
+                        {{> components/widgets/button button-text="Appointment" button-url="appointment.html" }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

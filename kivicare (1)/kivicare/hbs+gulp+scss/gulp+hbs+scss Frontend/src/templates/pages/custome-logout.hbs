@@ -1,0 +1,39 @@
+{{#extend 'layouts/default' title="My Account" isHeader="true" isBreadcrumb="true" isFooter="true"
+active="customer-logout" path="./"}}
+{{#content "content"}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <h4 class="mb-5 text-primary">Login</h4>
+            <form method="post">
+               <input type="text" name="user-name" class="form-control mb-4 rounded-0" placeholder="Username or email address *" required>
+               <input type="password" name="pwd" class="form-control mb-4 rounded-0" placeholder="Password" required>
+               <label class="custom-form-field mb-5">
+               <input type="checkbox" required="required" class="mr-2">
+               <span class="checkmark"></span>
+               <span>Remember me</span>
+               </label> 
+                 <div class="button-primary mb-3">
+               {{> components/widgets/button button-url="index.html" button-text="Log In"}}
+            </div>
+            </form>
+            <a href="reset-password.html" class="forgot-pwd text-primary">Lost your password?</a>
+         </div>
+         <div class="col-md-6">
+            <h4 class="mb-5 text-primary">Register</h4>
+            <form method="post">
+               <input type="text" name="user-name" placeholder="Username *" class="form-control mb-4 rounded-0" required>
+               <input type="email" name="email-address" placeholder="Email address *" pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" class="form-control mb-4 rounded-0" required>
+               <input type="password" name="password" placeholder="Password *" class="form-control mb-4 rounded-0" required>
+               <p class="mb-5"> Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="{{path}}privacy-policy.html"> privcy policy</a>. </p>
+                  <div class="button-primary">
+               {{> components/widgets/button button-url="index.html" button-text="Register"}}
+            </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

@@ -1,0 +1,15 @@
+{{#compare IsActive '==' 'true'}}
+<a href="{{service-url}}" class="d-block py-3 px-4 active">
+<span class="d-flex align-items-center justify-content-between">
+<span>{{service-title}}</span>
+<span class="icon"><i class="fas fa-plus"></i></span>
+</span>
+</a>
+{{else}}
+<a href="{{service-url}}" class="d-block py-3 px-4">
+<span class="d-flex align-items-center justify-content-between">
+<span>{{service-title}}</span>
+<span class="icon"><i class="fas fa-plus"></i></span>
+</span>
+</a>
+{{/compare}}

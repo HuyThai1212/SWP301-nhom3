@@ -1,0 +1,351 @@
+{{#extend 'layouts/default' title="skin-specialist" isHeader-skin-specialist="true" logo-dynamic="true" logo-image="logo-pink.png" isFooter-skin-specialist="true" ismegamenu="true" active="skin-specialist" path="./" isSwiperSlider="true" isSweetalert="true"
+page_colors='[{"var":"--bs-primary","value":"#ff6d9f"},{"var":"--bs-primary-bg-subtle","value":"#fbebf1"},{"var":"--bs-primary-rgb","value":"255, 109, 159"},{"var":"--bs-primary-shade-20","value":"#e55f8d"},{"var":"--bs-secondary","value":"#171c26"},{"var":"--bs-secondary-rgb","value":"23, 28, 38"}]'
+}}
+{{#content "content"}}
+{{!-- banner --}}
+<div class="skin-specialist-banner position-relative overflow-hidden">
+   <div class="container-fluid">
+      <div class="row align-items-center">
+         <div class="col-lg-5">
+            <div class="no-sub-title big-font py-lg-5">
+               {{> components/widgets/title right-text="The Quest To Have" left-text ="The Best Skin Is Here" title-description ="It is a long established fact that a reader will
+               be distracted by the readable content of a page when looking at its layout."}}
+               <div class="row align-items-center">
+                  <div class="col-xl-4 col-sm-6 pe-sm-2">
+                     <div class="banner-btn text-lg-start text-sm-end text-center">
+                        <div class="button-primary">
+                           {{> components/widgets/button button-text="Read More" button-url="about-us.html"}}
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-5 col-sm-6 ps-sm-2 mt-sm-0 mt-4">
+                     <div class="d-flex align-items-center justify-content-sm-start justify-content-center">
+                        <h2 class="mb-0">4.5</h2>
+                        <div class="ps-3">
+                           {{> components/widgets/filter-rating rating="5"}}
+                           <h6 class="mt-1">201 Reviews</h6>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 d-xl-block d-none">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-1"></div>
+         <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="banner-image">
+               <img src="{{path}}assets/images/skin-specialist/skin-specialist-banner.webp" alt="banner"
+                  class="img-fluid rtl-image-flip">
+            </div>
+            <div class="banner-right-text">
+               {{> components/widgets/scrolling-text scroll-title="beauty" }}
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- box --}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4 col-md-6">
+            {{> components/widgets/iconboxlist icon-image="skin-specialist/Patient-Care-1.png"
+            iconbox-title="High Standard Of Patient Care" list-value-1="I need help managing my pain" list-value-2="Advance
+            Advisory Team" btn-url="service2.html"}}
+         </div>
+         <div class="col-lg-4 col-md-6 mt-5 mt-md-0 active">
+            {{> components/widgets/iconboxlist icon-image="skin-specialist/Experience-Doctors-1.png"
+            iconbox-title="Experience Doctors And Support Staff" list-value-1="I need help managing my pain"
+            list-value-2="Advance Advisory Team" btn-url="service2.html"}}
+         </div>
+         <div class="col-lg-4 mt-5 mt-lg-0">
+            {{> components/widgets/iconboxlist icon-image="skin-specialist/Modern-Equipment-1.png"
+            iconbox-title="Latest And Modern Equipment" list-value-1="I need help managing my pain" list-value-2="Advance
+            Advisory Team" btn-url="service2.html"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- about us --}}
+<div class="section-about">
+   <div class="container-fluid p-0">
+      <div class="row align-items-center gx-0">
+         <div class="col-lg-6 position-relative">
+            <div class="about-banner">
+               <img src="{{path}}assets/images/skin-specialist/about-banner.webp" alt="banner"
+                  class="img-fluid">
+               <div class="banner-detail-slider position-absolute bg-white p-4 text-center d-none d-xl-block">
+                  <div class="overflow-hidden">
+                     <div class="swiper swiper-general" id="titlebox-slider" data-slide="1" data-laptop="1"
+                        data-tab="1" data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true"
+                        data-navigation="true" data-pagination="true">
+                        <ul class="p-0 m-0 swiper-wrapper list-inline">
+                           <li class="swiper-slide">
+                              {{> components/widgets/titleboxslider
+                              slider-title-main="23" slider-decs="Good Experience in skin treatment"}}
+                           </li>
+                           <li class="swiper-slide">
+                              {{> components/widgets/titleboxslider
+                              slider-title-main="500" slider-decs="Good Experience in skin treatment"}}
+                           </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 ps-lg-5 position-relative">
+            <div class="py-lg-0 px-lg-0 px-md-5 px-3 py-5">
+               {{> components/widgets/scrolling-text scroll-title="about us" }}
+               {{> components/widgets/title sub-title="about kivicare" right-text="The world’s Best Skin Care" left-text="treatment" title-description="It is a long established fact that a reader will be
+               distracted by the readable content of a page when looking at its layout."}}
+               <div class="row w-100">
+                  <div class="col-md-6">
+                     <ul class="iq-list-with-icon p-0 ">
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                           <span>Treats minor illnesses</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                           <span>Answers health questions</span>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6">
+                     <ul class="iq-list-with-icon p-0">
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                           <span>Conducts health checkups</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2 mb-3">
+                           <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                           <span>Specialty physicians</span>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="mt-3">
+                  <div class="button-primary">
+                     {{> components/widgets/button button-text="Read More" button-url="about-us.html"}}
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-2"></div>
+      </div>
+   </div>
+</div>
+{{!-- services --}}
+<div class="section-padding bg-primary-subtle skin-specialist-services">
+   <div class="container">
+      <div class="card mb-0">
+         <div class="card-body p-0">
+            <div class="row align-items-center m-0">
+               <div class="col-lg-4 p-3 p-md-5">
+                  {{> components/widgets/title sub-title="OUR SERVICES" right-text="Welcome To"
+                  left-text ="KiviCare" title-description ="It is a long established fact that a reader will be distracted by
+                  the readable content of a page when looking at its layout."}}
+                  <div class="mt-4">
+                     <div class="button-primary">
+                        {{> components/widgets/button button-text="Read More" button-url="service1.html"}}
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-8 p-md-5 p-0 border-start">
+                  <div class="row py-0 py-md-5">
+                     <div class="col-md-6">
+                        <div class="no-img-bg pe-lg-5">
+                           {{> components/widgets/iconbox-transprent isBorder="true" isButtonHide="true"
+                           icon-image="skin-specialist/Anti-Ageing-Treatment-1.png" iconbox-title="Ageing Treatment"
+                           iconbox-desc=" It is a long established fact that a will be distracted by the" btn-url="service1.html" }}
+                        </div>
+                        <div class="no-img-bg pe-lg-5 mt-0 mt-lg-5 mt-md-5">
+                           {{> components/widgets/iconbox-transprent isBorder="true" isButtonHide="true"
+                           icon-image="skin-specialist/laser-treatment-1.png" iconbox-title="Laser Treatment" iconbox-desc="It is
+                           a long established fact that a will be distracted by the" btn-url="service1.html" }}
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="no-img-bg pe-lg-5">
+                           {{> components/widgets/iconbox-transprent isBorder="true" isButtonHide="true"
+                           icon-image="skin-specialist/skin-treatment-1.png" iconbox-title="Skin Treatment" iconbox-desc="It is a
+                           long established fact that a will be distracted by the" btn-url="service1.html" }}
+                        </div>
+                        <div class="no-img-bg pe-lg-5 mt-0 mt-lg-5 mt-md-5">
+                           {{> components/widgets/iconbox-transprent isButtonHide="true"
+                           icon-image="skin-specialist/plastic-surgery-1.png" iconbox-title="Plastic Surgery" iconbox-desc="It is
+                           a long established fact that a will be distracted by the" btn-url="service1.html" }}
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- team --}}
+<div class="team-section section-padding">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="DOCTORS" }}
+         {{> components/widgets/title sub-title="Doctors" right-text="Our Outstanding"
+         left-text="Doctors"}}
+      </div>
+      <div class="overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2" data-mobile="1"
+         data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true" data-pagination="true">
+         <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-1.webp"
+               team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-2.webp"
+               team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-3.webp"
+               team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-4.webp"
+               team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-5.webp"
+               team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+{{!-- testimonial --}}
+<div class="section-padding bg-primary-subtle testimonial-section">
+   <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Testimonial" }}
+      <div class="row align-items-center">
+         <div class="col-lg-5">
+            {{> components/widgets/title sub-title="Kivicare Testimonial" right-text="What Our Patients
+            Say" left-text="about our Treatment"}}
+         </div>
+         <div class="col-lg-1"></div>
+         <div class="col-lg-6 position-relative">
+            <div class="overflow-hidden swiper swiper-general" data-slide="1" data-laptop="1" data-tab="1" data-mobile="1"
+               data-mobile-sm="1" data-autoplay="true" data-loop="false" data-navigation="true" data-pagination="true">
+               <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-1.webp" testimonial-user="Moric Horgon" testimonial-meta="Patient"
+                     testimonial-content="“You can’t go wrong here. I receive the best care and attention. The nursing staff
+                     and doctors are amazing and take their time with you. I felt better walking out here every time.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-2.webp" testimonial-user="Julia Roberts" testimonial-meta="Healthcare"
+                     testimonial-content="“Still very professional but a much more relaxed atmosphere. This makes for a more
+                     comfortable experience which is helpful in dealing with medical issues.”"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard
+                     testimonial-image="/testimonial/user-3.webp" testimonial-user="Jack leo" testimonial-meta="COO company"
+                     testimonial-content="“It has been very effective, in my opinion. It has made everyone more relaxed in a
+                     very comfortable atmosphere. We have always felt like family here, even more
+                     so now.”"}}
+                  </li>
+               </ul>
+               <div class="arrow-joint">
+                  <div class="swiper-button swiper-button-next"></div>
+                  <div class="swiper-button swiper-button-prev"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- video --}}
+<div class="video-section">
+   <div class="video-section-background">
+      <video  autoplay="autoplay" class="w-100" controls>
+         <source src="{{path}}assets/images/skin-specialist/kivicare-video.mp4" type="video/ogg">
+      </video>
+   </div>
+</div>
+{{!-- pricing table --}}
+<div class="section-padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4 col-md-6">
+            {{> components/widgets/pricing-standard pricing-title="Basic Package" price-value="$25"
+            price-year="year" price-image="/skin-specialist/price-icon-1.png" price-description="It is a long established
+            fact that a reader will be distracted by the readable content of a page ." list-1="Professional Calendar View "
+            list-2="Free Google Analytics" list-3="limited Medicines" list-4="limited Exercise" list-5="limited Task and
+            Comments"}}
+         </div>
+         <div class="col-lg-4 col-md-6 mt-5 mt-md-0 active">
+            {{> components/widgets/pricing-standard isActive="true" pricing-title="intermediate"
+            price-value="$75" price-year="year" price-image="/skin-specialist/price-icon-2.png" price-description="It is a
+            long established fact that a reader will be distracted by the readable content of a page ." list-1="Professional
+            Calendar View " list-2="Free Google Analytics" list-3="limited Medicines" list-4="limited Exercise"
+            list-5="limited Task and Comments"}}
+         </div>
+         <div class="col-lg-4 mt-5 mt-lg-0">
+            {{> components/widgets/pricing-standard pricing-title="Advanced" price-value="$99"
+            price-year="year" price-image="/skin-specialist/price-icon-3.png" price-description="It is a long established
+            fact that a reader will be distracted by the readable content of a page ." list-1="Professional Calendar View "
+            list-2="Free Google Analytics" list-3="limited Medicines" list-4="limited Exercise" list-5="limited Task and
+            Comments"}}
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- blog --}}
+<div class="section-padding pt-0">
+   <div class="container position-relative">
+      <div class="text-center">
+         {{> components/widgets/scrolling-text scroll-title="blog" }}
+         {{> components/widgets/title sub-title="blog" right-text="Stay Updated With Our Latest "
+         left-text="Articles" }}
+      </div>
+      <div class="row">
+         <div class="col-lg-6 blog-height">
+            {{> components/widgets/blog-standard blog-image="./blog/blog-1.webp" blog-category="Health
+            Care" blog-publish-date="September 23, 2022" blog-author="goldenmace" blog-title="OPD cover gaining popularity
+            among Indian consumers"}}
+         </div>
+         <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="blog mb-5">
+               {{> components/widgets/blog-column blog-image="./blog/blog-2.webp" blog-category="Eye
+               Care" blog-publish-date="September 23, 2022" blog-author="goldenmace" blog-title="Why Is Dry Eye So Difficult
+               to Treat?"}}
+            </div>
+            <div class="blog">
+               {{> components/widgets/blog-column blog-image="./blog/blog-3.webp" blog-category="Eye
+               Care" blog-publish-date="September 23, 2022" blog-author="goldenmace" blog-title="the most common problems?"}}
+            </div>
+         </div>
+      </div>
+      <div class="text-center mt-5">
+         <div class="iq-btn-container">
+            <a class="iq-button text-capitalize" href="{{path}}blog-lists.html">
+               <span class="iq-btn-text-holder position-relative">View More</span>
+               <span class="iq-btn-icon-holder">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8" fill="none">
+                     <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor"></path>
+                  </svg>
+               </span>
+            </a>
+         </div>
+      </div>
+   </div>
+</div>
+{{!-- location --}}
+<div class="section-padding pt-0">
+   <div class="container">
+      <iframe loading="lazy" class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902543.2003194243!2d-118.04220880485131!3d36.56083290513502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80be29b9f4abb783%3A0x4757dc6be1305318!2sInyo%20National%20Forest!5e0!3m2!1sen!2sin!4v1576668158879!5m2!1sen!2sin" height="500" allowfullscreen=""></iframe>
+   </div>
+</div>
+{{/content}}
+{{/extend}}

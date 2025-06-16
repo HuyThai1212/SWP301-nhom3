@@ -1,0 +1,25 @@
+<!-- Library Bundle Script -->
+<script src="{{path}}assets/js/core/libs.min.js"></script>
+<!-- Plugin Scripts -->
+{{> components/partials/plugin-scripts }}
+<!-- Lodash Utility -->
+<script src="{{path}}assets/vendor/lodash/lodash.min.js"></script>
+<!-- Utilities Functions -->
+<script src="{{path}}assets/js/iqonic-script/utility{{#compare dev '!=' 'true'}}.min{{/compare}}.js"></script>
+<!-- Settings Script -->
+<script src="{{path}}assets/js/iqonic-script/setting{{#compare dev '!=' 'true'}}.min{{/compare}}.js"></script>
+<!-- Settings Init Script -->
+<script src="{{path}}assets/js/setting-init.js"></script>
+<!-- External Library Bundle Script -->
+<script src="{{path}}assets/js/core/external.min.js"></script>
+<!-- Widgetchart Script -->
+<script src="{{path}}assets/js/charts/widgetcharts.js?v={{version}}" defer></script>
+<!-- Dashboard Script -->
+<script src="{{path}}assets/js/charts/dashboard.js?v={{version}}" defer></script>
+<!-- Hopeui Script -->
+<script src="{{path}}assets/js/kivicare.js?v={{version}}" defer></script>
+<script src="{{path}}assets/js/kivicare-advance.js?v={{version}}" defer></script>
+<script src="{{path}}assets/js/sidebar.js?v={{version}}" defer></script>
+
+<!-- Icons -->
+<script src="{{path}}assets/js/solid-icon-search-filter.js?v={{version}}" defer></script>

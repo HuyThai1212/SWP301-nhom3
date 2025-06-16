@@ -1,0 +1,673 @@
+{{#extend 'layouts/default' title="psychiatrist" isHeader-psychiatrist="true"
+logo-dynamic="true" logo-image="logo-yellow.png" ismegamenu="true"
+isFooter-psychiatrist="true"
+active="psychiatrist" path="./" isSwiperSlider="true"
+page_colors='[{"var":"--bs-primary","value":"#f2c078"},{"var":"--bs-primary-bg-subtle","value":"#faf5ed"},{"var":"--bs-primary-rgb","value":"242, 192, 120"},{"var":"--bs-primary-shade-20","value":"#F9A620"},{"var":"--bs-secondary","value":"#186b6b"},{"var":"--bs-secondary-bg-subtle","value":"#e3ecec"},{"var":"--bs-secondary-rgb","value":"24, 107, 107"}]'
+}}
+{{#content "content"}}
+
+{{!-- main Banner --}}
+<div class="section-padding bg-secondary-subtle px-0">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <div class="mb-0 pb-5 mb-lg-5 d-flex flex-wrap gap-xl-4 gap-3">
+          <button type="button"
+            class="btn btn-outline-dark rounded-pill text-uppercase px-3 py-2 fw-500">Therapy</button>
+          <button type="button"
+            class="btn btn-outline-dark rounded-pill text-uppercase px-3 py-2 fw-500">tutorial</button>
+          <button type="button"
+            class="btn btn-outline-dark rounded-pill text-uppercase px-3 py-2 fw-500">tips
+            & tricks</button>
+        </div>
+        <div class="no-sub-title big-font mb-5 pb-0 pb-lg-3">
+          {{> components/widgets/title right-text=" Healthy Mind Is The
+          <br /> Greatest
+          " left-text ="Treasure
+          <br /> To Find" title-description ="Over a long period of work we have
+          provided 1000’s of clients a better life and helped
+          <br /> to overcome mental illness."}}
+        </div>
+        {{> components/widgets/button button-text="Read More"
+        button-url="about-us.html"}}
+      </div>
+      <div class="col-lg-7">
+        <div class="row align-items-start position-relative mt-5 mt-lg-0">
+          <div class="col-md-6">
+            <img src="{{path}}assets/images/psychiatrist/banner-1.webp"
+              alt="banner-1" class="img-w-100 img-fluid">
+            <img src="{{path}}assets/images/psychiatrist/dr-kokko.webp"
+              alt="dr-kokko"
+              class=" bottom-0 position-absolute psychiatrist-banner-img d-none d-lg-inline-block">
+          </div>
+          <div class="col-md-6 ">
+            <img src="{{path}}assets/images/psychiatrist/banner-2.webp"
+              alt="banner-1" class="img-w-100 img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- About U --}}
+<div class="section-padding">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 pe-lg-5">
+        <img src="{{path}}assets/images/psychiatrist/about-us.png"
+          alt="about-us" class="w-100 img-fluid">
+      </div>
+      <div class="col-lg-6 position-relative mt-5 mt-lg-0">
+        {{> components/widgets/scrolling-text scroll-title="about us" }}
+        {{> components/widgets/title sub-title="about us"
+        right-text="Early treatment of Mental illness has"
+        left-text="High Success" title-description="Our goal is to eliminate or
+        control disabling or troubling symptoms so the patient can function
+        better. This treatment involves a talking relationship between a
+        therapist & patient."}}
+        <div class="row gy-3">
+          <div class="col-xl-6 col-lg-7 col-sm-6">
+            <ul class="iq-list-with-icon p-0 border-bottom pb-4 mb-5">
+              <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                    stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895"
+                    stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="text-body">Nunc Consectetur Tortor In Nisi.</span>
+              </li>
+              <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                    stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895"
+                    stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="text-body">Quisque Nec Mi Convallis Lacus</span>
+              </li>
+              <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                    stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"></path><path
+                    d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895"
+                    stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="text-body">Vivamus Egestas Tellus A Massa</span>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center gap-2 flex-wrap">
+              <img src="{{path}}assets/images/psychiatrist/icon.webp"
+                alt="icon">
+              <div>
+                <span>Feel free to contact us here</span>
+                <h5 class="text-secondary mt-1 fw-bolder">
+                  <span class="text-dark">Call:</span> +1-202-555-0104
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-5 col-sm-6">
+            <div class="bg-secondary-subtle p-xl-5 p-lg-4 p-5 d-block">
+              <h2 class="text-secondary fw-bolder">100%</h2>
+              <h5 class="fw-normal">Satisfaction Guarantee</h5>
+              <p class="mt-3 mb-0 text-body">It is a long established fact that
+                <br /> a reader will be distracted by the <br /> readable
+                content </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Book --}}
+<div class="mx-3 mx-lg-0 px-md-3">
+  <div class="container bg-dark p-50-100 rounded-3">
+    <div
+      class="d-flex align-items-center justify-content-between flex-column flex-lg-row gap-3 gap-lg-5">
+      <div class="d-flex align-items-center gap-4">
+        <div
+          class="box-img bg-primary text-white p-3 rounded-pill d-inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="35"
+            viewBox="0 0 32 35" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M8.89265 0.161675C7.57155 0.486213 6.31377 1.21529 5.15392 2.32877C2.62586 4.75561 0.87548 8.79231 0.195488 13.7635C-0.0651625 15.6689 -0.0651625 19.3405 0.195488 21.2459C0.94685 26.7392 3.09133 31.2253 6.03471 33.4616C6.67433 33.9476 8.01696 34.6243 8.71669 34.8135C9.4808 35.02 10.9799 35.0639 11.6768 34.9002C13.1559 34.5528 14.5021 33.4865 15.161 32.1406C16.275 29.865 15.7194 27.2823 13.7726 25.6852C12.8636 24.9395 11.7384 24.5508 10.4845 24.549C8.5811 24.5463 6.87413 25.5324 5.89756 27.1986L5.68081 27.5686L5.32898 26.8328C4.63369 25.3789 4.00295 23.139 3.68631 20.9992C3.47721 19.5859 3.47721 15.4235 3.68631 14.0102C4.00303 11.8696 4.63361 9.63051 5.32964 8.17514L5.68213 7.438L5.98595 7.92847C6.995 9.55766 8.59557 10.4574 10.4845 10.4574C11.3798 10.4574 12.0763 10.2982 12.8213 9.92363C14.9627 8.84667 16.1117 6.47656 15.6236 4.14329C15.2219 2.22369 13.611 0.563833 11.7179 0.119001C10.9766 -0.0551494 9.69663 -0.0358267 8.89265 0.161675ZM11.2864 3.68152C12.5933 4.35164 12.4947 6.27988 11.1244 6.85232C10.0229 7.31245 8.7578 6.45798 8.7578 5.25397C8.7578 3.89662 10.0902 3.06805 11.2864 3.68152ZM25.098 5.85149C24.3564 6.09233 23.887 6.73721 23.887 7.51529C23.887 8.10377 24.0068 8.32701 24.8114 9.23764C26.4655 11.1097 27.4425 13.1217 27.8477 15.4902C28.0646 16.7584 28.0253 18.8438 27.7621 20.0285C27.2743 22.2248 26.3287 24.0572 24.7719 25.8235C24.2119 26.459 24.0515 26.6995 23.9747 27.0196C23.7832 27.8178 24.1481 28.5979 24.8843 28.9648C25.3563 29.2001 25.7096 29.2323 26.201 29.085C26.6195 28.9596 27.0293 28.5997 27.8036 27.677C33.0174 21.4652 32.7177 12.4291 27.1025 6.54168C26.4682 5.87649 25.7657 5.63467 25.098 5.85149ZM20.0225 10.8934C19.3802 11.1716 18.9536 11.8083 18.9536 12.4884C18.9536 13.0533 19.1126 13.3941 19.6567 13.9951C21.3929 15.913 21.4459 18.8602 19.7799 20.8348C19.2309 21.4854 19.0394 21.8894 19.0394 22.397C19.0394 23.3603 19.823 24.1639 20.7625 24.1639C21.4613 24.1639 22.1412 23.6519 22.9003 22.5537C24.7211 19.9199 25.0146 16.6487 23.6831 13.8294C23.4867 13.4135 23.1839 12.8593 23.0103 12.5977C22.5516 11.9065 21.7583 11.0887 21.3792 10.9158C20.9806 10.7342 20.4118 10.7247 20.0225 10.8934ZM14.9657 15.9289C14.3446 16.224 14.0188 16.774 14.0219 17.5226C14.0265 18.6123 14.7906 19.2965 15.9123 19.2154C16.472 19.1749 16.8686 18.9428 17.2076 18.4572C17.405 18.1746 17.4324 18.0585 17.4324 17.5047C17.4324 16.9508 17.405 16.8347 17.2076 16.5521C16.8462 16.0344 16.4698 15.8272 15.838 15.798C15.4342 15.7792 15.2101 15.8129 14.9657 15.9289ZM11.1841 28.1827C12.4816 28.7722 12.5566 30.6224 11.3109 31.311C10.4244 31.801 9.27285 31.4051 8.88508 30.477C8.28115 29.0317 9.77384 27.542 11.1841 28.1827Z"
+              fill="currentColor"></path>
+          </svg>
+        </div>
+        <h5 class="text-white fw-normal">Need a Doctor for Checkup? Call for an
+          emergency service. Our services are
+          <span class="text-primary d-block">avaliable for 24 hours</span>
+        </h5>
+      </div>
+      <div class="f-none">
+        {{> components/widgets/button button-text="Book Appointment"
+        button-url="appointment.html"}}
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Why Choose Us --}}
+<div class="section-padding">
+  <div class="container position-relative">
+    {{> components/widgets/scrolling-text scroll-title="CHOOSE US"}}
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="position-relative">
+          {{> components/widgets/title sub-title="WHY CHOOSE US"
+          right-text="Why People Trust KiviCare" left-text="treatment"
+          title-description="It is a long established fact that a reader will be
+          distracted by the readable content of a page
+          when looking at its layout. The point of using Lorem Ipsum is that it
+          has a more-or-less normal distribution of letters"}}
+          <div class="row w-100">
+            <div class="col-md-6">
+              <ul class="iq-list-with-icon p-0 ">
+                <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
+                    viewBox="0 0 18 19" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.68985 0.532305C8.31931 0.605209 8.18652 0.703693 7.3523 1.52397C6.18432 2.6725 6.20455 2.66413 4.54935 2.6857C3.52299 2.69907 3.40596 2.70677 3.22616 2.7726C2.96952 2.86655 2.7886 2.9847 2.61158 3.17393C2.43006 3.36794 2.36211 3.47821 2.2713 3.72641C2.2048 3.90815 2.19727 4.02201 2.18386 5.05119C2.16229 6.70638 2.17067 6.68615 1.02214 7.85414C0.167342 8.72343 0.0942973 8.82691 0.0203724 9.27314C-0.00679081 9.43692 -0.00679081 9.56739 0.0203724 9.73118C0.0942973 10.1774 0.167342 10.2809 1.02214 11.1502C2.17067 12.3182 2.16229 12.2979 2.18386 13.9531C2.19723 14.9795 2.20494 15.0965 2.27077 15.2763C2.44188 15.7437 2.79679 16.0939 3.25255 16.2453C3.3909 16.2912 3.63773 16.3049 4.54935 16.3171C6.19836 16.3391 6.18696 16.3344 7.3523 17.4803C8.2216 18.3351 8.32508 18.4082 8.7713 18.4821C9.05465 18.529 9.37414 18.4827 9.65562 18.3539C9.81413 18.2813 10.0059 18.1126 10.6317 17.4952C11.4242 16.7134 11.5743 16.5962 11.9869 16.4377C12.2142 16.3504 12.248 16.3477 13.3985 16.3251C14.3421 16.3066 14.6113 16.2907 14.7481 16.2453C15.2039 16.0939 15.5588 15.7437 15.7299 15.2763C15.7954 15.0975 15.8042 14.9686 15.8243 13.9004C15.8459 12.7486 15.8485 12.7163 15.9359 12.4887C16.0944 12.0761 16.2116 11.926 16.9934 11.1335C17.6108 10.5077 17.7794 10.316 17.852 10.1575C17.9809 9.87597 18.0272 9.55648 17.9803 9.27314C17.9064 8.82691 17.8333 8.72343 16.9785 7.85414C15.8321 6.68833 15.8368 6.6997 15.8162 5.05119C15.8033 4.02113 15.7959 3.90832 15.7294 3.72641C15.56 3.26369 15.2384 2.94248 14.7745 2.7726C14.5957 2.70712 14.4668 2.69829 13.3985 2.6782C12.2468 2.65656 12.2145 2.65399 11.9869 2.56659C11.5743 2.40808 11.4242 2.29091 10.6317 1.50913C9.8022 0.69078 9.68616 0.606511 9.28322 0.530123C9.06806 0.489308 8.90532 0.489906 8.68985 0.532305ZM10.6631 10.0385L7.82182 12.8799L6.1592 11.2176L4.49657 9.55522L5.02432 9.02747L5.55207 8.49972L6.67815 9.62538L7.80419 10.751L10.1173 8.43787L12.4305 6.12473L12.9675 6.66085L13.5044 7.19701L10.6631 10.0385Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <h5 class="fw-normal">Treats minor illnesses</h5>
+                </li>
+                <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
+                    viewBox="0 0 18 19" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.68985 0.532305C8.31931 0.605209 8.18652 0.703693 7.3523 1.52397C6.18432 2.6725 6.20455 2.66413 4.54935 2.6857C3.52299 2.69907 3.40596 2.70677 3.22616 2.7726C2.96952 2.86655 2.7886 2.9847 2.61158 3.17393C2.43006 3.36794 2.36211 3.47821 2.2713 3.72641C2.2048 3.90815 2.19727 4.02201 2.18386 5.05119C2.16229 6.70638 2.17067 6.68615 1.02214 7.85414C0.167342 8.72343 0.0942973 8.82691 0.0203724 9.27314C-0.00679081 9.43692 -0.00679081 9.56739 0.0203724 9.73118C0.0942973 10.1774 0.167342 10.2809 1.02214 11.1502C2.17067 12.3182 2.16229 12.2979 2.18386 13.9531C2.19723 14.9795 2.20494 15.0965 2.27077 15.2763C2.44188 15.7437 2.79679 16.0939 3.25255 16.2453C3.3909 16.2912 3.63773 16.3049 4.54935 16.3171C6.19836 16.3391 6.18696 16.3344 7.3523 17.4803C8.2216 18.3351 8.32508 18.4082 8.7713 18.4821C9.05465 18.529 9.37414 18.4827 9.65562 18.3539C9.81413 18.2813 10.0059 18.1126 10.6317 17.4952C11.4242 16.7134 11.5743 16.5962 11.9869 16.4377C12.2142 16.3504 12.248 16.3477 13.3985 16.3251C14.3421 16.3066 14.6113 16.2907 14.7481 16.2453C15.2039 16.0939 15.5588 15.7437 15.7299 15.2763C15.7954 15.0975 15.8042 14.9686 15.8243 13.9004C15.8459 12.7486 15.8485 12.7163 15.9359 12.4887C16.0944 12.0761 16.2116 11.926 16.9934 11.1335C17.6108 10.5077 17.7794 10.316 17.852 10.1575C17.9809 9.87597 18.0272 9.55648 17.9803 9.27314C17.9064 8.82691 17.8333 8.72343 16.9785 7.85414C15.8321 6.68833 15.8368 6.6997 15.8162 5.05119C15.8033 4.02113 15.7959 3.90832 15.7294 3.72641C15.56 3.26369 15.2384 2.94248 14.7745 2.7726C14.5957 2.70712 14.4668 2.69829 13.3985 2.6782C12.2468 2.65656 12.2145 2.65399 11.9869 2.56659C11.5743 2.40808 11.4242 2.29091 10.6317 1.50913C9.8022 0.69078 9.68616 0.606511 9.28322 0.530123C9.06806 0.489308 8.90532 0.489906 8.68985 0.532305ZM10.6631 10.0385L7.82182 12.8799L6.1592 11.2176L4.49657 9.55522L5.02432 9.02747L5.55207 8.49972L6.67815 9.62538L7.80419 10.751L10.1173 8.43787L12.4305 6.12473L12.9675 6.66085L13.5044 7.19701L10.6631 10.0385Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <h5 class="fw-normal">Orthopaedic surgeon</h5>
+                </li>
+                <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
+                    viewBox="0 0 18 19" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.68985 0.532305C8.31931 0.605209 8.18652 0.703693 7.3523 1.52397C6.18432 2.6725 6.20455 2.66413 4.54935 2.6857C3.52299 2.69907 3.40596 2.70677 3.22616 2.7726C2.96952 2.86655 2.7886 2.9847 2.61158 3.17393C2.43006 3.36794 2.36211 3.47821 2.2713 3.72641C2.2048 3.90815 2.19727 4.02201 2.18386 5.05119C2.16229 6.70638 2.17067 6.68615 1.02214 7.85414C0.167342 8.72343 0.0942973 8.82691 0.0203724 9.27314C-0.00679081 9.43692 -0.00679081 9.56739 0.0203724 9.73118C0.0942973 10.1774 0.167342 10.2809 1.02214 11.1502C2.17067 12.3182 2.16229 12.2979 2.18386 13.9531C2.19723 14.9795 2.20494 15.0965 2.27077 15.2763C2.44188 15.7437 2.79679 16.0939 3.25255 16.2453C3.3909 16.2912 3.63773 16.3049 4.54935 16.3171C6.19836 16.3391 6.18696 16.3344 7.3523 17.4803C8.2216 18.3351 8.32508 18.4082 8.7713 18.4821C9.05465 18.529 9.37414 18.4827 9.65562 18.3539C9.81413 18.2813 10.0059 18.1126 10.6317 17.4952C11.4242 16.7134 11.5743 16.5962 11.9869 16.4377C12.2142 16.3504 12.248 16.3477 13.3985 16.3251C14.3421 16.3066 14.6113 16.2907 14.7481 16.2453C15.2039 16.0939 15.5588 15.7437 15.7299 15.2763C15.7954 15.0975 15.8042 14.9686 15.8243 13.9004C15.8459 12.7486 15.8485 12.7163 15.9359 12.4887C16.0944 12.0761 16.2116 11.926 16.9934 11.1335C17.6108 10.5077 17.7794 10.316 17.852 10.1575C17.9809 9.87597 18.0272 9.55648 17.9803 9.27314C17.9064 8.82691 17.8333 8.72343 16.9785 7.85414C15.8321 6.68833 15.8368 6.6997 15.8162 5.05119C15.8033 4.02113 15.7959 3.90832 15.7294 3.72641C15.56 3.26369 15.2384 2.94248 14.7745 2.7726C14.5957 2.70712 14.4668 2.69829 13.3985 2.6782C12.2468 2.65656 12.2145 2.65399 11.9869 2.56659C11.5743 2.40808 11.4242 2.29091 10.6317 1.50913C9.8022 0.69078 9.68616 0.606511 9.28322 0.530123C9.06806 0.489308 8.90532 0.489906 8.68985 0.532305ZM10.6631 10.0385L7.82182 12.8799L6.1592 11.2176L4.49657 9.55522L5.02432 9.02747L5.55207 8.49972L6.67815 9.62538L7.80419 10.751L10.1173 8.43787L12.4305 6.12473L12.9675 6.66085L13.5044 7.19701L10.6631 10.0385Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <h5 class="fw-normal">Conducts health checkups</h5>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="iq-list-with-icon p-0">
+                <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
+                    viewBox="0 0 18 19" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.68985 0.532305C8.31931 0.605209 8.18652 0.703693 7.3523 1.52397C6.18432 2.6725 6.20455 2.66413 4.54935 2.6857C3.52299 2.69907 3.40596 2.70677 3.22616 2.7726C2.96952 2.86655 2.7886 2.9847 2.61158 3.17393C2.43006 3.36794 2.36211 3.47821 2.2713 3.72641C2.2048 3.90815 2.19727 4.02201 2.18386 5.05119C2.16229 6.70638 2.17067 6.68615 1.02214 7.85414C0.167342 8.72343 0.0942973 8.82691 0.0203724 9.27314C-0.00679081 9.43692 -0.00679081 9.56739 0.0203724 9.73118C0.0942973 10.1774 0.167342 10.2809 1.02214 11.1502C2.17067 12.3182 2.16229 12.2979 2.18386 13.9531C2.19723 14.9795 2.20494 15.0965 2.27077 15.2763C2.44188 15.7437 2.79679 16.0939 3.25255 16.2453C3.3909 16.2912 3.63773 16.3049 4.54935 16.3171C6.19836 16.3391 6.18696 16.3344 7.3523 17.4803C8.2216 18.3351 8.32508 18.4082 8.7713 18.4821C9.05465 18.529 9.37414 18.4827 9.65562 18.3539C9.81413 18.2813 10.0059 18.1126 10.6317 17.4952C11.4242 16.7134 11.5743 16.5962 11.9869 16.4377C12.2142 16.3504 12.248 16.3477 13.3985 16.3251C14.3421 16.3066 14.6113 16.2907 14.7481 16.2453C15.2039 16.0939 15.5588 15.7437 15.7299 15.2763C15.7954 15.0975 15.8042 14.9686 15.8243 13.9004C15.8459 12.7486 15.8485 12.7163 15.9359 12.4887C16.0944 12.0761 16.2116 11.926 16.9934 11.1335C17.6108 10.5077 17.7794 10.316 17.852 10.1575C17.9809 9.87597 18.0272 9.55648 17.9803 9.27314C17.9064 8.82691 17.8333 8.72343 16.9785 7.85414C15.8321 6.68833 15.8368 6.6997 15.8162 5.05119C15.8033 4.02113 15.7959 3.90832 15.7294 3.72641C15.56 3.26369 15.2384 2.94248 14.7745 2.7726C14.5957 2.70712 14.4668 2.69829 13.3985 2.6782C12.2468 2.65656 12.2145 2.65399 11.9869 2.56659C11.5743 2.40808 11.4242 2.29091 10.6317 1.50913C9.8022 0.69078 9.68616 0.606511 9.28322 0.530123C9.06806 0.489308 8.90532 0.489906 8.68985 0.532305ZM10.6631 10.0385L7.82182 12.8799L6.1592 11.2176L4.49657 9.55522L5.02432 9.02747L5.55207 8.49972L6.67815 9.62538L7.80419 10.751L10.1173 8.43787L12.4305 6.12473L12.9675 6.66085L13.5044 7.19701L10.6631 10.0385Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <h5 class="fw-normal">Answers health questions</h5>
+                </li>
+                <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
+                    viewBox="0 0 18 19" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.68985 0.532305C8.31931 0.605209 8.18652 0.703693 7.3523 1.52397C6.18432 2.6725 6.20455 2.66413 4.54935 2.6857C3.52299 2.69907 3.40596 2.70677 3.22616 2.7726C2.96952 2.86655 2.7886 2.9847 2.61158 3.17393C2.43006 3.36794 2.36211 3.47821 2.2713 3.72641C2.2048 3.90815 2.19727 4.02201 2.18386 5.05119C2.16229 6.70638 2.17067 6.68615 1.02214 7.85414C0.167342 8.72343 0.0942973 8.82691 0.0203724 9.27314C-0.00679081 9.43692 -0.00679081 9.56739 0.0203724 9.73118C0.0942973 10.1774 0.167342 10.2809 1.02214 11.1502C2.17067 12.3182 2.16229 12.2979 2.18386 13.9531C2.19723 14.9795 2.20494 15.0965 2.27077 15.2763C2.44188 15.7437 2.79679 16.0939 3.25255 16.2453C3.3909 16.2912 3.63773 16.3049 4.54935 16.3171C6.19836 16.3391 6.18696 16.3344 7.3523 17.4803C8.2216 18.3351 8.32508 18.4082 8.7713 18.4821C9.05465 18.529 9.37414 18.4827 9.65562 18.3539C9.81413 18.2813 10.0059 18.1126 10.6317 17.4952C11.4242 16.7134 11.5743 16.5962 11.9869 16.4377C12.2142 16.3504 12.248 16.3477 13.3985 16.3251C14.3421 16.3066 14.6113 16.2907 14.7481 16.2453C15.2039 16.0939 15.5588 15.7437 15.7299 15.2763C15.7954 15.0975 15.8042 14.9686 15.8243 13.9004C15.8459 12.7486 15.8485 12.7163 15.9359 12.4887C16.0944 12.0761 16.2116 11.926 16.9934 11.1335C17.6108 10.5077 17.7794 10.316 17.852 10.1575C17.9809 9.87597 18.0272 9.55648 17.9803 9.27314C17.9064 8.82691 17.8333 8.72343 16.9785 7.85414C15.8321 6.68833 15.8368 6.6997 15.8162 5.05119C15.8033 4.02113 15.7959 3.90832 15.7294 3.72641C15.56 3.26369 15.2384 2.94248 14.7745 2.7726C14.5957 2.70712 14.4668 2.69829 13.3985 2.6782C12.2468 2.65656 12.2145 2.65399 11.9869 2.56659C11.5743 2.40808 11.4242 2.29091 10.6317 1.50913C9.8022 0.69078 9.68616 0.606511 9.28322 0.530123C9.06806 0.489308 8.90532 0.489906 8.68985 0.532305ZM10.6631 10.0385L7.82182 12.8799L6.1592 11.2176L4.49657 9.55522L5.02432 9.02747L5.55207 8.49972L6.67815 9.62538L7.80419 10.751L10.1173 8.43787L12.4305 6.12473L12.9675 6.66085L13.5044 7.19701L10.6631 10.0385Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <h5 class="fw-normal">Routine health tests</h5>
+                </li>
+                <li class="d-flex align-items-center gap-2 mb-3 text-primary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
+                    viewBox="0 0 18 19" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M8.68985 0.532305C8.31931 0.605209 8.18652 0.703693 7.3523 1.52397C6.18432 2.6725 6.20455 2.66413 4.54935 2.6857C3.52299 2.69907 3.40596 2.70677 3.22616 2.7726C2.96952 2.86655 2.7886 2.9847 2.61158 3.17393C2.43006 3.36794 2.36211 3.47821 2.2713 3.72641C2.2048 3.90815 2.19727 4.02201 2.18386 5.05119C2.16229 6.70638 2.17067 6.68615 1.02214 7.85414C0.167342 8.72343 0.0942973 8.82691 0.0203724 9.27314C-0.00679081 9.43692 -0.00679081 9.56739 0.0203724 9.73118C0.0942973 10.1774 0.167342 10.2809 1.02214 11.1502C2.17067 12.3182 2.16229 12.2979 2.18386 13.9531C2.19723 14.9795 2.20494 15.0965 2.27077 15.2763C2.44188 15.7437 2.79679 16.0939 3.25255 16.2453C3.3909 16.2912 3.63773 16.3049 4.54935 16.3171C6.19836 16.3391 6.18696 16.3344 7.3523 17.4803C8.2216 18.3351 8.32508 18.4082 8.7713 18.4821C9.05465 18.529 9.37414 18.4827 9.65562 18.3539C9.81413 18.2813 10.0059 18.1126 10.6317 17.4952C11.4242 16.7134 11.5743 16.5962 11.9869 16.4377C12.2142 16.3504 12.248 16.3477 13.3985 16.3251C14.3421 16.3066 14.6113 16.2907 14.7481 16.2453C15.2039 16.0939 15.5588 15.7437 15.7299 15.2763C15.7954 15.0975 15.8042 14.9686 15.8243 13.9004C15.8459 12.7486 15.8485 12.7163 15.9359 12.4887C16.0944 12.0761 16.2116 11.926 16.9934 11.1335C17.6108 10.5077 17.7794 10.316 17.852 10.1575C17.9809 9.87597 18.0272 9.55648 17.9803 9.27314C17.9064 8.82691 17.8333 8.72343 16.9785 7.85414C15.8321 6.68833 15.8368 6.6997 15.8162 5.05119C15.8033 4.02113 15.7959 3.90832 15.7294 3.72641C15.56 3.26369 15.2384 2.94248 14.7745 2.7726C14.5957 2.70712 14.4668 2.69829 13.3985 2.6782C12.2468 2.65656 12.2145 2.65399 11.9869 2.56659C11.5743 2.40808 11.4242 2.29091 10.6317 1.50913C9.8022 0.69078 9.68616 0.606511 9.28322 0.530123C9.06806 0.489308 8.90532 0.489906 8.68985 0.532305ZM10.6631 10.0385L7.82182 12.8799L6.1592 11.2176L4.49657 9.55522L5.02432 9.02747L5.55207 8.49972L6.67815 9.62538L7.80419 10.751L10.1173 8.43787L12.4305 6.12473L12.9675 6.66085L13.5044 7.19701L10.6631 10.0385Z"
+                      fill="currentColor"></path>
+                  </svg>
+                  <h5 class="fw-normal">Endocrinologist</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-3 pt-0 pt-lg-5">
+            {{> components/widgets/button button-text="Read More"
+            button-url="about-us.html"}}
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="{{path}}assets/images/psychiatrist/choose-us.png"
+          alt="choose-us" class="img-fluid d-lg-block d-none">
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Service --}}
+<div>
+  <div class="container service-style-one">
+    <div class="text-center position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Our services" }}
+      {{> components/widgets/title sub-title="Our services"
+      right-text="Discover New Ways To"
+      left-text="Be Well"}}
+      <div class="position-relative swiper swiper-general" data-slide="3"
+        data-laptop="3" data-tab="2" data-mobile="2" data-mobile-sm="1"
+        data-autoplay="true" data-loop="true" data-navigation="true"
+        data-pagination="true">
+        <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+          <li class="swiper-slide">
+            {{> components/widgets/service-slider
+            service-icon="service/couple-therapy-lab.svg"
+            service-icon-hover="service/couple-therapy-hover.svg"
+            service-title="Couple Therapy"
+            service-desc="unde omnis iste natus error sit volupta accusant dolore rem aperiam"
+            btn-url="service-detail.html"}}
+          </li>
+          <li class="swiper-slide">
+            {{> components/widgets/service-slider
+            service-icon="service/bipolar-disorder-lab.svg"
+            service-icon-hover="service/bipolar-disorder-hover.svg"
+            service-title="Bipolar Disorder"
+            service-desc="unde omnis iste natus error sit volupta accusant dolore rem aperiam"
+            btn-url="service-detail.html"}}
+          </li>
+          <li class="swiper-slide">
+            {{> components/widgets/service-slider
+            service-icon="service/anxiety-stress-lab.svg"
+            service-icon-hover="service/anxiety-stress-hover.svg"
+            service-title="Anxiety & Stress"
+            service-desc="unde omnis iste natus error sit volupta accusant dolore rem aperiam"
+            btn-url="service-detail.html"}}
+          </li>
+          <li class="swiper-slide">
+            {{> components/widgets/service-slider
+            service-icon="service/depression-lab.svg"
+            service-icon-hover="service/depression-hover.svg"
+            service-title="Depression"
+            service-desc="unde omnis iste natus error sit volupta accusant dolore rem aperiam"
+            btn-url="service-detail.html"}}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Team --}}
+<div class="team-section section-padding">
+  <div class="container">
+    <div class="text-center position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Our Doctors" }}
+      {{> components/widgets/title sub-title="DOCTORS"
+      right-text="Our Outstanding"
+      left-text="Doctors"}}
+    </div>
+    <div class="position-relative overflow-hidden  swiper swiper-general"
+      data-slide="3" data-laptop="3" data-tab="2" data-mobile="1"
+      data-mobile-sm="1" data-autoplay="true" data-loop="true"
+      data-navigation="true" data-pagination="true">
+      <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-1.webp"
+          team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-2.webp"
+          team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-3.webp"
+          team-member-name="Jennifer Dumont"
+          team-specialized="General Surgeon"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-4.webp"
+          team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/team-standard team-image="/team/team-5.webp"
+          team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{{!-- Contact Us --}}
+<div class="section-padding bg-secondary-subtle">
+  <div class="container position-relative">
+    {{> components/widgets/scrolling-text scroll-title="contact us"}}
+    <div class="row align-items-center">
+      <div class="col-lg-4">
+        {{> components/widgets/title sub-title="contact us"
+        right-text="Get A Glimpse Of A" left-text ="Psychiatrist
+        Theraphy" title-description ="Sed ut perspiciatis unde omnis iste natus
+        error<br /> sit voluptatem accusantium"}}
+        <ul
+          class="iq-social list-inline d-flex align-items-center mt-5 gap-3 m-0">
+          <li class="label text-dark fw-500">Follow us :</li>
+          <li>
+            <a href="https://facebook.com/">
+              <svg class="base-circle animated" width="38" height="38"
+                viewBox="0 0 50 50">
+                <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990"
+                  stroke-width="1"
+                  fill="none"></circle>
+              </svg>
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/">
+              <svg class="base-circle animated" width="38" height="38"
+                viewBox="0 0 50 50">
+                <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990"
+                  stroke-width="1"
+                  fill="none"></circle>
+              </svg>
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/">
+              <svg class="base-circle animated" width="38" height="38"
+                viewBox="0 0 50 50">
+                <circle class="c1" cx="25" cy="25" r="23" stroke="#6e7990"
+                  stroke-width="1"
+                  fill="none"></circle>
+              </svg>
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-8 position-relative">
+        <form>
+          <div class="row mt-5 mt-lg-0">
+            <div class="col-lg-6">
+              <div class="custom-form-field">
+                <input type="text" name="your-name" placeholder="Your Name"
+                  class="form-control mb-5 bg-white" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="custom-form-field">
+                <input type="text" name="your-subject" placeholder="Last Name"
+                  class="form-control mb-5 bg-white" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="custom-form-field">
+                <input type="tel" name="tel-478" minlength="10" maxlength="140"
+                  placeholder="Phone Number" class="form-control mb-5 bg-white"
+                  required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="custom-form-field">
+                <input type="email" name="your-email" placeholder="Your Email"
+                  class="form-control mb-5 bg-white" required>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="custom-form-field">
+                <textarea name="your-message" placeholder="Your Message"
+                  class="form-control mb-5 bg-white" required></textarea>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="iq-btn-container">
+                <button class="iq-button text-capitalize border-0"
+                  type="submit">
+                  <span class="iq-btn-text-holder position-relative">send
+                    message</span>
+                  <span class="iq-btn-icon-holder">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"
+                      viewBox="0 0 8 8" fill="none">
+                      <path
+                        d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                        fill="currentColor"></path>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Price Plan --}}
+<div class="section-padding">
+  <div class="container">
+    <div class="text-center position-relative">
+      {{> components/widgets/scrolling-text scroll-title="pricing plan" }}
+      {{> components/widgets/title sub-title="pricing plan"
+      right-text="Plans That Helps You To Grow Your" left-text="Business"}}
+    </div>
+    <div class="iq-pricetable-tabs">
+      <div class="text-center">
+        <ul
+          class="nav nav-tabs nav-tunnel nav-slider d-inline-flex bg-primary-subtle text-body border-0 rounded-pill"
+          data-toggle="slider-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active d-flex align-items-center"
+              data-bs-toggle="tab" data-bs-target="#icon-month-1"
+              type="button" role="tab" aria-selected="true"> Month </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link d-flex align-items-center"
+              data-bs-toggle="tab" data-bs-target="#icon-year-1" type="button"
+              role="tab" aria-selected="false"> Year </button>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content iq-tab-fade-up mt-5" id="icon-tab-content">
+        <div class="tab-pane fade show active" id="icon-month-1"
+          role="tabpanel">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              {{> components/widgets/pricing-tab pricing-title="Explore"
+              price-description="discuss your issues & create a plan with your talk therapist"
+              pricing-subtitle="Price Per Session" price-value="$12.29"
+              list-1="2 weeks of chat access" list-2="30 min Online Follow up"
+              list-3="24hour Emergency" list-4="Evidence based theraphy" }}
+            </div>
+            <div class="col-md-6 col-lg-4 mt-md-0 mt-5">
+              {{> components/widgets/pricing-tab isActive="true"
+              pricing-title="First Steps"
+              price-description="Identify thought patterns, break negative thought loops & initiate positive ones"
+              pricing-subtitle="Price Per Session" price-value="$33.17"
+              list-1="2 weeks of chat access" list-2="30 min Online Follow up"
+              list-3="24hour Emergency" list-4="Evidence based theraphy" }}
+            </div>
+            <div class="col-lg-4 mt-lg-0 mt-5">
+              {{> components/widgets/pricing-tab pricing-title="Mind Your Mind"
+              price-description="Initiate behavioural changes, learn how to manage your thoughts and emotions"
+              pricing-subtitle="Price Per Session" price-value="$117.98"
+              list-1="2 weeks of chat access" list-2="30 min Online Follow up"
+              list-3="24hour Emergency" list-4="Evidence based theraphy" }}
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="icon-year-1" role="tabpanel">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              {{> components/widgets/pricing-tab pricing-title="Explore"
+              price-description="discuss your issues & create a plan with your talk therapist"
+              pricing-subtitle="Price Per Session" price-value="$147.48"
+              list-1="2 weeks of chat access" list-2="30 min Online Follow up"
+              list-3="24hour Emergency" list-4="Evidence based theraphy" }}
+            </div>
+            <div class="col-md-6 col-lg-4">
+              {{> components/widgets/pricing-tab isActive="true"
+              pricing-title="First Steps"
+              price-description="Identify thought patterns, break negative thought loops & initiate positive ones"
+              pricing-subtitle="Price Per Session" price-value="$398"
+              list-1="2 weeks of chat access" list-2="30 min Online Follow up"
+              list-3="24hour Emergency" list-4="Evidence based theraphy" }}
+            </div>
+            <div class="col-lg-4 mt-5 mt-lg-0">
+              {{> components/widgets/pricing-tab pricing-title="Mind Your Mind"
+              price-description="Initiate behavioural changes, learn how to manage your thoughts and emotions"
+              pricing-subtitle="Price Per Session" price-value="$1415"
+              list-1="2 weeks of chat access" list-2="30 min Online Follow up"
+              list-3="24hour Emergency" list-4="Evidence based theraphy" }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Testimonial --}}
+<div class="bg-secondary-subtle py-4 py-lg-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <img src="{{path}}assets/images/psychiatrist/testimonial.png"
+          alt="testimonial-img" class="d-none d-lg-inline-block">
+      </div>
+      <div class="col-lg-7">
+        <div class="overflow-hidden tesimonial-quote swiper swiper-general"
+          data-slide="1" data-laptop="1" data-tab="1" data-mobile="1"
+          data-mobile-sm="1" data-autoplay="true" data-loop="true"
+          data-navigation="true" data-pagination="true">
+          <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline testimonial-quote">
+            <li class="swiper-slide">
+              {{> components/widgets/testimonial-standard
+              isAuthorimagehide="true" isTeastimonialicon="true"
+              isRatting="true"
+              testimonial-image="/testimonial/user-1.jpg"
+              testimonial-user="Moric Horgon"
+              quote-image="testimonial/testimonial-quote.svg"
+              testimonial-meta="Patient" testimonial-content="“You can’t go
+              wrong here. I receive the best
+              care and attention. The nursing staff and doctors are amazing and
+              take their time with you.
+              I felt better walking out here every time.”" rating="5" }}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/testimonial-standard
+              isAuthorimagehide="true" isTeastimonialicon="true"
+              isRatting="true"
+              testimonial-image="/testimonial/user-2.jpg"
+              testimonial-user="Julia Roberts"
+              quote-image="testimonial/testimonial-quote.svg"
+              testimonial-meta="Healthcare" testimonial-content="“Still very
+              professional but a much more relaxed atmosphere. This makes
+              for<br /> a more comfortable experience which is helpful in
+              dealing with medical issues.”" rating="5"}}
+            </li>
+            <li class="swiper-slide">
+              {{> components/widgets/testimonial-standard
+              isAuthorimagehide="true" isTeastimonialicon="true"
+              isRatting="true"
+              testimonial-image="/testimonial/user-3.jpg"
+              testimonial-user="Jack leo"
+              quote-image="testimonial/testimonial-quote.svg"
+              testimonial-meta="COO company"
+              testimonial-content="“It has been very effective, in my opinion. It has made everyone more relaxed in a very comfortable atmosphere, staff and patients included. We have always felt like family here, even more so now.”"
+              rating="1"}}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{!-- Our Blog --}}
+<div class="section-padding">
+  <div class="container">
+    <div class="text-center position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Our blog"}}
+      {{> components/widgets/title sub-title="Our blog"
+      right-text="Stay Updated With Our"
+      left-text="Latest Articles"}}
+    </div>
+    <div class="position-relative overflow-hidden swiper swiper-general"
+      data-slide="3" data-laptop="3" data-tab="2" data-mobile="1"
+      data-mobile-sm="1" data-autoplay="true" data-loop="true"
+      data-navigation="true" data-pagination="true">
+      <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-1.webp"
+          blog-category="Health Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="OPD cover gaining popularity among Indian consumers"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-2.webp"
+          blog-category="Eye Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-3.webp"
+          blog-category="Disease" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-4.webp"
+          blog-category="Health Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="A Revolutionary Change in Paediatric Healthcare"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-5.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Could Eyedrops Replace Reading Glasses?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-6.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="A World With Only Optimized Experiences Is Just Boring"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-7.webp"
+          blog-category="health Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Some questions about nutrition?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-8.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="What are the 7 parts of the eye?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-9.webp"
+          blog-category="eye Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Is it okay to cleanse your body by fasting from time to time?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-10.webp"
+          blog-category="health Care" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Are Short Workouts Worth It?"}}
+        </li>
+        <li class="swiper-slide">
+          {{> components/widgets/blog-with-author blog-image="blog/blog-11.webp"
+          blog-category="Disease" blog-publish-date="September 23, 2022"
+          blog-author="goldenmace"
+          blog-title="Will I need more medical tests?"}}
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+{{/content}}
+{{/extend}}

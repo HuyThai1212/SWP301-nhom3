@@ -1,0 +1,302 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\InvoiceMedicineDetailController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Controllers\\InvoiceMedicineDetailController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Hospital.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Hospital.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\obj\\Hospital.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\obj\\Hospital.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Models\\Medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\MedicineController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Controllers\\MedicineController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Models\\Prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\PrescriptionDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Models\\PrescriptionDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\InvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Controllers\\InvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Data\\HospitalDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Data\\HospitalDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\PrescriptionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Controllers\\PrescriptionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\PrescriptionDetailController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Controllers\\PrescriptionDetailController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\InvoiceMedicineDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Models\\InvoiceMedicineDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\Models\\Invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hospital\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 172,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hospital.http",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Hospital.http",
+              "RelativeDocumentMoniker": "Hospital\\Hospital.http",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Hospital.http",
+              "RelativeToolTip": "Hospital\\Hospital.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-16T07:47:49.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hospital.csproj.nuget.dgspec.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\obj\\Hospital.csproj.nuget.dgspec.json",
+              "RelativeDocumentMoniker": "Hospital\\obj\\Hospital.csproj.nuget.dgspec.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\obj\\Hospital.csproj.nuget.dgspec.json",
+              "RelativeToolTip": "Hospital\\obj\\Hospital.csproj.nuget.dgspec.json",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T07:47:22.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:06:18.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Program.cs",
+              "RelativeDocumentMoniker": "Hospital\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Program.cs",
+              "RelativeToolTip": "Hospital\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:47:38.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Medicine.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\Medicine.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Medicine.cs",
+              "RelativeToolTip": "Hospital\\Models\\Medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:37:44.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Hospital\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Hospital\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T18:37:37.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceMedicineDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\InvoiceMedicineDetailController.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\InvoiceMedicineDetailController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\InvoiceMedicineDetailController.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\InvoiceMedicineDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:06:36.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PrescriptionDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\PrescriptionDetail.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\PrescriptionDetail.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\PrescriptionDetail.cs",
+              "RelativeToolTip": "Hospital\\Models\\PrescriptionDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:00:23.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\Prescription.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Prescription.cs",
+              "RelativeToolTip": "Hospital\\Models\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:01:13.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\appsettings.json",
+              "RelativeDocumentMoniker": "Hospital\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\appsettings.json",
+              "RelativeToolTip": "Hospital\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T00:57:36.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicineController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\MedicineController.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\MedicineController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\MedicineController.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\MedicineController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:51:34.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "Hospital\\Data\\HospitalDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "Hospital\\Data\\HospitalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:47:04.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\PrescriptionController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:05:24.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PrescriptionDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\PrescriptionDetailController.cs",
+              "RelativeDocumentMoniker": "Hospital\\Controllers\\PrescriptionDetailController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Controllers\\PrescriptionDetailController.cs",
+              "RelativeToolTip": "Hospital\\Controllers\\PrescriptionDetailController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:05:51.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InvoiceMedicineDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\InvoiceMedicineDetail.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\InvoiceMedicineDetail.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\InvoiceMedicineDetail.cs",
+              "RelativeToolTip": "Hospital\\Models\\InvoiceMedicineDetail.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:00:49.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Hospital\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\Models\\Invoice.cs",
+              "RelativeToolTip": "Hospital\\Models\\Invoice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:01:45.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Hospital\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\Downloads\\Hospital\\Hospital\\appsettings.Development.json",
+              "RelativeToolTip": "Hospital\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T01:02:34.265Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

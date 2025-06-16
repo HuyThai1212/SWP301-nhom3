@@ -1,0 +1,33 @@
+{{#compare isShapeCircle '==' 'true'}}
+<div class="iq-popup-video">
+   <div class="iq-video-icon position-absolute ">
+      <div class="iq-video bg-white position-absolute text-center d-inline-block iq-fslightbox-img rounded-circle">
+         <a class="d-block" data-fslightbox="html5-video" href="{{video-link-url}}"
+            data-video-poster="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-play text-primary&quot;&gt;&lt;/i&gt;">
+         <i aria-hidden="true" class="fas fa-play text-primary"></i>
+         </a>
+      </div>
+      <div class="iq-waves">
+         <div class="waves position-absolute rounded-circle wave-1"></div>
+         <div class="waves position-absolute rounded-circle wave-2"></div>
+         <div class="waves position-absolute rounded-circle wave-3"></div>
+      </div>
+   </div>
+</div>
+{{else}}
+<div class="iq-popup-video">
+   <div class="iq-video-icon position-absolute ">
+      <div class="iq-video bg-white position-absolute text-center d-inline-block iq-fslightbox-img">
+         <a class="d-block" data-fslightbox="html5-video" href="{{video-link-url}}"
+            data-video-poster="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-play text-primary&quot;&gt;&lt;/i&gt;">
+         <i aria-hidden="true" class="fas fa-play text-primary"></i>
+         </a>
+      </div>
+      <div class="iq-waves">
+         <div class="waves position-absolute rounded-0 wave-1"></div>
+         <div class="waves position-absolute rounded-0 wave-2"></div>
+         <div class="waves position-absolute rounded-0 wave-3"></div>
+      </div>
+   </div>
+</div>
+{{/compare}}

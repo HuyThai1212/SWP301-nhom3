@@ -1,0 +1,548 @@
+{{#extend 'layouts/default' title="Orthopedics" isHeader-skin-specialist="true" logo-dynamic="true" logo-image="logo-blue.png" ismegamenu="true" isFooter-orthopedics="true" isSweetalert="true"
+active="orthopedics" path="./" isSwiperSlider="true"
+page_colors='[{"var":"--bs-primary","value":"#00b0d1"},{"var":"--bs-primary-bg-subtle","value":"#e2f2f6"},{"var":"--bs-primary-rgb","value":"0, 176, 209"},{"var":"--bs-primary-shade-20","value":"#4cc8df"},{"var":"--bs-secondary","value":"#004b85"},{"var":"--bs-secondary-bg-subtle","value":"#e1e8ee"},{"var":"--bs-secondary-rgb","value":"0, 75, 133"}]'
+}}
+{{#content "content"}}
+
+<div class="banner-orthopedics py-5 position-relative overflow-hidden">
+   <img src="{{path}}assets/images/orthopedics/pattern-5.webp" alt="pattern" class="img-fluid position-absolute d-none d-lg-block start-0 top-0 rtl-image-flip">
+   <img src="{{path}}assets/images/orthopedics/pattern-6.webp" alt="pattern" class="img-fluid position-absolute d-none d-lg-block end-50 bottom-0 rtl-image-flip">
+   <div class="container-fluid position-relative py-5">
+      <div class="row align-items-center">
+         <div class="col-lg-6">
+            <div class="iq-title-box">
+               <div class="no-sub-title big-font">
+                  {{> components/widgets/title right-text="Let Our Years Of Expertise Help To Get" left-text
+                  ="Back On Track" title-description ="Over a long period of work we have provided 1000’s of clients a better life and helped to overcome mental illness"}}
+               </div>
+            </div>
+            <div class="padding-top-60">
+               {{> components/widgets/button button-text="read more" button-url="about-us.html"}}
+            </div>
+            
+         </div>
+         <div class="col-lg-4 d-none d-md-none d-lg-block">
+            <img src="{{path}}assets/images/orthopedics/banner.webp" alt="service-img" class="img-fluid w-100">
+         </div>
+         <div class="col-lg-2">
+            <div class="orth-scrolling-text d-none d-md-none d-lg-block">
+               {{> components/widgets/scrolling-text scroll-title="orthopedic" }}
+            </div>
+         </div>
+      </div>
+      <div class="opening-time p-4 bg-white position-absolute top-50">
+               <h5 class="mb-3 mb-md-5">Opening Time</h5>
+               <ul class="list-inline mb-4">
+                  <li class="mb-3 d-flex align-items-center justify-content-between gap-2 text-dark">
+                     <span>Monday - Friday</span>
+                     <span>6:00 - 7:00 pm</span>
+                   </li>
+                   <li class="mb-3 d-flex align-items-center justify-content-between gap-2 text-dark">
+                     <span>Saturday</span>
+                     <span>8:00 - 2:00 pm </span>
+                  </li>
+                  <li class="d-flex align-items-center justify-content-between gap-2 text-dark">
+                     <span>Sunday</span>
+                     <span>Closed</span>
+                  </li>
+               </ul>
+               {{> components/widgets/button button-text="appointment" button-url="appointment.html"}}
+            </div>
+   </div>
+</div>
+<div class="section-padding">
+   <div class="container">
+      <div class="position-relative">
+         {{> components/widgets/scrolling-text scroll-title="CHOOSE US"}}
+      </div>
+      <div class="row align-items-center">
+         <div class="col-lg-6">
+            <img src="{{path}}assets/images/orthopedics/Left.webp" alt="service-img" class="img-fluid w-100">
+         </div>
+         <div class="col-lg-6 mt-5 mt-lg-0">
+            {{> components/widgets/title sub-title="WHY CHOOSE US" right-text="The World’s Best Orthopedic" left-text="Care Treatment" title-description="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate provident, similique sunt in culpa qui officia deserunt mollitia animi"}}
+            <ol class="iq-list two-column border-bottom mb-4 pb-3 mb-md-5 pb-md-5">
+               <li class="text-dark">Top Qualified Doctors</li>
+               <li class="text-dark">24/7 Hour Services</li>
+               <li class="text-dark">Trusted Treatment</li>
+               <li class="text-dark">Clean & Modern Clinic</li>
+            </ol>
+            <div class="d-flex align-items-start align-items-md-center gap-3 flex-column flex-md-row">
+              <img src="{{path}}assets/images/orthopedics/service.png" alt="icon">
+               <h5 class="iq-title iq-heading-title text-secondary">
+                  <span class="right-text text-capitalize fw-500">We Carefully Understand And Easily Manage Surgery Since <span class="text-primary">2000</span> And We Provide The Best Services</span>
+               </h5>           
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="ortho-service">
+   <div class="bg-secondary text-white section-padding">
+      <div class="container">
+         <div class="position-relative text-center">
+            {{> components/widgets/scrolling-text scroll-title="our services"}}
+         </div>
+         <div class="iq-title-box mb-0 text-center">
+            <span class="iq-subtitle text-uppercase text-primary">kivicare services</span>
+            <h2 class="iq-title iq-heading-title">
+               <span class="right-text text-capitalize fw-500 text-white">Long-Term Orthopedic Care </span>
+               <span class="left-text text-capitalize fw-light text-white">by KiviCare</span>
+            </h2>
+         </div>
+      </div>
+   </div>
+   <div class="service-top">
+      <div class="container">
+         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1">
+            <div class="col">
+               {{> components/widgets/service-creative service-title="Relationship Issues" service-category="KNEE
+               SURGERY"
+               service-description="It is a long established fact that reader will be distracted by the readable content
+               of
+               page"
+               service-image="service/relationship-issue.webp" service-icon="service/knee-replacement.png"
+               btn-url="service-detail.html"}}
+            </div>
+            <div class="col mt-5 mt-lg-0 mt-md-0">
+               {{> components/widgets/service-creative service-title="Bipolar Disorder" service-category="spinal CORD"
+               service-description="It is a long established fact that reader will be distracted by the readable content
+               of
+               page"
+               service-image="service/bipolor-disorder.webp" service-icon="service/spinal-cord.png"
+               btn-url="service-detail.html"}}
+            </div>
+            <div class="col mt-5 mt-xl-0">
+               {{> components/widgets/service-creative service-title="Depression" service-category="KNEE SURGERY"
+               service-description="It is a long established fact that reader will be distracted by the readable content
+               of
+               page"
+               service-image="service/Depression.webp" service-icon="service/knee-replacement.png"
+               btn-url="service-detail.html"}}
+            </div>
+         </div>
+         <div class="text-center mt-5 pt-0 pt-md-5">
+            {{> components/widgets/button button-text="view all" button-url="service2.html"}}
+         </div>
+      </div>
+   </div>
+</div>
+<div class="section-padding">
+   <div class="container">
+      <div class="position-relative">
+         {{> components/widgets/scrolling-text scroll-title="why choose" }}
+      </div>
+      <div class="row align-items-center">
+         <div class="col-lg-8">
+            {{> components/widgets/title sub-title="why choose us" right-text="Helping patients across Mid Michigan
+            renew" left-text="Their Freedom" title-description="There are many variations of passages of Lorem Ipsum
+            available, but the majority have suffered alteration in some form, by injected humour, or randomised
+            words which don’t look"}}
+            {{> components/widgets/button button-text="get started now" button-url="service2.html"}}
+         </div>
+         <div class="col-lg-4">
+            <div class="row mt-5 mt-lg-0">
+               <div class="col-lg-12 col-md-6">
+                  <div class="bg-white shadow p-3 p-md-4 p-lg-5 mb-5">
+                     <div class="d-flex align-items-center gap-3">
+                        <h2 class="text-primary">99%</h2>
+                        <h5>Success Surgery</h5>
+                     </div>
+                     <p class="mb-0">It is a long established fact that a reader willbe distracted by the readable
+                        content</p>
+                  </div>
+               </div>
+               <div class="col-lg-12 col-md-6">
+                  <div class="bg-white shadow p-3 p-md-4 p-lg-5">
+                     <div class="d-flex align-items-center gap-3">
+                        <h2 class="text-primary">100%</h2>
+                        <h5>Dedicated Care</h5>
+                     </div>
+                     <p class="mb-0">It is a long established fact that a reader willbe distracted by the readable
+                        content</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="background-overlay-img position-relative mx-3 mx-md-4">
+   <div class="banner-image position-absolute top-0 h-100">
+      <img src="{{path}}assets/images/orthopedics/cta.webp" alt="banner" class="img-fluid w-100 h-100"
+         style="object-fit: cover;">
+   </div>
+   <div class="container position-relative">
+      <div class="iq-title-box text-center">
+         <h2 class="iq-title iq-heading-title">
+            <span class="right-text text-capitalize text-white fw-500">Need a Doctor for Checkup? Call for an emergency
+               service. We are always </span>
+            <span class="left-text text-capitalize text-white fw-light">Avaliable For 24 Hours</span>
+         </h2>
+      </div>
+      <ul class="iq-list-with-icon ps-0 text-center">
+         <li class="d-inline-flex align-items-center gap-2 me-4">
+            <span class="text-primary">
+               <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                     fill="currentColor"></path>
+               </svg>
+            </span>
+            <span class="text-capitalize text-white">Orthopaedic surgeon</span>
+         </li>
+         <li class="d-inline-flex align-items-center gap-2 me-4">
+            <span class="text-primary">
+               <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                     fill="currentColor"></path>
+               </svg>
+            </span>
+            <span class="text-capitalize text-white">Performs routine health tests</span>
+         </li>
+         <li class="d-inline-flex align-items-center gap-2">
+            <span class="text-primary">
+               <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M2.59695 0.0379703C1.96118 0.143694 1.43245 0.425953 0.931049 0.927357C0.417642 1.44076 0.148371 1.95322 0.0397285 2.62375C-0.0132428 2.95081 -0.0132428 11.0523 0.0397285 11.3794C0.148371 12.0499 0.417642 12.5623 0.931049 13.0758C1.45007 13.5948 1.96808 13.8644 2.64799 13.9694C2.82029 13.996 4.26339 14.0049 7.16941 13.9975L11.4378 13.9865L11.7003 13.9055C12.2771 13.7275 12.7083 13.4735 13.0885 13.088C13.4916 12.6792 13.737 12.2647 13.9056 11.7077C13.987 11.4385 13.9886 11.3982 14.0009 9.23766C14.0091 7.79777 14.0004 6.99291 13.9756 6.9009C13.9548 6.82371 13.88 6.69296 13.8092 6.61033C13.4661 6.20947 12.8337 6.27331 12.5616 6.73626L12.4593 6.91035L12.441 9.09925L12.4228 11.2882L12.3066 11.5334C12.1451 11.8743 11.9069 12.117 11.5706 12.2832L11.2956 12.4191H7.00714H2.71865L2.47338 12.3029C2.1325 12.1414 1.88982 11.9032 1.72365 11.5669L1.58772 11.2919V7.00345V2.71496L1.70391 2.46969C1.86534 2.12888 2.10361 1.88613 2.43975 1.71996L2.71471 1.58403L4.9603 1.56579L7.2059 1.54755L7.36846 1.45634C7.61281 1.31924 7.74644 1.10557 7.76443 0.823275C7.78096 0.563781 7.71124 0.382248 7.52847 0.208777C7.30031 -0.00774129 7.35492 -0.00332719 4.97256 0.00134246C3.77304 0.00367729 2.70402 0.0201672 2.59695 0.0379703ZM13.7726 0.807514C13.6449 0.839691 13.2121 1.25828 10.3161 4.1504L7.00543 7.45644L5.64641 6.10225C4.18011 4.64115 4.18047 4.64141 3.8313 4.67497C3.58297 4.69883 3.39371 4.80886 3.25883 5.00772C3.12075 5.21133 3.07945 5.43211 3.13786 5.65432C3.17602 5.79956 3.35091 5.98715 4.86479 7.50704C5.99438 8.64115 6.59731 9.2207 6.69515 9.26648C6.87318 9.34981 7.10765 9.35532 7.28915 9.28042C7.45817 9.21067 14.5982 2.092 14.7053 1.88646C14.7958 1.71281 14.7965 1.41406 14.7068 1.21662C14.6213 1.02837 14.4111 0.854029 14.208 0.802881C14.0253 0.756878 13.9712 0.757425 13.7726 0.807514Z"
+                     fill="currentColor"></path>
+               </svg>
+            </span>
+            <span class="text-capitalize text-white">Conducts health checkups</span>
+         </li>
+      </ul>
+      <div class="button-primary text-center mt-5 pt-0 pt-md-5">
+         {{> components/widgets/button button-text="get started now" button-url="service2.html"}}
+      </div>
+   </div>
+</div>
+
+<div class="team-section section-padding">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Our Doctors" }}
+         {{> components/widgets/title sub-title="DOCTORS" right-text="Our Doctors To"
+         left-text="Help You!"}}
+      </div>
+      <div class="overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2" data-mobile="1"
+         data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true" data-pagination="true">
+         <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline">
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-1.webp"
+               team-member-name="Gunner Peha" team-specialized="Cardiologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-2.webp"
+               team-member-name="Ayden Leabow" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-3.webp"
+               team-member-name="Jennifer Dumont" team-specialized="General Surgeon"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-4.webp"
+               team-member-name="Damian Melcher" team-specialized="Gynecologist"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/team-overdetail team-image="/team/team-5.webp"
+               team-member-name="Lewis Scobee" team-specialized="Cardiologist"}}
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+<div class="video-popup">
+   <div class="container-fluid p-0">
+      <div class="row">
+         <div class="col-12">
+            <div class="position-relative padding-200"
+               style="background-image: url({{path}}assets/images/orthopedics/video-popup-bg.webp); background-size:cover">
+               <div class="section-padding">
+                  {{> components/widgets/video-popup video-link-url="https://www.youtube.com/watch?v=VeDdpy4CdeM" }}
+               </div>
+            </div>
+         </div>
+      </div> 
+   </div>
+</div>
+<div class="ortho-service">
+   <div class="bg-secondary text-white section-padding position-relative">
+       <img src="{{path}}assets/images/orthopedics/pattern-3.webp" alt="pattern" class="img-fluid position-absolute d-none d-lg-block start-0 top-0 rtl-image-flip">
+       <img src="{{path}}assets/images/orthopedics/pattern-4.webp" alt="pattern" class="img-fluid position-absolute d-none d-lg-block end-0 top-0 rtl-image-flip"> 
+       <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-6 ">
+               <div class="iq-title-box mb-md-0">
+                  <span class="iq-subtitle text-uppercase text-primary">SPECIAL CARE</span>
+                  <h2 class="iq-title iq-heading-title">
+                     <span class="right-text text-capitalize fw-500 text-white">Featured Treatment </span>
+                     <span class="left-text text-capitalize fw-light text-white">By Kivicare</span>
+                  </h2>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <span>Children undergo rapid physical and mental changes as they grow. We understand this fact &
+                  assess a child’s health status based on the normal ranges for their age.</span>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="service-top">
+      <div class="container px-md-5">
+         <div class="row">
+            <div class="col-xl-12">
+               <div class="card box-shadow mb-0">
+                  <div class="card-body p-0">
+                     <div class="row m-0 orthopedics-iconbox">
+                        <div class="col-lg-3 col-md-6 hover-box-shadow p-0 p-md-5 border-end">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent isBorder="true"
+                              icon-image="orthopedics/qualified-doctors.svg" iconbox-title="Qualified Doctors"
+                              iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+                              isButtonHide="true"}}
+                           </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 hover-box-shadow p-0 p-md-5  border-end">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent isBorder="true"
+                              icon-image="orthopedics/trusted-treatment.svg" iconbox-title="Trusted Treatment"
+                              iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+                              isButtonHide="true"}}
+                           </div>
+                        </div>
+                        <div
+                           class="col-lg-3 col-md-6 hover-box-shadow  p-0 p-md-5 border-end mt-0 mt-md-4 mt-lg-0 border-end">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent isBorder="true"
+                              icon-image="orthopedics/24-7-services.svg" iconbox-title="24/7 Services"
+                              iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+                              isButtonHide="true"}}
+                           </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 hover-box-shadow  p-0 p-md-5 border-end mt-0 mt-md-4 mt-lg-0">
+                           <div class="no-img-bg py-0 py-lg-4">
+                              {{> components/widgets/iconbox-transprent isBorder="true"
+                              icon-image="orthopedics/hygienic-clinic.svg" iconbox-title="Hygienic Clinic"
+                              iconbox-desc="There are many variations of passages of Lorem Ipsum available"
+                              isButtonHide="true"}}
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="section-padding">
+   <div class="container">
+      <div class="position-relative">
+         {{> components/widgets/scrolling-text scroll-title="faq" }}
+      </div>
+      <div class="row align-items-center">
+         <div class="col-lg-6">
+            {{> components/widgets/title sub-title="FAQ" right-text="Ask Us Anything,We Are Here To"
+            left-text="Help"}}
+            <div class="accordion" id="main-faq">
+               {{> components/widgets/faq show="true" uniqid="01" inid="01" faq-title="Can I trust my tap water? "
+               faq-desc=" There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+               alteration in some form, by injected humour, or randomised words which don’t look even slightly
+               believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything. "
+               }}
+               {{> components/widgets/faq uniqid="02" inid="02" faq-title="Is my microwave giving me cancer? "
+               faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+               alteration in some form, by injected humour, or randomised words which don’t look even slightly
+               believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything."
+               }}
+               {{> components/widgets/faq uniqid="03" inid="03" faq-title="How long am I contagious when I have the flu
+               or a cold?" faq-desc="There are many variations of passages of Lorem Ipsum available, but the majority
+               have suffered alteration in some form, by injected humour, or randomised words which don’t look even
+               slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t
+               anything." }}
+               {{> components/widgets/faq uniqid="04" inid="04" faq-title="How to book an appointment?" faq-desc=" There
+               are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+               some form, by injected humour, or randomised words which don’t look even slightly believable. If you are
+               going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+               {{> components/widgets/faq uniqid="05" inid="05" faq-title="What is heart surgery?" faq-desc=" There are
+               many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
+               form, by injected humour, or randomised words which don’t look even slightly believable. If you are going
+               to use a passage of Lorem Ipsum, you need to be sure there isn’t anything." }}
+            </div>
+         </div>
+         <div class="col-lg-6">
+            <img src="{{path}}assets/images/orthopedics/faq.webp" alt="faq" class="img-fluid w-100">
+         </div>
+      </div>
+   </div>
+</div>
+<div class="bg-secondary-subtle section-padding testimonial-section">
+   <div class="container position-relative">
+      {{> components/widgets/scrolling-text scroll-title="Testimonails" }}
+      {{> components/widgets/title sub-title="testimonial" right-text="What Our Patients "
+      left-text="Says" }}
+      <div class="row">
+         <div class="col-lg-7 position-relative">
+            <div class="overflow-hidden tesimonial-quote swiper swiper-general" data-slide="1" data-laptop="1"
+               data-tab="1" data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true"
+               data-navigation="true" data-pagination="true">
+               <ul class="p-0 m-0 mb-2 swiper-wrapper list-inline testimonial-quote">
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard testimonial-image="/testimonial/user-1.webp"
+                     isTeastimonialicon="true" isRatting="true"
+                     testimonial-image="/testimonial/user-1.jpg" testimonial-user="Moric Horgon"
+                     quote-image="testimonial/quote-ortho.svg"
+                     testimonial-meta="Patient" testimonial-content="“You can’t go wrong here. I receive the best
+                     care and attention. The nursing staff and doctors are amazing and take their time with you.
+                     I felt better walking out here every time.”" rating="5" }}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard testimonial-image="/testimonial/user-2.webp"
+                     isTeastimonialicon="true" isRatting="true"
+                     testimonial-image="/testimonial/user-2.jpg" testimonial-user="Julia Roberts"
+                     quote-image="testimonial/quote-ortho.svg"
+                     testimonial-meta="Healthcare" testimonial-content="“Still very professional but a much more relaxed
+                     atmosphere. This makes for<br /> a more comfortable experience which is helpful in dealing with
+                     medical issues.”" rating="5"}}
+                  </li>
+                  <li class="swiper-slide">
+                     {{> components/widgets/testimonial-standard testimonial-image="/testimonial/user-3.webp"
+                     isTeastimonialicon="true" isRatting="true"
+                     testimonial-image="/testimonial/user-3.jpg" testimonial-user="Jack leo"
+                     quote-image="testimonial/quote-ortho.svg"
+                     testimonial-meta="COO company" testimonial-content="“It has been very effective, in my opinion. It
+                     has made everyone more relaxed in a very comfortable atmosphere, staff and patients included.
+                     We have always felt like family here, even more so now.”" rating="1"}}
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="col-lg-1"></div>
+         <div class="col-lg-4 mt-5">
+            <div class="bg-primary text-white p-5 counter-box counter-white">
+               <ul class="list-inline m-0">
+                  <li class="mb-5">
+                     {{> components/widgets/counter-with-icon counter-icon="
+                     <i aria-hidden='true' class='flaticon flaticon-flaticon flaticon-manager'></i>"
+                     counter-value="2050+" counter-text="Satisfied Patient's"}}
+                  </li>
+                  <li class="mb-5">
+                     {{> components/widgets/counter-with-icon counter-icon="<i aria-hidden='true'
+                        class='flaticon flaticon-flaticon flaticon-packaging'></i>"
+                     counter-value="15+" counter-text="Health Sections"}}
+                  </li>
+                  <li class="mb-0">
+                     {{> components/widgets/counter-with-icon counter-icon="<i aria-hidden='true'
+                        class='flaticon flaticon-flaticon flaticon-care'></i>"
+                     counter-value="45+" counter-text="Awards Won"}}
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="section-padding">
+   <div class="container">
+      <div class="text-center position-relative">
+         {{> components/widgets/scrolling-text scroll-title="Our blog"}}
+         {{> components/widgets/title sub-title="Our blog" right-text="Stay Updated With Our "
+         left-text="Latest Articles"}}
+      </div>
+      <div class="position-relative overflow-hidden swiper swiper-general" data-slide="3" data-laptop="3" data-tab="2"
+         data-mobile="1" data-mobile-sm="1" data-autoplay="true" data-loop="true" data-navigation="true"
+         data-pagination="true">
+         <ul class="p-0 m-0 mb-5 swiper-wrapper list-inline">
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-1.webp"
+               blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="OPD cover gaining popularity among Indian consumers"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-2.webp"
+               blog-category="Eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Why Is Dry Eye So Difficult to Treat?"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-3.webp"
+               blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Circulating vaccine-derived poliovirus type 2 (cVDPV2) - Algeria"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-4.webp"
+               blog-category="Health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="A Revolutionary Change in Paediatric Healthcare"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-5.webp"
+               blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Could Eyedrops Replace Reading Glasses?"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-6.webp"
+               blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="A World With Only Optimized Experiences Is Just Boring"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-7.webp"
+               blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Some questions about nutrition?"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-8.webp"
+               blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="What are the 7 parts of the eye?"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-9.webp"
+               blog-category="eye Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Is it okay to cleanse your body by fasting from time to time?"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-10.webp"
+               blog-category="health Care" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Are Short Workouts Worth It?"}}
+            </li>
+            <li class="swiper-slide">
+               {{> components/widgets/blog-with-author blog-image="blog/blog-11.webp"
+               blog-category="Disease" blog-publish-date="September 23, 2022" blog-author="goldenmace"
+               blog-title="Will I need more medical tests?"}}
+            </li>
+         </ul>
+         <div class="swiper-pagination"></div>
+      </div>
+   </div>
+</div>
+
+<div class="section-padding bg-secondary position-relative">
+   <img src="{{path}}assets/images/orthopedics/pattern-1.webp" alt="faq"
+      class="img-fluid position-absolute d-none d-md-none d-lg-block start-0 top-0 rtl-image-flip">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-7 col-md-9">
+            <div class="iq-title-box">
+               <span class="iq-subtitle text-uppercase text-primary">SPECIAL CARE</span>
+               <h2 class="iq-title iq-heading-title text-white">
+                  <span class="right-text text-capitalize fw-500">Looking For Full</span>
+                  <span class="left-text text-capitalize fw-light">Package ?</span>
+               </h2>
+               <p class="iq-title-desc mt-3 mb-0 text-white">Children Undergo Rapid Physical And Mental Changes As They
+                  Grow. We Understand ThisFact & Assess A Child’s Health Status Based On The Normal Ranges For Their
+                  Age.</p>
+            </div>
+            <img src="{{path}}assets/images/pages/appstore-123.svg" class="d-inline-block me-4">
+            <img src="{{path}}assets/images/pages/google-play-store.svg" class="d-inline-block">
+         </div>
+         <div class="col-lg-5 col-md-3">
+            <img src="{{path}}assets/images/orthopedics/footer-img.webp" alt="faq"
+               class="img-fluid position-absolute bottom-0 d-none d-lg-inline-block">
+         </div>
+      </div>
+   </div>
+   <img src="{{path}}assets/images/orthopedics/pattern-2.webp" alt="faq"
+      class="img-fluid position-absolute d-none d-md-none d-lg-block end-0 bottom-0 rtl-image-flip">
+</div>
+
+{{/content}}
+{{/extend}}

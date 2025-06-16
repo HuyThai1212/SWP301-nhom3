@@ -1,0 +1,89 @@
+{{#compare isActive '==' 'true'}}
+<div class="iq-price-box iq-price-box-standard px-3 px-md-5 py-5 bg-primary text-white">
+   <div class="iq-inner-box">
+      <div class="iq-price-header">
+         <div class="price-heading d-flex align-items-center justify-content-between flex-sm-row flex-column-reverse mb-sm-0 mb-4">
+            <div class="price-box text-sm-start text-center">
+               <h6 class="iq-price-title text-uppercase fw-normal">{{{pricing-title}}}</h6>
+               <h2 class="iq-price">{{{price-value}}}<small>/ {{{price-year}}}</small></h2>
+            </div>
+            <div class="price-image">
+               <img src="{{path}}assets/images/{{price-image}}" alt="icon" class="img-fluid" loading="lazy">
+            </div>
+         </div>
+         <p class="iq-price-desc">{{{price-description}}}</p>
+      </div>
+      <div class="iq-price-body">
+         <ul class="iq-price-service list-inline border-top pt-5 mt-5">
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-1}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-2}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-3}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-4}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-5}}}
+            </li>
+         </ul>
+      </div>
+      <div class="price-footer text-center mt-5">
+         {{> components/widgets/button button-url="pricing-plan-one.html" button-text="read more"}}
+      </div>
+   </div>
+</div>
+{{else}}
+<div class="iq-price-box iq-price-box-standard px-3 px-md-5 py-5 bg-white">
+   <div class="iq-inner-box">
+      <div class="iq-price-header">
+         <div class="price-heading d-flex align-items-center justify-content-between flex-sm-row flex-column-reverse mb-sm-0 mb-4">
+            <div class="price-box text-sm-start text-center">
+               <h6 class="iq-price-title text-uppercase fw-normal">{{{pricing-title}}}</h6>
+               <h2 class="iq-price">{{{price-value}}}<small>/ {{{price-year}}}</small></h2>
+            </div>
+            <div class="price-image">
+               <img src="{{path}}assets/images/{{price-image}}" alt="icon" class="img-fluid" loading="lazy">
+            </div>
+         </div>
+         <p class="iq-price-desc">{{{price-description}}}</p>
+      </div>
+      <div class="iq-price-body">
+         <ul class="iq-price-service list-inline border-top pt-5 mt-5">
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-1}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-2}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-3}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-4}}}
+            </li>
+            <li class="mb-3 text-capitalize">
+               <i class="fa fa-check me-2" aria-hidden="true"></i>
+               {{{list-5}}}
+            </li>
+         </ul>
+      </div>
+      <div class="price-footer text-center mt-5">
+         {{> components/widgets/button button-url="pricing-plan-one.html" button-text="read more"}}
+      </div>
+   </div>
+</div>
+{{/compare}}

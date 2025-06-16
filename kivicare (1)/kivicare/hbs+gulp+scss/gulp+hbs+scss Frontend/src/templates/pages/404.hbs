@@ -1,0 +1,23 @@
+{{#extend 'layouts/default' title="404"  active="404" path="./"}}
+{{#content "content"}}
+<div class="bg-primary-subtle vh-100 position-relative">
+   <div class="container text-center">
+      <div class="row flex-column justify-content-center align-items-center vh-100">
+         <div style="z-index:1">
+            <img src="{{path}}assets/images/pages/404.png" alt="404" class="img-fluid mb-5"> 
+            <p class="mt-5 text-center text-body">The Page You Requested Could Not Be Found Please Go Back To Homepage</p>
+            <div class="button-primary">
+               {{> components/widgets/button button-url="index.html" button-text="Back to Home"}}
+            </div>
+         </div>
+      </div>
+   </div>
+   <div>
+      <img src="{{path}}assets/images/pages/error-bg-5.png" alt="img" class="position-absolute top-0 start-0 rtl-image-flip">
+      <img src="{{path}}assets/images/pages/error-bg-2.png" alt="img" class="position-absolute error-bg-one rtl-image-flip">
+      <img src="{{path}}assets/images/pages/error-bg-3.png" alt="img" class="position-absolute error-bg-two rtl-image-flip">
+      <img src="{{path}}assets/images/pages/error-bg-6.png" alt="img" class="position-absolute bottom-0 end-0 rtl-image-flip">
+   </div>
+</div>
+{{/content}}
+{{/extend}}
