@@ -1,0 +1,353 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Downloads\\SWP301\\Hospital.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\reset-pw.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Services\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Controllers\\AppointmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Data\\HospitalDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\Staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\Patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\AppointmentModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\UserAccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\LoginModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\doctors.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\appointment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\audiologist.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\checkout.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Hospital.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:12:21.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:43:25.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T16:45:38.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pharmacist-login.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-login.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-login.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-login.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-login.html",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-14T16:35:58.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "reset-pw.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\reset-pw.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\reset-pw.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\reset-pw.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\reset-pw.html",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAQwFAAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-14T16:47:11.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Services\\EmailService.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Services\\EmailService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:17:23.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:32:19.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Data\\HospitalDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Data\\HospitalDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:18:59.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\appsettings.Development.json",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T16:45:39.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Models\\Staff.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\Staff.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Models\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:22:22.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\Patient.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:22:33.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppointmentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\AppointmentModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Models\\AppointmentModel.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\AppointmentModel.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Models\\AppointmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T16:30:51.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "pharmacist-dashboard.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-dashboard.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-dashboard.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-dashboard.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\pharmacist-dashboard.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T20:13:54.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\UserAccount.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Models\\UserAccount.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\UserAccount.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Models\\UserAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:22:11.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T16:45:52.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Models\\LoginModel.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:11:33.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\dashboard\\index.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\index.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\dashboard\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-14T18:21:17.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "doctors.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\doctors.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\dashboard\\doctors.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\doctors.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\dashboard\\doctors.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-14T18:21:22.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appointment.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\appointment.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\dashboard\\appointment.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\dashboard\\appointment.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\dashboard\\appointment.html",
+              "ViewState": "AgIAANADAAAAAAAAAAAYwDAFAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T17:03:43.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "audiologist.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\audiologist.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\audiologist.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\audiologist.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\audiologist.html",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-14T15:46:33.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "checkout.html",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\checkout.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\checkout.html",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\wwwroot\\frontend\\checkout.html",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\wwwroot\\frontend\\checkout.html",
+              "ViewState": "AgIAAF8FAAAAAAAAAAAAABUDAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T20:26:17.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Hospital.http",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Hospital.http",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Hospital\\Hospital.http",
+              "ToolTip": "C:\\Users\\Asus TUF\\source\\repos\\Hospital\\Hospital.http",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\Hospital\\Hospital.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-12T16:34:09.052Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
