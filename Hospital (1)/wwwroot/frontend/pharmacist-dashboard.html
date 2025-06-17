@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharmacist Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/kivicare.min.css?v=1.4.1" />
+    <link rel="stylesheet" href="./assets/css/custom.min.css?v=1.4.1" />
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <button class="list-group-item list-group-item-action active" data-bs-toggle="tab" data-bs-target="#dashboard">Dashboard</button>
+                    <button class="list-group-item list-group-item-action" data-bs-toggle="tab" data-bs-target="#new-invoice">New Invoice</button>
+                    <button class="list-group-item list-group-item-action" data-bs-toggle="tab" data-bs-target="#history">Invoice History</button>
+                    <button class="list-group-item list-group-item-action" onclick="logout()">Logout</button>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="dashboard">
+                        <h3 id="welcomeMessage">Welcome, Pharmacist</h3>
+                        <p>Manage invoices and history here.</p>
+                    </div>
+                    <div class="tab-pane fade" id="new-invoice">
+                        <h4>Create New Invoice</h4>
+                        <form id="invoiceForm">
+                            <div class="mb-3">
+                                <label class="form-label">Patient Name</label>
+                                <input type="text" class="form-control" id="patientName" required />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Medicines</label>
+                                <textarea class="form-control" id="medicineList" rows="3" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Total Amount (VNĐ)</label>
+                                <input type="number" class="form-control" id="totalAmount" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save Invoice</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="history">
+                        <h4>Invoice History</h4>
+                        <table class="table">
+                            <thead>
+                                <tr><th>#</th><th>Patient</th><th>Medicines</th><th>Total (VNĐ)</th></tr>
+                            </thead>
+                            <tbody id="historyBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const username = localStorage.getItem("username");
+        document.getElementById("welcomeMessage").textContent = `Welcome, ${username || "Pharmacist"}`;
+        const invoiceForm = document.getElementById("invoiceForm");
+        const historyBody = document.getElementById("historyBody");
+
+        function renderHistory(invoices) {
+            historyBody.innerHTML = "";
+            invoices.forEach((inv, index) => {
+                const row = `
+              <tr>
+                <td>${index + 1}</td>
+                <td>${inv.patient}</td>
+                <td>${inv.medicines}</td>
+                <td>${parseInt(inv.total).toLocaleString("vi-VN")}₫</td>
+              </tr>`;
+                historyBody.innerHTML += row;
+            });
+        }
+
+        function fetchInvoices() {
+            fetch(`/api/invoice/user/${username}`)
+                .then(res => res.json())
+                .then(data => renderHistory(data))
+                .catch(() => alert("Failed to load invoice history"));
+        }
+
+        invoiceForm?.addEventListener("submit", function (e) {
+            e.preventDefault();
+            const invoice = {
+                pharmacist: username,
+                patient: document.getElementById("patientName").value.trim(),
+                medicines: document.getElementById("medicineList").value.trim(),
+                total: parseInt(document.getElementById("totalAmount").value)
+            };
+
+            fetch("/api/invoice/create", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(invoice)
+            })
+                .then(res => {
+                    if (!res.ok) throw new Error("Failed to save invoice");
+                    return res.json();
+                })
+                .then(() => {
+                    alert("Invoice saved");
+                    invoiceForm.reset();
+                    fetchInvoices();
+                })
+                .catch(err => alert(err.message));
+        });
+
+        function logout() {
+            if (confirm("Are you sure you want to logout?")) {
+                localStorage.removeItem("username");
+                window.location.href = "/frontend/pharmacist-login.html";
+            }
+        }
+
+        window.onload = fetchInvoices;
+    </script>
+</body>
+</html>
