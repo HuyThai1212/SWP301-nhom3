@@ -1,0 +1,2585 @@
+wwwroot\dashboard\appointment.html
+wwwroot\dashboard\app\user-account-setting.html
+wwwroot\dashboard\app\user-add.html
+wwwroot\dashboard\app\user-list.html
+wwwroot\dashboard\app\user-privacy-setting.html
+wwwroot\dashboard\app\user-profile.html
+wwwroot\dashboard\assets\css\bootstrap\bootstrap-grid.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap-grid.min.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap-reboot.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap-reboot.min.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap-utilities.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap-utilities.min.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap.css
+wwwroot\dashboard\assets\css\bootstrap\bootstrap.min.css
+wwwroot\dashboard\assets\css\core\libs.min.css
+wwwroot\dashboard\assets\css\custom-scss.css
+wwwroot\dashboard\assets\css\custom-scss.min.css
+wwwroot\dashboard\assets\css\custom.css
+wwwroot\dashboard\assets\css\custom.min.css
+wwwroot\dashboard\assets\css\customizer.css
+wwwroot\dashboard\assets\css\customizer.min.css
+wwwroot\dashboard\assets\css\kivicare.css
+wwwroot\dashboard\assets\css\kivicare.min.css
+wwwroot\dashboard\assets\css\maps\bootstrap\bootstrap-grid.min.css.map
+wwwroot\dashboard\assets\css\maps\bootstrap\bootstrap-reboot.min.css.map
+wwwroot\dashboard\assets\css\maps\bootstrap\bootstrap-utilities.min.css.map
+wwwroot\dashboard\assets\css\maps\bootstrap\bootstrap.min.css.map
+wwwroot\dashboard\assets\css\maps\custom-scss.min.css.map
+wwwroot\dashboard\assets\css\maps\custom.min.css.map
+wwwroot\dashboard\assets\css\maps\customizer.min.css.map
+wwwroot\dashboard\assets\css\maps\kivicare.min.css.map
+wwwroot\dashboard\assets\css\maps\rtl.min.css.map
+wwwroot\dashboard\assets\css\rtl.css
+wwwroot\dashboard\assets\css\rtl.min.css
+wwwroot\dashboard\assets\images\avatars\01.png
+wwwroot\dashboard\assets\images\avatars\02.png
+wwwroot\dashboard\assets\images\avatars\03.png
+wwwroot\dashboard\assets\images\avatars\04.png
+wwwroot\dashboard\assets\images\avatars\05.png
+wwwroot\dashboard\assets\images\avatars\06.png
+wwwroot\dashboard\assets\images\avatars\07.png
+wwwroot\dashboard\assets\images\avatars\08.png
+wwwroot\dashboard\assets\images\avatars\09.png
+wwwroot\dashboard\assets\images\avatars\10 .png
+wwwroot\dashboard\assets\images\avatars\11.png
+wwwroot\dashboard\assets\images\avatars\12.png
+wwwroot\dashboard\assets\images\avatars\13.png
+wwwroot\dashboard\assets\images\avatars\14.png
+wwwroot\dashboard\assets\images\avatars\avtar_1.png
+wwwroot\dashboard\assets\images\avatars\avtar_2.png
+wwwroot\dashboard\assets\images\avatars\avtar_3.png
+wwwroot\dashboard\assets\images\avatars\avtar_4.png
+wwwroot\dashboard\assets\images\avatars\avtar_5.png
+wwwroot\dashboard\assets\images\brands\08.png
+wwwroot\dashboard\assets\images\brands\09.png
+wwwroot\dashboard\assets\images\brands\10.png
+wwwroot\dashboard\assets\images\brands\11.png
+wwwroot\dashboard\assets\images\brands\12.png
+wwwroot\dashboard\assets\images\brands\13.png
+wwwroot\dashboard\assets\images\brands\14.png
+wwwroot\dashboard\assets\images\brands\15.png
+wwwroot\dashboard\assets\images\brands\16.png
+wwwroot\dashboard\assets\images\brands\17.png
+wwwroot\dashboard\assets\images\brands\18.png
+wwwroot\dashboard\assets\images\brands\19.png
+wwwroot\dashboard\assets\images\brands\20.png
+wwwroot\dashboard\assets\images\brands\21.png
+wwwroot\dashboard\assets\images\brands\22.png
+wwwroot\dashboard\assets\images\brands\23.png
+wwwroot\dashboard\assets\images\brands\expand-window.json
+wwwroot\dashboard\assets\images\brands\fb.svg
+wwwroot\dashboard\assets\images\brands\gm.svg
+wwwroot\dashboard\assets\images\brands\im.svg
+wwwroot\dashboard\assets\images\brands\li.svg
+wwwroot\dashboard\assets\images\brands\open-letter.json
+wwwroot\dashboard\assets\images\brands\pdf.png
+wwwroot\dashboard\assets\images\dashboard\alexa-zander.png
+wwwroot\dashboard\assets\images\dashboard\amine-louis-80.png
+wwwroot\dashboard\assets\images\dashboard\angle-jonas.png
+wwwroot\dashboard\assets\images\dashboard\apex-henry.png
+wwwroot\dashboard\assets\images\dashboard\card-bg.svg
+wwwroot\dashboard\assets\images\dashboard\dr-amine-louis.png
+wwwroot\dashboard\assets\images\dashboard\dr-benjamin-davis.png
+wwwroot\dashboard\assets\images\dashboard\dr-christopher-martinez.png
+wwwroot\dashboard\assets\images\dashboard\dr-dashboard.png
+wwwroot\dashboard\assets\images\dashboard\dr-emily-thompson.png
+wwwroot\dashboard\assets\images\dashboard\dr-ethan-rodriguez.png
+wwwroot\dashboard\assets\images\dashboard\dr-olivia-wilson.png
+wwwroot\dashboard\assets\images\dashboard\dralexandrajohnson.png
+wwwroot\dashboard\assets\images\dashboard\draminelouis.png
+wwwroot\dashboard\assets\images\dashboard\drKeinoshine.png
+wwwroot\dashboard\assets\images\dashboard\drMaxwellena.png
+wwwroot\dashboard\assets\images\dashboard\finance.png
+wwwroot\dashboard\assets\images\dashboard\hand-holding-heart.png
+wwwroot\dashboard\assets\images\dashboard\leena-steward.png
+wwwroot\dashboard\assets\images\dashboard\saline-bell.png
+wwwroot\dashboard\assets\images\dashboard\sign-in.jpg
+wwwroot\dashboard\assets\images\dashboard\smith-rayan.png
+wwwroot\dashboard\assets\images\dashboard\top-header.png
+wwwroot\dashboard\assets\images\doctor\1.webp
+wwwroot\dashboard\assets\images\doctor\10.webp
+wwwroot\dashboard\assets\images\doctor\2.webp
+wwwroot\dashboard\assets\images\doctor\3.webp
+wwwroot\dashboard\assets\images\doctor\4.webp
+wwwroot\dashboard\assets\images\doctor\5.webp
+wwwroot\dashboard\assets\images\doctor\6.webp
+wwwroot\dashboard\assets\images\doctor\7.webp
+wwwroot\dashboard\assets\images\doctor\8.webp
+wwwroot\dashboard\assets\images\doctor\9.webp
+wwwroot\dashboard\assets\images\down-aerrow.gif
+wwwroot\dashboard\assets\images\error\01.png
+wwwroot\dashboard\assets\images\error\02.png
+wwwroot\dashboard\assets\images\error\404.png
+wwwroot\dashboard\assets\images\error\500.png
+wwwroot\dashboard\assets\images\error\error-bg-1.png
+wwwroot\dashboard\assets\images\error\error-bg-2.png
+wwwroot\dashboard\assets\images\error\error-bg-3.png
+wwwroot\dashboard\assets\images\error\error-bg-4.png
+wwwroot\dashboard\assets\images\error\error-bg-5.png
+wwwroot\dashboard\assets\images\error\error-bg-6.png
+wwwroot\dashboard\assets\images\favicon.ico
+wwwroot\dashboard\assets\images\Flag\flag-01.png
+wwwroot\dashboard\assets\images\Flag\flag-02.png
+wwwroot\dashboard\assets\images\Flag\flag-03.png
+wwwroot\dashboard\assets\images\Flag\flag-04.png
+wwwroot\dashboard\assets\images\Flag\flag-05.png
+wwwroot\dashboard\assets\images\Flag\flag-06.png
+wwwroot\dashboard\assets\images\Flag\flag001.png
+wwwroot\dashboard\assets\images\gallery\blog-2.jpg
+wwwroot\dashboard\assets\images\gallery\blog-3.jpg
+wwwroot\dashboard\assets\images\gallery\blog-4.jpg
+wwwroot\dashboard\assets\images\gallery\blog-5.jpg
+wwwroot\dashboard\assets\images\gallery\blog-6.jpg
+wwwroot\dashboard\assets\images\gallery\blog1.jpg
+wwwroot\dashboard\assets\images\glass-card.png
+wwwroot\dashboard\assets\images\icons\01.png
+wwwroot\dashboard\assets\images\icons\02.png
+wwwroot\dashboard\assets\images\icons\03.png
+wwwroot\dashboard\assets\images\icons\04.png
+wwwroot\dashboard\assets\images\icons\05.png
+wwwroot\dashboard\assets\images\icons\06.png
+wwwroot\dashboard\assets\images\icons\07.png
+wwwroot\dashboard\assets\images\icons\08.png
+wwwroot\dashboard\assets\images\icons\fullscreen.svg
+wwwroot\dashboard\assets\images\loader.gif
+wwwroot\dashboard\assets\images\loader.webp
+wwwroot\dashboard\assets\images\logo-dark.png
+wwwroot\dashboard\assets\images\logo-mini-dark.png
+wwwroot\dashboard\assets\images\logo-mini-white.png
+wwwroot\dashboard\assets\images\logo-mini.png
+wwwroot\dashboard\assets\images\logo-white.png
+wwwroot\dashboard\assets\images\logo.png
+wwwroot\dashboard\assets\images\patient-dashboard\dental.svg
+wwwroot\dashboard\assets\images\patient-dashboard\heart-cardiogram.svg
+wwwroot\dashboard\assets\images\patient-dashboard\skin-treatment.svg
+wwwroot\dashboard\assets\images\settings\dark\01.png
+wwwroot\dashboard\assets\images\settings\dark\02.png
+wwwroot\dashboard\assets\images\settings\dark\03.png
+wwwroot\dashboard\assets\images\settings\dark\04.png
+wwwroot\dashboard\assets\images\settings\dark\05.png
+wwwroot\dashboard\assets\images\settings\dark\06.png
+wwwroot\dashboard\assets\images\settings\dark\07.png
+wwwroot\dashboard\assets\images\settings\dark\08.png
+wwwroot\dashboard\assets\images\settings\dark\09.png
+wwwroot\dashboard\assets\images\settings\dark\10.png
+wwwroot\dashboard\assets\images\settings\dark\11.png
+wwwroot\dashboard\assets\images\settings\dark\12.png
+wwwroot\dashboard\assets\images\settings\dark\13.png
+wwwroot\dashboard\assets\images\settings\dark\14.png
+wwwroot\dashboard\assets\images\settings\dark\15.png
+wwwroot\dashboard\assets\images\settings\light\01.png
+wwwroot\dashboard\assets\images\settings\light\02.png
+wwwroot\dashboard\assets\images\settings\light\03.png
+wwwroot\dashboard\assets\images\settings\light\04.png
+wwwroot\dashboard\assets\images\settings\light\05.png
+wwwroot\dashboard\assets\images\settings\light\06.png
+wwwroot\dashboard\assets\images\settings\light\07.png
+wwwroot\dashboard\assets\images\settings\light\08.png
+wwwroot\dashboard\assets\images\settings\light\09.png
+wwwroot\dashboard\assets\images\settings\light\10.png
+wwwroot\dashboard\assets\images\settings\light\11.png
+wwwroot\dashboard\assets\images\settings\light\12.png
+wwwroot\dashboard\assets\images\settings\light\13.png
+wwwroot\dashboard\assets\images\settings\light\14.png
+wwwroot\dashboard\assets\images\settings\light\15.png
+wwwroot\dashboard\assets\images\shapes\01.png
+wwwroot\dashboard\assets\images\shapes\02.png
+wwwroot\dashboard\assets\images\shapes\03.png
+wwwroot\dashboard\assets\images\shapes\04.png
+wwwroot\dashboard\assets\images\shapes\05.png
+wwwroot\dashboard\assets\images\shapes\06.png
+wwwroot\dashboard\assets\images\table\1.png
+wwwroot\dashboard\assets\images\table\10.png
+wwwroot\dashboard\assets\images\table\11.png
+wwwroot\dashboard\assets\images\table\12.png
+wwwroot\dashboard\assets\images\table\13.png
+wwwroot\dashboard\assets\images\table\14.png
+wwwroot\dashboard\assets\images\table\15.png
+wwwroot\dashboard\assets\images\table\16.png
+wwwroot\dashboard\assets\images\table\2.png
+wwwroot\dashboard\assets\images\table\3.png
+wwwroot\dashboard\assets\images\table\4.png
+wwwroot\dashboard\assets\images\table\5.png
+wwwroot\dashboard\assets\images\table\6.png
+wwwroot\dashboard\assets\images\table\7.png
+wwwroot\dashboard\assets\images\table\8.png
+wwwroot\dashboard\assets\images\table\9.png
+wwwroot\dashboard\assets\images\user\01.jpg
+wwwroot\dashboard\assets\images\user\02.jpg
+wwwroot\dashboard\assets\images\user\03.jpg
+wwwroot\dashboard\assets\images\user\04.jpg
+wwwroot\dashboard\assets\images\user\05.jpg
+wwwroot\dashboard\assets\images\user\06.jpg
+wwwroot\dashboard\assets\images\user\07.jpg
+wwwroot\dashboard\assets\images\user\08.jpg
+wwwroot\dashboard\assets\images\user\09.jpg
+wwwroot\dashboard\assets\images\user\1.jpg
+wwwroot\dashboard\assets\images\user\10.jpg
+wwwroot\dashboard\assets\images\user\11 .jpg
+wwwroot\dashboard\assets\images\user\11.png
+wwwroot\dashboard\assets\images\user\12.jpg
+wwwroot\dashboard\assets\images\user\amie-steward.png
+wwwroot\dashboard\assets\images\user\i1.jpg
+wwwroot\dashboard\assets\images\user\user-1.jpg
+wwwroot\dashboard\assets\images\user\user-2.jpg
+wwwroot\dashboard\assets\images\user\user-3.jpg
+wwwroot\dashboard\assets\images\user\user-4.jpg
+wwwroot\dashboard\assets\images\user\user-5.jpg
+wwwroot\dashboard\assets\images\user\user-6.jpg
+wwwroot\dashboard\assets\images\vectormap\cloudy-day-1.png
+wwwroot\dashboard\assets\images\vectormap\cloudy.png
+wwwroot\dashboard\assets\images\vectormap\day.png
+wwwroot\dashboard\assets\images\vectormap\rainy-1.png
+wwwroot\dashboard\assets\images\vectormap\snowy-6.png
+wwwroot\dashboard\assets\images\vectormap\thunder.png
+wwwroot\dashboard\assets\js\charts\dashboard.js
+wwwroot\dashboard\assets\js\charts\vectore-chart.js
+wwwroot\dashboard\assets\js\charts\widgetcharts.js
+wwwroot\dashboard\assets\js\core\external.min.js
+wwwroot\dashboard\assets\js\core\libs.min.js
+wwwroot\dashboard\assets\js\custom.js
+wwwroot\dashboard\assets\js\iqonic-script\setting-bundel.js
+wwwroot\dashboard\assets\js\iqonic-script\setting-bundel.min.js
+wwwroot\dashboard\assets\js\iqonic-script\setting.js
+wwwroot\dashboard\assets\js\iqonic-script\setting.min.js
+wwwroot\dashboard\assets\js\iqonic-script\utility.js
+wwwroot\dashboard\assets\js\iqonic-script\utility.min.js
+wwwroot\dashboard\assets\js\kivicare-advance.js
+wwwroot\dashboard\assets\js\kivicare.js
+wwwroot\dashboard\assets\js\plugins\apexcharts.js
+wwwroot\dashboard\assets\js\plugins\bookappointment.js
+wwwroot\dashboard\assets\js\plugins\calender.js
+wwwroot\dashboard\assets\js\plugins\choice.js
+wwwroot\dashboard\assets\js\plugins\circle-progress.js
+wwwroot\dashboard\assets\js\plugins\countdown.js
+wwwroot\dashboard\assets\js\plugins\custom-circle-progress.js
+wwwroot\dashboard\assets\js\plugins\flatpickr.js
+wwwroot\dashboard\assets\js\plugins\form-wizard.js
+wwwroot\dashboard\assets\js\plugins\fslightbox.js
+wwwroot\dashboard\assets\js\plugins\prism.mini.js
+wwwroot\dashboard\assets\js\plugins\rating.js
+wwwroot\dashboard\assets\js\plugins\select2.js
+wwwroot\dashboard\assets\js\plugins\slider-tabs.js
+wwwroot\dashboard\assets\js\plugins\sweet-alert.js
+wwwroot\dashboard\assets\js\plugins\tour.js
+wwwroot\dashboard\assets\js\setting-init.js
+wwwroot\dashboard\assets\js\sidebar.js
+wwwroot\dashboard\assets\js\slider.js
+wwwroot\dashboard\assets\js\solid-icon-search-filter.js
+wwwroot\dashboard\assets\vendor\aos\dist\aos.css
+wwwroot\dashboard\assets\vendor\aos\dist\aos.js
+wwwroot\dashboard\assets\vendor\apexcharts\dist\apexchart.min.js
+wwwroot\dashboard\assets\vendor\apexcharts\dist\apexcharts.css
+wwwroot\dashboard\assets\vendor\choiceJS\script\choices.min.js
+wwwroot\dashboard\assets\vendor\choiceJS\style\choices.min.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\docxjs\jszip-utils.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\docxjs\mammoth.browser.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\docxjs\mammoth.browser.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\docx\jszip-utils.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\docx\mammoth.browser.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\docx\mammoth.browser.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery\jquery-1.12.4.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery\jquery-3.3.1.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery\jquery-migrate-1.4.1.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\AUTHORS.txt
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_444444_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_555555_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_777620_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_777777_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_cc0000_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_ffffff_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.min.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_glass_45_0078ae_1x400.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_glass_55_f8da4e_1x400.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_glass_75_79c9ec_1x400.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_gloss-wave_45_e14f1c_500x100.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_gloss-wave_50_6eac2c_500x100.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_gloss-wave_75_2191c0_500x100.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_inset-hard_100_fcfdfd_1x100.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_0078ae_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_056b93_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_d8e7f3_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_e0fdff_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_f5e175_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_f7a50d_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_fcd113_256x240.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\jquery-ui.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\jquery-ui.min.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\jquery_ui\themes\start\theme.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\officeToHtml\officeToHtml.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\officeToHtml\officeToHtml.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdfViewer.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\debugger.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-check.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-comment.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-help.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-insert.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-key.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-newparagraph.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-noicon.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-note.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\annotation-paragraph.svg
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\grab.cur
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\grabbing.cur
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\loading-icon.gif
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\loading-small.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\loading-small@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-documentProperties.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-documentProperties@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-firstPage.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-firstPage@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-handTool.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-handTool@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-lastPage.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-lastPage@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCcw.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCcw@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCw.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCw@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-selectTool.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-selectTool@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\shadow.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\texture.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-bookmark.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-bookmark@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-download.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-download@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-menuArrows.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-menuArrows@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-openFile.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-openFile@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-presentationMode.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-presentationMode@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-print.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-print@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-search.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-search@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewAttachments.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewAttachments@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewThumbnail.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewThumbnail@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomIn.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomIn@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomOut.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomOut@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed-rtl.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed-rtl@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\treeitem-expanded.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\images\treeitem-expanded@2x.png
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ach\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\af\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ak\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\an\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ar\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ast\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\as\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\az\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\be\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\bg\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\bn-BD\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\bn-IN\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\br\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\bs\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ca\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\csb\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\cs\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\cy\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\da\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\de\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\el\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\en-GB\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\en-US\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\en-ZA\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\eo\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\es-AR\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\es-CL\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\es-ES\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\es-MX\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\et\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\eu\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\fa\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ff\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\fi\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\fr\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\fy-NL\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ga-IE\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\gd\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\gl\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\gu-IN\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\he\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\hi-IN\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\hr\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\hu\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\hy-AM\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\id\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\is\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\it\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ja\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ka\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\kk\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\km\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\kn\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ko\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ku\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\lg\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\lij\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\locale.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\lt\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\lv\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\mai\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\mk\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ml\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\mn\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\mr\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ms\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\my\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\nb-NO\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\nl\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\nn-NO\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\nso\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\oc\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\or\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\pa-IN\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\pl\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\pt-BR\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\pt-PT\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\rm\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ro\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ru\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\rw\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sah\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\si\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sk\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sl\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\son\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sq\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sr\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sv-SE\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\sw\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ta-LK\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ta\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\te\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\th\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\tl\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\tn\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\tr\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\uk\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\ur\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\vi\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\wo\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\xh\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\zh-CN\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\zh-TW\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\locale\zu\viewer.properties
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\pdf.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\pdf.js.map
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\pdf.viewer.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\pdf.worker.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\pdf\pdf.worker.js.map
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\css\nv.d3.min.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\css\pptxjs.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\d3.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\divs2slides.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\divs2slides.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\divs2slides.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\filereader.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\jszip.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\nv.d3.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\pptxjs.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\js\pptxjs.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\~$Sample_11.pptx
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\~$Sample_12.pptx
+wwwroot\dashboard\assets\vendor\doc-viewer\include\PPTXjs\~$Sample_video.pptx
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\css\sheetjs.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.css.map
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.full.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.full.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.js.map
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.min.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\all.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\all.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-CH.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-CH.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-DE.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-DE.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\en-US.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\en-US.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ja-JP.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ja-JP.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pl-PL.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pl-PL.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pt-BR.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pt-BR.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ru-RU.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ru-RU.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\pikaday\LICENSE
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\pikaday\pikaday.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\pikaday\pikaday.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\README.md
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\all.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\de-CH.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\de-DE.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\en-US.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\index.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\ja-JP.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\pl-PL.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\pt-BR.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\ru-RU.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\js\dropsheet.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\js\main.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\js\sheetjsw.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\js\shim.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\js\xhr-hack.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\del\js\xlsx.full.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\handsontable.full.min.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\handsontable.full.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\index.html
+wwwroot\dashboard\assets\vendor\doc-viewer\include\SheetJS\xlsx.full.min.js
+wwwroot\dashboard\assets\vendor\doc-viewer\include\verySimpleImageViewer\css\jquery.verySimpleImageViewer.css
+wwwroot\dashboard\assets\vendor\doc-viewer\include\verySimpleImageViewer\js\jquery.verySimpleImageViewer.js
+wwwroot\dashboard\assets\vendor\flaticon\css\flaticon.css
+wwwroot\dashboard\assets\vendor\flaticon\fonts\flaticon.css
+wwwroot\dashboard\assets\vendor\flaticon\fonts\Flaticon.eot
+wwwroot\dashboard\assets\vendor\flaticon\fonts\flaticon.html
+wwwroot\dashboard\assets\vendor\flaticon\fonts\Flaticon.svg
+wwwroot\dashboard\assets\vendor\flaticon\fonts\Flaticon.ttf
+wwwroot\dashboard\assets\vendor\flaticon\fonts\Flaticon.woff
+wwwroot\dashboard\assets\vendor\flaticon\fonts\Flaticon.woff2
+wwwroot\dashboard\assets\vendor\flaticon\fonts\_flaticon.scss
+wwwroot\dashboard\assets\vendor\flatpickr\dist\flatpickr.min.css
+wwwroot\dashboard\assets\vendor\flatpickr\dist\flatpickr.min.js
+wwwroot\dashboard\assets\vendor\font-awesome\css\all.min.css
+wwwroot\dashboard\assets\vendor\font-awesome\HELP-US-OUT.txt
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-brands-400.eot
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-brands-400.svg
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-brands-400.ttf
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-brands-400.woff
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-brands-400.woff2
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-regular-400.eot
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-regular-400.svg
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-regular-400.ttf
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-regular-400.woff
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-regular-400.woff2
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-solid-900.eot
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-solid-900.svg
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-solid-900.ttf
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-solid-900.woff
+wwwroot\dashboard\assets\vendor\font-awesome\webfonts\fa-solid-900.woff2
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\main.css
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\main.min.css
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\bootstrap\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\core\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales-all.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales-all.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\af.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar-dz.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar-kw.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar-ly.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar-ma.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar-sa.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar-tn.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ar.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\bg.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\bs.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ca.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\cs.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\da.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\de.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\el.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\en-au.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\en-gb.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\en-nz.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\es-us.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\es.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\et.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\eu.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\fa.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\fi.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\fr-ca.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\fr-ch.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\fr.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\gl.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\he.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\hi.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\hr.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\hu.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\id.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\is.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\it.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ja.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ka.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\kk.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ko.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\lb.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\lt.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\lv.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\mk.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ms.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\nb.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\nl.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\nn.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\pl.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\pt-br.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\pt.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ro.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\ru.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\sk.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\sl.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\sq.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\sr-cyrl.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\sr.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\sv.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\th.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\tr.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\uk.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\vi.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\zh-cn.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\locales\zh-tw.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\main.css
+wwwroot\dashboard\assets\vendor\fullcalendar\core\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\core\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\main.min.css
+wwwroot\dashboard\assets\vendor\fullcalendar\core\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\core\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\core\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\main.css
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\main.min.css
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\daygrid\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\google-calendar\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\interaction\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\list\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\list\main.css
+wwwroot\dashboard\assets\vendor\fullcalendar\list\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\list\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\list\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\list\main.min.css
+wwwroot\dashboard\assets\vendor\fullcalendar\list\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\list\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\list\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\luxon\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\moment-timezone\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\moment\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\rrule\README.md
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\LICENSE.txt
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\main.css
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\main.d.ts
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\main.esm.js
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\main.js
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\main.min.css
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\main.min.js
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\package.json
+wwwroot\dashboard\assets\vendor\fullcalendar\timegrid\README.md
+wwwroot\dashboard\assets\vendor\Iconly\Bold\2 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\3 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Activity.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Add User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Down 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Down 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Down Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Down Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Left 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Left 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Left Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Left Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Left.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Right 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Right 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Right Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Right Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Right.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Up 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Up 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Up Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Up Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Arrow - Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Bag 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Bag.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Bookmark.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Buy.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Calendar.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Call Missed.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Call Silent.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Call.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Calling.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Camera.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Category.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Chart.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Chat.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Close Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Danger.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Delete.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Discount.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Discovery.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Document.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Edit Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Edit.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Filter 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Filter.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Folder.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Game.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Graph.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Heart.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Hide.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Home.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Image 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Image.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Info Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Info Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Location.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Lock.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Login.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Logout.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Message.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\More Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\More Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Notification.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Paper Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Paper Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Paper Negative.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Paper Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Paper Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Paper.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Password.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Play.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Profile.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Scan.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Search.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Send.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Setting.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Shield Done.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Shield Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Show.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Swap.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Tick Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Ticket Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Ticket.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Time Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Time Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Unlock.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Video.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Voice 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Voice.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Volume Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Volume Off.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Volume Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Wallet.svg
+wwwroot\dashboard\assets\vendor\Iconly\Bold\Work.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\2 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\3 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Activity.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Add User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Down 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Down 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Down Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Down Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Left 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Left 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Left Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Left Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Left.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Right 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Right 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Right Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Right Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Right.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Up 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Up 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Up Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Up Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Arrow - Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Bag 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Bag.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Bookmark.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Buy.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Calendar.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Call Missed.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Call Silent.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Call.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Calling.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Camera.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Category.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Chart.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Chat.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Close Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Danger.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Delete.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Discount.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Discovery.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Document.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Edit Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Edit.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Filter 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Filter.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Folder.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Game.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Graph.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Heart.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Hide.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Home.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Image 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Image.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Info Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Info Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Location.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Lock.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Login.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Logout.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Message.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\More Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\More Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Notification.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Paper Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Paper Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Paper Negative.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Paper Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Paper Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Paper.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Password.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Play.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Profile.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Scan.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Search.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Send.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Setting.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Shield Done.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Shield Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Show.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Swap.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Tick Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Ticket Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Ticket.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Time Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Time Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Unlock.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Video.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Voice 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Voice.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Volume Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Volume Off.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Volume Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Wallet.svg
+wwwroot\dashboard\assets\vendor\Iconly\Colored\Work.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\2 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\3 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Activity.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Add User.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Down 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Down 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Down Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Down Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Left 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Left 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Left Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Left Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Left.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Right 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Right 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Right Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Right Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Right.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Up 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Up 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Up Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Up Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Arrow - Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Bag 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Bag.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Bookmark.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Buy.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Calendar.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Call Missed.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Call Silent.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Call.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Calling.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Camera.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Category.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Chart.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Chat.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Close Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Danger.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Delete.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Discount.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Discovery.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Document.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Edit Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Edit.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Filter 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Filter.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Folder.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Game.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Graph.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Heart.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Hide.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Home.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Image 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Image.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Info Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Info Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Location.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Lock.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Login.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Logout.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Message.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\More Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\More Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Notification.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Paper Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Paper Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Paper Negative.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Paper Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Paper Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Paper.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Password.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Play.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Profile.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Scan.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Search.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Send.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Setting.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Shield Done.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Shield Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Show.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Swap.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Tick Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Ticket Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Ticket.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Time Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Time Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Unlock.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Video.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Voice 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Voice.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Volume Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Volume Off.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Volume Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Wallet.svg
+wwwroot\dashboard\assets\vendor\Iconly\DualTone\Work.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\2 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\3 User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Activity.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Add User.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Down 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Down 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Down Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Down Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Left 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Left 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Left Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Left Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Left.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Right 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Right 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Right Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Right Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Right.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Up 2.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Up 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Up Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Up Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Arrow - Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Bag 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Bag.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Bookmark.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Buy.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Calendar.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Call Missed.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Call Silent.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Call.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Calling.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Camera.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Category.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Chart.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Chat.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Close Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Danger Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Danger Triangle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Delete.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Discount.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Discovery.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Document.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Edit Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Edit.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Filter 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Filter.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Folder.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Game.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Graph.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Heart.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Hide.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Home.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Image 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Image.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Info Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Location.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Lock.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Login.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Logout.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Message.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\More Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\More Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Notification.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Paper Download.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Paper Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Paper Negative.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Paper Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Paper Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Paper.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Password.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Play.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Plus.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Profile.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Scan.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Search.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Send.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Setting.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Shield Done.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Shield Fail.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Show.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Swap.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Tick Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Ticket Star.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Ticket.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Time Circle.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Time Square.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Unlock.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Upload.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Video.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Voice 3.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Voice.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Volume Down.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Volume Off.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Volume Up.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Wallet.svg
+wwwroot\dashboard\assets\vendor\Iconly\Line\Work.svg
+wwwroot\dashboard\assets\vendor\jquery-bar-rating\dist\jquery-barrating.min.js
+wwwroot\dashboard\assets\vendor\language\english.json
+wwwroot\dashboard\assets\vendor\language\french.json
+wwwroot\dashboard\assets\vendor\language\german.json
+wwwroot\dashboard\assets\vendor\language\hindi.json
+wwwroot\dashboard\assets\vendor\language\japanese.json
+wwwroot\dashboard\assets\vendor\leaflet\images\layers-2x.png
+wwwroot\dashboard\assets\vendor\leaflet\images\layers.png
+wwwroot\dashboard\assets\vendor\leaflet\images\marker-icon-2x.png
+wwwroot\dashboard\assets\vendor\leaflet\images\marker-icon.png
+wwwroot\dashboard\assets\vendor\leaflet\images\marker-shadow.png
+wwwroot\dashboard\assets\vendor\leaflet\leaflet-src.esm.js
+wwwroot\dashboard\assets\vendor\leaflet\leaflet-src.esm.js.map
+wwwroot\dashboard\assets\vendor\leaflet\leaflet-src.js
+wwwroot\dashboard\assets\vendor\leaflet\leaflet-src.js.map
+wwwroot\dashboard\assets\vendor\leaflet\leaflet.css
+wwwroot\dashboard\assets\vendor\leaflet\leaflet.js
+wwwroot\dashboard\assets\vendor\leaflet\leaflet.js.map
+wwwroot\dashboard\assets\vendor\lodash\lodash.min.js
+wwwroot\dashboard\assets\vendor\moment.min.js
+wwwroot\dashboard\assets\vendor\noUiSilder\script\nouislider.js
+wwwroot\dashboard\assets\vendor\noUiSilder\script\nouislider.min.js
+wwwroot\dashboard\assets\vendor\noUiSilder\style\nouislider.css
+wwwroot\dashboard\assets\vendor\noUiSilder\style\nouislider.min.css
+wwwroot\dashboard\assets\vendor\select2\dist\css\select2.min.css
+wwwroot\dashboard\assets\vendor\select2\dist\js\select2.min.js
+wwwroot\dashboard\assets\vendor\sheperd\dist\css\sheperd.css
+wwwroot\dashboard\assets\vendor\sheperd\dist\js\sheperd.min.js
+wwwroot\dashboard\assets\vendor\sortable\Sortable.js
+wwwroot\dashboard\assets\vendor\sortable\Sortable.min.js
+wwwroot\dashboard\assets\vendor\sticky-sidebar\dist\jquery.sticky-sidebar.js
+wwwroot\dashboard\assets\vendor\sticky-sidebar\dist\jquery.sticky-sidebar.js.map
+wwwroot\dashboard\assets\vendor\sticky-sidebar\dist\jquery.sticky-sidebar.min.js
+wwwroot\dashboard\assets\vendor\sticky-sidebar\dist\sticky-sidebar.js
+wwwroot\dashboard\assets\vendor\sticky-sidebar\dist\sticky-sidebar.js.map
+wwwroot\dashboard\assets\vendor\sticky-sidebar\dist\sticky-sidebar.min.js
+wwwroot\dashboard\assets\vendor\sticky-sidebar\LICENSE.md
+wwwroot\dashboard\assets\vendor\sticky-sidebar\package.json
+wwwroot\dashboard\assets\vendor\sticky-sidebar\README.md
+wwwroot\dashboard\assets\vendor\sticky-sidebar\src\jquery.sticky-sidebar.js
+wwwroot\dashboard\assets\vendor\sticky-sidebar\src\sticky-sidebar.js
+wwwroot\dashboard\assets\vendor\sweetalert2\dist\sweetalert2.min.css
+wwwroot\dashboard\assets\vendor\sweetalert2\dist\sweetalert2.min.js
+wwwroot\dashboard\assets\vendor\swiperSlider\swiper-bundle.min.css
+wwwroot\dashboard\assets\vendor\swiperSlider\swiper-bundle.min.js
+wwwroot\dashboard\auth\confirm-mail.html
+wwwroot\dashboard\auth\lock-screen.html
+wwwroot\dashboard\auth\recoverpw.html
+wwwroot\dashboard\auth\sign-in.html
+wwwroot\dashboard\auth\sign-up.html
+wwwroot\dashboard\blank-page.html
+wwwroot\dashboard\category.html
+wwwroot\dashboard\component.html
+wwwroot\dashboard\doctors.html
+wwwroot\dashboard\errors\error404.html
+wwwroot\dashboard\errors\error500.html
+wwwroot\dashboard\errors\maintenance.html
+wwwroot\dashboard\extra\privacy-policy.html
+wwwroot\dashboard\extra\terms-of-service.html
+wwwroot\dashboard\form\form-element.html
+wwwroot\dashboard\form\form-validation.html
+wwwroot\dashboard\helpsupport.html
+wwwroot\dashboard\icons\dual-tone.html
+wwwroot\dashboard\icons\outline.html
+wwwroot\dashboard\icons\solid.html
+wwwroot\dashboard\index.html
+wwwroot\dashboard\maps\google.html
+wwwroot\dashboard\maps\vector.html
+wwwroot\dashboard\patient-appointment.html
+wwwroot\dashboard\patient-dashboard.html
+wwwroot\dashboard\patient-doctors.html
+wwwroot\dashboard\patient-encounters.html
+wwwroot\dashboard\patient-payments.html
+wwwroot\dashboard\patient.html
+wwwroot\dashboard\prescriptions.html
+wwwroot\dashboard\products.html
+wwwroot\dashboard\report.html
+wwwroot\dashboard\setting.html
+wwwroot\dashboard\table\bootstrap-table.html
+wwwroot\dashboard\table\border-table.html
+wwwroot\dashboard\table\fancy-table.html
+wwwroot\dashboard\table\fixed-table.html
+wwwroot\dashboard\table\table-data.html
+wwwroot\dashboard\ui-color.html
+wwwroot\dashboard\widget\doctor-box.html
+wwwroot\dashboard\widget\doctor-info.html
+wwwroot\dashboard\widget\pagination.html
+wwwroot\dashboard\widget\setting-modal.html
+wwwroot\dashboard\widget\top-nav.html
+wwwroot\dashboard\widget\widgetbasic.html
+wwwroot\dashboard\widget\widgetcard.html
+wwwroot\dashboard\widget\widgetchart.html
+wwwroot\frontend\404.html
+wwwroot\frontend\about-us.html
+wwwroot\frontend\appointment.html
+wwwroot\frontend\assets\css\bootstrap\bootstrap-grid.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap-grid.min.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap-reboot.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap-reboot.min.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap-utilities.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap-utilities.min.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap.css
+wwwroot\frontend\assets\css\bootstrap\bootstrap.min.css
+wwwroot\frontend\assets\css\core\libs.min.css
+wwwroot\frontend\assets\css\custom.css
+wwwroot\frontend\assets\css\custom.min.css
+wwwroot\frontend\assets\css\customizer.css
+wwwroot\frontend\assets\css\customizer.min.css
+wwwroot\frontend\assets\css\custom\custom-scss.css
+wwwroot\frontend\assets\css\custom\custom-scss.min.css
+wwwroot\frontend\assets\css\kivicare.css
+wwwroot\frontend\assets\css\kivicare.min.css
+wwwroot\frontend\assets\css\maps\bootstrap\bootstrap-grid.min.css.map
+wwwroot\frontend\assets\css\maps\bootstrap\bootstrap-reboot.min.css.map
+wwwroot\frontend\assets\css\maps\bootstrap\bootstrap-utilities.min.css.map
+wwwroot\frontend\assets\css\maps\bootstrap\bootstrap.min.css.map
+wwwroot\frontend\assets\css\maps\custom.min.css.map
+wwwroot\frontend\assets\css\maps\customizer.min.css.map
+wwwroot\frontend\assets\css\maps\custom\custom-scss.min.css.map
+wwwroot\frontend\assets\css\maps\kivicare.min.css.map
+wwwroot\frontend\assets\css\maps\rtl.min.css.map
+wwwroot\frontend\assets\css\rtl.css
+wwwroot\frontend\assets\css\rtl.min.css
+wwwroot\frontend\assets\images\blog\avatar.webp
+wwwroot\frontend\assets\images\blog\blog-1.webp
+wwwroot\frontend\assets\images\blog\blog-10.webp
+wwwroot\frontend\assets\images\blog\blog-11.webp
+wwwroot\frontend\assets\images\blog\blog-2.webp
+wwwroot\frontend\assets\images\blog\blog-3.webp
+wwwroot\frontend\assets\images\blog\blog-4.webp
+wwwroot\frontend\assets\images\blog\blog-5.webp
+wwwroot\frontend\assets\images\blog\blog-6.webp
+wwwroot\frontend\assets\images\blog\blog-7.webp
+wwwroot\frontend\assets\images\blog\blog-8.webp
+wwwroot\frontend\assets\images\blog\blog-9.webp
+wwwroot\frontend\assets\images\blog\blog-author.webp
+wwwroot\frontend\assets\images\blog\blogdetai-1.webp
+wwwroot\frontend\assets\images\blog\blogdetai-2.webp
+wwwroot\frontend\assets\images\cardiac\banner-coupen.svg
+wwwroot\frontend\assets\images\cardiac\banner-truck.svg
+wwwroot\frontend\assets\images\cardiac\cardiac-about-us.webp
+wwwroot\frontend\assets\images\cardiac\cardiac-banner-pattern.webp
+wwwroot\frontend\assets\images\cardiac\cardiac-banner.webp
+wwwroot\frontend\assets\images\cardiac\cardiac-choose-us.webp
+wwwroot\frontend\assets\images\cardiac\cardiac-gallery-1.jpg
+wwwroot\frontend\assets\images\cardiac\cardiac-gallery-2.jpg
+wwwroot\frontend\assets\images\cardiac\cardiac-gallery-3.jpg
+wwwroot\frontend\assets\images\cardiac\cardiac-gallery-4.jpg
+wwwroot\frontend\assets\images\cardiac\cardiac-gallery-5.jpg
+wwwroot\frontend\assets\images\cardiac\cardiac-gallery-6.jpg
+wwwroot\frontend\assets\images\cardiac\cardiac-popup.webp
+wwwroot\frontend\assets\images\cardiac\cardiac-rehabilitation.svg
+wwwroot\frontend\assets\images\cardiac\cardiac-surgery.svg
+wwwroot\frontend\assets\images\cardiac\coronary-heart.svg
+wwwroot\frontend\assets\images\cardiac\diagnosis.svg
+wwwroot\frontend\assets\images\cardiac\heart.svg
+wwwroot\frontend\assets\images\client\client-1.webp
+wwwroot\frontend\assets\images\client\client-2.webp
+wwwroot\frontend\assets\images\client\client-3.webp
+wwwroot\frontend\assets\images\client\client-4.webp
+wwwroot\frontend\assets\images\client\client-5.webp
+wwwroot\frontend\assets\images\Dentist-Page\after-img.webp
+wwwroot\frontend\assets\images\Dentist-Page\before-img.webp
+wwwroot\frontend\assets\images\Dentist-Page\care-schedule.svg
+wwwroot\frontend\assets\images\Dentist-Page\clean-icon.svg
+wwwroot\frontend\assets\images\Dentist-Page\dentist-banner-icon.webp
+wwwroot\frontend\assets\images\Dentist-Page\dentist-banner-phone.webp
+wwwroot\frontend\assets\images\Dentist-Page\dentist-banner.webp
+wwwroot\frontend\assets\images\Dentist-Page\dentist-video-bg.webp
+wwwroot\frontend\assets\images\Dentist-Page\Highest-rated-dentistry.svg
+wwwroot\frontend\assets\images\Dentist-Page\pricing.svg
+wwwroot\frontend\assets\images\Dentist-Page\service-1.webp
+wwwroot\frontend\assets\images\Dentist-Page\service-2.webp
+wwwroot\frontend\assets\images\Dentist-Page\service-3.webp
+wwwroot\frontend\assets\images\Dentist-Page\testimonial-bg.webp
+wwwroot\frontend\assets\images\down-aerrow.gif
+wwwroot\frontend\assets\images\ent-clinic\about-right-image.webp
+wwwroot\frontend\assets\images\ent-clinic\Awards-1.webp
+wwwroot\frontend\assets\images\ent-clinic\card-image.webp
+wwwroot\frontend\assets\images\ent-clinic\doc-img-1.webp
+wwwroot\frontend\assets\images\ent-clinic\Ear-Treatment-1.webp
+wwwroot\frontend\assets\images\ent-clinic\ent-clinic-banner.webp
+wwwroot\frontend\assets\images\ent-clinic\ent-text.webp
+wwwroot\frontend\assets\images\ent-clinic\faq.webp
+wwwroot\frontend\assets\images\ent-clinic\Mediclaim-Facilities-1.webp
+wwwroot\frontend\assets\images\ent-clinic\Nose-Treatment-1.webp
+wwwroot\frontend\assets\images\ent-clinic\Pioneer-Of-Treatment-1.webp
+wwwroot\frontend\assets\images\ent-clinic\Stichless-surgery-1.webp
+wwwroot\frontend\assets\images\ent-clinic\Throat-Treatment-1.webp
+wwwroot\frontend\assets\images\eye-care\01-bg.webp
+wwwroot\frontend\assets\images\eye-care\eye-02.webp
+wwwroot\frontend\assets\images\eye-care\eye-03.webp
+wwwroot\frontend\assets\images\eye-care\eye-04.webp
+wwwroot\frontend\assets\images\eye-care\eye-05.webp
+wwwroot\frontend\assets\images\favicon.ico
+wwwroot\frontend\assets\images\fertility-clinic\about.webp
+wwwroot\frontend\assets\images\fertility-clinic\banner-1.webp
+wwwroot\frontend\assets\images\fertility-clinic\banner-2.webp
+wwwroot\frontend\assets\images\fertility-clinic\banner-3.webp
+wwwroot\frontend\assets\images\fertility-clinic\contact-form-bg.webp
+wwwroot\frontend\assets\images\fertility-clinic\icon-1.svg
+wwwroot\frontend\assets\images\fertility-clinic\icon-2.svg
+wwwroot\frontend\assets\images\fertility-clinic\icon-3.svg
+wwwroot\frontend\assets\images\fertility-clinic\icon-4.svg
+wwwroot\frontend\assets\images\fertility-clinic\service-1.webp
+wwwroot\frontend\assets\images\fertility-clinic\service-2.webp
+wwwroot\frontend\assets\images\fertility-clinic\service-3.webp
+wwwroot\frontend\assets\images\fertility-clinic\service-4.webp
+wwwroot\frontend\assets\images\gallery\blog-1.jpg
+wwwroot\frontend\assets\images\gallery\blog-2.jpg
+wwwroot\frontend\assets\images\gallery\blog-3.jpg
+wwwroot\frontend\assets\images\gallery\blog-4.jpg
+wwwroot\frontend\assets\images\gallery\blog-5.jpg
+wwwroot\frontend\assets\images\gallery\blog-6.jpg
+wwwroot\frontend\assets\images\gallery\portrait-1.jpg
+wwwroot\frontend\assets\images\gallery\portrait-2.jpg
+wwwroot\frontend\assets\images\gallery\square-1.jpg
+wwwroot\frontend\assets\images\gallery\square-2.jpg
+wwwroot\frontend\assets\images\gallery\square-3.jpg
+wwwroot\frontend\assets\images\gallery\square-4.jpg
+wwwroot\frontend\assets\images\general\about-us-right.webp
+wwwroot\frontend\assets\images\general\appstore.png
+wwwroot\frontend\assets\images\general\avatar.png
+wwwroot\frontend\assets\images\general\banner-bg.webp
+wwwroot\frontend\assets\images\general\doctor-home-visit.png
+wwwroot\frontend\assets\images\general\doctor.png
+wwwroot\frontend\assets\images\general\doctor.svg
+wwwroot\frontend\assets\images\general\dr-emily-thompson.webp
+wwwroot\frontend\assets\images\general\dralexandrajohnson.webp
+wwwroot\frontend\assets\images\general\extraction.webp
+wwwroot\frontend\assets\images\general\payment-offline.png
+wwwroot\frontend\assets\images\general\payment-paypal.png
+wwwroot\frontend\assets\images\general\payment-woocommerce.png
+wwwroot\frontend\assets\images\general\root-canel.webp
+wwwroot\frontend\assets\images\general\service-vector.png
+wwwroot\frontend\assets\images\general\service.svg
+wwwroot\frontend\assets\images\general\signature.png
+wwwroot\frontend\assets\images\general\teeth-cleaning.webp
+wwwroot\frontend\assets\images\general\treatment.svg
+wwwroot\frontend\assets\images\glass-card.png
+wwwroot\frontend\assets\images\laboratory\lab-about-us-1.webp
+wwwroot\frontend\assets\images\laboratory\lab-about-us-2.webp
+wwwroot\frontend\assets\images\laboratory\lab-signature.webp
+wwwroot\frontend\assets\images\laboratory\lab-tab-1.webp
+wwwroot\frontend\assets\images\laboratory\lab-tab-2.webp
+wwwroot\frontend\assets\images\laboratory\lab-tab-3.webp
+wwwroot\frontend\assets\images\laboratory\lab-tab-4.webp
+wwwroot\frontend\assets\images\laboratory\lab-user.webp
+wwwroot\frontend\assets\images\laboratory\lab-what-we-do.webp
+wwwroot\frontend\assets\images\laboratory\laboratory-banner.webp
+wwwroot\frontend\assets\images\loader.gif
+wwwroot\frontend\assets\images\loader.webp
+wwwroot\frontend\assets\images\logo\lab-logo-white.png
+wwwroot\frontend\assets\images\logo\logo-blue.png
+wwwroot\frontend\assets\images\logo\logo-green.png
+wwwroot\frontend\assets\images\logo\logo-light-blue.png
+wwwroot\frontend\assets\images\logo\logo-neviblue.png
+wwwroot\frontend\assets\images\logo\logo-orange.png
+wwwroot\frontend\assets\images\logo\logo-pink.png
+wwwroot\frontend\assets\images\logo\logo-red-footer.png
+wwwroot\frontend\assets\images\logo\logo-red.png
+wwwroot\frontend\assets\images\logo\logo-skyblue-footer.png
+wwwroot\frontend\assets\images\logo\logo-skyblue.png
+wwwroot\frontend\assets\images\logo\logo-yellow-footer.png
+wwwroot\frontend\assets\images\logo\logo-yellow.png
+wwwroot\frontend\assets\images\logo\logo.png
+wwwroot\frontend\assets\images\mega\home-01.webp
+wwwroot\frontend\assets\images\mega\home-02.webp
+wwwroot\frontend\assets\images\mega\home-03.webp
+wwwroot\frontend\assets\images\mega\home-04.webp
+wwwroot\frontend\assets\images\mega\home-05.webp
+wwwroot\frontend\assets\images\mega\home-06.webp
+wwwroot\frontend\assets\images\mega\home-07.webp
+wwwroot\frontend\assets\images\mega\home-08.webp
+wwwroot\frontend\assets\images\mega\home-09.webp
+wwwroot\frontend\assets\images\mega\home-10.webp
+wwwroot\frontend\assets\images\mega\home-11.webp
+wwwroot\frontend\assets\images\mega\home-12.webp
+wwwroot\frontend\assets\images\orthopedics\24-7-services.svg
+wwwroot\frontend\assets\images\orthopedics\banner.webp
+wwwroot\frontend\assets\images\orthopedics\cta.webp
+wwwroot\frontend\assets\images\orthopedics\faq.webp
+wwwroot\frontend\assets\images\orthopedics\footer-img.webp
+wwwroot\frontend\assets\images\orthopedics\hygienic-clinic.svg
+wwwroot\frontend\assets\images\orthopedics\Left.webp
+wwwroot\frontend\assets\images\orthopedics\patter-7.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-1.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-2.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-3.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-4.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-5.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-6.webp
+wwwroot\frontend\assets\images\orthopedics\pattern-7.webp
+wwwroot\frontend\assets\images\orthopedics\qualified-doctors.svg
+wwwroot\frontend\assets\images\orthopedics\service.png
+wwwroot\frontend\assets\images\orthopedics\trusted-treatment.svg
+wwwroot\frontend\assets\images\orthopedics\video-popup-bg.webp
+wwwroot\frontend\assets\images\paediatrician\about-us.webp
+wwwroot\frontend\assets\images\paediatrician\banner.webp
+wwwroot\frontend\assets\images\paediatrician\faq.jpg
+wwwroot\frontend\assets\images\paediatrician\service-bg.webp
+wwwroot\frontend\assets\images\paediatrician\video-bg.webp
+wwwroot\frontend\assets\images\pages\404.png
+wwwroot\frontend\assets\images\pages\about-banner.webp
+wwwroot\frontend\assets\images\pages\about-left.webp
+wwwroot\frontend\assets\images\pages\appstore-123.svg
+wwwroot\frontend\assets\images\pages\clinic-1.webp
+wwwroot\frontend\assets\images\pages\clinic-2.webp
+wwwroot\frontend\assets\images\pages\error-bg-2.png
+wwwroot\frontend\assets\images\pages\error-bg-3.png
+wwwroot\frontend\assets\images\pages\error-bg-5.png
+wwwroot\frontend\assets\images\pages\error-bg-6.png
+wwwroot\frontend\assets\images\pages\google-play-store.svg
+wwwroot\frontend\assets\images\pages\history-1.webp
+wwwroot\frontend\assets\images\pages\history-2.webp
+wwwroot\frontend\assets\images\pages\history-3.webp
+wwwroot\frontend\assets\images\pages\history-4.webp
+wwwroot\frontend\assets\images\pages\img-success.png
+wwwroot\frontend\assets\images\pages\logo.png
+wwwroot\frontend\assets\images\pages\product.webp
+wwwroot\frontend\assets\images\pages\service-vector.png
+wwwroot\frontend\assets\images\pages\short-logo.png
+wwwroot\frontend\assets\images\pages\sign-in.webp
+wwwroot\frontend\assets\images\product-home\back.png
+wwwroot\frontend\assets\images\product-home\banner-bg.jpg
+wwwroot\frontend\assets\images\product-home\banner.jpg
+wwwroot\frontend\assets\images\product-home\banner2.jpg
+wwwroot\frontend\assets\images\product-home\Deal-of-the-day-1.jpg
+wwwroot\frontend\assets\images\product-home\doller.png
+wwwroot\frontend\assets\images\product-home\Mastercard.png
+wwwroot\frontend\assets\images\product-home\PayPal.png
+wwwroot\frontend\assets\images\product-home\product-home-banner.png
+wwwroot\frontend\assets\images\product-home\product-home-popup.jpg
+wwwroot\frontend\assets\images\product-home\Stripe.png
+wwwroot\frontend\assets\images\product-home\Traced.png
+wwwroot\frontend\assets\images\product-home\visa-logo.png
+wwwroot\frontend\assets\images\psychiatrist\about-us.png
+wwwroot\frontend\assets\images\psychiatrist\banner-1.webp
+wwwroot\frontend\assets\images\psychiatrist\banner-2.webp
+wwwroot\frontend\assets\images\psychiatrist\choose-us.png
+wwwroot\frontend\assets\images\psychiatrist\dr-kokko.webp
+wwwroot\frontend\assets\images\psychiatrist\icon.webp
+wwwroot\frontend\assets\images\psychiatrist\testimonial.png
+wwwroot\frontend\assets\images\service\ambulance.svg
+wwwroot\frontend\assets\images\service\anxiety-stress-hover.svg
+wwwroot\frontend\assets\images\service\anxiety-stress-lab.svg
+wwwroot\frontend\assets\images\service\audiologist.webp
+wwwroot\frontend\assets\images\service\bipolar-disorder-hover.svg
+wwwroot\frontend\assets\images\service\bipolar-disorder-lab.svg
+wwwroot\frontend\assets\images\service\bipolor-disorder.svg
+wwwroot\frontend\assets\images\service\bipolor-disorder.webp
+wwwroot\frontend\assets\images\service\cardiologist.webp
+wwwroot\frontend\assets\images\service\chemotherapy.svg
+wwwroot\frontend\assets\images\service\coronary-heart.svg
+wwwroot\frontend\assets\images\service\coronary-heart.webp
+wwwroot\frontend\assets\images\service\couple-therapy-hover.svg
+wwwroot\frontend\assets\images\service\couple-therapy-lab.svg
+wwwroot\frontend\assets\images\service\couple-therapy.svg
+wwwroot\frontend\assets\images\service\Couple-therapy.webp
+wwwroot\frontend\assets\images\service\depression-hover.svg
+wwwroot\frontend\assets\images\service\depression-lab.svg
+wwwroot\frontend\assets\images\service\depression.svg
+wwwroot\frontend\assets\images\service\Depression.webp
+wwwroot\frontend\assets\images\service\diagonsis-1.svg
+wwwroot\frontend\assets\images\service\Diagonsis.webp
+wwwroot\frontend\assets\images\service\ent-specialist.webp
+wwwroot\frontend\assets\images\service\flask.svg
+wwwroot\frontend\assets\images\service\heart-rate.svg
+wwwroot\frontend\assets\images\service\knee-replacement.png
+wwwroot\frontend\assets\images\service\neurologist.webp
+wwwroot\frontend\assets\images\service\oncologist.webp
+wwwroot\frontend\assets\images\service\psychiatrists.webp
+wwwroot\frontend\assets\images\service\relationship-issue.webp
+wwwroot\frontend\assets\images\service\relatioship-issue.svg
+wwwroot\frontend\assets\images\service\service-bg.png
+wwwroot\frontend\assets\images\service\spinal-cord.png
+wwwroot\frontend\assets\images\service\stethoscope.svg
+wwwroot\frontend\assets\images\service\x-ray.svg
+wwwroot\frontend\assets\images\shop\product-1.webp
+wwwroot\frontend\assets\images\shop\product-10.webp
+wwwroot\frontend\assets\images\shop\product-11.webp
+wwwroot\frontend\assets\images\shop\product-12.webp
+wwwroot\frontend\assets\images\shop\product-2.webp
+wwwroot\frontend\assets\images\shop\product-3.webp
+wwwroot\frontend\assets\images\shop\product-4.webp
+wwwroot\frontend\assets\images\shop\product-5.webp
+wwwroot\frontend\assets\images\shop\product-6.webp
+wwwroot\frontend\assets\images\shop\product-7.webp
+wwwroot\frontend\assets\images\shop\product-8.webp
+wwwroot\frontend\assets\images\shop\product-9.webp
+wwwroot\frontend\assets\images\skin-specialist\about-banner.webp
+wwwroot\frontend\assets\images\skin-specialist\Anti-Ageing-Treatment-1.png
+wwwroot\frontend\assets\images\skin-specialist\Experience-Doctors-1.png
+wwwroot\frontend\assets\images\skin-specialist\kivicare-video.mp4
+wwwroot\frontend\assets\images\skin-specialist\laser-treatment-1.png
+wwwroot\frontend\assets\images\skin-specialist\Modern-Equipment-1.png
+wwwroot\frontend\assets\images\skin-specialist\Patient-Care-1.png
+wwwroot\frontend\assets\images\skin-specialist\plastic-surgery-1.png
+wwwroot\frontend\assets\images\skin-specialist\price-icon-1.png
+wwwroot\frontend\assets\images\skin-specialist\price-icon-2.png
+wwwroot\frontend\assets\images\skin-specialist\price-icon-3.png
+wwwroot\frontend\assets\images\skin-specialist\skin-specialist-banner.webp
+wwwroot\frontend\assets\images\skin-specialist\skin-treatment-1.png
+wwwroot\frontend\assets\images\team\team-1.webp
+wwwroot\frontend\assets\images\team\team-2.webp
+wwwroot\frontend\assets\images\team\team-3.webp
+wwwroot\frontend\assets\images\team\team-4.webp
+wwwroot\frontend\assets\images\team\team-5.webp
+wwwroot\frontend\assets\images\testimonial\quote-2.svg
+wwwroot\frontend\assets\images\testimonial\quote-lab.svg
+wwwroot\frontend\assets\images\testimonial\quote-ortho.svg
+wwwroot\frontend\assets\images\testimonial\quote.svg
+wwwroot\frontend\assets\images\testimonial\testimonial-quote.svg
+wwwroot\frontend\assets\images\testimonial\user-1.webp
+wwwroot\frontend\assets\images\testimonial\user-2.webp
+wwwroot\frontend\assets\images\testimonial\user-3.webp
+wwwroot\frontend\assets\js\core\external.min.js
+wwwroot\frontend\assets\js\core\libs.min.js
+wwwroot\frontend\assets\js\iqonic-script\setting-bundel.js
+wwwroot\frontend\assets\js\iqonic-script\setting-bundel.min.js
+wwwroot\frontend\assets\js\iqonic-script\setting-init.js
+wwwroot\frontend\assets\js\iqonic-script\setting-init.min.js
+wwwroot\frontend\assets\js\iqonic-script\setting.js
+wwwroot\frontend\assets\js\iqonic-script\setting.min.js
+wwwroot\frontend\assets\js\iqonic-script\utility.js
+wwwroot\frontend\assets\js\iqonic-script\utility.min.js
+wwwroot\frontend\assets\js\kivicare-advance.js
+wwwroot\frontend\assets\js\kivicare.js
+wwwroot\frontend\assets\js\plugins\calender.js
+wwwroot\frontend\assets\js\plugins\circle-progress.js
+wwwroot\frontend\assets\js\plugins\countdown.js
+wwwroot\frontend\assets\js\plugins\custom-circle-progress.js
+wwwroot\frontend\assets\js\plugins\flatpickr.js
+wwwroot\frontend\assets\js\plugins\fslightbox.js
+wwwroot\frontend\assets\js\plugins\prism.mini.js
+wwwroot\frontend\assets\js\plugins\select2.js
+wwwroot\frontend\assets\js\plugins\slider-tabs.js
+wwwroot\frontend\assets\js\plugins\sweet-alert.js
+wwwroot\frontend\assets\js\scroll-text.js
+wwwroot\frontend\assets\js\slider.js
+wwwroot\frontend\assets\vendor\aos\dist\aos.css
+wwwroot\frontend\assets\vendor\aos\dist\aos.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\docxjs\jszip-utils.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\docxjs\mammoth.browser.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\docxjs\mammoth.browser.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\docx\jszip-utils.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\docx\mammoth.browser.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\docx\mammoth.browser.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery\jquery-1.12.4.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery\jquery-3.3.1.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery\jquery-migrate-1.4.1.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\AUTHORS.txt
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_444444_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_555555_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_777620_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_777777_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_cc0000_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\images\ui-icons_ffffff_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.min.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\jquery-ui.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_glass_45_0078ae_1x400.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_glass_55_f8da4e_1x400.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_glass_75_79c9ec_1x400.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_gloss-wave_45_e14f1c_500x100.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_gloss-wave_50_6eac2c_500x100.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_gloss-wave_75_2191c0_500x100.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-bg_inset-hard_100_fcfdfd_1x100.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_0078ae_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_056b93_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_d8e7f3_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_e0fdff_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_f5e175_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_f7a50d_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\images\ui-icons_fcd113_256x240.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\jquery-ui.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\jquery-ui.min.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\jquery_ui\themes\start\theme.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\officeToHtml\officeToHtml.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\officeToHtml\officeToHtml.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdfViewer.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\debugger.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-check.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-comment.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-help.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-insert.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-key.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-newparagraph.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-noicon.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-note.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\annotation-paragraph.svg
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-next@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\findbarButton-previous@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\grab.cur
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\grabbing.cur
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\loading-icon.gif
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\loading-small.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\loading-small@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-documentProperties.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-documentProperties@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-firstPage.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-firstPage@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-handTool.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-handTool@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-lastPage.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-lastPage@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCcw.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCcw@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCw.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-rotateCw@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-selectTool.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\secondaryToolbarButton-selectTool@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\shadow.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\texture.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-bookmark.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-bookmark@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-download.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-download@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-menuArrows.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-menuArrows@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-openFile.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-openFile@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageDown@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-pageUp@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-presentationMode.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-presentationMode@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-print.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-print@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-search.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-search@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-secondaryToolbarToggle@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-sidebarToggle@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewAttachments.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewAttachments@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewOutline@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewThumbnail.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-viewThumbnail@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomIn.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomIn@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomOut.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\toolbarButton-zoomOut@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed-rtl.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed-rtl@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\treeitem-collapsed@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\treeitem-expanded.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\images\treeitem-expanded@2x.png
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ach\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\af\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ak\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\an\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ar\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ast\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\as\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\az\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\be\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\bg\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\bn-BD\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\bn-IN\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\br\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\bs\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ca\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\csb\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\cs\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\cy\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\da\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\de\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\el\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\en-GB\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\en-US\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\en-ZA\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\eo\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\es-AR\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\es-CL\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\es-ES\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\es-MX\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\et\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\eu\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\fa\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ff\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\fi\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\fr\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\fy-NL\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ga-IE\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\gd\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\gl\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\gu-IN\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\he\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\hi-IN\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\hr\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\hu\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\hy-AM\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\id\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\is\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\it\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ja\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ka\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\kk\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\km\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\kn\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ko\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ku\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\lg\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\lij\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\locale.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\lt\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\lv\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\mai\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\mk\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ml\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\mn\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\mr\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ms\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\my\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\nb-NO\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\nl\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\nn-NO\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\nso\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\oc\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\or\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\pa-IN\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\pl\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\pt-BR\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\pt-PT\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\rm\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ro\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ru\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\rw\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sah\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\si\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sk\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sl\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\son\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sq\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sr\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sv-SE\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\sw\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ta-LK\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ta\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\te\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\th\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\tl\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\tn\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\tr\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\uk\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\ur\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\vi\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\wo\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\xh\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\zh-CN\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\zh-TW\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\locale\zu\viewer.properties
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\pdf.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\pdf.js.map
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\pdf.viewer.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\pdf.worker.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\pdf\pdf.worker.js.map
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\css\nv.d3.min.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\css\pptxjs.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\d3.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\divs2slides.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\divs2slides.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\divs2slides.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\filereader.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\jszip.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\nv.d3.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\pptxjs.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\js\pptxjs.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\~$Sample_11.pptx
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\~$Sample_12.pptx
+wwwroot\frontend\assets\vendor\doc-viewer\include\PPTXjs\~$Sample_video.pptx
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\css\sheetjs.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.css.map
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.full.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.full.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.js.map
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.min.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\handsontable.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\all.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\all.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-CH.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-CH.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-DE.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\de-DE.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\en-US.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\en-US.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ja-JP.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ja-JP.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pl-PL.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pl-PL.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pt-BR.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\pt-BR.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ru-RU.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\languages\ru-RU.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\pikaday\LICENSE
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\pikaday\pikaday.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\pikaday\pikaday.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\dist\README.md
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\all.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\de-CH.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\de-DE.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\en-US.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\index.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\ja-JP.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\pl-PL.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\pt-BR.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\handsontable\languages\ru-RU.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\js\dropsheet.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\js\main.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\js\sheetjsw.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\js\shim.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\js\xhr-hack.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\del\js\xlsx.full.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\handsontable.full.min.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\handsontable.full.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\index.html
+wwwroot\frontend\assets\vendor\doc-viewer\include\SheetJS\xlsx.full.min.js
+wwwroot\frontend\assets\vendor\doc-viewer\include\verySimpleImageViewer\css\jquery.verySimpleImageViewer.css
+wwwroot\frontend\assets\vendor\doc-viewer\include\verySimpleImageViewer\js\jquery.verySimpleImageViewer.js
+wwwroot\frontend\assets\vendor\flaticon\css\flaticon.css
+wwwroot\frontend\assets\vendor\flaticon\fonts\flaticon.css
+wwwroot\frontend\assets\vendor\flaticon\fonts\Flaticon.eot
+wwwroot\frontend\assets\vendor\flaticon\fonts\flaticon.html
+wwwroot\frontend\assets\vendor\flaticon\fonts\Flaticon.svg
+wwwroot\frontend\assets\vendor\flaticon\fonts\Flaticon.ttf
+wwwroot\frontend\assets\vendor\flaticon\fonts\Flaticon.woff
+wwwroot\frontend\assets\vendor\flaticon\fonts\Flaticon.woff2
+wwwroot\frontend\assets\vendor\flaticon\fonts\_flaticon.scss
+wwwroot\frontend\assets\vendor\flatpickr\dist\flatpickr.min.css
+wwwroot\frontend\assets\vendor\flatpickr\dist\flatpickr.min.js
+wwwroot\frontend\assets\vendor\font-awesome\css\all.min.css
+wwwroot\frontend\assets\vendor\font-awesome\HELP-US-OUT.txt
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-brands-400.eot
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-brands-400.svg
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-brands-400.ttf
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-brands-400.woff
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-brands-400.woff2
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-regular-400.eot
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-regular-400.svg
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-regular-400.ttf
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-regular-400.woff
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-regular-400.woff2
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-solid-900.eot
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-solid-900.svg
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-solid-900.ttf
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-solid-900.woff
+wwwroot\frontend\assets\vendor\font-awesome\webfonts\fa-solid-900.woff2
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\main.css
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\main.min.css
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\bootstrap\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\core\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales-all.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales-all.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\af.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar-dz.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar-kw.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar-ly.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar-ma.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar-sa.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar-tn.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ar.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\bg.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\bs.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ca.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\cs.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\da.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\de.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\el.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\en-au.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\en-gb.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\en-nz.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\es-us.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\es.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\et.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\eu.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\fa.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\fi.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\fr-ca.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\fr-ch.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\fr.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\gl.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\he.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\hi.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\hr.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\hu.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\id.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\is.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\it.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ja.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ka.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\kk.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ko.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\lb.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\lt.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\lv.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\mk.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ms.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\nb.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\nl.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\nn.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\pl.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\pt-br.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\pt.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ro.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\ru.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\sk.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\sl.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\sq.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\sr-cyrl.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\sr.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\sv.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\th.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\tr.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\uk.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\vi.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\zh-cn.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\locales\zh-tw.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\main.css
+wwwroot\frontend\assets\vendor\fullcalendar\core\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\core\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\main.min.css
+wwwroot\frontend\assets\vendor\fullcalendar\core\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\core\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\core\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\main.css
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\main.min.css
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\daygrid\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\google-calendar\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\interaction\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\list\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\list\main.css
+wwwroot\frontend\assets\vendor\fullcalendar\list\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\list\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\list\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\list\main.min.css
+wwwroot\frontend\assets\vendor\fullcalendar\list\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\list\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\list\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\luxon\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\moment-timezone\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\moment\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\moment\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\moment\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\moment\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\moment\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\moment\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\moment\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\rrule\README.md
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\LICENSE.txt
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\main.css
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\main.d.ts
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\main.esm.js
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\main.js
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\main.min.css
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\main.min.js
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\package.json
+wwwroot\frontend\assets\vendor\fullcalendar\timegrid\README.md
+wwwroot\frontend\assets\vendor\Iconly\Bold\2 User.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\3 User.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Activity.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Add User.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Down 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Down 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Down Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Down Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Down.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Left 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Left 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Left Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Left Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Left.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Right 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Right 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Right Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Right Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Right.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Up 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Up 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Up Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Up Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Arrow - Up.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Bag 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Bag.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Bookmark.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Buy.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Calendar.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Call Missed.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Call Silent.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Call.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Calling.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Camera.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Category.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Chart.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Chat.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Close Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Danger.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Delete.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Discount.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Discovery.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Document.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Download.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Edit Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Edit.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Filter 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Filter.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Folder.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Game.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Graph.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Heart.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Hide.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Home.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Image 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Image.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Info Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Info Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Location.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Lock.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Login.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Logout.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Message.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\More Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\More Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Notification.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Paper Download.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Paper Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Paper Negative.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Paper Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Paper Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Paper.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Password.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Play.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Profile.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Scan.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Search.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Send.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Setting.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Shield Done.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Shield Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Show.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Star.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Swap.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Tick Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Ticket Star.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Ticket.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Time Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Time Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Unlock.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Video.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Voice 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Voice.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Volume Down.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Volume Off.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Volume Up.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Wallet.svg
+wwwroot\frontend\assets\vendor\Iconly\Bold\Work.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\2 User.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\3 User.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Activity.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Add User.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Down 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Down 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Down Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Down Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Down.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Left 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Left 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Left Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Left Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Left.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Right 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Right 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Right Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Right Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Right.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Up 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Up 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Up Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Up Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Arrow - Up.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Bag 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Bag.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Bookmark.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Buy.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Calendar.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Call Missed.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Call Silent.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Call.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Calling.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Camera.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Category.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Chart.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Chat.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Close Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Danger.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Delete.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Discount.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Discovery.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Document.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Download.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Edit Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Edit.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Filter 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Filter.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Folder.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Game.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Graph.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Heart.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Hide.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Home.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Image 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Image.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Info Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Info Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Location.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Lock.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Login.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Logout.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Message.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\More Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\More Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Notification.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Paper Download.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Paper Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Paper Negative.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Paper Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Paper Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Paper.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Password.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Play.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Profile.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Scan.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Search.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Send.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Setting.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Shield Done.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Shield Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Show.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Star.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Swap.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Tick Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Ticket Star.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Ticket.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Time Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Time Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Unlock.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Video.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Voice 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Voice.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Volume Down.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Volume Off.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Volume Up.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Wallet.svg
+wwwroot\frontend\assets\vendor\Iconly\Colored\Work.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\2 User.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\3 User.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Activity.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Add User.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Down 2.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Down 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Down Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Down Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Down.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Left 2.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Left 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Left Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Left Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Left.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Right 2.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Right 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Right Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Right Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Right.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Up 2.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Up 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Up Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Up Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Arrow - Up.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Bag 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Bag.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Bookmark.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Buy.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Calendar.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Call Missed.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Call Silent.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Call.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Calling.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Camera.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Category.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Chart.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Chat.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Close Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Danger.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Delete.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Discount.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Discovery.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Document.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Download.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Edit Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Edit.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Filter 2.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Filter.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Folder.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Game.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Graph.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Heart.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Hide.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Home.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Image 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Image.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Info Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Info Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Location.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Lock.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Login.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Logout.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Message.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\More Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\More Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Notification.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Paper Download.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Paper Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Paper Negative.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Paper Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Paper Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Paper.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Password.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Play.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Profile.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Scan.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Search.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Send.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Setting.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Shield Done.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Shield Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Show.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Star.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Swap.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Tick Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Ticket Star.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Ticket.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Time Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Time Square.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Unlock.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Video.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Voice 3.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Voice.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Volume Down.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Volume Off.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Volume Up.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Wallet.svg
+wwwroot\frontend\assets\vendor\Iconly\DualTone\Work.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\2 User.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\3 User.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Activity.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Add User.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Down 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Down 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Down Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Down Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Down.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Left 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Left 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Left Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Left Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Left.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Right 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Right 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Right Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Right Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Right.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Up 2.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Up 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Up Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Up Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Arrow - Up.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Bag 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Bag.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Bookmark.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Buy.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Calendar.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Call Missed.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Call Silent.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Call.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Calling.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Camera.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Category.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Chart.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Chat.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Close Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Danger Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Danger Triangle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Delete.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Discount.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Discovery.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Document.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Download.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Edit Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Edit.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Filter 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Filter.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Folder.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Game.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Graph.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Heart.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Hide.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Home.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Image 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Image.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Info Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Location.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Lock.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Login.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Logout.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Message.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\More Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\More Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Notification.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Paper Download.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Paper Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Paper Negative.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Paper Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Paper Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Paper.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Password.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Play.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Plus.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Profile.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Scan.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Search.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Send.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Setting.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Shield Done.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Shield Fail.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Show.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Star.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Swap.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Tick Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Ticket Star.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Ticket.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Time Circle.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Time Square.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Unlock.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Upload.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Video.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Voice 3.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Voice.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Volume Down.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Volume Off.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Volume Up.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Wallet.svg
+wwwroot\frontend\assets\vendor\Iconly\Line\Work.svg
+wwwroot\frontend\assets\vendor\jquery-bar-rating\dist\jquery-barrating.min.js
+wwwroot\frontend\assets\vendor\language\english.json
+wwwroot\frontend\assets\vendor\language\french.json
+wwwroot\frontend\assets\vendor\language\german.json
+wwwroot\frontend\assets\vendor\language\hindi.json
+wwwroot\frontend\assets\vendor\language\japanese.json
+wwwroot\frontend\assets\vendor\lodash\lodash.min.js
+wwwroot\frontend\assets\vendor\moment.min.js
+wwwroot\frontend\assets\vendor\noUiSilder\script\nouislider.js
+wwwroot\frontend\assets\vendor\noUiSilder\script\nouislider.min.js
+wwwroot\frontend\assets\vendor\noUiSilder\style\nouislider.css
+wwwroot\frontend\assets\vendor\noUiSilder\style\nouislider.min.css
+wwwroot\frontend\assets\vendor\select2\dist\css\select2.min.css
+wwwroot\frontend\assets\vendor\select2\dist\js\select2.min.js
+wwwroot\frontend\assets\vendor\sortable\Sortable.js
+wwwroot\frontend\assets\vendor\sortable\Sortable.min.js
+wwwroot\frontend\assets\vendor\sticky-sidebar\dist\jquery.sticky-sidebar.js
+wwwroot\frontend\assets\vendor\sticky-sidebar\dist\jquery.sticky-sidebar.js.map
+wwwroot\frontend\assets\vendor\sticky-sidebar\dist\jquery.sticky-sidebar.min.js
+wwwroot\frontend\assets\vendor\sticky-sidebar\dist\sticky-sidebar.js
+wwwroot\frontend\assets\vendor\sticky-sidebar\dist\sticky-sidebar.js.map
+wwwroot\frontend\assets\vendor\sticky-sidebar\dist\sticky-sidebar.min.js
+wwwroot\frontend\assets\vendor\sticky-sidebar\LICENSE.md
+wwwroot\frontend\assets\vendor\sticky-sidebar\package.json
+wwwroot\frontend\assets\vendor\sticky-sidebar\README.md
+wwwroot\frontend\assets\vendor\sticky-sidebar\src\jquery.sticky-sidebar.js
+wwwroot\frontend\assets\vendor\sticky-sidebar\src\sticky-sidebar.js
+wwwroot\frontend\assets\vendor\sweetalert2\dist\sweetalert2.min.css
+wwwroot\frontend\assets\vendor\sweetalert2\dist\sweetalert2.min.js
+wwwroot\frontend\assets\vendor\swiperSlider\swiper-bundle.min.css
+wwwroot\frontend\assets\vendor\swiperSlider\swiper-bundle.min.js
+wwwroot\frontend\audiologist.html
+wwwroot\frontend\blog-audio.html
+wwwroot\frontend\blog-author.html
+wwwroot\frontend\blog-category.html
+wwwroot\frontend\blog-date.html
+wwwroot\frontend\blog-details.html
+wwwroot\frontend\blog-gallary.html
+wwwroot\frontend\blog-link.html
+wwwroot\frontend\blog-lists.html
+wwwroot\frontend\blog-masonry.html
+wwwroot\frontend\blog-quote.html
+wwwroot\frontend\blog-standard.html
+wwwroot\frontend\blog-tag.html
+wwwroot\frontend\blog-video.html
+wwwroot\frontend\cardiac.html
+wwwroot\frontend\cardiologist.html
+wwwroot\frontend\cart.html
+wwwroot\frontend\checkout.html
+wwwroot\frontend\client.html
+wwwroot\frontend\comingsoon.html
+wwwroot\frontend\contactus.html
+wwwroot\frontend\custome-logout.html
+wwwroot\frontend\dentist.html
+wwwroot\frontend\design-system.html
+wwwroot\frontend\doctor-details.html
+wwwroot\frontend\ent-clinic.html
+wwwroot\frontend\ent-specialist.html
+wwwroot\frontend\eye-care.html
+wwwroot\frontend\faq.html
+wwwroot\frontend\fertility-clinic.html
+wwwroot\frontend\four-column-blog.html
+wwwroot\frontend\index.html
+wwwroot\frontend\laboratory.html
+wwwroot\frontend\left-sidebar-grid-1.html
+wwwroot\frontend\left-sidebar-grid-2.html
+wwwroot\frontend\my-account.html
+wwwroot\frontend\neurologist.html
+wwwroot\frontend\oncologist.html
+wwwroot\frontend\order-received.html
+wwwroot\frontend\orthopedics.html
+wwwroot\frontend\paediatrician.html
+wwwroot\frontend\pharmacist-dashboard.html
+wwwroot\frontend\pharmacist-login.html
+wwwroot\frontend\pricing-plan-one.html
+wwwroot\frontend\pricing-plan-two.html
+wwwroot\frontend\privacy-policy.html
+wwwroot\frontend\product-home.html
+wwwroot\frontend\product-new.html
+wwwroot\frontend\product-sale.html
+wwwroot\frontend\product-standard.html
+wwwroot\frontend\psychiatrist.html
+wwwroot\frontend\psychiatrists.html
+wwwroot\frontend\registration.html
+wwwroot\frontend\reset-pw.html
+wwwroot\frontend\right-sidebar-grid-1.html
+wwwroot\frontend\right-sidebar-grid-2.html
+wwwroot\frontend\service-detail.html
+wwwroot\frontend\service1.html
+wwwroot\frontend\service2.html
+wwwroot\frontend\shop-left-sidebar.html
+wwwroot\frontend\shop-no-sidebar.html
+wwwroot\frontend\shop-right-sidebar.html
+wwwroot\frontend\shop.html
+wwwroot\frontend\skin-specialist.html
+wwwroot\frontend\tab-three-column.html
+wwwroot\frontend\tab-two-column.html
+wwwroot\frontend\terms-conditions.html
+wwwroot\frontend\three-column-blog.html
+wwwroot\frontend\three-column-full-width-blog.html
+wwwroot\frontend\track-order.html
+wwwroot\frontend\two-column-blog.html
+wwwroot\frontend\wishlist.html
+wwwroot\dashboard\payment.html

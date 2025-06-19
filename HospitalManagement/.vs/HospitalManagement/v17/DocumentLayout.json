@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HospitalManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\controllers\\prescriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:controllers\\prescriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\controllers\\prescriptiondetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:controllers\\prescriptiondetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\wwwroot\\dashboard\\prescriptions.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:wwwroot\\dashboard\\prescriptions.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\wwwroot\\dashboard\\payment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:wwwroot\\dashboard\\payment.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\dtos\\prescriptiondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:dtos\\prescriptiondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\models\\prescriptiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:models\\prescriptiondetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\models\\medicalvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:models\\medicalvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\wwwroot\\dashboard\\products.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:wwwroot\\dashboard\\products.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\models\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:models\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|e:\\hospitalmanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A5864B8-1971-41CD-BC6E-0E14B0F405A2}|HospitalManagement.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\HospitalManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:12:40.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrescriptionsController.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Controllers\\PrescriptionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionsController.cs",
+              "ToolTip": "E:\\HospitalManagement\\Controllers\\PrescriptionsController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T04:07:09.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "prescriptions.html",
+              "DocumentMoniker": "E:\\HospitalManagement\\wwwroot\\dashboard\\prescriptions.html",
+              "RelativeDocumentMoniker": "wwwroot\\dashboard\\prescriptions.html",
+              "ToolTip": "E:\\HospitalManagement\\wwwroot\\dashboard\\prescriptions.html",
+              "RelativeToolTip": "wwwroot\\dashboard\\prescriptions.html",
+              "ViewState": "AgIAABAIAAAAAAAAAAAYwIoIAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-17T14:53:23.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrescriptionDTO.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\DTOs\\PrescriptionDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PrescriptionDTO.cs",
+              "ToolTip": "E:\\HospitalManagement\\DTOs\\PrescriptionDTO.cs",
+              "RelativeToolTip": "DTOs\\PrescriptionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T04:04:43.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "E:\\HospitalManagement\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T04:00:36.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedicalVisit.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Models\\MedicalVisit.cs",
+              "RelativeDocumentMoniker": "Models\\MedicalVisit.cs",
+              "ToolTip": "E:\\HospitalManagement\\Models\\MedicalVisit.cs",
+              "RelativeToolTip": "Models\\MedicalVisit.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T04:01:48.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\HospitalManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T03:59:00.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrescriptionDetailsController.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Controllers\\PrescriptionDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PrescriptionDetailsController.cs",
+              "ToolTip": "E:\\HospitalManagement\\Controllers\\PrescriptionDetailsController.cs",
+              "RelativeToolTip": "Controllers\\PrescriptionDetailsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T15:38:19.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PrescriptionDetail.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Models\\PrescriptionDetail.cs",
+              "RelativeDocumentMoniker": "Models\\PrescriptionDetail.cs",
+              "ToolTip": "E:\\HospitalManagement\\Models\\PrescriptionDetail.cs",
+              "RelativeToolTip": "Models\\PrescriptionDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T16:54:23.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrescriptionDetailDTO.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\DTOs\\PrescriptionDetailDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PrescriptionDetailDTO.cs",
+              "ToolTip": "E:\\HospitalManagement\\DTOs\\PrescriptionDetailDTO.cs",
+              "RelativeToolTip": "DTOs\\PrescriptionDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T04:06:10.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "payment.html",
+              "DocumentMoniker": "E:\\HospitalManagement\\wwwroot\\dashboard\\payment.html",
+              "RelativeDocumentMoniker": "wwwroot\\dashboard\\payment.html",
+              "ToolTip": "E:\\HospitalManagement\\wwwroot\\dashboard\\payment.html",
+              "RelativeToolTip": "wwwroot\\dashboard\\payment.html",
+              "ViewState": "AgIAAEUIAAAAAAAAAAAAABIIAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T01:26:35.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Models\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "Models\\HospitalContext.cs",
+              "ToolTip": "E:\\HospitalManagement\\Models\\HospitalContext.cs",
+              "RelativeToolTip": "Models\\HospitalContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T03:58:02.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\HospitalManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\HospitalManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T03:58:14.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "products.html",
+              "DocumentMoniker": "E:\\HospitalManagement\\wwwroot\\dashboard\\products.html",
+              "RelativeDocumentMoniker": "wwwroot\\dashboard\\products.html",
+              "ToolTip": "E:\\HospitalManagement\\wwwroot\\dashboard\\products.html",
+              "RelativeToolTip": "wwwroot\\dashboard\\products.html",
+              "ViewState": "AgIAAJ8GAAAAAAAAAAAAALEGAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-17T15:07:36.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "E:\\HospitalManagement\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback.cs",
+              "ToolTip": "E:\\HospitalManagement\\Models\\Feedback.cs",
+              "RelativeToolTip": "Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T07:33:06.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\HospitalManagement\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\HospitalManagement\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T03:58:13.6Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
