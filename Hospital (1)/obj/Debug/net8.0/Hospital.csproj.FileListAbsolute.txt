@@ -174,3 +174,15 @@ C:\Users\cstku\source\repos\Hospital\Hospital\obj\Debug\net8.0\ref\Hospital.dll
 C:\Users\cstku\source\repos\Hospital\Hospital\bin\Debug\net8.0\Hospital.staticwebassets.runtime.json
 C:\Users\cstku\source\repos\Hospital\Hospital\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\cstku\source\repos\Hospital\Hospital\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.csproj.AssemblyReference.cache
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.AssemblyInfoInputs.cache
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.AssemblyInfo.cs
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.csproj.CoreCompileInputs.cache
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.sourcelink.json
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\scopedcss\bundle\Hospital.styles.css
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.dll
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\refint\Hospital.dll
+C:\Users\Asus TUF\Downloads\SWP301\Hospital (1)\obj\Debug\net8.0\Hospital.pdb
